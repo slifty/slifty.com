@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>The New York Times &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/the-new-york-times/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 04:27:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Why Journalism Tools Gather Dust</title>
+		<link>/2012/12/why-journalism-tools-gather-dust/</link>
+					<comments>/2012/12/why-journalism-tools-gather-dust/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 31 Dec 2012 14:56:28 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Newspapers]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Quizzler]]></category>
+		<category><![CDATA[The Boston Globe]]></category>
+		<category><![CDATA[The New York Times]]></category>
+		<guid isPermaLink="false">/?p=1547</guid>
+
+					<description><![CDATA[This post is about my quest to answer the question &#8220;why are we building this from scratch?&#8221; It&#8217;s about observed realities regarding cross-newsroom collaboration, insights from upper management of The New York Times, and some major hurdles for open source in legacy media organizations. Prepare to explore the deep, dark, and relatively unspoken depths of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The planets have finally aligned on one of my early assignments at The Boston Globe.  The project is called Quizzler, and it is by no means going to change anything.  It&#8217;s a quiz system&mdash;something the producers ultimately want because it will generate page views.  It has been done.</p>
+<p>This post is not about Quizzler, it is about my quest to answer the question &#8220;why are we building this from scratch?&#8221;  It&#8217;s about observed realities regarding cross-newsroom collaboration, insights from upper management of The New York Times, and some major hurdles for open source in legacy media organizations.  Prepare to explore the deep, dark, and relatively unspoken depths of technological openness in newsrooms.</p>
+<h2>We want something similar to…</h2>
+<p>I was introduced to Quizzler back in August.  That first meeting was generally uneventful; we sat in a room.  I listened to <a href="https://twitter.com/mirandamulligan">Miranda Mulligan</a> skillfully duke it out with the project&#8217;s newsroom sponsor to explain that no, the first version won&#8217;t have custom &#8220;you are a 95% Vampire&#8221; sharable Facebook messages.  I listened to the sponsor vocalize concern that there would never actually be a second version.  I decided that both of them were probably right.</p>
+<p>Eventually someone said something so shocking that I literally spat out my drink and fell out of my chair at the same time.  It wasn&#8217;t intended to stand out&mdash;I don&#8217;t even know who said it.  Ready?  Brace yourself.  Here it is:  &#8220;Have you seen the Academy Awards tool by The New York Times?  Eventually we will want something similar to that.&#8221;  No wait that wasn&#8217;t it.</p>
+<p>The New York Times is the parent company of The Boston Globe.  They own the Globe in the same way humans own their children.</p>
+<p>OK here&#8217;s the exchange.</p>
+<p><strong>Me:</strong> &#8220;Can we use some of their code?&#8221;</p>
+<p><strong>Someone:</strong> &#8220;We would have to pay them for that.&#8221;</p>
+<p><strong>Me:</strong><img loading="lazy" src="/wp-content/uploads/2012/12/wat-225x300.png" alt="Wat." width="225" height="300" style="display: block; margin-left: 50px; margin-top: -20px;" class="size-medium wp-image-1553" srcset="/wp-content/uploads/2012/12/wat-225x300.png 225w, /wp-content/uploads/2012/12/wat.png 375w" sizes="(max-width: 225px) 100vw, 225px" /></p>
+<p>Their response implied two things.  First, that The New York Times would charge their kid for the digital equivalent of food.  Second that the anticipated costs were high enough that it would be cheaper to rebuild this tool from scratch (again) than it would be to explore the possibility of reusing existing code.</p>
+<p><!--  Picture:  Dinner table with turkey on it, parent holding out hand expecting money, tapping foot and pointing out door to lemonade stand.  Child with shirt that says "The Boston Globe." --></p>
+<p>Before you call child protection services, hold on.  The situation is complex.</p>
+<p><em><strong>EDIT:</strong> To be clear, I quickly learned that the Times would not have charged us a dime.</em></p>
+<h2>Actually, this sounds completely reasonable</h2>
+<p>&#8220;Meh.&#8221; you say, &#8220;so The Boston Globe and The New York Times don&#8217;t share code, what&#8217;s the big deal?&#8221;  A fair response, but trust me when I say the deal is big.  If the deal was a rapper it would be notorious.</p>
+<p>Here&#8217;s why: Starting from an existing code base  instead of starting from nothing is often the difference between &#8220;having time to innovate&#8221; and &#8220;not.&#8221;  If you are using technology as a core part of your business and you aren&#8217;t set up to experiment then you&#8217;re doing it wrong and you will become obsolete.  </p>
+<p>Borrowing code is kind of like being airdropped into the middle of a marathon; sure, you have to take a moment to figure out where you are and what direction to go, but now you have time to run in circles laughing like a crazy person before winning the race.</p>
+<p>There&#8217;s more!  If you borrow code then you are more likely to be familiar with what the rest of the world is doing.  If you share code then you are going to build your systems with an emphasis on reuse and extensibility (i.e. correctly).  If you regularly borrow AND share code then you are building a community around whatever it is you do.</p>
+<p>What I&#8217;m trying to say is that if newspapers can buy into the mantra of openness&mdash;even just internal openness&mdash;they can kill about thirty birds with one stone.</p>
+<p>But they usually don&#8217;t.</p>
+<h2>Why not?  Are they idiots?</h2>
+<p>There are many reasons these organizations don&#8217;t trade bytes, none of which have to do with the original &#8220;we would have to pay for it&#8221; claim.</p>
+<h3>Reason 1: Wildly Different Technology Stacks</h3>
+<p>I lied to you earlier when I said the Globe was like a child to the Times&#8211;they&#8217;re more like middle-aged lovers.  They didn&#8217;t grow up together or meet in college.  They are two independent entities that recognized their love later in life, which means they have fundamentally different infrastructures.</p>
+<p>One uses Java and PHP, the other uses Python, Ruby, and NodeJS.  They have incompatible content management systems.  They disagree on deployment policies, quality control processes, needs, and third party libraries.  It&#8217;s like they come from two stubborn families that speak completely different languages and eat very different foods.  They aren&#8217;t going to start casually sharing cook books.</p>
+<h3>Reason 2: Internal Politics</h3>
+<p>If a full team dedicates three months to creating a new public-facing interactive, will they want to just give it away?  If you are a manager do you want to rely on favors from an external team to accomplish your goals?  If you are a coder do you want to be judged for the quick last minute hacks you had to throw into the project?</p>
+<p>The answer to these questions, and many more like them, is &#8220;hell no.&#8221;</p>
+<h3>Reason 3: Moving Costs and Learning Curves</h3>
+<p>Most technologies are dirty piles of duct tape with a shiny chrome finish.  This makes them difficult to deploy and hard to understand.  This is especially true among newspapers.</p>
+<p><img loading="lazy" src="/wp-content/uploads/2012/12/tent-150x150.png" alt="tent" width="150" height="150" class="alignright size-thumbnail wp-image-1672" style="border: none" srcset="/wp-content/uploads/2012/12/tent-150x150.png 150w, /wp-content/uploads/2012/12/tent-300x300.png 300w, /wp-content/uploads/2012/12/tent-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></p>
+<p>Packaging code in a way that strangers can use could take hours, days, or weeks depending on how much the developers cared about portability when they built it.  I&#8217;m basically describing the difference between moving a campsite and a home. Newsroom developers don&#8217;t tend to have camping on the brain when rushing to meet looming deadlines.</p>
+<h2>Words from On High</h2>
+<p>Fine, so there are real reasons that code sharing between the Globe and the Times is a lost cause, but what does that mean for the industry?  If financial allies with serious resources don&#8217;t share code, what are the chances that other newsrooms around the world will look outside their walls for help?  Maybe this is why so many open source journalism tools are gathering dust.</p>
+<p>I talked to <a href="https://twitter.com/rajivpant">Rajiv Pant</a> (CTO) and <a href="http://en.wikipedia.org/wiki/Marc_Frons">Marc Frons</a> (CIO) of The New York Times about code sharing and the role of open source in their company.  For context: the Times is very progressive compared to other newsrooms when it comes to innovation and openness.  They have a <a href="http://open.blogs.nytimes.com/">blog dedicated to their open source inititatives</a>, there is a <a href="http://developer.nytimes.com/docs">suite of APIs</a> that provide civic data, and they do a good job of <a href="http://source.mozillaopennews.org/en-US/organizations/new-york-times/">telling people about what they do</a>.</p>
+<p>Unfortunately they are also leading an industry that is forced into &#8220;deadline driven technology&#8221; and without a supportive institutional strategy, open source and reusable code are just nice-to-haves.  Developers must ask themselves if they have time to meet the organization&#8217;s needs while also contributing to open source.  Sometimes this means the same tools get built multiple times, but such is the nature of deadlines.   Plus, as Marc was quick to point out, reinventing the wheel can be a good thing so long as the new one is slightly different.</p>
+<div id="attachment_1709" style="width: 541px" class="wp-caption aligncenter"><a href="http://source.mozillaopennews.org/"><img aria-describedby="caption-attachment-1709" loading="lazy" src="/wp-content/uploads/2012/12/wheels.png" alt="Wheel Store" width="531" height="426" class="size-full wp-image-1709" srcset="/wp-content/uploads/2012/12/wheels.png 531w, /wp-content/uploads/2012/12/wheels-300x241.png 300w" sizes="(max-width: 531px) 100vw, 531px" /></a><p id="caption-attachment-1709" class="wp-caption-text"><a href="http://source.mozillaopennews.org/">Source</a>: The Wheel Superstore. (Illustration by <a href="http://www.lyladuey.com/">Lyla Duey</a>)</p></div>
+<p>But wouldn&#8217;t it be nice if all these new wheels could be used again and improved upon over time?  Rajiv identified three factors that a project needs in order to be realistically used again by an organization like the Times.</p>
+<p>Your code has to be&#8230;</p>
+<ol>
+<li><strong>Established</strong> &#8211; Is it safe to rely on your creation?  How long will your project stay active, and how long after you move on will it stay useful?</li>
+<li><strong>Extensible</strong> &#8211; Your solution won&#8217;t meet all needs.  How easy is it to improve?  What kinds of features can be added?</li>
+<li><strong>Easy to Integrate</strong> &#8211; Will this play with existing systems and tools?  Can it be skinned to look like it belongs?</li>
+</ol>
+<p>In short, it doesn&#8217;t matter how powerful you think your code is: if it is difficult or risky to adopt, it will stay an orphan.</p>
+<p>None of those points should come as a surprise, but they should probably be considered gospel to anyone developing anything&mdash;open or closed&mdash;in any newsroom.  Just ask yourself &#8220;would the Times use this if they needed it?&#8221;  If the answer is yes then you&#8217;ve made something that will last; otherwise you might as well get out the broom now.</p>
+<p><em><strong>Note:</strong> Since I&#8217;m sure you are worried, the Times doesn&#8217;t actually charge the Globe for code.  And yes, we are writing Quizzler from scratch.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/12/why-journalism-tools-gather-dust/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:03 by W3 Total Cache
+-->

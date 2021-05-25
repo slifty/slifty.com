@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ideas and Projects &#8211; Sorry for the Spam</title>
+	<atom:link href="/category/ideas-projects/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 12 May 2016 21:16:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Technology Behind the World’s Worst DVR</title>
+		<link>/2016/05/the-technology-behind-the-worlds-worst-dvr/</link>
+					<comments>/2016/05/the-technology-behind-the-worlds-worst-dvr/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 12 May 2016 18:05:49 +0000</pubDate>
+				<category><![CDATA[Political Ad Archive]]></category>
+		<category><![CDATA[The Internet Archive]]></category>
+		<category><![CDATA[audfprint]]></category>
+		<category><![CDATA[Internet ARchive]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[political ads]]></category>
+		<guid isPermaLink="false">/?p=2470</guid>
+
+					<description><![CDATA[Take a moment to go back in time with me, back to when life was simpler and the biggest threat to humanity was Y2k&#8230; It is 1999, you&#8217;re 13, and your mother just walked through the front door carrying a large, vibrantly colored blue and yellow bag. Based on the heft and the &#34;Best Buy&#34; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Take a moment to go back in time with me, back to when life was simpler and the biggest threat to humanity was Y2k&#8230;</p>
+<p>It is 1999, you&#8217;re 13, and your mother just walked through the front door carrying a large, vibrantly colored blue and yellow bag. Based on the heft and the &quot;Best Buy&quot; logo on the side, you know it holds something interesting—something related to electronics—but what? A Nintendo 64? A Dell computer? 1,000 free hours of AOL?</p>
+<p>There is only one way to find out.</p>
+<p>Depending on your maturity and cowhand status you walk, mosey, or scamper up to take the bag. In a single, excited motion you reveal a nondescript cardboard box. It has no clear branding, just three letters: &quot;DVR&quot;.  On the opposite face, an illustrated TV depicting endless suited silhouettes.</p>
+<p>&quot;This is going to change everything.&quot; She says calmly, looking you in the eyes. You nod, and set it up.</p>
+<p>A few moments later you are both sitting on the floor staring at&#8230; Al Gore. He is talking about a lock box. The screen fades, and George Bush appears. This continues for hours. Political ad after political ad. No interruptions. For days. For years.</p>
+<p>In fact, you are still watching now.</p>
+<h2>Presenting the Political Ad Archive</h2>
+<div id="attachment_2500" style="width: 86px" class="wp-caption alignright"><img aria-describedby="caption-attachment-2500" loading="lazy" src="/wp-content/uploads/2016/05/brand_logo.png" alt="Oh ***." width="76" height="52" class="size-full wp-image-2500" /><p id="caption-attachment-2500" class="wp-caption-text">Oh ***.</p></div>
+<p>Witness the Internet Archive&#39;s <a href="https://politicaladarchive.org/" target="_blank">Political Ad Archive</a>. Our mission is to provide a free and open resource for citizens, journalists, and researchers who want to understand the paid messages from their politicians, and to archive billions of dollars worth of democracy. </p>
+<p>We record and track political ads. Through our service you can find out when, where, and how often a given ad was played across the channels we are recording. It also tells you who the ads are about, who paid for them, what is said in them, whether they have been fact checked, and plenty of other odds and ends.</p>
+<p>This post is about how the service works, but I&#39;ll start with the punch line: we watch tons of TV—probably literally, our servers are heavy—and filter out the noise, leaving only the political ads. Then our DVR robots (DVRRs for short) activate and count all copies of those ads, keep track of when and where they were played, toss in a little human contributed metadata, and share the DVRR results (DVRRRs) and code base with you, our DVRRR recipients.</p>
+<h2>Three key pieces</h2>
+<p>There are three pieces to the Political Ad Archive:</p>
+<ol>
+<li><strong><a href="https://archive.org/" target="_blank">The Internet Archive</a></strong> collects, prepares, and serves the TV content as it comes. It&#8217;s trying to archive the entire internet</a> too, so their infrastructure is set up to be able to store, you know, all of human knowledge.</li>
+<li><strong><a href="https://github.com/slifty/tvarchive-duplitron">The Duplitron 5000</a></strong> is an open source system responsible for taking video, smooshing it all into smaller, searchable files called audio fingerprints, and then finding copies of known ads. It reports the results back to the archive.</li>
+<li><strong><a href="https://politicaladarchive.org/" target="_blank">The Political Ad Archive</a></strong> is a wordpress site that takes our data and our videos and presents it to the rest of the world.</li>
+</ol>
+<p>Look, here’s a fun flow chart of the entire process:</p>
+<p><img loading="lazy" src="/wp-content/uploads/2016/05/archivechart-1024x485.png" alt="archivechart" width="1024" height="485" class="aligncenter size-large wp-image-2480" srcset="/wp-content/uploads/2016/05/archivechart-1024x485.png 1024w, /wp-content/uploads/2016/05/archivechart-300x142.png 300w, /wp-content/uploads/2016/05/archivechart-768x364.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<h3>Step 1: Recording Television</h3>
+<p>All of our artisanal grass-fed TV has been locally sourced from super-premium, organic hardware distributed around the country. We do process it though. A lot. Sorry about that.</p>
+<p>The ad counts we publish are based on actual airings, as opposed to reported airings.  Because we are working from the source, we know we aren’t being misled by anything but our own algorithms. On the flip side this means that we can only report counts for the channels we actively record.</p>
+<p>We have a few ways to collect TV content. In some cases, like the San Francisco market, we own and manage the hardware that records local cable. In other cases, like New Hampshire and Philadelphia, the content is provided to us by third party services or academic partners.</p>
+<p>Regardless of how we get the data, the pipeline takes it to the same place. We record in minute long chunks of video and stitch them together into programs based on what we know about the station’s schedule. This results in video segments of anywhere from 30 minutes to 12 hours. Those programs are then put into a high pressure cooker and turned into all sorts of file formats for archival purposes (mp3, mp4, MBA, PST, Apollo 13, banana).</p>
+<p>A lot can go wrong here. Storms can affect satellite reception, packets can be lost or corrupted before they reach our servers (resulting in time shifts or missing content), small children can disappear in our server rooms. It all happens, but most of the time the data winds up sitting comfortably on our hard drives unscathed.</p>
+<h3>Step 2: Searching Television…</h3>
+<div id="attachment_2494" style="width: 310px" class="wp-caption alignright"><img aria-describedby="caption-attachment-2494" loading="lazy" src="/wp-content/uploads/2016/05/FullSizeRender-300x263.jpg" alt="Cat Punch" width="300" height="263" class="size-medium wp-image-2494" srcset="/wp-content/uploads/2016/05/FullSizeRender-300x263.jpg 300w, /wp-content/uploads/2016/05/FullSizeRender-768x673.jpg 768w, /wp-content/uploads/2016/05/FullSizeRender-1024x897.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /><p id="caption-attachment-2494" class="wp-caption-text">Illustration by <a href="http://lyladuey.com/" target="_blank">Lyla Duey</a>.</p></div>
+<p>Remember that time you were watching Netflix and you blacked out because your cat sucker-punched you? Wasn’t it a huge pain the next day when you had to try to figure out where you had stopped watching? You kept clicking, waiting for it to buffer, being too early, then too late, then closer but too early, then somehow back to the first try, until you finally gave up and just started from the beginning again?</p>
+<p>This is a great example of how terrible video is when you’re trying to look for a specific piece of it. It’s slow, it’s heavy, it is far better suited for watching than for working with.</p>
+<p>What if you had no choice, and you really did need to search video for something. Worse, maybe you have to search millions of minutes of video for an arbitrary number of somethings. Welcome to my world.</p>
+<p>There are a few things to try. One is transcription; if you have a transcript you can do anything. Like create <a href="http://hyperaud.io/pad/">a text editor for video</a>, or search for key phrases, like “I approve this message.”</p>
+<p>The problem is that most television is not transcribed. Closed Captions exist sometimes, but there is a shocking amount of content—especially political ads—without captions. There are a few <a href="http://cmusphinx.sourceforge.net/">open source tools</a> out there for automated transcript generation, but the results usually &#8220;love match Tobey desert ire&#8221; (&#8230; leave much to be desired).</p>
+<p>So what do we do? Our nation’s future is at stake and we don’t have time to be able to do it all manually. Say hello to audio fingerprinting.</p>
+<h4>… Using Audio Fingerprinting …</h4>
+<p>We use a <a href="https://github.com/dpwe/audfprint">free and open tool called audfprint</a> to convert our audio files into audio fingerprints. An audio fingerprint of a file is just what it sounds like. Get it? AUDIO fingerprint… SOUNDS like? Ha!</p>
+<p>An audio fingerprint is a summarized version of an audio file, one that has removed everything except the most interesting pieces of every few milliseconds. The trick is that the summaries are formed in a way that makes it easy to compare them, and because they are summaries they&#8217;re a lot smaller and faster to work with than the original.</p>
+<p>“Summary” is a pretty vague term. There are lots of ways you can summarize a piece of audio. For instance, I could summarize a song in terms of its chord progression (G major -&gt; C minor -&gt; D major …). If I heard the same song twice it would have the same chord progressions both times, so I could flag it as a match and be correct.</p>
+<p>But what if two different bands played the same song? Or what if you compared two pop songs? Those would also have the same chord progressions even though they are obviously different audio files. Also what about spoken word? Or long, loud, sensual recordings of fog horns. No chords in either case. This clearly isn’t going to work.</p>
+<h4>… Based on Frequency</h4>
+<p>The audio fingerprints we use are based on a thing called frequency. Sounds are made up of waves, and each wave repeats (oscillates) at different rates. Faster repetitions are linked to higher sounds, lower repetitions are lower sounds.</p>
+<p>Don’t believe me? Go drop a small pebble in a lake and you will see a bunch of quickly repeating tiny ripples. Next drop a boulder and you will see a few larger ripples. There are also sounds generated in both cases. The boulder creates a loud and deep “KERPLUNK” — the ripples have a lot of space between them less often, which is true of the ripples through the air as well. The pebble has a lot more ripples closer together which results in a higher pitched “pleep!” How cute!</p>
+<p>That number of waves you see can be measured in terms of frequency—as in how frequently does the wave repeat per second.  Most sounds you hear are a crazy combination of thousands of waves of different frequencies. Each of the waves get turned into vibrations in your ear that travel down a magical cone covered in tiny hairs which then turns into electric signals to your brain which you then hear in your head as sound. For instance, most people hear an “A” when a wave that repeats 440 times per second (440 Hz) hits our ear drum.</p>
+<div id="attachment_2488" style="width: 310px" class="wp-caption alignleft"><img aria-describedby="caption-attachment-2488" loading="lazy" src="/wp-content/uploads/2016/05/wavingbye.gif" alt="Try waving your hand 440 times per second. If you do, you will hear that “A.”" width="300" height="169" class="size-medium wp-image-2488" /><p id="caption-attachment-2488" class="wp-caption-text">Try waving your hand 440 times per second. If you do, you will hear that “A.”</p></div>
+<p>Computers don’t have ears, so they just take these frequencies at face value. An audio file contains instructions that tell a computer how far to push the inside of a speaker in or out (generating a wave). Audfprint breaks those audio files into tiny chunks (around 20 chunks per second) and runs a mathematical function on each fragment to identify the most prominent waves and their corresponding frequencies.</p>
+<p>The rest is thrown out, the summaries are stored, and the result is an audio fingerprint.</p>
+<p>If the same sound exists across two files (not the same song, or the same words, or same voice, but literally the exact same set of frequencies), a common set of dominant frequencies will be seen in both fingerprints. Audfprint makes it possible to compare the chunks between two sound files, count how many they have in common, and how many appear in roughly the same distance from one another.</p>
+<p>This is what we use to find copies of political ads.</p>
+<h3>Step 3: Cataloguing Political Ads</h3>
+<p>When we discover a new political ad the first thing we do is register it on the Internet Archive, kicking off the ingestion process. The person who found it types in some basic information such as who the ad mentions, who paid for it, and what topics are discussed. This is all called metadata.</p>
+<p>The ad is then sent to the system we built to manage our fingerprinting workflow, called the Duplitron 5000—known locally as “DT5k”. This uses audfprint to generate fingerprints, organizes how the fingerprints are stored, process the comparison results, and allows us to scale to process across millions of minutes of television.</p>
+<div id="attachment_2482" style="width: 310px" class="wp-caption alignright"><img aria-describedby="caption-attachment-2482" loading="lazy" src="/wp-content/uploads/2016/05/duplitron-300x225.jpeg" width="300" height="225" class="size-medium wp-image-2482" srcset="/wp-content/uploads/2016/05/duplitron-300x225.jpeg 300w, /wp-content/uploads/2016/05/duplitron.jpeg 736w" sizes="(max-width: 300px) 100vw, 300px" /><p id="caption-attachment-2482" class="wp-caption-text">An artistic rendition of the Duplitron 5000 (by <a href="http://lyladuey.com/" target="_blank">Lyla Duey</a>).</p></div>
+<p>DT5k generates a fingerprint for our new ad, stores it in the list of known political ads, and then compares that fingerprint with hundreds of thousands of existing fingerprints for the shows we have already ingested into the system. It takes a few hours for all of the results to come in. When they do, the Duplitron makes sense of the numbers and tells the archive which programs contain copies of the ad and what time the ad played.</p>
+<p>All of these steps end up being pretty darn accurate, but not perfect. The matches are based on audio, not video, which means we face trouble when the same soundtrack is used in a political ad as has been used in, for instance, an infomercial.</p>
+<p>We are working on improving the system to filter out these kinds of mistakes, but even with no changes these fingerprints have given us reasonable accuracy across the markets we track.</p>
+<h3>Step 4: Enjoying the Results</h3>
+<p>And so you understand the fundamentals behind the amazing futuristic technology that we used to build a system that records only political ads. You can download our data, and watch the ads, all day every day at the <a href="https://politicaladarchive.org/" target="_blank">Political Ad Archive</a>.</p>
+<p>Over the coming months we are working to make the system more accurate, and exploring ways to get it so that it can automagically identify newly released political ads without any need for manual entry. </p>
+<p>P.S. we’re also working to make it as easy as possible for random strangers to download all of our fingerprints to use in their own local copies of the Duplitron 5000. Would you like to be a random stranger? If so, contact me on Twitter at <a href="https://twitter.com/slifty" target="_blank">@slifty</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/05/the-technology-behind-the-worlds-worst-dvr/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Introducing CivOmega: An Effort to Democratize Government Data</title>
+		<link>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/</link>
+					<comments>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 24 Jun 2013 01:38:07 +0000</pubDate>
+				<category><![CDATA[Ideas and Projects]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[data]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[transparency]]></category>
+		<guid isPermaLink="false">/?p=1864</guid>
+
+					<description><![CDATA[Over the past 24 hours I worked with an amazing team to start building a Siri for government. Well, Wolfram Alpha is more like it, but you probably have a better sense of what Siri is. The site is called CivOmega and it allows you to ask any question™ you want about civics. The system [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div id="attachment_1877" style="width: 330px" class="wp-caption aligncenter"><a href="http://www.civomega.com/" target="_blank"><img aria-describedby="caption-attachment-1877" loading="lazy" src="/wp-content/uploads/2013/06/logo.png" alt="Civomega" width="320" height="98" class="aligncenter size-full wp-image-1877" srcset="/wp-content/uploads/2013/06/logo.png 320w, /wp-content/uploads/2013/06/logo-300x92.png 300w" sizes="(max-width: 320px) 100vw, 320px" /></a><p id="caption-attachment-1877" class="wp-caption-text">You may want to skip this boring post and just <a href="http://www.civomega.com/">check out the site</a>.</p></div>
+<p>Over the past 24 hours I worked with an amazing team to start building a Siri for government.  Well, <a href="http://wolframalpha.com/">Wolfram Alpha</a> is more like it, but you probably have a better sense of what Siri is.  The site is called <a href="http://www.civomega.com/">CivOmega</a> and it allows you to ask any question<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> you want about civics.  The system will do its best to get you an answer.</p>
+<p>I can&#8217;t speak for the team, but I&#8217;ll let you know why I proposed this idea at a hackathon about open data.  I&#8217;ll even use big letters:</p>
+<h2>Open Data Sucks</h2>
+<p>People have talked about making government data more accessible for approximately 500 yea<a href="https://en.wikipedia.org/wiki/Internet_service_provider"></a>rs.  The hope is that if you can find data about the way your government operates, you can shed light on interesting patterns and stories.  It&#8217;s all about transparency and accountability.  It&#8217;s a beautiful concept.  It&#8217;s wonderful for society.</p>
+<p>But actually data is pretty crappy.  It&#8217;s dirty and boring: just a bunch of numbers and rows and tables.  This kind of stuff doesn&#8217;t usually tell you much without a lot of very laborious prodding and exploration.  Don&#8217;t believe me?  Fine.  <a href="http://data.dc.gov/">Go find out for yourself</a>.  If you managed to get anything interesting out of that link then you have too much time on your hands.</p>
+<p>The ONLY thing that civic data has going for it is that programmers tend to build cool hacks using it.  I guess every once in a while you get a groundbreaking piece of journalism out of it too but I&#8217;ll ignore that for the sake of argument.</p>
+<h2>It&#8217;s Also Elitist</h2>
+<p>Here&#8217;s another problem: programmers have awesome, special tools to access data.  These tools are called &#8220;Application Programming Interfaces&#8221; (also known as an APIs).  An API is just a standard way for computers to ask each other for information.</p>
+<p>A human version of this plays out every time you go to a restaurant and order from a menu. You look at the list of what you can ask for, you ask for what you want, and eventually you either get your food or you get impatient and start throwing your silverware at other patrons.</p>
+<p>In my analogy the food is data and you and the chef are computers.  The waiter is the API and the menu is the documentation.  I guess the restaurant is the Internet and the restaurant&#8217;s manager is <a href="http://en.wikipedia.org/wiki/National_Security_Agency">the NSA</a> or something.  The silverware don&#8217;t really fit in.</p>
+<p>The point is that the COOL stuff happens because of these APIs.  Too bad nobody real knows what the hell an API is or how they could possibly go about using it.  Don&#8217;t believe me?  <a href="http://sunlightfoundation.com/api/">Go find out for yourself</a>. If the stuff on that page gave you access to data then you&#8217;re a nerd.</p>
+<p>If nerds and people who have too much time on their hands are the only ones who can use government data then it won&#8217;t change the world.  Plus, why should those people get to decide what is and isn&#8217;t important?</p>
+<h2>Humanizing Government Data</h2>
+<p>And so we come back to CivOmega.  This is an attempt to give people with normal, human questions the ability to benefit from the data that so many have worked their asses off to expose.  It makes it possible for a human to interact with an API in the same way they might interact with their waiter: by asking questions.  Users can type in questions about the government and it attempts to provide answers.</p>
+<p>It is built on a programming language called Python and the way it works is pretty simple.  A programmer who understands an API can write some code that knows how to answer certain question patterns.  For instance I made it possible to ask the question &#8220;What bills are about [X]&#8221; where X can be any phrase you want.  If you ask that, CivOmega will talk to the appropriate APIs to get you the answer you want.  Then it will tell you what it learned.</p>
+<p>The beauty of this setup is that any other programmer can spend a few minutes teaching the system to answer new kinds of questions.  For instance maybe someone knows about an environmental dataset and wants you to be able to ask questions about natural disasters (how many forest fires happened in California last year?).  That person could easily unlock that resource.</p>
+<p>If you&#8217;re a developer, go take a look at the repository and consider <a href="https://github.com/pudo/dataomega">adding a module</a>.  If you are a master of NLP please get in touch with me so we can improve the way people ask questions.  If you don&#8217;t know what either of those sentences meant, please just go <a href="http://www.civomega.com/">check out the site</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Introducing Opened Captions</title>
+		<link>/2012/10/introducing-opened-captions/</link>
+					<comments>/2012/10/introducing-opened-captions/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 25 Oct 2012 20:16:05 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Opened Captions]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[C-SPAN]]></category>
+		<category><![CDATA[DRUNK-SAPN]]></category>
+		<category><![CDATA[Introduction]]></category>
+		<guid isPermaLink="false">/?p=1442</guid>
+
+					<description><![CDATA[I made something awesome last week: Opened Captions. At face value it just looks like a live feed of C-SPAN&#8217;s Closed Captions. This alone is actually pretty cool if you think about it, especially if you are a deaf political junkie who sits far away from the TV and can&#8217;t read the closed captions. Of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I made something awesome last week: <a href="http://openedcaptions.com/">Opened Captions</a>.</p>
+<p><a href="/wp-content/uploads/2012/10/OC.png"><img loading="lazy" src="/wp-content/uploads/2012/10/OC.png" alt="" title="OC" width="299" height="169" class="alignright size-full wp-image-1469" /></a></p>
+<p>At face value it just looks like a live feed of C-SPAN&#8217;s Closed Captions.  This alone is actually pretty cool if you think about it, especially if you are a deaf political junkie who sits far away from the TV and can&#8217;t read the closed captions.</p>
+<p>Of course there is more.  The real excitement comes when you contemplate what&#8217;s happening to get those words to appear on your screen.</p>
+<p>This system unlocks and syndicates a real-time dataset that used to be a pain in the ass to access.  Now anyone can build applications and visualizations that update before those crafty politicians have even finished making their points.  This post explains why Opened Captions is worth hacking with, what it takes to use it, and how it works.</p>
+<h2>What is it Good For?</h2>
+<p>The Internet is filled with real-time updates triggered by online activity, but it still feels like magic when we see automatic updates driven by the real world.  Opened Captions makes it easy for programmers to use live TV transcripts as an input.</p>
+<p><em>Note: version .001 only supports a single channel (and my server is pointed to C-SPAN).  Eventually the protocol should expand to allow multiple channels.</em></p>
+<p>Let&#8217;s consider C-SPAN.  If a computer knows what is being said on C-SPAN this very second, it can do things like:</p>
+<ul>
+<li>Change the background of your email client to reflect the issues being debated right this moment on the senate floor.</li>
+<li>Generate modified, more amusing, transcripts by replacing key words and phrases with Tolkien lore (i.e. C-SPAN for Middle Earth)</li>
+<li>Search through lyrics and generate a C-SPAN medley for you to rock out to while voting.</li>
+<li>Send SMS messages 24/7 <a href="http://openedcaptions.com/drunk-sapn">commanding you to &#8220;drink&#8221;</a> when certain phrases are spoken on air.</li>
+</ul>
+<p>There are also possibilities that aren&#8217;t ridiculous.   For instance, you could make tools that…</p>
+<ul>
+<li>Improve the transcript by <a href="http://openedcaptions.com/cardtext">automatically adding contextual information</a>, such as definitions and histories thefted from Wikipedia.</li>
+<li>Send emails with transcript snippets whenever a specific representative or state is being discussed on TV so you know what&#8217;s going on.</li>
+<li>Parse out paraphrases of known fact checks and insert a credibility layer over the transcript feed (real time fact-checking).</li>
+<li>Draw parallels between what is being said on TV and what is being said on Twitter.</li>
+</ul>
+<p>I could go on and on and on.  There is just so much potential!</p>
+<h2>The Backend</h2>
+<p>Behind the stream is a first stab at a distributed architecture for Closed Captioning live-feeds.  Opened Captions servers can pull a CC stream over a serial port, or (more likely) they will connect to an existing Opened Captions server and pull the stream from there.  What that means in de-jargon is that anybody can set up a server that does exactly what mine is doing, even if they don&#8217;t have access to hardware, software, or a live TV stream.</p>
+<p>When I say exactly, I mean it &mdash; your new project runs the same code as mine, and will serve the feed too.  People can connect their servers to yours in the same way you connected yours to mine.  Practically speaking this architecture means a few things:</p>
+<ol>
+<li>Once your amazing mashup gets popular it won&#8217;t break my server.  Your application is syndicating the captions to your users.  I serve the captions to you, <em>you</em> serve them to the world!</li>
+<li>Your server creates a fork of my stream.  Want to modify the text so the politicians sound drunk?  Add extra layers of information to the message payload?  Translate the captions to Klingon?  Go for it.  If your tweaks happen server side then others can build their apps from your stream to modify it further.</li>
+<li>You don&#8217;t have to rely on anyone else for the Closed Captions.  If you want to spend some extra time setting up your own scraper you can point your server to that source instead of a third party.  You have total control.</li>
+</ol>
+<h2>Check &#8216;Em</h2>
+<p>Wondering if this is worth your time?  Well, it doesn&#8217;t require much of it.  The service takes about two minutes to set it up if you already have <a href="http://www.node.js/">Node.js</a> and <a href="http://git-scm.com/downloads">Git</a> installed on your computer.  Here&#8217;s a video to prove it:</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/52178097?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p>Installation instructions can be found <a href="https://github.com/slifty/opened-captions/blob/master/README.md">in the readme</a> and you can always get in contact with me <a href="http://www.slifty.com/contact">through the blog</a> or <a href="http://www.twitter.com/slifty">on twitter</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/10/introducing-opened-captions/feed/</wfw:commentRss>
+			<slash:comments>20</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Value of a Super Villain</title>
+		<link>/2012/07/the-value-of-a-super-villain/</link>
+					<comments>/2012/07/the-value-of-a-super-villain/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 25 Jul 2012 16:26:56 +0000</pubDate>
+				<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[evil]]></category>
+		<category><![CDATA[journalism]]></category>
+		<category><![CDATA[newsrooms]]></category>
+		<guid isPermaLink="false">/?p=1133</guid>
+
+					<description><![CDATA[I may have graduated, but I still get very good advice from my mentors. The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month. That would be really embarrassing for everyone.&#8221; His delivery reflected a hint of genuine concern. There are many reasons why he might have [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I may have graduated, but I still get very good advice from my mentors.  The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month.  That would be really embarrassing for everyone.&#8221;  His delivery reflected a hint of genuine concern.</p>
+<p>There are many reasons why he might have said this, but two stand out.  For one thing I had just given a presentation about <a href="http://www.newsjack.in/">NewsJack</a>, a media manipulation platform that I created from Mozilla&#8217;s Hackasaurus with Sasha Costanza Chock.  When NewsJack was released it was immediately met with a Cease and Desist from the New York Times (note that The Times is the parent company of The Boston Globe).</p>
+<p>It is also possible that he was inspired because I had just confessed on stage that one of my first thoughts when walking into The Globe&#8217;s headquarters was &#8220;I wonder what it would take to bring down this organization.&#8221;  I&#8217;m betting it was the juxtaposition.</p>
+<h2>The Backstory</h2>
+<p><div id="attachment_1138" style="width: 160px" class="wp-caption alignright"><a href="/wp-content/uploads/2012/07/dr-evil.png"><img aria-describedby="caption-attachment-1138" loading="lazy" src="/wp-content/uploads/2012/07/dr-evil-150x150.png" alt="Dr. Evil" title="dr-evil" width="150" height="150" class="size-thumbnail wp-image-1138" srcset="/wp-content/uploads/2012/07/dr-evil-150x150.png 150w, /wp-content/uploads/2012/07/dr-evil-300x300.png 300w, /wp-content/uploads/2012/07/dr-evil-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a><p id="caption-attachment-1138" class="wp-caption-text">An <em>evil</em> newspaper editor?</p></div>During my first few days at the globe I wanted to understand opportunities for innovation as quickly as possible, but to do that I needed to understand their resources and values.  It occurred to me that if you want to identify an organization&#8217;s most valuable assets but you don&#8217;t know where to start, you should just pretend to be a super villain and plot their destruction.</p>
+<p>Assuming you&#8217;re a competent villain, whatever you end up targeting should be important.  Not only that, but the target will reflect your personal passions and expertise.  Try the mental exercise yourself and share the results.  I dare you.</p>
+<p>For example, to take down a newspaper you could…</p>
+<ul>
+<li><strong>Open up their paywall</strong> (if it exists), steal their content, and make it freely visible to the world without giving them any form of recognition or compensation.</li>
+<li><strong>Eliminate their productivity</strong>, either by instigating a massive strike or by hiring away all of their employees.</li>
+<li><strong>Scare away their advertisers</strong> so they lose a significant revenue stream and can no longer pay their bills.</li>
+<li><strong>Destroy their infrastructure</strong> (printing presses, websites, etc), thus disabling their ability to ship product.</li>
+<li><strong>Corrupt their editors</strong> and slowly replace key actors with your henchmen so that the paper becomes your mouthpiece.</li>
+<li><strong>Buy sharks with laser beams attached to their heads.</strong></li>
+</ul>
+<p>A super villain&#8217;s master plan needs to be intricate enough to be interesting and difficult enough to be impressive.  Blunt ideas like &#8220;take down their website&#8221; or &#8220;steal all their money&#8221; are a bit too obvious.  It must also be simple enough for a diverse audience to understand.  If nobody can figure out what you did, why it was sinister, or how it actually worked then it is hardly going to make headlines.  Finally, it can&#8217;t be a series of bee stings; the evil needs to be condensed enough that it could fit in a tweet.</p>
+<h2>The Plan</h2>
+<p>My evil plan didn&#8217;t take long to imagine (given my <a href="http://www.truthgoggl.es/">recent work</a>).  If I were evil and wanted to destroy a newspaper I would ruin their brand&#8217;s credibility.  This could be accomplished in many interesting and convoluted ways, but the &#8220;how&#8221; isn&#8217;t the point, the important question is &#8220;why?&#8221;</p>
+<p>A media product will die miserable and alone unless it differentiates itself from the rest of the Internet.  Luckily, newspapers have something that the chaff doesn&#8217;t: they have the capacity to create trustworthy information experiences.  They are the ones with paid reporters asking the hard hitting questions, they have the editors and the internal fact-checkers, they don&#8217;t have an agenda and aren&#8217;t trying to manipulate me!  right?</p>
+<div id="attachment_1136" style="width: 522px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/07/DSCN0820.jpg"><img aria-describedby="caption-attachment-1136" loading="lazy" src="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg" alt="Base jumping" title="DSCN0820" width="512" height="384" class="size-large wp-image-1136" srcset="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg 1024w, /wp-content/uploads/2012/07/DSCN0820-300x225.jpg 300w, /wp-content/uploads/2012/07/DSCN0820-768x576.jpg 768w" sizes="(max-width: 512px) 100vw, 512px" /></a><p id="caption-attachment-1136" class="wp-caption-text">You could tie yourself to a bungee cord, close your eyes, and jump off a cliff… or you could read the New York Times.*</p></div>
+<p>Well, maybe.  As a reader I don&#8217;t know where content comes from or how much journalism went into it.  All I have is faith in their brand.  I <em>trust</em> that the sources I read are doing their jobs.  That faith didn&#8217;t come from nowhere.  I might have liked what they had to say in the past, or I saw my parents reading their paper, or their brand has a strong reputation.  Regardless, I am now far more likely to trust what they have to say than I am to trust, for example, <a href="http://www.foxnews.com/">what my crazy friends like to read</a>.</p>
+<p>Just to drive this home:  given the way content is presented today I could read the exact same article on the front page of the New York Times, Fox News, or the Huffington Post and my decision to trust it <a href="http://www.niemanlab.org/2012/06/how-do-you-tell-when-the-news-is-biased/">would be more strongly influenced by my opinions of the publisher than by the content itself</a>.</p>
+<p>To drive it home a different way: hijacking a newspaper&#8217;s credibility is as <a href="http://newsjack.in/remix.php?url=http://www.cnn.com">simple</a> as <a href="http://newsjack.in/remix.php?url=http://www.foxnews.com">imitating</a> their <a href="http://newsjack.in/remix.php?url=http%3A%2F%2Fwww.nytimes.com">brand</a>.</p>
+<h2>Save the Day</h2>
+<p>The wheels are turning and it is already out of my control!  IP lawyers are powerless compared to the forces of the anonymous web!  But seriously, brand is a really fragile way to differentiate on the Internet.  So what&#8217;s a newspaper to do?</p>
+<p>Take a page from Apple and redefine the way people consume content.  Train your readers to expect a certain experience not just from <em>your</em> website, but from every source of news.  Make sure that experience is either expensive or impossible for alternative sources to replicate.  Newspapers need to make their readers expect proof of everything.  People should feel uncomfortable trusting information without explicit, functional credibility.</p>
+<p>Newspapers have journalists doing research, checking facts, and taking names.  They have multiple people and multiple systems touching every piece of content before it gets published, so why does the product usually end up being a bunch of words with prose-based evidence?</p>
+<p>News organizations need to make the world hold information to their standards.</p>
+<p>Like I said earlier, it makes sense that this particular plot and solution are coming from me.  I <a href="/2012/05/achievement-unlocked-thesis/">dedicated my thesis to credibility layers</a> &mdash; interfaces that lead to credible information experiences based on more than faith and trust.  There are many paths to differentiation.  Some are evil, some are entertaining, and some could even change the world.</p>
+<p><em>* Drawing courtesy of <a href="http://www.lyladuey.com/">Lyla Duey</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/07/the-value-of-a-super-villain/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Truth Goggles Study Results</title>
+		<link>/2012/06/truth-goggles-study-results/</link>
+					<comments>/2012/06/truth-goggles-study-results/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 07 Jun 2012 14:21:35 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[academia]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[misinformation]]></category>
+		<category><![CDATA[user study]]></category>
+		<guid isPermaLink="false">/?p=821</guid>
+
+					<description><![CDATA[Last month, I ran a user study to test the effectiveness of Truth Goggles (a credibility layer/B.S. detector for the Internet). The tool attempts to remind users when it&#8217;s important to think more carefully. If you&#8217;re curious, you can check out the demo page. Now that the study has officially concluded, the numbers have been [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last month, I ran a user study to test the effectiveness of <a href="http://truthgoggl.es/">Truth Goggles</a> (a credibility layer/B.S. detector for the Internet). The tool attempts to remind users when it&#8217;s important to think more carefully. If you&#8217;re curious, you can check out <a href="http://truthgoggl.es/demo.html">the demo page</a>.<a href="http://truthgoggl.es/"><img loading="lazy" src="/wp-content/uploads/2012/06/logo.jpg" alt="Truth Goggles" title="Truth Goggles" width="270" height="140" class="alignright size-full wp-image-822" /></a></p>
+<p>Now that the study has officially concluded, the numbers have been crunched, and the thesis has been submitted, I want to share what I learned from the resulting data and feedback.</p>
+<p>I&#8217;ll warn you upfront: All conclusions drawn here should be taken with a grain of salt.  The participants were <em>not</em> a random sample of the Internet, and as such, the results don&#8217;t reflect the general population. I think they are quite exciting nevertheless!</p>
+<h2>The  Questions</h2>
+<p>There are many ways that a tool like Truth Goggles could be considered successful. A bare minimum is that users should prefer it to the non-augmented consumption experience (you know, the kind you have normally). Another measure of success might reflect the number of claims that users explored when the tool was enabled, or maybe the quality of that exploration.
+</p>
+<p>
+These questions are interesting, but they all require different study designs. Here is what I considered when putting the study together.</p>
+<ol>
+<li><strong>Did people use Truth Goggles?</strong> It is difficult to accurately measure the use of a tool when working with a &#8220;captive&#8221; audience (i.e., study participants). Truth Goggles does not yet contain enough facts to be regularly useful in the real world, so the study had to simulate a reading experience and present articles with known fact-checked claims, so this question wasn&#8217;t explored too deeply.</li>
+<li><strong>Did people enjoy using Truth Goggles?</strong> This study was run online, so the only way to get direct feedback was by asking users directly.  I also gave participants a chance to choose to enable or disable Truth Goggles for the final few articles after the tool has been completely exposed to them. Presumably, if they hated the interface they would have disabled it.</li>
+<li><strong>Were users exposed to more fact checks?</strong> In order to compare a change we must have a baseline and the ability to measure exposure. This study wasn&#8217;t quite comprehensive enough to address this directly, although I did keep track of how often users chose to view &#8220;More&#8221; information about a fact check (which took them directly to <a href="http://www.politifact.com/">PolitiFact&#8217;s</a> site).</li>
+<li><strong>Did users engage with the fact checks?</strong> To understand levels of engagement, the tool would need to keep track of what content was actually read and comprehended, as opposed to what content was simply rendered on a screen. Once again, tracking the use of the &#8220;More&#8221; button was a good indication of engagement.</li>
+<li><strong>How well did Truth Goggles enable critical thinking?</strong> Although critical thinking doesn&#8217;t require a change of opinion, it seems reasonable to believe that a change of opinion does indicate thought. By measuring the drift in beliefs about fact-checked claims after using Truth Goggles, it was possible to  better understand the interface&#8217;s ability to facilitate updated beliefs.</li>
+<li><strong>Did Truth Goggles affect levels of trust in consumption experiences?</strong> This question is deeply relevant, but given the format of this study I did not attempt to measure trust in a robust way. I did give users an opportunity to comment on how they felt Truth Goggles affected their trust.</li>
+</ol>
+<p>The final study design reflected aspects of each of these questions; however, &#8220;Did people enjoy using Truth Goggles,&#8221; &#8220;Did users engage with fact checks,&#8221; and &#8220;How well did Truth Goggles enable critical thinking&#8221; ended up getting the most focus.</p>
+<h2>The Preparation</h2>
+<p>Before the study began I selected, tagged, and pre-processed 10 political articles to create a pool of content that I knew would have fact-checked claims in them. For the most part, this involved going through PolitiFact, Googling the phrases, and hoping that some good articles would show up. Most of what I used was published in 2012 and came from a variety of sources with varying degrees of credibility.</p>
+<p>I also added some tracking features to Truth Goggles in order to better understand what was clicked and explored. This meant I would know when users viewed a fact check or when they would interact with other parts of the interface. Finally, I had to create the actual study website, which added some randomization and guided participants through the process.</p>
+<h2>The Participants</h2>
+<p>The study was conducted online over the course of five days. Participants were recruited through email and Twitter. When I did the initial number crunching there were a total of 219 participants, 88 of whom completed the entire process. These numbers increased to 478 and 227, respectively, before the study officially concluded. This analysis reflects my thesis work, and only considers results from the original 88 participants who completed the entire study.</p>
+<p>Unfortunately, the participant pool contained a disproportionate number of friends, individuals familiar with the concept of Truth Goggles, and professionals already aware of the challenges surrounding media literacy. The vast majority (about 90%) of those who actually completed the process were strong and moderate liberals. All of these biases were anticipated, but nevertheless they significantly limit the potential impact of the study.</p>
+<h2>The Process</h2>
+<p><a href="/wp-content/uploads/2012/06/science.png"><img loading="lazy" src="/wp-content/uploads/2012/06/science.png" alt="Stand back, I&#039;m going to try science!" title="science" width="300" height="300" class="alignright size-full wp-image-879" srcset="/wp-content/uploads/2012/06/science.png 300w, /wp-content/uploads/2012/06/science-150x150.png 150w, /wp-content/uploads/2012/06/science-100x100.png 100w" sizes="(max-width: 300px) 100vw, 300px" /></a>From start to finish, the study took each participant around 20 or 30 minutes. After being shown the initial instructions, people were asked to rate 12 claims on a truth scale from 1 to 5. They only had 10 seconds per claim to answer, so this was really trying to get at a person&#8217;s gut reaction based on the information sitting in his or her head.</p>
+<p>After the survey was completed, the treatments began. Everyone was shown a series of 10 articles which contained the previously rated claims. The first two articles were always shown with Truth Goggles disabled. The next six were presented with different Truth Goggles interfaces to help call out fact-checked phrases. For the final two articles, participants were able to choose one of the four interfaces (including &#8220;None&#8221;).</p>
+<p>Once the article reading ended, participants were asked to re-rate the claims from the beginning of the study. At this point, they had been exposed to explanations and context for most of them, so this time they were supposedly providing &#8220;informed&#8221; answers as opposed to gut feelings. After the second round of ratings, the study wrapped up with a short exit survey, where participants had a chance to yell at me in the comments and tell me what they thought about the experience.</p>
+<h2>The Irony</h2>
+<p>Before going any further, I want to be clear that Truth Goggles does not assume that fact-checking services are correct. To the contrary, the hope is that users will question fact checks just as much as they would question any source, and consider all evidence with scrutiny. This philosophy is problematic for evaluation, because it is difficult to measure belief accuracy without considering something to be &#8220;true.&#8221;</p>
+<p>Lacking a better metric, the source verdicts (i.e., PolitiFact&#8217;s ratings) were used as grounding for accuracy for this analysis. This means that from an evaluation perspective, I considered interfaces to be more effective if users ended up with beliefs in line with PolitiFact&#8217;s verdicts. Since belief dissemination is not the goal of Truth Goggles, the system must eventually use more sources (e.g., <a href="http://www.factcheck.org/">Factcheck.org</a> and <a href="http://www.snopes.com/">Snopes</a>) to keep users on their toes.</p>
+<h2>The Results</h2>
+<p>In my thesis, I slice and dice the study data in more ways than I care to think about. But this isn&#8217;t my thesis, so I&#8217;m going to spare everyone a lot of pain and stick to the high-level observations.</p>
+<ul>
+<li><strong>Truth Goggles increased accuracy and decreased polarization.</strong> Participants changed their beliefs about the fact-checked claims after reading the articles, regardless of whether or not a credibility layer was rendered. But without Truth Goggles those updates resulted in more polarization and less accuracy. In particular, when Truth Goggles was disabled people tended to become overly trusting of claims that appeared in articles. With Truth Goggles active, however, beliefs became nuanced and more accurate.</li>
+<li><strong>When using credibility layers, people became less incorrectly skeptical but they remained just as incorrectly trusting.</strong> Truth Goggles was able to help skeptics become more trusting when trust was appropriate, but was not as effective at convincing false believers that they should become more doubtful. This means that participants who were not already overly trusting of a claim would tend to update their beliefs in a way that resulted in more accuracy when using a credibility layer. If you incorrectly believed a claim, however, you weren&#8217;t likely to correct yourself.</li>
+<li><strong>Normal reading caused people to become more incorrectly trusting but they remained just as incorrectly skeptical.</strong> Without a credibility layer, participants who were not already overly distrusting of a claim would tend to overly trust that claim after reading its related article. This means that if someone was highly skeptical of a claim before reading the article, they wouldn&#8217;t change their minds. But if they were more neutral or already trusting, then seeing the claim in an article would cause them to believe it more strongly.</li>
+<li><strong>Almost everyone enabled Truth Goggles when given a choice.</strong> Only two out of the 88 participants who completed the study chose to view their final articles without using some variation of Truth Goggles. The vast majority of participants (70%) selected &#8220;highlight mode,&#8221; the least obtrusive of the three possible interfaces. These numbers unfortunately don&#8217;t mean much because it is entirely possible that participants simply wanted to play with the tool. They could be far worse, though.</li>
+<li><strong>There were virtually no significant differences between the three interface types.</strong> It was no surprise that &#8220;Highlight Mode&#8221; was the most popular, since it did nothing but highlight text and didn&#8217;t bully people into clicking things. Less anticipated was the fact that &#8220;Safe Mode&#8221; and &#8220;Goggles Mode,&#8221; which force exploration, did not outperform Highlight Mode. I suspect that this was a study artifact &#8212; forced interaction was unnecessary during the study because the novelty of Truth Goggles meant people might be curious enough to click regardless of the interface &#8212; but it was interesting nonetheless.</li>
+</ul>
+<p>The short version of these results is that Truth Goggles helped combat misinformation, but there is still plenty of room for improvement. There also clearly needs to be a more comprehensive, longer-term user study.</p>
+<p>For me, the big surprise was that that people were so prone to trusting content just because it appeared in an article or opinion piece. I was absolutely thrilled to see that effect get completely squelched through credibility layers. The results from the exit survey are also incredibly exciting, but that is a post for another day.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/06/truth-goggles-study-results/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Achievement Unlocked: Thesis</title>
+		<link>/2012/05/achievement-unlocked-thesis/</link>
+					<comments>/2012/05/achievement-unlocked-thesis/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 21 May 2012 06:00:21 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[insights]]></category>
+		<category><![CDATA[thesis]]></category>
+		<guid isPermaLink="false">/?p=756</guid>
+
+					<description><![CDATA[Remind me to never do that again. On Friday I officially handed in my thesis, titled &#8220;Truth Goggles: Automatic Incorporation of Context and Primary Source for a Critical Media Experience.&#8221; For those who don&#8217;t know already, it was about an automated bullshit detector for the Internet / an interface to help people think carefully called [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Remind me to never do that again.</p>
+<p>On Friday I officially handed in my thesis, titled &#8220;Truth Goggles: Automatic Incorporation of Context and Primary Source for a Critical Media Experience.&#8221; For those who don&#8217;t know already, it was about an automated bullshit detector for the Internet / an interface to help people think carefully called Truth Goggles. The final version weighed in at a nice round 145 pages.</p>
+<p>I&#8217;ll let the dust settle before putting this monstrosity online. I also want to write some more condensed posts about the interesting parts because I know nobody is ever going to read the damn thing. Those will come later. For now I give you a few bullet points.<br />
+<span id="more-756"></span></p>
+<h2>The Gist</h2>
+<p>Here&#8217;s the basic story of the document:</p>
+<ul>
+<li>I learned about the millions and millions of reasons why my idea could never work.</li>
+<li>Not having a strong sense of self preservation I kept on going anyway and tried to create &#8220;Truth Goggles!&#8221;</li>
+<li>I worked really hard to design and implement <a href="http://truthgoggl.es/demo.html">an interface</a> that people could value even if they didn&#8217;t trust the sources behind the tool.</li>
+<li>I ran a user study and learned that the interfaces worked pretty well when it came to protecting people from misinformation, and that almost everyone who took the study really wants to be able to trust information again.</li>
+</ul>
+<h2>The Gems</h2>
+<p>I&#8217;ll give a quick preview of some lessons learned. Each of these points deserves a post of its own but since this isn&#8217;t my thesis I&#8217;m going to just put out my own observations and thoughts. The posts later will probably be more &#8220;scientific&#8221; and &#8220;explanatory&#8221; (i.e. &#8220;boring&#8221; and &#8220;less quotable&#8221;).</p>
+<ul>
+<li><strong>When people consume information they are struggling hard to maintain their identity.</strong> That&#8217;s all there is to it. There is plenty of evidence that people consume information with ideological motivations. Those motivations often cause them to accept or reject information based on how well it aligns with what they already believe. I have a theory that if you could just remind someone that there&#8217;s nothing to fear — that you aren&#8217;t trying to change who they are — you will suddenly be able to actually communicate with them.</li>
+<li><strong>Trying to tell people what to think is a losing battle.</strong> When the first round of press for Truth Goggles came out back in 2011 I paid attention to every single comment on every single report about the idea I could find. Lots of people liked it, but a lot of people were instantly dismissive due to concerns about bias. I heard their point, agreed with it, and realized what journalists saw ages ago: there is no way to create a universally respected system that also tells people what to think. I changed course and settled for a system that would remind people <em>when</em> to think instead. I think that is a better mission anyway.</li>
+<li><strong>Credibility breeds respect, and respect breeds open minds.</strong> Several participants in the Truth Goggles user study commented that having a credibility layer made them more willing to consider perspectives and messages that they might have normally ignored completely. Think about that for a second. It makes sense, right? It is much easier to respect what a person is saying if you can trust them. Usually &#8220;respect&#8221; and &#8220;trust&#8221; are like &#8220;chicken&#8221; and &#8220;egg&#8221;, but if you&#8217;re using something like Truth Goggles it is possible to develop trust and let the respect follow if it ends up being deserved.</li>
+</ul>
+<p>This entire experience has given me a lot of hope about information online and the people who consume it. I&#8217;ve said before that <a href="/2011/12/trust-me-credibility-is-the-future-of-journalism/">credibility was the future of journalism</a> and I&#8217;m half tempted to expand that statement to say that credibility could save the world. I&#8217;ll probably need to run a few more tests though.</p>
+<p>As for the next steps for Truth Goggles, that is to be determined! I&#8217;m going to at least keep exploring some of the processes and technologies behind phrase detection, but once I graduate and start my fellowship at the Boston Globe in June I&#8217;ll need an explicit way to keep it alive. Stay tuned.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/05/achievement-unlocked-thesis/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Look Ma, NPR!</title>
+		<link>/2011/12/look-ma-npr/</link>
+					<comments>/2011/12/look-ma-npr/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 12 Dec 2011 03:37:54 +0000</pubDate>
+				<category><![CDATA[Fame and Glory]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[interview]]></category>
+		<category><![CDATA[NPR]]></category>
+		<category><![CDATA[TechCrunch]]></category>
+		<guid isPermaLink="false">/?p=695</guid>
+
+					<description><![CDATA[Three weeks ago I went to a happy hour organized by the Neiman Lab, I mentioned my thesis project, Andrew Phelps said &#8220;that sounds cool, can I write about it?&#8221; and I said &#8220;sure why not!&#8221; I assumed that the post would get about as much traction as professional blog posts usually get: a few [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Three weeks ago I went to a happy hour organized by the Neiman Lab, I mentioned <a href="/2011/12/trust-me-credibility-is-the-future-of-journalism/">my thesis project</a>, Andrew Phelps said &#8220;that sounds cool, can I write about it?&#8221; and I said &#8220;sure why not!&#8221;  I assumed that the post would get about as much traction as professional blog posts usually get: a few hundred eyeballs and some useful feedback.<br />
+<span id="more-695"></span><br />
+After <a href="www.niemanlab.org/2011/11/bull-beware-truth-goggles-sniff-out-suspicious-sentences-in-news/">the article was pushed</a> it started getting twitter attention.  Soon afterwards NPR, CBC, and The Register contacted me.   I ended up with a <a href="http://www.npr.org/2011/11/27/142821487/truth-goggles-double-checks-what-politicians-say">two-minute piece on Weekend Edition</a>, a longer <a href="http://www.cbc.ca/day6/blog/2011/11/25/interview-truth-goggles/"> interview on Day 6</a>, a surprisingly balanced and long <a href="http://techcrunch.com/2011/11/28/true-or-false-automatic-fact-checking-coming-to-the-web-complications-follow/">piece on TechCrunch</a>, and the official <a href="http://www.theregister.co.uk/2011/11/28/mit_truth_goggles/">title of Boffin</a> by the crazy Brits.  This was unexpected. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/12/look-ma-npr/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trust Me: Credibility is the Future of Journalism</title>
+		<link>/2011/12/trust-me-credibility-is-the-future-of-journalism/</link>
+					<comments>/2011/12/trust-me-credibility-is-the-future-of-journalism/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sun, 11 Dec 2011 22:32:54 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[journalism]]></category>
+		<guid isPermaLink="false">/?p=692</guid>
+
+					<description><![CDATA[My colleague Matt Stempeck said it best: &#8220;Dan, I know that your life has been a tornado wrapped in a hurricane wrapped up in a whole box of tsunamis this week, but you really need to start wearing pants to work.&#8221; It turns out only part of that quote is accurate, but you&#8217;ll never know [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>My colleague <a href="http://www.pbs.org/idealab/matt_stempeck/">Matt Stempeck</a> said it best: &#8220;Dan, I know that your life has been a tornado wrapped in a hurricane wrapped up in a whole box of tsunamis this week, but you really need to start wearing pants to work.&#8221;</p>
+<p>It turns out only part of that quote is accurate, but you&#8217;ll never know which one for sure!  This is why, before I can graduate from MIT, I have to create an automated bullshit detector.  The basic premise is that we, as readers, are inherently lazy.  It isn&#8217;t just that we&#8217;ll believe almost anything &#8212; remember that time in 1938 when we believed aliens were invading the planet just because someone on the radio said so?  Yeah. <a href="http://en.wikipedia.org/wiki/The_War_of_the_Worlds_(radio_drama)">That happened</a>.  The real problem is that we&#8217;ll often believe what we want to believe (or disbelieve what we don&#8217;t want to believe).</p>
+<p>It&#8217;s hard to blame us.  Just look at the amount of information flying around every which way.  Who has time to think carefully about everything?  Not me, that&#8217;s who&#8217;nt.  This is why I&#8217;m working on a tool called <a href="/2011/08/introducing-truth-goggles/">Truth Goggles</a> that will help hone our <a href="http://www.urbandictionary.com/define.php?term=Critical%20Ability">critical abilities</a>; one that will help us identify pieces of information that are worth inspecting a little bit more closely before deciding how it fits into our world views.</p>
+<h2>Thesis Goggles</h2>
+<p>When I wrote &#8220;before I can graduate from MIT&#8221; earlier in this post I wasn&#8217;t lying; I have decided to pursue Truth Goggles for my thesis. I&#8217;m definitely <a href="http://confront.intel-research.net/Dispute_Finder.html">not the first</a> person <a href="http://hypothes.is/">to explore</a> this problem space but there is a lot of room to contribute.  New technology has opened up new possibilities, needs have become clearer, and there is a wide variety of possible solutions and unanswered questions just sitting around waiting to be explored.</p>
+<p>In November I presented the idea to the Media Lab community using the following slides:</p>
+<div style="width:425px" id="__ss_10158861"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/slifty/crit-day-presentation-truth-goggles" title="Crit Day Presentation (Truth Goggles)" target="_blank">Crit Day Presentation (Truth Goggles)</a></strong> <iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/10158861" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+<div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/slifty" target="_blank">Daniel Schultz</a> </div>
+</p></div>
+<p>The feedback I got was mixed, but what can you expect from a day called &#8220;Crit Day&#8221; which is short for &#8220;Critically Injure Pride, Hopes, and Dreams of Graduating Day.&#8221; Here were the main questions asked:</p>
+<p><strong>This doesn&#8217;t seem like it will scale considering Politifact only has a few thousand fact checked claims.  Why aren&#8217;t you using the crowd to fact check?</strong></p>
+<p>My time at MIT will be spent focusing on the interface and user interaction rather than the generation and aggregation of source information.  There are enough difficult questions surrounding the interaction layer.  I don&#8217;t think it is worth complicating things further by trying to create a crowd-based journalism platform (which is essentially what crowd sourced fact checking amounts to).</p>
+<p><strong>Isn&#8217;t this just a mashup of technologies and data sets?  How is what you are doing novel?</strong></p>
+<p>It&#8217;s true that I&#8217;m not inventing new algorithms.  I&#8217;m applying existing algorithms in novel ways.  Credibility layers aren&#8217;t robust right now, and they come with their own sets of interesting questions in terms of user experience and system design.  My contribution will be to frame those questions, answer some of them, create a prototype, and test that prototype.  This won&#8217;t be as trivial as just throwing more information on a screen and calling it a day, the interface has to be designed with care.</p>
+<p><strong>Do you expect to incorporate primary source data?</strong></p>
+<p>My initial prototype probably won&#8217;t pull from sources other than <a href="http://www.politifact.com/">Politifact</a> and other fact checking services, but I will definitely be thinking about ways to use other sources of data. Primary source content will eventually help with information scalability since raw footage and raw data could help computers find potentially dubious claims (and help readers make determinations about those claims).</p>
+<h2>Bullshit, This is Clearly Science Fiction</h2>
+<p>There are a lot of hard questions lurking behind corners here.  In fact, most of them aren&#8217;t even trying to hide; they&#8217;re just sitting obnoxiously in the middle of the room.  Some are technical, some are philosophical, but all of them need to be addressed intelligently for something like Truth Goggles to actually have a chance of working.  I&#8217;ll rattle off a few of them.</p>
+<ul>
+<li>Who determines the truth?  Journalists?  Experts?  Crowds?  Individuals?  Algorithms?</li>
+<li>Sometimes there is a right answer and sometimes there is room for debate.  Can you tell which is which?  How do you reflect the difference?</li>
+<li>How does the tool account for bias in sources?</li>
+<li>How does the tool account for bias in users?</li>
+<li>Will the system actually know enough to be regularly useful?</li>
+<li>This could easily just make consumers more lazy, how do you prevent that?</li>
+<li>What happens when the tool is wrong?</li>
+<li>How will this change the way people produce content?</li>
+<li>Where do Journalists fit into the picture?</li>
+</ul>
+<p>As I&#8217;ve pondered these questions I&#8217;ve come to the following absolute conclusion: Credibility layers need to empower <a href="http://www.urbandictionary.com/define.php?term=Critical%20Ability">critical ability</a>.  I&#8217;ve also decided that it&#8217;s OK for the system to make mistakes but it is never allowed to lie.  This means the interface should be less focused on telling the reader what to think and much more focused on reminding (and helping) the reader to think at times when thinking is most important.</p>
+<p>I&#8217;ve also come up with a list of weaker claims to throw out there for discussion:</p>
+<ul>
+<li>Credibility layers don&#8217;t have to speak to everyone, but they need to empower the open minded.</li>
+<li>Journalists are our best bet for deep analysis and identifying truth that requires lots of time and effort (e.g. investigation and concept synthesis).</li>
+<li>Algorithms are our best bet for identifying contextual evidence (e.g. data, trends, and sources of sound bytes).</li>
+<li>Mobs can&#8217;t be trusted to decide what is true and false, but they are the key to figuring out what is worth thinking about.</li>
+</ul>
+<p>Over the coming months I&#8217;ll be cranking out interfaces, prototypes, and eventually some good old fashioned boring academic papers about this idea.  In the mean time if you&#8217;re interested in Truth Goggles I&#8217;ll be trying to post updates as regularly as possible on <a href="http://www.slifty.com/">my blog</a>, on twitter (<a href="http://www.twitter.com/slifty">@slifty</a>), and eventually on the newly registered <a href="http://truthgoggl.es/">truthgoggl.es</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/12/trust-me-credibility-is-the-future-of-journalism/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anonymous Project Update</title>
+		<link>/2011/11/anonymous-project-update/</link>
+					<comments>/2011/11/anonymous-project-update/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 28 Nov 2011 01:11:42 +0000</pubDate>
+				<category><![CDATA[Civic Media]]></category>
+		<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[anonymous]]></category>
+		<category><![CDATA[Scientology]]></category>
+		<guid isPermaLink="false">/?p=681</guid>
+
+					<description><![CDATA[This post was written as part of a course called Introduction to Civic Media. I feel odd writing too many separate posts in one day. My solution is a merger: the post on Anonymous and Hacktivism is going to buy out my project update. The terms of the buyout haven’t been made public but money [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>This post was written as part of a course called <a href="http://brownbag.me:9001/p/introcivicmedia">Introduction to Civic Media</a>.</em></p>
+<p>I feel odd writing too many separate posts in one day. My solution is a merger: the post on Anonymous and Hacktivism is going to buy out my project update. The terms of the buyout haven’t been made public but money has already exchanged hands between the 1% so there is no going back.</p>
+<h2>Part 1: Anonymous</h2>
+<p>My stalking of Anonymous and 4chan has always been an equal blend of scientific, hilarious, and disturbing. I pay just enough attention to know what’s going on, but not enough to actually be part of the community. Life is a lot better when you don’t visit 4chan. Of course, I can’t help the fact that the entire culture <a href="http://www.youtube.com/watch?v=wCDXwOzG7fE">is absolutely fascinating</a>.</p>
+<p>Not to be hipster or anything, but <a href="http://www.pbs.org/idealab/2008/02/anonymous-vs-scientology-a-case-study-of-digital-media005.html">I wrote about Anonymous</a> before it was cool in the age of protesting Scientology. If you are curious about how anon functions as a hive mind then I highly suggest clicking that link, not to read the article but to read the comments.</p>
+<p>This one, in particular, summarizes a significant portion of the Anonymous mentality: “one thing you may not understand about us, is our drive. We all crave one thing, the lulz. That which produces the highest amount of said lulz will be where our efforts go into. Any real anon will fight for the death for the lulz and the creation of more lulz. We are a hive minded organization that can be described as chaotic neutral. In lulz we trust.”</p>
+<p>Looking back at this (and spending 20 minutes on 4chan along with the rest of the class last week) reminded me that all of the mainstream coverage of Anonymous often misses this aspect of the core personality. If Anonymous were a Shakespearian character it would be Puck from A Midsummer Night’s Dream. Think that everyone at 4chan would be mad at pepper spray cop? Absolutely not, his actions upset lots of people – a very potent form of lulz indeed.</p>
+<p>I need to be more careful, of course, when trying to describe something as complicated as Anonymous.  It isn&#8217;t an organization, it is a collective, which means trying to pin down a single motivation is a fruitless effort.  To be sure there are more things that drive the group than laughs.  Freedom of information, for instance (which is part of what set off the initial rebellion against Scientology &#8212; taking down that tom cruise video was both an attack on lulz AND an attack on information freedom).</p>
+<p>Anon aside, <a href="http://www.critical-art.net/books/ecd/">last week’s readings</a> opened up my eyes to the much longer history of digital disruption. Who knew that people used digital tools to cause collective trouble before 4chan? Not me, that’s for sure.</p>
+<h2>Part 2: Page One Remix</h2>
+<p>As for my project (a system designed to make it easy to re-mix and share the front page of the new york times), I have a few updates. I’ve forked, cloned, diced, and spliced Hackasaurus – a tool that is designed to help non-techies better understand how web pages work by making it easy to modify the code under the hood on the fly. They even have a built in sharing mechanism!</p>
+<p>So far I have focused on changing the interface and interaction side of things. I made modifications to put less emphasis on “learning HTML” and more emphasis on remixing. This meant stripping talk of HTML tags, simplifying interactions where possible, and making it a bit easier to trigger the editing window (on the original tool you had to hover over an element and type “r.” On my tool clicking the element will do the trick).</p>
+<p>The next step is to match some of the styling of the New York Times. Once that is done I’ll set up my own version of the sharing and boom! Tool complete and anyone can create their own news!</p>
+<p>Once the technical side is complete (which will happen over the next few days) I’ll get crackalackin’ on the associated write-up. Here is the world premiere of the planned sections:</p>
+<ul>
+<li>Tool Introduction (Explaining the concept)</li>
+<li>Previous Remix Cultures (YTMND, 4Chan)</li>
+<li>Previous News Remixes (Yes Men, Others?)</li>
+<li>Page One Remix Overview (Description of the tool and how it works)</li>
+<li>Plans and Future Work (What I hope the tool will enable and how to add to it)</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/11/anonymous-project-update/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Remixing Mainstream Media</title>
+		<link>/2011/11/remixing-mainstream-media/</link>
+					<comments>/2011/11/remixing-mainstream-media/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 02 Nov 2011 06:49:26 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[memes]]></category>
+		<category><![CDATA[remixes]]></category>
+		<guid isPermaLink="false">/?p=675</guid>
+
+					<description><![CDATA[As we all know the most important part of any successful project is completely changing your idea at the last minute. In that spirit I am about to present a progress update on a project that has nothing to do with the revamped IRC interface I outlined last time (note that the IRC project isn’t [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As we all know the most important part of any successful project is completely changing your idea at the last minute.  In that spirit I am about to present a progress update on a project that has nothing to do with the <a href="http://civic.mit.edu/blog/schultzd/rethinking-the-irc-experience">revamped IRC interface</a> I outlined last time (note that the IRC project isn’t dead, but I’ll be working on it over IAP instead).</p>
+<p>Here’s my new plan: I am going to make it possible for anyone to control the content of front page of the New York Times.  Want your kid’s little league game in the local news?  That’s cool, but you know what’s cooler?  Having your kid’s fame story smack dab front and center next to the article about Osama Bin Laden’s assassination.  Suddenly little Billy is the talk of more than just the town, he’s the talk of the entire world!</p>
+<p>Interested?  Well hang onto your hats because I’m about to teleport to a completely different topic.</p>
+<h2>How to Manipulate the Masses: A Simple Guidebook</h2>
+<p>People say the Internet is liberating and I suppose that can be true; however, as a wise man named Ethan Zuckerman once said, it isn’t enough to have a voice.  What you really need is an audience.   For the average digital Joe or Janet that audience is probably something between zero and maybe a few thousand people.  If you didn’t realize it from that last sentence I’m saying your audience is smaller than a colony of ants.  Hell, what you have isn’t even captive, so good luck getting more than a few minutes of collective attention across your entire network in a given day!</p>
+<p>How does it feel to know that your personal media power quotient, even with access to the latest and greatest forms of communication in all of human history, is pretty close to zilch?  Feels bad, right?  Kind of makes you not want to bother trying to do anything at all?</p>
+<p>Well suck it up because you aren’t alone.  In fact, “you aren’t alone” is exactly why so many grassroots messages have spread in a land of noise and tweets: they go viral.  If everyone gets two minutes of daily attention from a network then the only way for to spread a message is to hijack your network’s airtime too.  More importantly, you have to do so in a way that equips all of those people to hijack THEIR networks too.</p>
+<p>You can get your network to share by either:</p>
+<ul>
+<li>Pushing something that they will agree with (curse you filter bubble.)</li>
+<li>Pushing something that is amazing</li>
+<li>Pushing something that is hilarious</li>
+<li>Cats</li>
+</ul>
+<p>Keep in mind that comments on your content will do almost nothing for spreading messages beyond one network step, which is why “pushing something that will piss them off” isn’t on the list.  “Cats” is a placeholder for the type of content that, as of now, is the only way to get to consistently get a network’s network to share.</p>
+<p>Anyone who was holding a hat can let go now because I’m going to talk about my project again.  For those who didn’t care before but whose interested has piqued now it’s your turn to hat hold.  For everyone else, why are you still reading this? </p>
+<h2>Taming the Meme</h2>
+<p>I met Ben Huh, the owner of ICanHasCheebzburger.com, last week at a 2012 election coverage summit.  If that sentence meant nothing to you, I’m basically saying I met a viral god.  The nearby newsfolk peppered him with questions about how to use memes to spread their own messages.  His response was simple: you probably can’t.  It is so difficult to harness a meme because they come from a digital version of whisper down the lane (or “Telephone” if you’re from that other part of the country). People add twists, there is no central control, and this is almost tautologically part of why the thing becomes popular to begin with.</p>
+<p>Memes spread because they easy to shape, which is how people can use them in ways that are exciting enough to share.  Boom, viral content achieved</p>
+<p>My proposed system is one that will hijack an <a href="http://www.hackasaurus.org/">existing tool</a> to make it easy to twist and turn the front page of the New York Times, to share those twists with a network, and to have members of that network add (and share) further twists of their own.  I also want this system to track the changes; I want to build a conversation around the evolution of a given strain of modifications.  I would even like to help incorporate some real content into the picture since I have the real estate; maybe some actual news can slip or fade its way in sometimes.</p>
+<p>The end result is more than a simple stage for content sharing.  Through very minor forms of control (in the form of history and tracking and known context) it becomes possible to infuse the adapting content with useful information layers.  Boom, meaningful viral content achieved.</p>
+<p>Oh, and for the record, remix-and-share services do exist (consider <a href="http://www.technologyreview.com/computing/38928/page1/">Startup Spirit</a> vs <a href="http://slifty.bo.lt/ht3mo">Citrus Flavoring</a>) but they are systems designed to provide a technology.  I&#8217;m proposing a system designed to empower viral conversations.</p>
+<p><em>This has been <a href="http://civic.mit.edu/blog/schultzd/remixing-mainstream-media">cross posted</a> on the civic blog.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/11/remixing-mainstream-media/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:12:17 by W3 Total Cache
+-->

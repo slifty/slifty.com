@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Information Ecology &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/information-ecology/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Sat, 18 Sep 2010 21:41:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Joining the Starship Eco</title>
+		<link>/2010/09/joining-the-starship-eco/</link>
+					<comments>/2010/09/joining-the-starship-eco/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sat, 18 Sep 2010 21:41:35 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Information Ecology]]></category>
+		<category><![CDATA[MIT Media Lab]]></category>
+		<category><![CDATA[transition]]></category>
+		<guid isPermaLink="false">/?p=161</guid>
+
+					<description><![CDATA[Classes didn&#8217;t start until Wednesday, but as I learned during orientation we are not just students &#8212; we&#8217;re also employees working under our advisers.  My boss/adviser, Henry Holtzman, heads the &#8220;Information Ecology&#8221; group, which focuses on making information more naturally accessible in the physical world.  I highly suggest you check out the group website and [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Classes didn&#8217;t start until Wednesday, but as I learned during orientation we are not just students &#8212; we&#8217;re also employees working under our advisers.  My boss/adviser, Henry Holtzman, heads the &#8220;Information Ecology&#8221; group, which focuses on making information more naturally accessible in the physical world.  I highly suggest you check out <a href="http://eco.media.mit.edu/">the group website</a> and look at their projects.  Some highlights:</p>
+<ul>
+<li><strong>The Proverbial Wallet</strong> &#8212; a wallet that is linked into your bank accounts via bluetooth and your cell phone, and which becomes more difficult to open when you have a high credit card balance.  The idea is that this naturally allows you to get a sense of your digital finances without having to check online.</li>
+<li><strong>The BiDi Screen</strong> &#8212; this is a monitor that not only displays photons, but also collects them.  In other words, each pixel is also a camera, which means the computer can take low resolution 3d images.  Using this technology computers can easily detect gestures in front of it.  (Check out <a href="http://vimeo.com/8111549">this video</a>)</li>
+<li><strong>The Home Fabratory</strong> &#8212; this is basically a $100 &#8220;fabrication&#8221; set.  Fabrication is the act of creating something in physical space; so, for instance, a sculpture, or a circuit board.  This thing is one step closer towards making it so people can start building stuff in their own homes without having to spend a fortune.  The ultimate goal is the Star Trek replicator!  (<a href="http://makeyourbot.org/">the project&#8217;s web site</a>)</li>
+</ul>
+<p>There are dozens of other projects, but I&#8217;ll let you guys check them out if you want to since they are all listed and described on the group website.</p>
+<p>On Tuesday morning I took the &#8220;T&#8221; (the Boston subway system) down to The Media Lab.  The lab itself is actually two buildings: the new one (which was  first opened this past summer), and the &#8220;classic&#8221; one.  The new building  is pretty much made of glass, which means all the walls are transparent and you can look into the lab space from outside.  The main rooms  are very large and host about 4 research groups.  Our group happens to be located next to a glass wall on the 3rd floor that overlooks the lobby!</p>
+<p>My first day was pretty low key, and it mostly involved meeting the other group members and cleaning up / reorganizing our lab space.  We came up with a really great design, which we call &#8220;the armada.&#8221; It&#8217;s a giant semi circle of desks that overlooks the rest of the &#8220;New&#8221; Media Lab.  It also creates a corridor to Henry&#8217;s office which means that anyone who wants to visit Henry has to walk in front of the entire armada.  Oh, and it also feels like the bridge of the Starship Enterprise.  We plan on setting up a heads up display against the glass to simulate battles with Klingon warships.</p>
+<div id="attachment_895" style="width: 410px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/09/MIT-006.jpg"><img aria-describedby="caption-attachment-895" loading="lazy" src="/wp-content/uploads/2010/09/MIT-006.jpg" alt="The Eco Armada" title="MIT-006" width="400" height="300" class="size-full wp-image-895" srcset="/wp-content/uploads/2010/09/MIT-006.jpg 400w, /wp-content/uploads/2010/09/MIT-006-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a><p id="caption-attachment-895" class="wp-caption-text">An inside view of the armada (my desk is the far right)</p></div>
+<div id="attachment_897" style="width: 510px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/09/MIT-047.jpg"><img aria-describedby="caption-attachment-897" loading="lazy" src="/wp-content/uploads/2010/09/MIT-047.jpg" alt="" title="MIT-047" width="500" height="375" class="size-full wp-image-897" srcset="/wp-content/uploads/2010/09/MIT-047.jpg 500w, /wp-content/uploads/2010/09/MIT-047-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a><p id="caption-attachment-897" class="wp-caption-text">An outside view of the armada (we&#039;re in the middle -- my desk is the far left computer)</p></div>
+<p>I want to end with a message that I found on the walls of one of the offices in my lab space:</p>
+<div id="attachment_898" style="width: 410px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/09/MIT.jpg"><img aria-describedby="caption-attachment-898" loading="lazy" src="/wp-content/uploads/2010/09/MIT.jpg" alt="A computer without Cobol and Fortran is like a piece of chocolate cake without ketchup and mustard." title="MIT" width="400" height="168" class="size-full wp-image-898" srcset="/wp-content/uploads/2010/09/MIT.jpg 400w, /wp-content/uploads/2010/09/MIT-300x126.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a><p id="caption-attachment-898" class="wp-caption-text">A computer without Cobol and Fortran is like a piece of chocolate cake without ketchup and mustard.</p></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/09/joining-the-starship-eco/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:23 by W3 Total Cache
+-->

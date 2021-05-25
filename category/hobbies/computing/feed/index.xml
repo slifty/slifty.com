@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Computing &#8211; Sorry for the Spam</title>
+	<atom:link href="/category/hobbies/computing/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 04:39:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>A Tor of the Dark Web</title>
+		<link>/2012/08/a-tor-of-the-dark-web/</link>
+					<comments>/2012/08/a-tor-of-the-dark-web/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Fri, 17 Aug 2012 14:15:51 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Computing]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[anonymous]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[CIA]]></category>
+		<category><![CDATA[dark web]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[ogres]]></category>
+		<category><![CDATA[Tor]]></category>
+		<category><![CDATA[Tor Project]]></category>
+		<category><![CDATA[trolls]]></category>
+		<guid isPermaLink="false">/?p=1208</guid>
+
+					<description><![CDATA[Tor is a program that makes you anonymous. This means that, for better or for worse, the big brothers, neighborhood hackers, and ad agencies of the world can’t tell what you are doing on the Internet without going through a lot of effort and expense.]]></description>
+										<content:encoded><![CDATA[<p>Tell me if you&#8217;ve been in this situation: you&#8217;re chatting about online anonymity with your wife and the other Knight-Mozilla Fellows over a pizza in Florence. A quiet-spoken stranger who had been sitting across the room walks up to your table and says &#8220;are you all here for the Tor hackathon?&#8221; You respond &#8220;why yes, yes we are!&#8221;</p>
+<p>He goes on to explain that he is a journalist writing about Tor. He also tells us that he bets that the CIA and the Italian Secret Service are going to have moles there. What he obviously meant to say was &#8220;I work for the CIA and I&#8217;ve been watching you now for quite some time.&#8221;</p>
+<p>It&#8217;s possible that he didn&#8217;t actually work for the CIA. His name and photo checked out under the website he claimed to write for. It was probably just a one-time job. Even if this isn&#8217;t true, even if a network of government spies didn&#8217;t track my position across Europe just to meet us in a restaurant, his comment set the tone for my weekend in Florence.</p>
+<p>Tor is serious business.</p>
+<h2>What the hell is Tor?</h2>
+<div id="attachment_1254" style="width: 260px" class="wp-caption alignright"><img aria-describedby="caption-attachment-1254" loading="lazy" class="size-medium wp-image-1254" title="Tor's Logo" src="/wp-content/uploads/2012/08/Tor_project_logo_hq-300x190.png" alt="" width="250" height="158" srcset="/wp-content/uploads/2012/08/Tor_project_logo_hq-300x190.png 300w, /wp-content/uploads/2012/08/Tor_project_logo_hq.png 711w" sizes="(max-width: 250px) 100vw, 250px" /><p id="caption-attachment-1254" class="wp-caption-text">Did I mention Tor yet?</p></div>
+<p><a href="http://www.torproject.org/">Tor</a> is a program that makes you anonymous. This means that, for better or for worse, the big brothers, neighborhood hackers, and ad agencies of the world can&#8217;t tell what you are doing on the Internet without going through a <em>lot</em> of effort and expense.</p>
+<p>Is that too abstract? Here are some illustrative statements. *Taps the microphone*</p>
+<ul>
+<li>A Tor user walks into a bar, the bartender says &#8220;who are you?&#8221;</li>
+<li>How many Tor users does it take to screw in a light bulb? Only a few, but you&#8217;ll never know who did it.</li>
+<li>I used Tor last night and now my wife says that she doesn&#8217;t even know who I am any more.</li>
+</ul>
+<p>I&#8217;ll be here all night.</p>
+<p>If you use Tor you become <a href="http://www.youtube.com/watch?v=mOCsNrzlV2k">Spartacus</a>. Tor takes everything you do, makes it look exactly like what everyone else is doing, and gets random computers on their network to do the talking for you. Ta-da! Now it is practically impossible to pin an action on you.</p>
+<h2>The Original Need</h2>
+<p>I bet you wouldn&#8217;t have guessed that this idea was invented by The U.S. Navy. You would have? Oh.</p>
+<p>Put on your paper sailor hat and I&#8217;ll explain. Imagine you are the king of the Navy and you&#8217;re going to war with your fleet of a thousand brand new Navy cars (I don&#8217;t really know how the Navy works). Being king, you are in the most important car of all because you&#8217;re calling the shots. You don&#8217;t want the enemy to know which vehicle is yours. You also don&#8217;t want them to know who is receiving orders because that could give away your tactics.</p>
+<p>&#8220;I know,&#8221; you say, &#8220;I&#8217;ll encrypt everything so that they can&#8217;t see the content. Then they won&#8217;t be able to tell that my broadcasts are more important than others.&#8221;</p>
+<p>Unfortunately for you, the enemy has fancy technology. They can&#8217;t decrypt messages but they are able to track where everything comes from and where it is going. They can&#8217;t tell what you&#8217;re saying, but they have all they need.</p>
+<p>After about 5 minutes you think you&#8217;re doing well. Half of the enemy cars are already on fire! Yours explodes. &#8220;How did they do that?&#8221; you say in the afterlife. &#8220;Easy,&#8221; responds god, &#8220;they were able to see that your car was sending out the most messages. They knew exactly where you were.&#8221; Then he slaps you with a piece of linguini and drifts away.</p>
+<p>To prevent this from ever happening again the Navy decided to invent the concept of an &#8220;Onion Network&#8221; (not to be confused with <a href="http://www.theonion.com/">The Onion Network</a>). Now instead of having packets go directly from point A to point B, each one randomly hops around the fleet first. Because of encryption, the enemy can&#8217;t tell the difference between a new message and a &#8220;hop&#8221; message — they all look the same. It&#8217;s like running an invisible sprinkler in a thunderstorm.</p>
+<p>Suddenly nobody but the sender and the recipient can figure out the end points of a message chain. Even the middle men (the ones doing the hops) don&#8217;t know the path. Each piece of the hop — each &#8220;layer&#8221; of the message — is encrypted with a different key, so the only thing a relay knows is who gave them the package and where it should go next.</p>
+<p>Onions have layers too, that&#8217;s why this setup is called an <em>Onion</em> Network. Get it? It&#8217;s like Shrek!</p>
+<p><a name="buckwalter"></a></p>
+<div id="attachment_1285" style="width: 510px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/08/illustrationwithsignature.jpg"><img aria-describedby="caption-attachment-1285" loading="lazy" class="size-large wp-image-1285" title="Trolls use the Internet, Ogres use Tor" src="/wp-content/uploads/2012/08/illustrationwithsignature-774x1024.jpg" alt="Trolls use the Internet, Ogres use Tor" width="500" height="661" srcset="/wp-content/uploads/2012/08/illustrationwithsignature-774x1024.jpg 774w, /wp-content/uploads/2012/08/illustrationwithsignature-227x300.jpg 227w, /wp-content/uploads/2012/08/illustrationwithsignature-768x1016.jpg 768w" sizes="(max-width: 500px) 100vw, 500px" /></a><p id="caption-attachment-1285" class="wp-caption-text">Trolls use the Internet, Ogres use Tor. (Illustration by <a href="http://www.annebuckwalter.com/">Anne Buckwalter</a>)</p></div>
+<h2>What&#8217;s it Good For?</h2>
+<p>Tor has applications in the real world. You can buy drugs and guns, share illegal pictures, and hire assassins. Oh wait, I&#8217;m just describing Tor&#8217;s reputation (more on that later). Seriously, there are a lot of important situations where people have moral and compelling reasons to want anonymity.</p>
+<p>Here are a few:</p>
+<ul>
+<li><strong>Protecting witnesses and victims of domestic abuse.</strong> Anyone who wants to be able to access the internet without being discovered by a third party can use Tor to defend against their stalkers.</li>
+<li><strong>If you don&#8217;t like being tracked</strong> <a href="http://www.aclu.org/national-security/surveillance-under-usa-patriot-act">by your government</a>, <a href="http://lifehacker.com/5923017/how-can-i-prevent-my-isp-from-tracking-my-every-move">Internet Service Providers</a>, or <a href="http://donttrack.us/">search engines</a>.</li>
+<li><strong>Providing truly anonymous tips.</strong> There are times when people need or want to <a href="http://www.wikileaks.org/">share information</a> against the wishes of powerful and potentially dangerous forces (e.g. mafias, governments, or corporations).</li>
+<li><strong>Safely bypassing censorship.</strong> If you live in Syria, China, or <a href="http://defendtheinter.net/">The United States of RIAA/MPAA</a>, you might use Tor to access content from the outside world more safely.</li>
+</ul>
+<p>These kinds of reasons explain why organizations with very good reputations, like the Knight Foundation, are <a href="http://www.knightfoundation.org/grants/20121802/">devoting resources to Tor</a>.</p>
+<h2>The Dark Web</h2>
+<p>What I&#8217;ve just described is a spin on the way people access normal information online. If you point Tor Browser to Google you will see the same old Google, it&#8217;s just that now Google doesn&#8217;t know who you are. That&#8217;s powerful enough, but there&#8217;s more: Tor also lets you see hidden content on the Internet.</p>
+<p>Using Tor is like entering a cheat code into real life and playing the lost levels. It is the digital equivalent of <a href="http://www.youtube.com/watch?v=xh95Ymn6F8c">platform 9 and 3/4</a>. This secret section of the Internet is possible because Tor users can <em>serve</em> content anonymously too.</p>
+<p>If you don&#8217;t know much about how the Internet works, believe me when I say that if a web site&#8217;s location is hidden it becomes essentially impossible to access. It would be like trying to visit someone&#8217;s house without knowing anything about where they live — not even the country. Tor gives you a blindfold and leads you there. You still don&#8217;t know where the house is, but at least you can visit.</p>
+<p>Anonymous sites are accessed through something called an &#8220;onion address,&#8221; which is made up of a series of random letters and numbers. For instance, this is a &#8220;clean&#8221; version of Tor&#8217;s wikipedia: <a href="http://3suaolltfj2xjksb.onion/hiddenwiki/index.php/Main_Page">3suaolltfj2xjksb.onion</a>. Feel free to try clicking the link, it won&#8217;t work (Unless, of course, you are using the <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor browser</a>).</p>
+<p><em>Note: even if that link worked you wouldn&#8217;t see any terrible images. However, you need to use your brain before you start actually clicking around if you don&#8217;t want to get really upset.</em></p>
+<p>That random looking string is used to find the server within the Tor network. Because the addresses don&#8217;t point to a real address on the Internet, there is no way to fully access this content without Tor. There are <a href="http://onion.to/">services</a> you can use to get there without using Tor, but you lose all benefits of anonymity and content is often censored.</p>
+<p>Onion addresses are the most fascinating part of Tor, albeit the most potentially disturbing. Rest assured that they don&#8217;t all lead to child porn, guns, and drugs. For example there is a secret version of <a href="http://lotjbov3gzzf23hc.onion.to/">Twitter</a>, a bunch of <a href="http://utup22qsb6ebeejs.onion.to/">blogs</a>, a <a href="http://3g2upl4pq6kufc4m.onion.to/">search engine</a>, and an <a href="http://jhiwjjlqpyawmpjx.onion.to/">email service</a>. There is even a secret version of 4chan (called Torchan), which I won&#8217;t link to because that one <em>does</em> lead to child porn and drugs.</p>
+<p>These types of content networks—ones that are served on top of the normal web so that you need special programs to reach them—are known as the <a href="http://en.wikipedia.org/wiki/Dark_Internet">Dark Web</a>. Not necessarily because the content is darker (it is), but because it is hidden from view and can&#8217;t really be searched and scraped as reliably.</p>
+<h2>Implications of The Dark Web</h2>
+<p>Most uses for Tor become more potent with onion addresses. Anonymous servers are just as protected from higher powers as anonymous users. If Amazon suddenly started selling illegal drugs they would get in trouble. If a Tor marketplace started selling illegal drugs, the law would have to figure out a way to find them first.</p>
+<p>This power applies to legitimate uses as well. If a government official wanted to contact The Boston Globe with a corruption leak, he or she could use Tor to create a gmail account anonymously. The government could then subpoena Google, and Google might be willing to give away the information they have. They won&#8217;t know much, but now things like account access patterns and full email logs would be fair game.</p>
+<p>If the official had used Tormail then even Google wouldn&#8217;t know what happened. The government would have no course of action because there would be no service provider to ask. Every journalist in the world should be able to agree that there is no good reason for a watchdog to trust the organizations they are watching. Why should you trust in corporations and governments to keep sources safe?</p>
+<p>Tor has a reputation because it has a lot of criminal content, but the social good that it supports is just so important (criminals will always be criminals). I&#8217;m working on a game called <a href="https://github.com/slifty/torwolf">Torwolf</a> to simulate a few situations where Tor would be effective (if you have played Werewolf or Mafia, you can start to imagine what the game will be like). In the mean time, <a href="https://www.torproject.org/docs/faq.html.en">read up on Tor</a> if you&#8217;re curious. Better yet, <a href="https://www.torproject.org/download/download-easy.html.en">go try it out</a>.</p>
+<p><em><strong>IMPORTANT EDIT:</strong> while Tor is much better than nothing, it is neither foolproof nor perfect.  If maintaining anonymity could be a matter of life / death / imprisonment, then you need to know more than what I could fit into the scope of this overview. <a href="http://www.syverson.org/tor-vulnerabilities-iccs.pdf">This paper is a good starting point</a>, but seriously, spend some time researching on your own</a>.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/08/a-tor-of-the-dark-web/feed/</wfw:commentRss>
+			<slash:comments>37</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Starcraft Network</title>
+		<link>/2011/03/starcraft-network/</link>
+					<comments>/2011/03/starcraft-network/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 28 Mar 2011 06:33:42 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Hilarity]]></category>
+		<category><![CDATA[bliss]]></category>
+		<category><![CDATA[LAN]]></category>
+		<category><![CDATA[StarCraft]]></category>
+		<guid isPermaLink="false">/?p=270</guid>
+
+					<description><![CDATA[I&#8217;ll cut right to the chase: my network naming convention is spectacular. I highly suggest emulating it. Non-nerds, read this first For the non-techies reading this I have some explaining to do.  When you have more than one computer connected together you form something called a Local Area Network (LAN).  For instance, you have a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ll cut right to the chase: my network naming convention is spectacular. I highly suggest emulating it.</p>
+<h2>Non-nerds, read this first</h2>
+<p>For the non-techies reading this I have some explaining to do.  When you have more than one computer connected together you form something called a Local Area Network (LAN).  For instance, you have a LAN if you have more than one computer connected to the internet at home.  Computers on networks like to communicate to one another and so they have an address on the network called an IP address, which is a series of numbers (e.g. 192.168.1.100).</p>
+<p>If you know the IP of a computer, you can send messages to it.  The problem is that normal people won&#8217;t remember all those numbers, and most of the time those numbers actually change when you turn the computers on and off.  For these reasons, most Operating Systems let you name your computers and they do the translation for you.  This probably happened the first time you turned it on and it asked for a name.</p>
+<p>For average users the name will be something like &#8220;Living Room PC&#8221; or &#8220;Dad&#8217;s Laptop.&#8221;  The more tech savvy tend to enjoy goofing around with these names; for instance my friend Julia named one computer &#8220;Red&#8221; and the other one &#8220;Rum.&#8221;  Once you get more than a few computers, though, you naturally move toward a theme for your network.  This makes computers more fun, like collections, and gives the buckets of bits and bolts a touch of personal flair.</p>
+<p>Here are some examples: you might use the planets in the solar system (I would never do this; who wants to have to wait for the discovery of new planets to buy your 9th computer?), or famous scientists or sports players.  Or Pokemon!  Or musicians.</p>
+<p>For most people it stops there, but I recently realized that you can do oh so much better.  Your network names can be truly meaningful.  For instance, name your computers based on elements on the periodic table.  Mobile computers are given gas names and desktops are heavy metals.  Maybe the number of electron clouds reflects the number of processor cores!  Creativity is key</p>
+<p>Long story short, some metaphors are better than others, and, quite frankly, I have found the best one.  My theme is <a href="http://starcraft.wikia.com/wiki/StarCraft">StarCraft</a>; an incredibly popular strategy game which has every single feature you could want in a network naming convention.   The game features 3 different races and about 70 units with a variety of shape, size, and function.  Well look at THAT!  It turns out there are 3 main flavor of operating system, and I plan on owning about 70 computers with a variety of shape, size, and function.</p>
+<h2>Back to the point</h2>
+<p>My network is named based on StarCraft/StarCraft2. The name of the unit should reflect the power, size, and special abilities of the hardware. To some extent this is an art, however there are a few set rules which must be followed.</p>
+<h3>Rule 1: Flying vs Ground</h3>
+<p><em><span style="text-decoration: underline;">Starcraft</span></em> units, in general, can either fly, or they are stuck on the ground.</p>
+<p><em><span style="text-decoration: underline;">Computers</span></em>, in general, are either mobile (laptops), or they are stuck on the ground.</p>
+<p><span style="text-decoration: underline;">Summary:</span></p>
+<ul>
+<li>Laptops and other wireless devices are flying units.</li>
+<li>Boxes that are not inherently mobile are ground units.</li>
+</ul>
+<h3>Rule 2: Race</h3>
+<p><em><span style="text-decoration: underline;">Starcraft </span></em>has three main races: Zerg, Protoss, and Terran.  Zerg are the icky gooey alien race (think &#8220;Alien&#8221; alien); Protoss are the super intelligent shiny sleek technological aliens (think ET);  And Terran are the more traditional space age humans.</p>
+<p><em><span style="text-decoration: underline;">Computers </span></em>have three main operating systems: Unix, OSX, and Windows;  Unix is the icky, gooey nerd computer (think &#8220;command lines&#8221;);  OSX (Mac) is the super pretentious shiny sleak technological computer (think Unibody Macbook); And Windows is the more traditional normal day human computer.</p>
+<p><span style="text-decoration: underline;"><em>Starcraft</em> </span>also has other kinds of creatures in the universe.  Loveable animals called critters which mindlessly roam around, and mostly unknown super beings called the Xel&#8217;Naga.</p>
+<p><span style="text-decoration: underline;"><em>Computers</em> </span>also have other kinds of operating systems in the universe.  Random things like the Wii which are based on who knows what, and the mostly unknown Google OS called Crome OS.</p>
+<p><span style="text-decoration: underline;">Summary:</span></p>
+<ul>
+<li>Unix / Linux varieties is Zerg</li>
+<li>Windows is Terran</li>
+<li>Mac is Protoss</li>
+<li>ChromeOS is Xel&#8217;Naga</li>
+<li>Other is Critter</li>
+</ul>
+<h3>Rule 3: Non-computers</h3>
+<p>The real world has tech that aren&#8217;t computers, and Starcraft has things that aren&#8217;t units (buildings are another type of object in StarCraft.).  Anything that doesn&#8217;t have an Operating System like Windows or Unix but can still have a network name (e.g. a shared computer peripheral like a printer or disc drive) or is a piece of tech that you want to be able to easily reference in casual conversation should have a building name. Ideally the building would be a non-unit producing structure (buildings are what make the units in Starcraft), unless of course the hardware in question is something that is used directly to produce computers.</p>
+<h2>Examples from my network</h2>
+<ul>
+<li><strong>Zergling </strong>&#8211; A tiny little zerg unit that runs around all the time || A tiny little  Ubuntu box that runs all the time</li>
+<li><strong>Overlord </strong>&#8211; a zerg unit that isn&#8217;t used in combat but instead floats around and feeds other units || A unix based Network Attached Storage (NAS) that isn&#8217;t often used directly but instead hosts data and media for the other computers.</li>
+<li><strong>Goliath </strong>&#8211; A pretty standard terran &#8220;mech&#8221; unit which isn&#8217;t insanely powerful, but packs a reasonable punch || A pretty standard Windows PC which isn&#8217;t insanely powerful, but packs a reasonable punch</li>
+<li><strong>Thor </strong>&#8211; A big-ass giant warrior zoid type of suit thing (think transformer style) || A big-ass giant computer case (although currently in hibernation)</li>
+<li><strong>Viking &#8211; </strong>Terran unit that replaced the goliath in StarCraft2; it can transform from flying to being on the ground || Erek&#8217;s Windows desktop (same build as my Goliath desktop) but it also has a wireless card!</li>
+<li><strong>Wraith &#8211; </strong>!%*#ty flying Terran unit || Erek&#8217;s !%*#ty laptop</li>
+<li><strong>Dark Templar</strong> &#8211; Stealth Protoss ground unit, it is invisible to the naked eye || Stealth Apple mac mini, it is invisible to the naked eye</li>
+<li><strong>Corsair &#8211; </strong>Sleak and thin air unit for Protoss || Sleak and thin Macbook Air 11&#8243;</li>
+<li><strong>Scout &#8211; </strong>Standard Protoss air unit || Macbook 13&#8243; &#8212; pretty standard Apple laptop</li>
+<li><strong>Interceptor</strong> &#8211; a tiny Protoss air unit that gets launched from a bigger &#8220;Carrier&#8221; ship || a tiny iPod Touch which you plug into bigger computers</li>
+<li><strong>Kakaru </strong>&#8211; A flying critter || A Wii with wireless connection</li>
+<li><strong>Spore Colony</strong> &#8211; A zerg building that spews out spores || A printer plugged into the NAS that spews out paper and ink.</li>
+<li><strong>Pylon </strong>&#8211; The protoss building which provides energy to other protoss buildings || An Uninterruptible Power Supply (UPS) which provides energy to all my computers.</li>
+</ul>
+<p>Feel free to adopt this naming convention. If you have a perfect fit on your network post the name here!</p>
+<h2>Amazing Opportunities</h2>
+<p>The nice thing about this convention is it makes you want to buy / build technology just to have the perfect fit for a unit.</p>
+<p>For instance:</p>
+<ul>
+<li>Apple AirPort named Carrier</li>
+<li>Macbook Pro 19&#8243; (doesn&#8217;t exist&#8230; YET) named Mothership</li>
+<li>A partitioned box with unix and windows. Windows OS named Marine, Unix OS named Infested Marine</li>
+<li>A unix box dedicated to masterminding trojan attacks called Infestor</li>
+<li>USB based unix install named Larva</li>
+<li>Two apple computers called High Templar 1 and High Templar 2 which can combine to form an Archon.</li>
+</ul>
+<p>The potentials are limitless!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/03/starcraft-network/feed/</wfw:commentRss>
+			<slash:comments>18</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:12:38 by W3 Total Cache
+-->

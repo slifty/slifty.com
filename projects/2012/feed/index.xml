@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2012 &#8211; Sorry for the Spam</title>
+	<atom:link href="/projects/2012/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 02:17:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Opened Captions</title>
+		<link>/project/opened-captions/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:46:45 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2345</guid>
+
+					<description><![CDATA[Opened Captions makes it possible to write code that knows what is being said, in real time, on broadcast television.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>You may have heard of closed captions before: they&#8217;re the little words that show up at the bottom of TVs in airports, bars, or maybe at home when you mute the TV.  Opened Captions scrapes those captions and regurgitates them into something called a web socket (web sockets take data and pass it along to anything willing to listen.)  The service can take in caption data directly from a USB, or from another opened captions server.</p>
+<p>This project came from my Knight-Mozilla fellowship at the Boston Globe during the 2012 elections.  We were brainstorming innovative ways to cover the presidential debates, and quickly realized that the best of them required a way to know what was being said in real time.  I got to work looking for solutions and, finding none, decided to make my own.  A few days later and Opened Captions was born.</p>
+<p>Although we didn&#8217;t end up building any official Boston Globe coverage, I did manage to throw together a wonderful project called DRUNK-SAPN.  The application streamed the debates and told the world to drink on key phrases.  Most importantly, the transcript took shots along with the players.  <a href="/wp-content/uploads/2015/05/transcript.html">You can view the transcript here</a>.</o></p>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="/2012/10/introducing-opened-captions/">Introducing Opened Captions</a> (slifty.com)</li>
+<li><a href="http://www.niemanlab.org/2012/12/opened-captions-turning-the-spoken-words-on-tv-screens-into-streams-of-hackable-data/">Opened Captions: Turning the spoken words on TV screens into streams of hackable data</a> (Nieman Lab)
+<li><a href="https://source.opennews.org/en-US/articles/introducing-opened-captions/">Introducing Opened Captions: A SocketIO API for live TV closed captions</a> (Source)
+<li><a href="http://www.slideshare.net/slifty/opened-captions">Opened Captions</a> (Slideshare)</li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>Node.js</li>
+<li>Socket.io</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>h*hic*Tey brougttth*hic* su binder*hic*s ffflul fo wmoen.<br />
+&#8211; Mitt Romney</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>NewsJack</title>
+		<link>/project/newsjack/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:43:18 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2343</guid>
+
+					<description><![CDATA[NewsJack makes it easy to change headlines on news websites. Once you have finished editing, you can publish your creation and share it with anyone.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>NewsJack was built as a class project for <a href="http://schock.cc/" target="_blank">Sasha Costanza Chock</a>&#8216;s &#8220;Introduction to Civic Media.&#8221;  It enables <a href="http://en.wikipedia.org/wiki/Détournement" target='_blank'>détournement</a> using web technologies.  For those of you who don&#8217;t speak French / Chinese / Whatever that is, it means &#8220;turning expressions of the capitalist system and its media culture against itself.&#8221;  It&#8217;s a very specific form of satire that takes subversive messages and wraps them in a skin that you are used to seeing (this might mean brand, it might mean medium, it might mean something completely different).  Good détournement forces the viewer to question their world and their expectations.</p>
+<p>The specific inspiration behind NewsJack is the Yes Men&#8217;s <a href="http://theyesmen.org/hijinks/newyorktimes" target="_blank">New York Times Special Edition</a>.  This fake paper was actually printed and handed out on the streets of New York City in 2009.  It <a href="http://nytimes-se.com/todays-paper/NYTimes-SE.pdf" target="_blank">looked like a real copy</a> of the Times, but had headlines like &#8220;IRAQ WAR ENDS&#8221; and &#8220;Maximum Wage Law Succeeds.&#8221;  Imagining picking up a newspaper that you believed was the New York Times and seeing that type of headline.  For a moment, until you realized what was going on, it might change the way you see your world.</p>
+<p>That&#8217;s the experience that I ultimately wanted to enable online, where content is far harder to modify and spread for anyone who doesn&#8217;t know how to code.  It is built using a modified version of a Mozilla tool called <a href="http://www.hackasaurus.org/en-US/" target="_blank">Hackasaurus</a>.  The original code was designed to help people learn HTML (the core building block of the Internet).  I stripped out all that hippie foo foo learning crap and left the essence: code that makes it possible to edit a website by pointing and clicking.</p>
+<p><p>Once you&#8217;re done you can hit publish, and a copy of the page you just modified is uploaded to some server out in the universe.  You get a URL to share around, and suddenly your remix is alive and kicking.</p>
+<p>You might say to yourself: &#8220;&#8230; how is this legal?&#8221; to which I would respond by picking up a copy of the first amendment, making a paper airplane out of it, and throwing it at your head.  Of course, that didn&#8217;t stop the New York Times from sending a cease and desist on the first day we launched the site!  I suppose that&#8217;s a story for another time.</p>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="http://www.poynter.org/latest-news/regret-the-error/171467/newsjack-launches-to-let-you-hijack-news-websites/">NewsJack launches to let you remix, edit news websites (Poynter)</a></li>
+<li><a href="http://bostinno.streetwise.co/2012/04/24/all-the-news-youd-love-to-see-newsjack-launches-to-allow-you-to-remix-spoof-the-media/">All The News You’d Love to See: NewsJack Launches To Allow You To Remix &#038; Spoof The Media (BostInno)</a></li>
+<li><a href="http://www.mediabistro.com/10000words/newsjack-lets-users-remix-websites_b12740">Jack This Site: NewsJack Lets Regular Users Remix Websites (Media Bistro)</a></li>
+<li><a href="http://civic.mit.edu/blog/beckyh/workshopping-newsjack-with-press-pass-tv">Workshopping NewsJack with Press Pass TV (C4CM)</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>jQuery</li>
+<li>MySQL</li>
+<li>PHP</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>I have a feeling our lawyers will be particularly interested in this project.<br />
+&#8211; Every Mainstream Media Source</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Truth Goggles</title>
+		<link>/project/truth-goggles/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:39:33 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2341</guid>
+
+					<description><![CDATA[Truth Goggles identifies fact-checked content on the web, reminding you when it is most important to think carefully. It is a credibility layer designed to increase your ability to reach a well-formed understanding of the world, using journalism to raise red flags.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>Truth Goggles was my master&#8217;s thesis at the MIT Media Lab.  This means that I spent a lot of time exploring the many challenges behind an idea like this, and attempting to solve at least some of them.  There are three gigantic hurdles to jump:</p>
+<ol>
+<li><strong>Fact Database</strong> &#8211; What should be used as ground truth?  How do you identify it?  Is there enough of it?  I ended up realizing that there aren&#8217;t many universally believed truths, and I want the system to be accessible to a diverse audience.  It needs to contain as many well-explained and thoughtful verdicts as possible.  I decided that for the first round a truth source needs to do things: have a reputation of neutrality (i.e.both sides call them biased or neither side calls them biased), and explain the reason behind their verdicts.</li>
+<li><strong>Paraphrase Detection</strong> &#8211; There are thousands of ways to say the same thing, how do you identify known fact-checks with slightly different phrasing?  This is a challenging problem because it mans computers need to understand language.  Luckily there are a lot of smart people exploring this space, so I can use existing tools to get part of the way there.</li>
+<li><strong>Human Brains</strong> &#8211; Assume we have a perfect system that is able to identify fact checked phrases 100% of the time.  Would you trust it?  Would you use it?  What if it told you that you were wrong, would it change your mind?  A system that isn&#8217;t usable isn&#8217;t worth building.</li>
+</ol>
+<p>I focused on this third problem (human brains) because I like thinking about people more than algorithms.  I tried to design the system to make it easy to swap out better algorithms and data sets down the line, but my experimentation revolved around the user experience.</p>
+<p>The result of my thesis was a <a href="http://truthgoggl.es/demo.html">prototype</a> and a gigantic document.  The front end is written in JavaScript and jQuery.  It scrapes the page and sends it to a credibility API written in PHP.  That API checks against known instances of paraphrases and also sends the text to a &#8220;fuzzy matching&#8221; API that is currently written in Python.</p>
+<p>The prototype can be used anywhere online, but it doesn&#8217;t do any intelligent paraphrase detection at this point so chances are it won&#8217;t be useful in most places.  The study results were promising, and indicated that credibility layers could very well help people think more carefully and in more nuanced ways.</p>
+<p>There is still a lot to do for Truth Goggles, and the project is not dead!  It&#8217;s also clear that people love the idea of an automated bullshit detector.</p>
+<h2>Papers, Posts, and Press</h2>
+<p>This got a huge amount of coverage, here are some highlights.</p>
+<ul>
+<li><a href="http://www.niemanlab.org/2011/11/bull-beware-truth-goggles-sniff-out-suspicious-sentences-in-news/">The first piece by Nieman Lab</a></li>
+<li><a href="http://www.eltiempo.com/tecnologia/actualidad/ARTICULO-WEB-NEW_NOTA_INTERIOR-10825845.html">El Tiempo</a></li>
+<li><a href="http://www.cbc.ca/strombo/technology-1/you-can-handle-the-truth.html">CBC Interview</a></li>
+<li><a href="http://www.lavanguardia.com/tecnologia/20111128/54239479160/un-programa-para-ser-mas-criticos-con-lo-que-leemos.html">La Vanguardia</a></li>
+<li><a href="http://www.theregister.co.uk/2011/11/28/mit_truth_goggles/">The Register</a></li>
+<li><a href="http://techcrunch.com/2011/11/28/true-or-false-automatic-fact-checking-coming-to-the-web-complications-follow">Tech Crunch</a></li>
+<li><a href="http://www.npr.org/2011/11/27/142821487/truth-goggles-double-checks-what-politicians-say">NPR Interview</a></li>
+<li><a href="http://www.niemanlab.org/2012/07/are-you-sure-thats-true-truth-goggles-tackles-fishy-claims-at-the-moment-of-consumption/">The second piece by Nieman Lab</a></li>
+<li><a href="http://boingboing.net/2012/07/12/apply-truth-goggles-learn-tru.html">Boing Boing</a></li>
+<li>New Scientist (Volume 215, Issue 2882, 15 September 2012, Pages 44–47)</li>
+<li><a href="http://www.wired.co.uk/magazine/archive/2012/11/start/internet-lies">Wired UK (November 2012)</a></li>
+<li><a href="/2011/08/introducing-truth-goggles/">Introducing Truth Goggles</a></li>
+<li><a href="/2012/05/achievement-unlocked-thesis/">Achievement Unlocked: Thesis</a></li>
+<li><a href="/2012/06/truth-goggles-study-results/">Truth Goggles Study Results</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>jQuery</li>
+<li>MySQL</li>
+<li>Python</li>
+<li>PHP</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Oh shit.<br />
+&#8211; Politicians</p></blockquote>
+<p><script src="//new.truthgoggl.es/js/goggles.js"></script><script>truthGoggles({server: "//new.truthgoggl.es",layerId: 4});</script></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ghosts of the Past</title>
+		<link>/project/ghosts-of-the-past/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:34:40 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2338</guid>
+
+					<description><![CDATA[Ghosts of the Past lets you use your iPad as a lens into the past (or into an augmented present). Panoramic images are overlaid on top of the locations where they were taken. Couldn&#8217;t make it to your brother&#8217;s wedding? No problem, just use Ghosts!]]></description>
+										<content:encoded><![CDATA[<h2>Video</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/25527910" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<h2>Long Description</h2>
+<p>This project was a collaborative effort by myself, <a href="http://www.juliama.com/">Julia Ma</a>, and our undergraduate researcher Nat Atnafu.  It started off as a course project for &#8220;Eccescopy&#8221; taught by <a href="http://en.wikipedia.org/wiki/Ken_Perlin">Ken Perlin</a>, which was about social augmented reality.  Our argument was that looking into the past is totally social, it&#8217;s just time lapsed!</p>
+<p>The system is made up of a web server (written in PHP and MySQL), where you can upload and annotate panoramas, and an iPad client (written using OpenFrameworks) that accesses and renders those panoramas.  The user must calibrate the panorama by orienting the iPad so that the space being displayed matches the location of that space.</p>
+<p>After calibration, the iPad tracks rotation and updates the portion of the panorama that appears on screen.  This creates the illusion that the iPad acts as a looking glass into the past.  You can see people and objects that used to exist in the space in front of you standing right there.</p>
+<p>Although Ghost panoramas are never perfectly aligned, it gets &#8220;close enough&#8221; for your eye to believe it.  We can get away with this because you aren&#8217;t able to focus on the iPad screen and the real-world background at the same time.  The fact that the scale might not be quite right or that the image is offset by a few degrees won&#8217;t actually disrupt the experience.</p>
+<p>It also turns out that this approach can be used to create other AR experiences.  Normally you need to figure out where the camera is actually pointing with very high levels of accuracy if you want to create a compelling effect.  By using an existing panorama you don&#8217;t need to be pixel perfect in the real world any longer, you can just use the pixels from the photo and be done with it.</p>
+<p>We imagined several use cases for Ghosts.  The original intent was to make it easy to capture and re-live community or personal events.  If you took a panorama of a wedding, or of a block party, you could use Ghosts of the Past years later to remember what the event was like.  This is pretty much supported in full.</p>
+<p>You could also use the AR potential of Ghosts to provide more information, or to show hidden objects.  We worked with Jim Vrabel, a local historian, to create a few panoramas with &#8220;information points.&#8221;  Users could then stand in special locations in downtown Boston and learn more about the buildings by pointing their iPad at the right spot.</p>
+<p>You can also manipulate the panorama itself using photo editing tools to create some interesting effects.  We worked with the MIT Museum to create a few panoramas that spliced in old photos of artifacts working in their original space.  As you viewed the panorama in the museum, you would see the objects sitting in the lab with scientists working around them.</p>
+<p>There are some obvious next steps.  The first is geofencing using the iPad&#8217;s GPS, so that only nearby panoramas can be picked, and so that people can be guided to stand in the optimal spot for viewing.  The second is auto calibration using the iPad&#8217;s compass, so that images are oriented properly without any effort on the part of the user.</p>
+<h2>Technologies</h2>
+<ul>
+<li>C++ / OpenFrameworks</li>
+<li>PHP</li>
+<li>MySQL</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Hasn&#8217;t this been done already?<br />
+&#8211; My Advisors
+</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:11 by W3 Total Cache
+-->

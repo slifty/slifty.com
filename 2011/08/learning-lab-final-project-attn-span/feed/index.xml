@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Learning Lab Final Project: ATTN-SPAN	</title>
+	<atom:link href="/2011/08/learning-lab-final-project-attn-span/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/08/learning-lab-final-project-attn-span/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Tue, 06 Sep 2011 04:31:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: Daniel Schultz		</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/#comment-171</link>
+
+		<dc:creator><![CDATA[Daniel Schultz]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2011 04:31:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=434#comment-171</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2011/08/learning-lab-final-project-attn-span/#comment-170&quot;&gt;Waldo Jaquith&lt;/a&gt;.
+
+Oh that is beautiful -- I will surely be getting in touch soon.  Thanks so much for letting me know!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2011/08/learning-lab-final-project-attn-span/#comment-170">Waldo Jaquith</a>.</p>
+<p>Oh that is beautiful &#8212; I will surely be getting in touch soon.  Thanks so much for letting me know!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Waldo Jaquith		</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/#comment-170</link>
+
+		<dc:creator><![CDATA[Waldo Jaquith]]></dc:creator>
+		<pubDate>Thu, 01 Sep 2011 22:16:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=434#comment-170</guid>
+
+					<description><![CDATA[Dan, I&#039;ve been doing this with Virginia legislative video for a few years (&lt;a href=&quot;http://waldo.jaquith.org/blog/2011/02/ocr-video/&quot; rel=&quot;nofollow&quot;&gt;here&#039;s a writeup of my process&lt;/a&gt;), and if there&#039;s anything from my work that would help you with yours, let me know. (I&#039;m a 2011 News Challenge winner.)]]></description>
+			<content:encoded><![CDATA[<p>Dan, I&#8217;ve been doing this with Virginia legislative video for a few years (<a href="http://waldo.jaquith.org/blog/2011/02/ocr-video/" rel="nofollow">here&#8217;s a writeup of my process</a>), and if there&#8217;s anything from my work that would help you with yours, let me know. (I&#8217;m a 2011 News Challenge winner.)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Schultz		</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/#comment-169</link>
+
+		<dc:creator><![CDATA[Daniel Schultz]]></dc:creator>
+		<pubDate>Wed, 17 Aug 2011 17:15:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=434#comment-169</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2011/08/learning-lab-final-project-attn-span/#comment-168&quot;&gt;Mark Reginald James&lt;/a&gt;.
+
+Hey Mark,
+  Thanks for the comment and sorry about the delay!  Glad this idea got you thinking!
+
+  To answer your question, there are two kinds of answer: the &quot;imagination&quot; answer which assumes that there is no such thing as a technological or copyright roadblock, and the realistic answer which assumes that we will only be able to process certain kinds of video at this point.  The imagination answer is that any video in any digital format could be included -- i.e. youtube videos which may contain footage of rallies or first hand speeches or television stations across the world that might have local coverage or useful commentary on an issue.  Radio is a great point as well, since this could be adapted to be a purely audio application.
+
+  The realistic answer is that for a video feed to be processed by this system in a way that works well, I really do need a transcript and ideally I have a way to pull out that extra metadata.  For substantial feeds, such as network news with 24/7 coverage and regular formats, this could be done through a custom script for each network.  For small newsrooms willing to play along, maybe I could get topical tags associated with whatever video they create.  For transcripts there are some great transcription services (hey I &lt;a href=&quot;/2010/07/visiting-the-speakercave/&quot; rel=&quot;nofollow&quot;&gt;worked for one&lt;/a&gt; briefly!) which could make it possible for newsrooms to transcribe a few minutes of video for a few bucks.
+
+  The REAL answer is somewhere in between.  If you think about the system in terms of functional components, it is totally viable to provide an API that lets people bypasses the scraping process and add their video to the system.  In other words, if you have a 4 minute video that is transcribed (or maybe I could work with a SpeakerText to let you add your video so long as you cover the minimal costs of transcription), and you already know it is of Barack Obama, and you already know that it is about the health care debate.  There is no reason that you, as a trusted source, couldn&#039;t just add that clip to the system with all of that information.  This means that the system could get access to video that would be impractical to automatically parse (such as footage from small newsrooms who may not have standard formatting like C-SPAN), so long as that newsroom was willing to play along and got enough value to warrant that play.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2011/08/learning-lab-final-project-attn-span/#comment-168">Mark Reginald James</a>.</p>
+<p>Hey Mark,<br />
+  Thanks for the comment and sorry about the delay!  Glad this idea got you thinking!</p>
+<p>  To answer your question, there are two kinds of answer: the &#8220;imagination&#8221; answer which assumes that there is no such thing as a technological or copyright roadblock, and the realistic answer which assumes that we will only be able to process certain kinds of video at this point.  The imagination answer is that any video in any digital format could be included &#8212; i.e. youtube videos which may contain footage of rallies or first hand speeches or television stations across the world that might have local coverage or useful commentary on an issue.  Radio is a great point as well, since this could be adapted to be a purely audio application.</p>
+<p>  The realistic answer is that for a video feed to be processed by this system in a way that works well, I really do need a transcript and ideally I have a way to pull out that extra metadata.  For substantial feeds, such as network news with 24/7 coverage and regular formats, this could be done through a custom script for each network.  For small newsrooms willing to play along, maybe I could get topical tags associated with whatever video they create.  For transcripts there are some great transcription services (hey I <a href="/2010/07/visiting-the-speakercave/" rel="nofollow">worked for one</a> briefly!) which could make it possible for newsrooms to transcribe a few minutes of video for a few bucks.</p>
+<p>  The REAL answer is somewhere in between.  If you think about the system in terms of functional components, it is totally viable to provide an API that lets people bypasses the scraping process and add their video to the system.  In other words, if you have a 4 minute video that is transcribed (or maybe I could work with a SpeakerText to let you add your video so long as you cover the minimal costs of transcription), and you already know it is of Barack Obama, and you already know that it is about the health care debate.  There is no reason that you, as a trusted source, couldn&#8217;t just add that clip to the system with all of that information.  This means that the system could get access to video that would be impractical to automatically parse (such as footage from small newsrooms who may not have standard formatting like C-SPAN), so long as that newsroom was willing to play along and got enough value to warrant that play.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Reginald James		</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/#comment-168</link>
+
+		<dc:creator><![CDATA[Mark Reginald James]]></dc:creator>
+		<pubDate>Wed, 10 Aug 2011 14:15:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=434#comment-168</guid>
+
+					<description><![CDATA[Dan, other than legislative chambers, what do you think are some examples of newsie raw streams that ATTN-SPAN could process? I can think of TV bulletins news radio from around the world. Skype calls by members of your social network?
+
+The political aspect is something a big search engine or news website should implement, allowing one to search for or get feeds of personalized editions of raw footage or their transcripts, perhaps automatically determined based on location and habits. It&#039;s interesting because much of the time it will be creating an interesting story where no normal news story exists, not even from local news services.
+
+It also got me thinking that a news source that offers its readers a regularly-updated activity summary article on a general topic like politics needs to make these custom assemblies rather than generic, in the manor of a custom feed of stand-alone articles.
+
+]]></description>
+			<content:encoded><![CDATA[<p>Dan, other than legislative chambers, what do you think are some examples of newsie raw streams that ATTN-SPAN could process? I can think of TV bulletins news radio from around the world. Skype calls by members of your social network?</p>
+<p>The political aspect is something a big search engine or news website should implement, allowing one to search for or get feeds of personalized editions of raw footage or their transcripts, perhaps automatically determined based on location and habits. It&#8217;s interesting because much of the time it will be creating an interesting story where no normal news story exists, not even from local news services.</p>
+<p>It also got me thinking that a news source that offers its readers a regularly-updated activity summary article on a general topic like politics needs to make these custom assemblies rather than generic, in the manor of a custom feed of stand-alone articles.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:13 by W3 Total Cache
+-->

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>classes &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/classes/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Mon, 27 Sep 2010 05:17:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>I Got into &#8220;How to Make Almost Anything!&#8221;</title>
+		<link>/2010/09/i-got-into-how-to-make-almost-anything/</link>
+					<comments>/2010/09/i-got-into-how-to-make-almost-anything/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 27 Sep 2010 05:17:58 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[begging]]></category>
+		<category><![CDATA[classes]]></category>
+		<category><![CDATA[making]]></category>
+		<guid isPermaLink="false">/?p=186</guid>
+
+					<description><![CDATA[Woooo!!!  I found out last week that I managed to slip through the cracks and get into the class that produced THIS: By the end of the semester I will know how to use milling machines, laser cutters, water cutters, make chips, program micro controllers, and build devices that utilize sensors and networks. I&#8217;ll finally [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Woooo!!!  I found out last week that I managed to slip through the cracks and get into the class that produced THIS:<br />
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/CUG4a2ltDGY?fs=1&amp;hl=en_US" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="480" height="385" src="http://www.youtube.com/v/CUG4a2ltDGY?fs=1&amp;hl=en_US" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p>By the end of the semester I will know how to use milling machines, laser cutters, water cutters, make chips, program micro controllers, and build devices that utilize sensors and networks.  I&#8217;ll finally be a <em>real</em> nerd!</p>
+<p>The best part about the course is the incredible amount of skill diversity.  Some people are practically experts at half of this stuff, and others (like me) have never touched a machine that cuts since they took shop in high school.  It should be a really interesting time.</p>
+<p>As part of the class, everyone has to set up a website to share their lessons as they go through.  Mine can be found <a href="http://fab.cba.mit.edu/classes/MIT/863.10/people/dan.schultz/" target="_blank">here</a>, while the class page can be found <a href="http://fab.cba.mit.edu/classes/MIT/863.10/" target="_blank">here </a>(click &#8220;People&#8221; to see everyone&#8217;s sites.  There are some really cool things there.  click &#8220;Past Classes&#8221; to see the projects that people did in the past).</p>
+<p>Here&#8217;s the note I wrote for my &#8220;application&#8221; to the course.  (Over 100 people applied for about 36 spots).</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;</p>
+<p>Dear Dictators of Fate,</p>
+<p>I&#8217;m a first year masters student in the Media Lab working under<br />
+Henry Holtzman (in the Information Ecology group).  My experience as a<br />
+fabricator began a long, long time ago, when I would build lopsided<br />
+vehicles out of legos.  Unfortunately it also ends there &#8212; unless you<br />
+count Ikea furniture.  Most of my work as a productive member of<br />
+society has involved the softest of software (I am a web developer)<br />
+and the closest I&#8217;ve gotten to hardware was that systems programming<br />
+course I took as an undergraduate.</p>
+<p>My interest in fabrication today comes from the realization that my<br />
+&#8220;realistic imagination&#8221; is dramatically limited by my inability to<br />
+create new devices and construct new things.  My<br />
+research/interests/passions surround group-centric information, civic<br />
+media, geographic communities, and collaborative meaning making.  I<br />
+want and need to be able to create new tools in the real world in<br />
+order to explore these spaces and provide new outlets (and potential<br />
+inputs) for information in physical space.</p>
+<p>I assume begging gets me nowhere, but I&#8217;ll do it anyway:</p>
+<p>please please please pretty please!  Oh please!</p>
+<p>Sincerely,<br />
+&#8211; Dan</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;</p>
+<p>My other class is &#8220;Pattern Recognition and Analysis.&#8221;  I&#8217;ll write about  that later, but for now I&#8217;ll just say that it&#8217;s intense in a very different way.  We&#8217;re  going to be learning how to write applications which can intelligently  categorize various types of input.  This might mean being able to  recognize facial expressions, or maybe it means being able to identify  spam, or recognizing what news content pertains to your  community.  You get the idea.  The math behind it is 50% things I have  seen and vaguely remember, 30% things I haven&#8217;t seen, and 20% things  I&#8217;ve completely forgotten.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/09/i-got-into-how-to-make-almost-anything/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Can&#8217;t talk now, need to sleep</title>
+		<link>/2010/09/cant-talk-now-need-to-sleep/</link>
+					<comments>/2010/09/cant-talk-now-need-to-sleep/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 08 Sep 2010 04:48:35 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[classes]]></category>
+		<category><![CDATA[MIT Media Lab]]></category>
+		<guid isPermaLink="false">/?p=131</guid>
+
+					<description><![CDATA[Today was the first day of &#8220;work&#8221; at the lab (classes start tomorrow, although I don&#8217;t think I&#8217;ll have any Wednesday courses). It looks like there are 7 members of my group, which is called &#8220;Information Ecology.&#8221; We spent the first half of the day discussing registration and completely rearranging our lab space (I&#8217;ll take [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Today was the first day of &#8220;work&#8221; at the lab (classes start tomorrow, although I don&#8217;t think I&#8217;ll have any Wednesday courses).  It looks like there are 7 members of my group, which is called &#8220;Information Ecology.&#8221;  We spent the first half of the day discussing registration and completely rearranging our lab space (I&#8217;ll take a picture and include it for tomorrow).</p>
+<p>It was great fun, and it brought me back to my Undergraduate days because I got to eat free pizza.  As of now I am signed up for three courses, although I will only end up taking two of them:</p>
+<ul>
+<li><strong>How to Make (Almost) Anything</strong> &#8211; Yes, that&#8217;s the real name; Yes, they teach you how to make almost anything; Yes, everyone wants to take it.  I&#8217;m not sure what my odds are but I feel like it is something I should try to do.  Creating things in the physical world is not something I have experience in and this will take me out of my comfort zone.  We will learn to use fancy expensive tools like the 3D printer and the water cutter and other things I have no clue about.  If I get in, though, I am told there will be many a sleepless night.</li>
+<li><strong>Tangible Media</strong> &#8211; This one is also popular and there is a chance I won&#8217;t be able to get in, but it seems like a pretty interesting course.  The focus appears to be designing and creating interfaces that involve physical interaction.  This means the computer physically changes something about the world, or that the computer responds somehow to other people physically changing the world.</li>
+<li><strong>Pattern Analysis and Recognition</strong> &#8211; This would be a much more theoretical course but is one that I think would be able to help me create things that intelligently analyze and organize data that isn&#8217;t explicitly organized.  I get the impression that it is more focused on signals (i.e. sound or visualizations) but there may be some theory that could apply to more semantic-type-patterns.  We&#8217;ll find out!</li>
+</ul>
+<p>I&#8217;m exhausted.  I wanted to include pictures of the apartment so far (which is still in shambles because we are waiting for the landlord to repaint a bunch of the walls) but that will have to wait until tomorrow.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/09/cant-talk-now-need-to-sleep/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:24 by W3 Total Cache
+-->

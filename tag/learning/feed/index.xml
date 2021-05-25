@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>learning &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/learning/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 27 Jul 2011 03:51:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Joining The 202nd Decade: It&#8217;s HTML5 Week!</title>
+		<link>/2011/07/joining-the-202nd-decade-its-html5-week/</link>
+					<comments>/2011/07/joining-the-202nd-decade-its-html5-week/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2011 03:51:38 +0000</pubDate>
+				<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[learning]]></category>
+		<guid isPermaLink="false">/?p=334</guid>
+
+					<description><![CDATA[I have two new missions for the week: become an HTML5 and CSS3 guru, and go back to make sure my projects on github (there aren’t many at the moment) are well organized.  These goals were both inspired by three recently acquired heroes of mine: Chris Heilmann, John Resig, and Jesse James Garret &#8212; all [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I have two new missions for the week: become an HTML5 and CSS3 guru, and go back to make sure <a href="https://github.com/slifty">my projects on github</a> (there aren’t many at the moment) are well organized.  These goals were both inspired by three recently acquired heroes of mine: <a href="http://ps.ht/n7y6Ol">Chris Heilmann</a>, <a href="http://bit.ly/q2FFlo">John Resig</a>, and <a href="http://ps.ht/qGQ7G7">Jesse James Garret</a> &#8212; all guest speakers last week for the Mozilla Knight Learning Lab.</p>
+<p>The HTML5 goal didn&#8217;t take much prodding because it’s something I should have done last year.  I delayed because jQuery was meeting my needs in terms of prototypes and I was cramming my head full of nodejs, arduino, OSX and terminal magic, git and mercurial, Python, Matlab, how to make almost anything, and all sorts of nerdly things that I should have picked up during my undergrad years but somehow avoided.</p>
+<p>What convinced me this time – aside from the fact that it is clearly the future of the web – is that my project for the Learning Lab, a C-SPAN analysis and summary tool called ATTN-SPAN, is pretty much exactly the kind of project that HTML5 is supposed to improve.</p>
+<p>The fit is probably best explained by going over the<strong> three major hurdles I face for this project:</strong></p>
+<ol>
+<li>How do I collect and store the video content?</li>
+<li>How do I processes and personalize the video content?</li>
+<li>How do I present the video content?</li>
+</ol>
+<p>Item 1 is partially solved thanks to some of the great researchers here at the Media Lab – and thanks to the <a href="http://www.metavid.org/">metavid project</a>.</p>
+<p>Item 2 is going to be tricky, but that’s a can of worms that has very little to do with HTML5.  I’m hoping that I can turn the videos into an “event based” organization, where events are automatically identified things such as “senator A smiles” “senator B says X” “senator C shows a picture of grazing cattle.”  I also want to leave room for user defined events such as “senator D says something I disagree with.”</p>
+<p>Item 3 is where this week’s lectures become particularly important, for implementation, HTML5 is where video presentation and interaction suddenly becomes much more flexible.   The events described earlier in this post are going to drive an “personalized episode generation” algorithm which, for a given individual from a given state, will create a series of C-SPAN timestamps associated with video clips and all sorts of metadata.</p>
+<p>As for design&#8230; Well, lets just say that clearly I’m going to have to spend some time re-watching that lecture by Jesse James Garret.  I&#8217;m going to take a few hours this week when I&#8217;m not reading up on HTML5 or creating buttons that allow you to discover the truth about anything online (link to this one coming soon) to do some wireframes for the ATTN-SPAN UX.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/07/joining-the-202nd-decade-its-html5-week/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:27 by W3 Total Cache
+-->

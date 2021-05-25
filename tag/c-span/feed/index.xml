@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>C-SPAN &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/c-span/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 04:33:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Introducing Opened Captions</title>
+		<link>/2012/10/introducing-opened-captions/</link>
+					<comments>/2012/10/introducing-opened-captions/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 25 Oct 2012 20:16:05 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Opened Captions]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[C-SPAN]]></category>
+		<category><![CDATA[DRUNK-SAPN]]></category>
+		<category><![CDATA[Introduction]]></category>
+		<guid isPermaLink="false">/?p=1442</guid>
+
+					<description><![CDATA[I made something awesome last week: Opened Captions. At face value it just looks like a live feed of C-SPAN&#8217;s Closed Captions. This alone is actually pretty cool if you think about it, especially if you are a deaf political junkie who sits far away from the TV and can&#8217;t read the closed captions. Of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I made something awesome last week: <a href="http://openedcaptions.com/">Opened Captions</a>.</p>
+<p><a href="/wp-content/uploads/2012/10/OC.png"><img loading="lazy" src="/wp-content/uploads/2012/10/OC.png" alt="" title="OC" width="299" height="169" class="alignright size-full wp-image-1469" /></a></p>
+<p>At face value it just looks like a live feed of C-SPAN&#8217;s Closed Captions.  This alone is actually pretty cool if you think about it, especially if you are a deaf political junkie who sits far away from the TV and can&#8217;t read the closed captions.</p>
+<p>Of course there is more.  The real excitement comes when you contemplate what&#8217;s happening to get those words to appear on your screen.</p>
+<p>This system unlocks and syndicates a real-time dataset that used to be a pain in the ass to access.  Now anyone can build applications and visualizations that update before those crafty politicians have even finished making their points.  This post explains why Opened Captions is worth hacking with, what it takes to use it, and how it works.</p>
+<h2>What is it Good For?</h2>
+<p>The Internet is filled with real-time updates triggered by online activity, but it still feels like magic when we see automatic updates driven by the real world.  Opened Captions makes it easy for programmers to use live TV transcripts as an input.</p>
+<p><em>Note: version .001 only supports a single channel (and my server is pointed to C-SPAN).  Eventually the protocol should expand to allow multiple channels.</em></p>
+<p>Let&#8217;s consider C-SPAN.  If a computer knows what is being said on C-SPAN this very second, it can do things like:</p>
+<ul>
+<li>Change the background of your email client to reflect the issues being debated right this moment on the senate floor.</li>
+<li>Generate modified, more amusing, transcripts by replacing key words and phrases with Tolkien lore (i.e. C-SPAN for Middle Earth)</li>
+<li>Search through lyrics and generate a C-SPAN medley for you to rock out to while voting.</li>
+<li>Send SMS messages 24/7 <a href="http://openedcaptions.com/drunk-sapn">commanding you to &#8220;drink&#8221;</a> when certain phrases are spoken on air.</li>
+</ul>
+<p>There are also possibilities that aren&#8217;t ridiculous.   For instance, you could make tools that…</p>
+<ul>
+<li>Improve the transcript by <a href="http://openedcaptions.com/cardtext">automatically adding contextual information</a>, such as definitions and histories thefted from Wikipedia.</li>
+<li>Send emails with transcript snippets whenever a specific representative or state is being discussed on TV so you know what&#8217;s going on.</li>
+<li>Parse out paraphrases of known fact checks and insert a credibility layer over the transcript feed (real time fact-checking).</li>
+<li>Draw parallels between what is being said on TV and what is being said on Twitter.</li>
+</ul>
+<p>I could go on and on and on.  There is just so much potential!</p>
+<h2>The Backend</h2>
+<p>Behind the stream is a first stab at a distributed architecture for Closed Captioning live-feeds.  Opened Captions servers can pull a CC stream over a serial port, or (more likely) they will connect to an existing Opened Captions server and pull the stream from there.  What that means in de-jargon is that anybody can set up a server that does exactly what mine is doing, even if they don&#8217;t have access to hardware, software, or a live TV stream.</p>
+<p>When I say exactly, I mean it &mdash; your new project runs the same code as mine, and will serve the feed too.  People can connect their servers to yours in the same way you connected yours to mine.  Practically speaking this architecture means a few things:</p>
+<ol>
+<li>Once your amazing mashup gets popular it won&#8217;t break my server.  Your application is syndicating the captions to your users.  I serve the captions to you, <em>you</em> serve them to the world!</li>
+<li>Your server creates a fork of my stream.  Want to modify the text so the politicians sound drunk?  Add extra layers of information to the message payload?  Translate the captions to Klingon?  Go for it.  If your tweaks happen server side then others can build their apps from your stream to modify it further.</li>
+<li>You don&#8217;t have to rely on anyone else for the Closed Captions.  If you want to spend some extra time setting up your own scraper you can point your server to that source instead of a third party.  You have total control.</li>
+</ol>
+<h2>Check &#8216;Em</h2>
+<p>Wondering if this is worth your time?  Well, it doesn&#8217;t require much of it.  The service takes about two minutes to set it up if you already have <a href="http://www.node.js/">Node.js</a> and <a href="http://git-scm.com/downloads">Git</a> installed on your computer.  Here&#8217;s a video to prove it:</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/52178097?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p>Installation instructions can be found <a href="https://github.com/slifty/opened-captions/blob/master/README.md">in the readme</a> and you can always get in contact with me <a href="http://www.slifty.com/contact">through the blog</a> or <a href="http://www.twitter.com/slifty">on twitter</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/10/introducing-opened-captions/feed/</wfw:commentRss>
+			<slash:comments>20</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Learning Lab Final Project: ATTN-SPAN</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/</link>
+					<comments>/2011/08/learning-lab-final-project-attn-span/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Tue, 09 Aug 2011 11:36:50 +0000</pubDate>
+				<category><![CDATA[ATTN-SPAN]]></category>
+		<category><![CDATA[Learning Lab]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[bookmarklet]]></category>
+		<category><![CDATA[C-SPAN]]></category>
+		<category><![CDATA[government]]></category>
+		<guid isPermaLink="false">/?p=434</guid>
+
+					<description><![CDATA[Part 1: Introduction ATTN-SPAN Intro. Part 2: Prototype and Development Plan The Good News: I created a proof of concept prototype of the ATTN-SPAN platform powered by the Metavid project. The Bad News: Metavid is having a lot of stability issues right now, so you probably won’t be able to use my prototype. I made [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Part 1: Introduction</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/27480773?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0"></iframe></p>
+<p><a href="http://vimeo.com/27480773">ATTN-SPAN Intro</a>.</p>
+<h2>Part 2: Prototype and Development Plan</h2>
+<p><strong>The Good News:</strong> I created a proof of concept <a href="http://bit.ly/qt8q4e" target="_blank">prototype of the ATTN-SPAN platform</a> powered by the <a href="http://metavid.org/" target="_blank">Metavid</a> project.</p>
+<p><strong>The Bad News:</strong> Metavid is having a lot of stability issues right now, so you probably won’t be able to use my prototype.  <a href="http://vimeo.com/27473310" target="_blank">I made a screen cast just in case.</a></p>
+<p>Relying on a 3rd party for the most important aspect of an application is a major risk; one that I must mitigate. This brings me to my first batch of design work: the content scraper.</p>
+<h3>Scraping, Slicing, and Scrubbing C-SPAN</h3>
+<p>How do you get from a TV channel to a rich video archive and how do you get there automatically?  The goal is to convert C-SPAN into a series of overlapping video segments that are identified in terms of state, politician, topic, party, action, and legislative item.  Some of this is straightforward and some of it might be impossible, but here’s an overview of the planned nuts and bolts:</p>
+<ol>
+<li>DirecTV offers TV content in a format that is easy to record digitally and <a href="http://www.videolan.org/" target="_blank">VLC</a> is a free tool that can do that recording.  Combine the two and we can download C-SPAN streams into individual files that are primed and ready for analysis.</li>
+<li>Once a video file is in our clutches we can use VLC once again to separate out the video from the Closed Captioning transcript.</li>
+<li>Now we have a transcript and a raw video file.  Next we register all of this information (in a database) so that we can look it all up later, and then convert the video file in to streaming-friendly formats and store it alongside the original recording.</li>
+<li>C-SPAN consistently shows a graphic on the bottom of the screen that says who is talking, their state, their party, and what is being debated.  By using a technique called <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank">Optical Character Recognition (OCR)</a> we can pull this text out of the video image.  Once pulled, we can add that to our database so that we can access all of this information for any moment in the video.</li>
+<li>At this point we have most of the information we need, but there is still room for fine tuning.  We can use audio levels and the closed captioning transcripts to try to identify moments of inactivity, normal dialogue, and heated dialogue.</li>
+</ol>
+<p>These steps are enough to split up and categorize C-SPAN footage into an organized video database, but there are still more ways to flag special moments in the footage.  For example, we may want to identify changes in speaker emotion in order to give our algorithms the ability to craft more engaging episodes. This is possible through the work of <a href="http://affect.media.mit.edu/" target="_blank">Affective Computing</a> group at the MIT Media Lab, a group which has developed several tools that perform emotional analysis using facial recognition.</p>
+<p>We may also want to identify specific legislative action (e.g. “calling a vote”).  This could be accomplished by looking for key words in the transcript (e.g. &#8220;call a vote&#8221;) and possibly through common patterns in the audio signal (maybe there are identifiable sounds, such as a gavel hitting the table).  Both of these concepts require additional research.</p>
+<h3>Creating a Profile and Constructing an Episode</h3>
+<p>If video events are the building blocks then viewer interests are the glue.  The creation of a personalized episode requires two things: A user account, and a context.  The user account provides general information like where you live, what issues you have identified as important, and (if you are willing to connect with Twitter or Facebook) what issues your circles have been discussing lately.</p>
+<p>The context comes from time and cyberspace.  Every night, after congress closes their gates, your profile is used to create a short, rich video experience designed to contain as much relevant content from that day as possible.  At this point you might get an email begging you to watch, or maybe you log in on your own because you are addicted to badges and points and you want as much ATTN-SPAN karma as you can get.</p>
+<p>There is another way to access this content though, and that is through the web sites you visit anyway.  Imagine if you could read an article about the National Debt on the New York Times (or in a chain email) and actually see quotes from your own senators in the report.  What if you could supplement the national report with a video widget that lets you browse what your house members had to say when they controlled the floor during the debt debates.</p>
+<p>From a technical perspective this isn&#8217;t that far fetched.  <a href="/2011/08/introducing-truth-goggles/" target="_blank">Truth Goggles</a>, one of my other projects, is a <a href="http://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a> that will analyze the web page you are viewing, fact check it, and rewrite the content to highlight truths and lies.  This impossible feat is fairly similar to what I&#8217;m proposing here.</p>
+<h3>Adding Rich Information</h3>
+<p>Once an episode is pieced together we can look up the information surrounding the video to know who is talking and what they are talking about.  What else can be added and how do we get it? Existing APIs offer some good options:</p>
+<ul>
+<li><strong>Contact Information</strong> &#8211; Thanks to the <a href="http://services.sunlightlabs.com/docs/Sunlight_Congress_API/" target="_blank">Sunlight Labs Congress API</a> it is possible to get the contact information for any member of congress on the fly.  Thanks to VOIP services it is possible to create web-based hooks to call those people with the click of a button.</li>
+<li><strong>Campaign Contributions</strong> &#8211; The New York Times offers a <a href="http://developer.nytimes.com/docs/campaign_finance_api/" target="_blank">Campaign Finance API</a> which can help you understand where the person on screen gets his or her money.</li>
+<li><strong>Voting Records</strong> &#8211; The New York Times also offers a <a href="http://developer.nytimes.com/docs/read/congress_api" target="_blank">Congress API</a> that will make it possible to know vote outcomes from related bills as well as information about the active speaker&#8217;s voting records.</li>
+<li><strong>Truth and Lie Identification</strong> &#8211; My <a href="/2011/08/introducing-truth-goggles/" target="_blank">Truth Goggles</a> project can be easily adapted to work with snippets from video transcripts.  This will allow ATTN-SPAN to take advantage of fact checking services like PolitiFact and NewsTrust.</li>
+</ul>
+<p>This is a good start, but I would also like to show links to related news coverage and create socially driven events based on community sentiment (for instance to track moments that caused people to get upset or happy).  This won&#8217;t come for free, but it should be accessible given the right interface design.</p>
+<h2>Part 3: A Note to the Newsies</h2>
+<p>So that&#8217;s the idea and the plan.  What&#8217;s the value?</p>
+<p>It seems plausible that ATTN-SPAN, a system that analyzes primary source footage and pulls out any content that is related to a particular beat could be useful as a reporters tool, but what about your subscribers?  ATTN-SPAN can augment an individual article so that it hits everybody close to home.  Suddenly one article becomes as effective as two dozen.  Moving past text, for larger organizations with a significant amount video footage ATTN-SPAN can be tweaked to use your programming instead of (or in addition to) C-SPAN.</p>
+<p>At this point I have to warn you that this is not the first nor will it be the last project to work with C-SPAN.  A 2003 demo out of the Media Lab used C-SPAN as one of several sources of information in a platform aimed to provide citizens with <a href="http://web.mit.edu/newsoffice/2003/gia.html" target="_blank">Total Government Awareness</a>.  <a href="http://metavid.org/" target="_blank">Metavid</a>, the platform I used in my initial prototype, already makes C-SPAN more accessible by enabling searches and filters.  The list surely goes on.</p>
+<p>So why is this a more powerful project?  Well, the real goal of ATTN-SPAN isn&#8217;t to get more people watching C-SPAN.  In fact I tricked you: this project isn&#8217;t about government awareness at all.  It&#8217;s actually part of an effort to make indisputable fact (&#8220;blunt reality&#8221; and &#8220;primary source footage&#8221;) a more prominent part of the media experience without requiring additional effort from the audience.  Newsrooms do an amazing job of reporting events and providing insight, but for deeper stories there simply isn&#8217;t enough time or money to cover everybody&#8217;s niche without going beyond the average person&#8217;s attention span.</p>
+<p>Thus ends my pitch.</p>
+<p><em>The code for both prototypes mentioned in this post can be found on github: <a href="https://github.com/slifty/ATTN-SPAN">ATTN-SPAN</a> and <a href="https://github.com/slifty/Critical">Truth Goggles</a>.  Please forgive any dirty hacks.  I would be thrilled if anybody wants to offer suggestions or even collaborate.  On that note, please get in touch on Twitter <a href="http://twitter.com/slifty" target="_blank">@slifty</a>.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/08/learning-lab-final-project-attn-span/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:08 by W3 Total Cache
+-->

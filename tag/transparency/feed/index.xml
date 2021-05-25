@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>transparency &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/transparency/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Mon, 24 Jun 2013 01:38:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Introducing CivOmega: An Effort to Democratize Government Data</title>
+		<link>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/</link>
+					<comments>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 24 Jun 2013 01:38:07 +0000</pubDate>
+				<category><![CDATA[Ideas and Projects]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[data]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[transparency]]></category>
+		<guid isPermaLink="false">/?p=1864</guid>
+
+					<description><![CDATA[Over the past 24 hours I worked with an amazing team to start building a Siri for government. Well, Wolfram Alpha is more like it, but you probably have a better sense of what Siri is. The site is called CivOmega and it allows you to ask any question™ you want about civics. The system [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div id="attachment_1877" style="width: 330px" class="wp-caption aligncenter"><a href="http://www.civomega.com/" target="_blank"><img aria-describedby="caption-attachment-1877" loading="lazy" src="/wp-content/uploads/2013/06/logo.png" alt="Civomega" width="320" height="98" class="aligncenter size-full wp-image-1877" srcset="/wp-content/uploads/2013/06/logo.png 320w, /wp-content/uploads/2013/06/logo-300x92.png 300w" sizes="(max-width: 320px) 100vw, 320px" /></a><p id="caption-attachment-1877" class="wp-caption-text">You may want to skip this boring post and just <a href="http://www.civomega.com/">check out the site</a>.</p></div>
+<p>Over the past 24 hours I worked with an amazing team to start building a Siri for government.  Well, <a href="http://wolframalpha.com/">Wolfram Alpha</a> is more like it, but you probably have a better sense of what Siri is.  The site is called <a href="http://www.civomega.com/">CivOmega</a> and it allows you to ask any question<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> you want about civics.  The system will do its best to get you an answer.</p>
+<p>I can&#8217;t speak for the team, but I&#8217;ll let you know why I proposed this idea at a hackathon about open data.  I&#8217;ll even use big letters:</p>
+<h2>Open Data Sucks</h2>
+<p>People have talked about making government data more accessible for approximately 500 yea<a href="https://en.wikipedia.org/wiki/Internet_service_provider"></a>rs.  The hope is that if you can find data about the way your government operates, you can shed light on interesting patterns and stories.  It&#8217;s all about transparency and accountability.  It&#8217;s a beautiful concept.  It&#8217;s wonderful for society.</p>
+<p>But actually data is pretty crappy.  It&#8217;s dirty and boring: just a bunch of numbers and rows and tables.  This kind of stuff doesn&#8217;t usually tell you much without a lot of very laborious prodding and exploration.  Don&#8217;t believe me?  Fine.  <a href="http://data.dc.gov/">Go find out for yourself</a>.  If you managed to get anything interesting out of that link then you have too much time on your hands.</p>
+<p>The ONLY thing that civic data has going for it is that programmers tend to build cool hacks using it.  I guess every once in a while you get a groundbreaking piece of journalism out of it too but I&#8217;ll ignore that for the sake of argument.</p>
+<h2>It&#8217;s Also Elitist</h2>
+<p>Here&#8217;s another problem: programmers have awesome, special tools to access data.  These tools are called &#8220;Application Programming Interfaces&#8221; (also known as an APIs).  An API is just a standard way for computers to ask each other for information.</p>
+<p>A human version of this plays out every time you go to a restaurant and order from a menu. You look at the list of what you can ask for, you ask for what you want, and eventually you either get your food or you get impatient and start throwing your silverware at other patrons.</p>
+<p>In my analogy the food is data and you and the chef are computers.  The waiter is the API and the menu is the documentation.  I guess the restaurant is the Internet and the restaurant&#8217;s manager is <a href="http://en.wikipedia.org/wiki/National_Security_Agency">the NSA</a> or something.  The silverware don&#8217;t really fit in.</p>
+<p>The point is that the COOL stuff happens because of these APIs.  Too bad nobody real knows what the hell an API is or how they could possibly go about using it.  Don&#8217;t believe me?  <a href="http://sunlightfoundation.com/api/">Go find out for yourself</a>. If the stuff on that page gave you access to data then you&#8217;re a nerd.</p>
+<p>If nerds and people who have too much time on their hands are the only ones who can use government data then it won&#8217;t change the world.  Plus, why should those people get to decide what is and isn&#8217;t important?</p>
+<h2>Humanizing Government Data</h2>
+<p>And so we come back to CivOmega.  This is an attempt to give people with normal, human questions the ability to benefit from the data that so many have worked their asses off to expose.  It makes it possible for a human to interact with an API in the same way they might interact with their waiter: by asking questions.  Users can type in questions about the government and it attempts to provide answers.</p>
+<p>It is built on a programming language called Python and the way it works is pretty simple.  A programmer who understands an API can write some code that knows how to answer certain question patterns.  For instance I made it possible to ask the question &#8220;What bills are about [X]&#8221; where X can be any phrase you want.  If you ask that, CivOmega will talk to the appropriate APIs to get you the answer you want.  Then it will tell you what it learned.</p>
+<p>The beauty of this setup is that any other programmer can spend a few minutes teaching the system to answer new kinds of questions.  For instance maybe someone knows about an environmental dataset and wants you to be able to ask questions about natural disasters (how many forest fires happened in California last year?).  That person could easily unlock that resource.</p>
+<p>If you&#8217;re a developer, go take a look at the repository and consider <a href="https://github.com/pudo/dataomega">adding a module</a>.  If you are a master of NLP please get in touch with me so we can improve the way people ask questions.  If you don&#8217;t know what either of those sentences meant, please just go <a href="http://www.civomega.com/">check out the site</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:12:59 by W3 Total Cache
+-->

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>user study &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/user-study/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 07 Jun 2012 14:21:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Truth Goggles Study Results</title>
+		<link>/2012/06/truth-goggles-study-results/</link>
+					<comments>/2012/06/truth-goggles-study-results/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 07 Jun 2012 14:21:35 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[academia]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[misinformation]]></category>
+		<category><![CDATA[user study]]></category>
+		<guid isPermaLink="false">/?p=821</guid>
+
+					<description><![CDATA[Last month, I ran a user study to test the effectiveness of Truth Goggles (a credibility layer/B.S. detector for the Internet). The tool attempts to remind users when it&#8217;s important to think more carefully. If you&#8217;re curious, you can check out the demo page. Now that the study has officially concluded, the numbers have been [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last month, I ran a user study to test the effectiveness of <a href="http://truthgoggl.es/">Truth Goggles</a> (a credibility layer/B.S. detector for the Internet). The tool attempts to remind users when it&#8217;s important to think more carefully. If you&#8217;re curious, you can check out <a href="http://truthgoggl.es/demo.html">the demo page</a>.<a href="http://truthgoggl.es/"><img loading="lazy" src="/wp-content/uploads/2012/06/logo.jpg" alt="Truth Goggles" title="Truth Goggles" width="270" height="140" class="alignright size-full wp-image-822" /></a></p>
+<p>Now that the study has officially concluded, the numbers have been crunched, and the thesis has been submitted, I want to share what I learned from the resulting data and feedback.</p>
+<p>I&#8217;ll warn you upfront: All conclusions drawn here should be taken with a grain of salt.  The participants were <em>not</em> a random sample of the Internet, and as such, the results don&#8217;t reflect the general population. I think they are quite exciting nevertheless!</p>
+<h2>The  Questions</h2>
+<p>There are many ways that a tool like Truth Goggles could be considered successful. A bare minimum is that users should prefer it to the non-augmented consumption experience (you know, the kind you have normally). Another measure of success might reflect the number of claims that users explored when the tool was enabled, or maybe the quality of that exploration.
+</p>
+<p>
+These questions are interesting, but they all require different study designs. Here is what I considered when putting the study together.</p>
+<ol>
+<li><strong>Did people use Truth Goggles?</strong> It is difficult to accurately measure the use of a tool when working with a &#8220;captive&#8221; audience (i.e., study participants). Truth Goggles does not yet contain enough facts to be regularly useful in the real world, so the study had to simulate a reading experience and present articles with known fact-checked claims, so this question wasn&#8217;t explored too deeply.</li>
+<li><strong>Did people enjoy using Truth Goggles?</strong> This study was run online, so the only way to get direct feedback was by asking users directly.  I also gave participants a chance to choose to enable or disable Truth Goggles for the final few articles after the tool has been completely exposed to them. Presumably, if they hated the interface they would have disabled it.</li>
+<li><strong>Were users exposed to more fact checks?</strong> In order to compare a change we must have a baseline and the ability to measure exposure. This study wasn&#8217;t quite comprehensive enough to address this directly, although I did keep track of how often users chose to view &#8220;More&#8221; information about a fact check (which took them directly to <a href="http://www.politifact.com/">PolitiFact&#8217;s</a> site).</li>
+<li><strong>Did users engage with the fact checks?</strong> To understand levels of engagement, the tool would need to keep track of what content was actually read and comprehended, as opposed to what content was simply rendered on a screen. Once again, tracking the use of the &#8220;More&#8221; button was a good indication of engagement.</li>
+<li><strong>How well did Truth Goggles enable critical thinking?</strong> Although critical thinking doesn&#8217;t require a change of opinion, it seems reasonable to believe that a change of opinion does indicate thought. By measuring the drift in beliefs about fact-checked claims after using Truth Goggles, it was possible to  better understand the interface&#8217;s ability to facilitate updated beliefs.</li>
+<li><strong>Did Truth Goggles affect levels of trust in consumption experiences?</strong> This question is deeply relevant, but given the format of this study I did not attempt to measure trust in a robust way. I did give users an opportunity to comment on how they felt Truth Goggles affected their trust.</li>
+</ol>
+<p>The final study design reflected aspects of each of these questions; however, &#8220;Did people enjoy using Truth Goggles,&#8221; &#8220;Did users engage with fact checks,&#8221; and &#8220;How well did Truth Goggles enable critical thinking&#8221; ended up getting the most focus.</p>
+<h2>The Preparation</h2>
+<p>Before the study began I selected, tagged, and pre-processed 10 political articles to create a pool of content that I knew would have fact-checked claims in them. For the most part, this involved going through PolitiFact, Googling the phrases, and hoping that some good articles would show up. Most of what I used was published in 2012 and came from a variety of sources with varying degrees of credibility.</p>
+<p>I also added some tracking features to Truth Goggles in order to better understand what was clicked and explored. This meant I would know when users viewed a fact check or when they would interact with other parts of the interface. Finally, I had to create the actual study website, which added some randomization and guided participants through the process.</p>
+<h2>The Participants</h2>
+<p>The study was conducted online over the course of five days. Participants were recruited through email and Twitter. When I did the initial number crunching there were a total of 219 participants, 88 of whom completed the entire process. These numbers increased to 478 and 227, respectively, before the study officially concluded. This analysis reflects my thesis work, and only considers results from the original 88 participants who completed the entire study.</p>
+<p>Unfortunately, the participant pool contained a disproportionate number of friends, individuals familiar with the concept of Truth Goggles, and professionals already aware of the challenges surrounding media literacy. The vast majority (about 90%) of those who actually completed the process were strong and moderate liberals. All of these biases were anticipated, but nevertheless they significantly limit the potential impact of the study.</p>
+<h2>The Process</h2>
+<p><a href="/wp-content/uploads/2012/06/science.png"><img loading="lazy" src="/wp-content/uploads/2012/06/science.png" alt="Stand back, I&#039;m going to try science!" title="science" width="300" height="300" class="alignright size-full wp-image-879" srcset="/wp-content/uploads/2012/06/science.png 300w, /wp-content/uploads/2012/06/science-150x150.png 150w, /wp-content/uploads/2012/06/science-100x100.png 100w" sizes="(max-width: 300px) 100vw, 300px" /></a>From start to finish, the study took each participant around 20 or 30 minutes. After being shown the initial instructions, people were asked to rate 12 claims on a truth scale from 1 to 5. They only had 10 seconds per claim to answer, so this was really trying to get at a person&#8217;s gut reaction based on the information sitting in his or her head.</p>
+<p>After the survey was completed, the treatments began. Everyone was shown a series of 10 articles which contained the previously rated claims. The first two articles were always shown with Truth Goggles disabled. The next six were presented with different Truth Goggles interfaces to help call out fact-checked phrases. For the final two articles, participants were able to choose one of the four interfaces (including &#8220;None&#8221;).</p>
+<p>Once the article reading ended, participants were asked to re-rate the claims from the beginning of the study. At this point, they had been exposed to explanations and context for most of them, so this time they were supposedly providing &#8220;informed&#8221; answers as opposed to gut feelings. After the second round of ratings, the study wrapped up with a short exit survey, where participants had a chance to yell at me in the comments and tell me what they thought about the experience.</p>
+<h2>The Irony</h2>
+<p>Before going any further, I want to be clear that Truth Goggles does not assume that fact-checking services are correct. To the contrary, the hope is that users will question fact checks just as much as they would question any source, and consider all evidence with scrutiny. This philosophy is problematic for evaluation, because it is difficult to measure belief accuracy without considering something to be &#8220;true.&#8221;</p>
+<p>Lacking a better metric, the source verdicts (i.e., PolitiFact&#8217;s ratings) were used as grounding for accuracy for this analysis. This means that from an evaluation perspective, I considered interfaces to be more effective if users ended up with beliefs in line with PolitiFact&#8217;s verdicts. Since belief dissemination is not the goal of Truth Goggles, the system must eventually use more sources (e.g., <a href="http://www.factcheck.org/">Factcheck.org</a> and <a href="http://www.snopes.com/">Snopes</a>) to keep users on their toes.</p>
+<h2>The Results</h2>
+<p>In my thesis, I slice and dice the study data in more ways than I care to think about. But this isn&#8217;t my thesis, so I&#8217;m going to spare everyone a lot of pain and stick to the high-level observations.</p>
+<ul>
+<li><strong>Truth Goggles increased accuracy and decreased polarization.</strong> Participants changed their beliefs about the fact-checked claims after reading the articles, regardless of whether or not a credibility layer was rendered. But without Truth Goggles those updates resulted in more polarization and less accuracy. In particular, when Truth Goggles was disabled people tended to become overly trusting of claims that appeared in articles. With Truth Goggles active, however, beliefs became nuanced and more accurate.</li>
+<li><strong>When using credibility layers, people became less incorrectly skeptical but they remained just as incorrectly trusting.</strong> Truth Goggles was able to help skeptics become more trusting when trust was appropriate, but was not as effective at convincing false believers that they should become more doubtful. This means that participants who were not already overly trusting of a claim would tend to update their beliefs in a way that resulted in more accuracy when using a credibility layer. If you incorrectly believed a claim, however, you weren&#8217;t likely to correct yourself.</li>
+<li><strong>Normal reading caused people to become more incorrectly trusting but they remained just as incorrectly skeptical.</strong> Without a credibility layer, participants who were not already overly distrusting of a claim would tend to overly trust that claim after reading its related article. This means that if someone was highly skeptical of a claim before reading the article, they wouldn&#8217;t change their minds. But if they were more neutral or already trusting, then seeing the claim in an article would cause them to believe it more strongly.</li>
+<li><strong>Almost everyone enabled Truth Goggles when given a choice.</strong> Only two out of the 88 participants who completed the study chose to view their final articles without using some variation of Truth Goggles. The vast majority of participants (70%) selected &#8220;highlight mode,&#8221; the least obtrusive of the three possible interfaces. These numbers unfortunately don&#8217;t mean much because it is entirely possible that participants simply wanted to play with the tool. They could be far worse, though.</li>
+<li><strong>There were virtually no significant differences between the three interface types.</strong> It was no surprise that &#8220;Highlight Mode&#8221; was the most popular, since it did nothing but highlight text and didn&#8217;t bully people into clicking things. Less anticipated was the fact that &#8220;Safe Mode&#8221; and &#8220;Goggles Mode,&#8221; which force exploration, did not outperform Highlight Mode. I suspect that this was a study artifact &#8212; forced interaction was unnecessary during the study because the novelty of Truth Goggles meant people might be curious enough to click regardless of the interface &#8212; but it was interesting nonetheless.</li>
+</ul>
+<p>The short version of these results is that Truth Goggles helped combat misinformation, but there is still plenty of room for improvement. There also clearly needs to be a more comprehensive, longer-term user study.</p>
+<p>For me, the big surprise was that that people were so prone to trusting content just because it appeared in an article or opinion piece. I was absolutely thrilled to see that effect get completely squelched through credibility layers. The results from the exit survey are also incredibly exciting, but that is a post for another day.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/06/truth-goggles-study-results/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:22 by W3 Total Cache
+-->

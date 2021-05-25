@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>travel &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/travel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Fri, 03 Aug 2012 16:00:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Spread your Wings as a Knight-Mozilla Fellow</title>
+		<link>/2012/08/spread-your-wings-as-a-knight-mozilla-fellow/</link>
+					<comments>/2012/08/spread-your-wings-as-a-knight-mozilla-fellow/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Fri, 03 Aug 2012 16:00:13 +0000</pubDate>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Knight-Mozilla Fellowship]]></category>
+		<category><![CDATA[The Boston Globe]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/?p=1183</guid>
+
+					<description><![CDATA[Uh oh… I need to write a post about the Knight-Mozilla Fellowship and Chris Marstall already masterfully captured all my points last week! Thank goodness there are still a million reasons why OpenNews is awesome. By now you may have read four different accounts of my program, but if you make it through this one [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Uh oh… I need to write a post about the Knight-Mozilla Fellowship and Chris Marstall <a href="http://beta.boston.com/post/28001137576/i-dont-have-the-coolest-job-at-the-boston-globe">already masterfully captured all my points</a> last week!  Thank goodness there are still a million reasons why OpenNews is awesome.</p>
+<p>By now you may <a href="http://namebound.com/archive/2012/7-months-of-opennews/index.html">have</a> read <a href="http://datamineruk.com/2012/07/31/to-my-fellow-fellows/">four</a> different <a href="http://maboa.me/post/28357748585">accounts</a> of <a href="http://blog.colegillespie.com/2012/07/30/zeitgeist-the-mozilla-opennews-fellow-version/">my</a> program, but if you make it through this one you will be rewarded with Internet gold.  My backstory is fast.  I started this process later than the others because <a href="/2012/05/achievement-unlocked-thesis/">I had to graduate first</a>.  I&#8217;m only two months in, which means I&#8217;m about 20% complete.</p>
+<p>In that short amount of time I have already:</p>
+<ul>
+<li>Blown my tech stipend on <a href="http://www.apple.com/macbook-pro/features/">the new hotness</a> and become the envy of everyone around me.</li>
+<li>Moved to an entirely different state and bought a kitten.</li>
+<li>Toured Europe for three weeks with my wife (and it wasn&#8217;t considered vacation).</li>
+<li>Been monitored by the CIA at the Tor Hackathon in Florence.</li>
+<li><a href="https://vimeo.com/46229556">Broken the law in Berlin</a> by infiltrating an old abandoned spy building under the leadership of Cole Gillespie.</li>
+<li>Watched <a href="http://www.imdb.com/title/tt0780536/">In Bruges</a> in Bruges.</li>
+<li>Raided The Guardian, The BBC, and Mozilla&#8217;s London HQ.</li>
+<li>Drank a <a href="http://www.brewdog.com/product/tactical-nuclear-penguin">Tactical Nuclear Penguin</a>.</li>
+<li>Worked with the other fellows to dream up complete iterations on two home-brewed projects (<a href="https://github.com/slifty/torwolf">Torwolf</a> and <a href="https://github.com/slifty/newsquest">Newsquest</a>).</li>
+<li>Dreamed with my peers and started moving on dozens of ideas including Raspberry Pi crisis cams, time-lapse Internet radio, and magical data extraction APIs.</li>
+<li>Contributed to the infrastructure that supports The Boston Globe.</li>
+<li>Challenged and questioned policies and processes at The Globe.</li>
+<li>Learned first hand about the politics and hurdles within news organizations (I call this &#8220;the real world.&#8221;)</li>
+<li>Regularly met with VIPs at The Globe, The Guardian, The MIT Media Lab, and The New York Times, to absorb their insights about the state of journalism.</li>
+<li>Maintained strong ties with the people of my past by arranging a formal ongoing relationship with the Media Lab.</li>
+<li>Not been sued or fired <a href="/2012/07/the-value-of-a-super-villain/">yet</a>.</li>
+</ul>
+<p>You&#8217;ll notice that this list contains a mixture of productivity, fun, and life.  This is because fellowships are not just paychecks, they are about personal growth as much as personal output.  This one is no different, as shown by the fact that I&#8217;ve spent almost half of my time traveling around the world.</p>
+<p>If you are saying to yourself &#8220;holy crap that&#8217;s sweet&#8221; you are absolutely correct.  In fact, one point of this post is to help you understand why The Knight-Mozilla Fellowship is one of the most rewarding jobs on earth right now and that <a href="http://mozillaopennews.org/fellowships/apply.html">you should apply this week</a>.</p>
+<p>There are some things you should expect if you make it in.</p>
+<h2>1) You will understand why the news industry is struggling to survive, and why there is hope</h2>
+<p>I decided not to use this post to talk about my observations and insights about journalism.  I already <a href="/2012/06/framing-the-knight-mozilla-fellowship/">write</a> about <a href="/2012/06/ten-months-at-the-globe/">that</a> subject <a href="http://feeds.feedburner.com/slifty">on this blog</a>.  This item still gets top billing because it defines our mission.  We are trying to publicly understand, question, observe, and create in the context of news.  There are so many chances to do all four of those things.  Not a day has gone by where I haven&#8217;t been exposed to something new &mdash; a new idea, a new problem, or a new opportunity.</p>
+<h2>2) You will become unemployable (in a good way)</h2>
+<p>This now makes two positions in a row where I&#8217;ve heard my colleagues say that our work has made us unemployable.  This isn&#8217;t because employers won&#8217;t want to hire us, it&#8217;s that we are being spoiled.  We&#8217;re getting so used to creative freedom, security, and special treatment that simply doesn&#8217;t usually come with a traditional job.  It&#8217;s a good problem to have.</p>
+<h2>3) You will be challenged, and you will be special</h2>
+<p>You are being thrown into an organization that may have a vision for you to work with, or may expect you to invent a vision of your own from scratch.  Either way your time is going to be your own and you will be expected to make great use of it.  This kind of freedom is difficult to cope with, especially when people have high hopes for you.  People will throw you questions to ponder, ideas to critique, and problems to solve and you will need to prove yourself.</p>
+<p>In return you get to ask anyone anything.  You will get to bend the rules and do things that other people around you might have to fight hard to accomplish.  If you are interested in something, you will be able to work on it.  If you have a question or concern you will be able to get an audience with the CTO or the chief editor.  Nobody else at your organization has your title.</p>
+<h2>4) You will make friendships that last the rest of your life</h2>
+<p>It&#8217;s a cliche, but it&#8217;s for real: one of the most rewarding parts of this is the people.  You won&#8217;t just be part of a community, you will be part of <em>creating</em> a community.  It started last year during <a href="/2011/10/back-from-berlin/">a week long hackathon in Berlin</a>, where I met dozens of people who I still see all the time.  That sense of comradery continues to dominate this experience, and of course it also includes the people in your newsroom.</p>
+<p>For the next round of fellows there won&#8217;t be a Berlin event, but you will still get to be a part of an 8 person group for almost a year in addition to becoming immersed in a young community of passionate people.  You will drink whiskey in foreign countries with friends, share stories of trials and tribulations in workplaces half a world away from you, and find yourself in areas you never would have entered alone.</p>
+<p>And with that I think I promised you a reward…  I present to you the Amazing Spinning Gridinoc!</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/46229233" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p>ALSO: Please come talk to the folks in the OpenNews community by signing into on our chat room below.  Just come in and say hello!</p>
+<p><iframe loading="lazy" width="550" height="350" scrolling="no" src="http://widget.mibbit.com/?settings=81dbf4ffacc01bf24f6f286c211a3f93&#038;server=irc.mozilla.org&#038;channel=%23opennews"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/08/spread-your-wings-as-a-knight-mozilla-fellow/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>2011: Travel, Unexpected Attention, Reunion, and Loss</title>
+		<link>/2012/01/2011-travel-unexpected-attention-reunion-and-loss/</link>
+					<comments>/2012/01/2011-travel-unexpected-attention-reunion-and-loss/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sun, 08 Jan 2012 18:19:31 +0000</pubDate>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[loss]]></category>
+		<category><![CDATA[new year]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/?p=724</guid>
+
+					<description><![CDATA[And I thought 2010 was nuts. This year was very backloaded. Did anything even happen before June? The answer is yes, but the post is long enough just covering the last five months. Travel Here’s where I went, that I can remember: June Vinarós, Spain to see my beautiful wife, Lyla. London, UK to visit [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>And I thought 2010 was nuts.</p>
+<p>This year was very backloaded. Did anything even happen before June? The answer is yes, but the post is long enough just covering the last five months.<br />
+<span id="more-724"></span></p>
+<h2>Travel</h2>
+<p>Here’s where I went, that I can remember:</p>
+<p><strong>June</strong></p>
+<ul>
+<li><strong>Vinarós, Spain</strong> to see my beautiful wife, Lyla.</li>
+<li><strong>London, UK</strong> to visit Nathan Matias, one of the new additions to the Center for Civic Media. During this trip I learned exactly how many awesome connections to civic folk and civic organizations a person could share in a 48-hour period. The answer is at least 8.</li>
+</ul>
+<p><strong>October</strong></p>
+<ul>
+<li><strong>Berlin, Germany</strong> to attend Knight-Mozilla’s #Hackcoberfest run by and attended by a whole swarm of awesome people. This was where I started on the Meta Meta Project (although, sadly, this project has since gathered a few layers of dust).</li>
+<li><strong>Miami, FL</strong> to attend a <a href="http://knightfoundation.org/blogs/knightblog/2011/11/1/nine-ideas-political-civic-engagement-knights-election-convening/">Knight summit about 2012 election coverage</a>. This was the first brainstorming summit I’ve attended and I finally got to meet Bill Adair in person. I also got to spend my birthday drinking milkshakes with incredibly inappropriate names.</li>
+</ul>
+<p><strong>November</strong></p>
+<ul>
+<li><strong>London, UK</strong> to attend the Mozilla Festival. At this point it was announced that I would be a Knight-Mozilla Fellow at The Boston Globe next year.</li>
+<li><strong>New Jersey</strong> to see my friend Rob Muth get married.</li>
+<li><strong>New York, NY</strong> to attend <a href="http://storify.com/jeremycaplan/factfest-at-cunyjschool">#factfest at CUNY</a>. I got to meet some awesome people (for instance Craig Newmark, Jeff Jarvis!) and talk about fact checking and where we want technology to take it.</li>
+</ul>
+<p><strong>December</strong></p>
+<ul>
+<li><strong>Phoenix, AZ</strong> to attend News Foo. This was awesome. More on this in a later post. In the mean time here is as an <a href="”">embarrassing video</a> of my first attempt at an Ignite talk. It is full of “Ums” but at least I have something I know I need to work on for next time.</li>
+<li><strong>Washington DC</strong> to attend a fact checking summit led by the New America Foundation. This event immediately upped the quality of my thesis project by 50%, and you can read first person accounts of some of the speakers <a href="”">here</a> and <a href="”">here</a> on Ethan Zuckerman’s blog.</li>
+</ul>
+<p>And in September, October, November, and December I also managed to sneak home to see family! That was very nice <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> It also means that I have driven from Boston to Philly about seven million times this year.</p>
+<p>Looking at this list again I realize that no, I wasn’t imagining it, I really didn&#8217;t spend much time in Boston. In December, November, and October I was only home for THREE weekends total. No wonder I wasn’t able to get anything done!</p>
+<h2>Unexpected Attention</h2>
+<p>I did manage to get <em>some</em> stuff done. In particular I now have a thesis project: Truth Goggles. It&#8217;s an <a href="/2011/12/trust-me-credibility-is-the-future-of-journalism/">automatic bullshit detector</a>. I always liked the idea but I was surprised to find that a lot of others do too. As I&#8217;ve posted about <a href="/2011/12/look-ma-npr/">before</a>, this is where one major chunk of unexpected attention came from. The other half came from the previously mentioned <a href="http://blog.mozilla.com/blog/2011/11/04/journalism-in-the-open-the-201112-knight-mozilla-fellows-announced/">Knight-Mozilla Fellowship</a>.</p>
+<p>It occurs to me that if the Knight Foundation didn&#8217;t exist I would probably be flipping burgers or something right now. Or at the very least being a code monkey for some evil corporation.</p>
+<h2>Reunion and Loss</h2>
+<p>This section reflects the deeper parts of my life in 2011.</p>
+<p>Lyla came home in July, finally ending the long long Odyssey of separation. We lived through long distance during our four years of college but were expecting it to be over. Then she had to get a Fulbright and I had to get into MIT so that meant that our first year of marriage would be spent separated by an ocean. We&#8217;re glad that type of thing is over forever. We also moved to a new apartment in Arlington! This is a story of terrible landlords that deserves a post of its own.</p>
+<p>My grandmother died. I have so many memories with her. This is the first time I lost anyone, and one of the biggest takeaways is that in so many ways nothing has changed. I still have the lessons learned, the memories of farms and fields, a love of birds and fly fishing. I still know how to pronounce asterisk (&#8220;Pretty Mary donned her skates upon the ice to frisk. Wasn’t she a silly girl her little *&#8221;), and when to say lie vs lay. I know how to play cribbage and solitaire, and how to make peanut butter fudge. I know a good pumpkin when I see one. I also know patience, love, and how to take life just seriously enough to get stuff done. I also still don&#8217;t know how she was so good at finding four leaf clovers.</p>
+<p>Of course, all these constants makes the changes so much more noticeable. It was a bittersweet Christmas.</p>
+<p>I do think of her often, though, and I hope that doesn&#8217;t ever stop. Lyla, Erek, and I finished watching Lord of the Rings last night and of course I kept thinking of her. They were her favorite books (she had read the epics at least seven times over the course of her life). LotR was spiritual for her, supplementing her religion. She was also one of the people in my life who provided a potential avenue for spirituality. (I&#8217;ve never been religious, but I do aspire to be spiritual. Gramma didn&#8217;t talk with us about religion much even though it was so important to her, but I know that when I&#8217;m ready, my memories of her will help).</p>
+<p>I&#8217;m still reflecting on it all. It was really hard to speak last words to someone, but it was her choice.</p>
+<p>And that was my 2011.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/01/2011-travel-unexpected-attention-reunion-and-loss/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Back from Berlin</title>
+		<link>/2011/10/back-from-berlin/</link>
+					<comments>/2011/10/back-from-berlin/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 05 Oct 2011 16:44:20 +0000</pubDate>
+				<category><![CDATA[ATTN-SPAN]]></category>
+		<category><![CDATA[Meta Meta Project]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[Berlin]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/?p=643</guid>
+
+					<description><![CDATA[Last. Week. Was. Awesome. I just got back from a trip to Berlin as part of the Knight-Mozilla learning lab (MoJo). Twenty of the participants from the previous round (the month long lecture series) were invited to spend a week in Germany getting to know each other while attempting to churn out some code for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last. Week. Was. Awesome.</p>
+<p>I just got back from a trip to Berlin as part of the Knight-Mozilla learning lab (MoJo). Twenty of the participants from the previous round (the month long lecture series) were invited to spend a week in Germany getting to know each other while attempting to churn out some code for <a href="https://github.com/Knight-Mozilla">the rest of the world to see</a>.</p>
+<p>I arrived Sunday morning and quickly learned why it is never a good idea to get to a country before hotel check in. No recovery naps for me! The first thing I did was meet up with Saleem Kahn, Nicola Hughes, and Laurian Gridinoc and take a trip to the <a href="http://en.wikipedia.org/wiki/Bauhaus">Bauhaus</a> where I learned that people have been making things for a long, long time.</p>
+<p>&#8212;&#8212;&#8211;<br />
+Let me pause to quickly explain. I grew up, like most of you, using lots of things. When it came to making I was stuck with Legos and the like until one day I discovered programming and started making digital things with that. Fast forward 15 years and I’m at MIT taking How to Make Almost Anything and I say “oh awesome! Hardware isn’t just magic!” But once the course ended I, for the most part, reverted back to my comfort zone of software (still empowered with the potential to carve out circuits and molds, but not seizing immediate opportunities to utilize that empowerment just yet).</p>
+<p>Bauhaus is the rest of the picture and got me excited about making again. The series of shops (I attended the one in Berlin) which closed with the rise of the Nazis, were basically buildings dedicated to modernist design (i.e. creating objects that are both beautiful and functional). As I walked around the museum I realized that I don’t have to make things that are super high tech and based on circuits to be making almost anything, I just have to be making things with a unique purpose. Hackable life for the win!</p>
+<p>No time to worry about making things now (sponsor week and thesis proposal deadlines are looming), but I sure am ready to build stuff instead of buying stuff.<br />
+&#8212;&#8212;&#8211;</p>
+<p>After Bauhaus we went back to the hotel and I crashed and burned (and woke up just in time to meet up with Mark Boas and have some good old fashioned German Asian food since most things were closing up by then!).</p>
+<p>The next morning was the beginning of what ended up being an INCREDIBLY packed four-day schedule of programming, talking, eating, walking, and sleeping. The hackathon (a term used to refer to these kinds of get togethers where people sit around and code) itself took place in a building called the Betahaus, located in Moritzplatz (aka “Makerplatz” since it is the hub of Berlin’s Maker community). The room was awesome – the fourth floor of a stark concrete building, full of tables, chairs, soda, lots and lots of wifi, and random posters of wildlife on the walls. Now that I think about it I wouldn’t be surprised if they hosted fight clubs on weeknights.</p>
+
+<a href='/wp-content/uploads/2011/10/DSCN1073.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1073-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1073-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1073-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1073-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1073-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1075.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1075-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1075-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1075-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1075-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1075-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1084.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1084-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1084-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1084-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1084-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1084-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1085.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1085-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1085-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1085-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1085-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1085-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1087.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1087-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1087-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1087-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1087-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1087-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1093.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1093-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1093-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1093-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1093-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1093-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1109.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1109-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1109-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1109-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1109-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1109-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+
+<p>As the 20 of us pondered statements like “nothing should be anything” we started milling around and getting to know one another. Some people were designers, some were journalists, some were hackers, and some were mutts but sure enough project clusters slowly sprung up and by the second day people were nose deep in their laptops.</p>
+<p>It was around this time that I realized that <a href="ATTN-SPAN /2011/08/learning-lab-final-project-attn-span/">my project</a> shared a very common need with most of the others: the need for metadata extraction from pieces of media! Thus was born the <a href="http://groups.google.com/group/meta-meta-project">Meta Meta Project</a>.</p>
+<p>&#8212;&#8212;&#8211;<br />
+I’ll write more about Meta Meta in another post somewhere on the Internet, but the basic idea is that there are a lot of tools out there which can extract information from images, videos, and text. For instance maybe you want to know all of the locations mentioned in a news article, or maybe you want to find all the words that appear in an image.</p>
+<p>A lot of projects would benefit greatly from having access to this information, but to use the tools out there takes a fair amount of time setting up, implementing logic, and generally re-inventing parts of the wheel. Rather than having everyone need to become an expert in the tools, the Meta Meta Project is an API suite which will make it dead simple to put in a piece of media and get back the information you want.</p>
+<p>Like I said, I’ll have to post more on that somewhere else.<br />
+&#8212;&#8212;&#8211;</p>
+<p>By day 3 the news partners arrived – there were representatives from BBC, The Guardian, Zeit Online, Al Jazeera, and The Boston Globe. They were there to get to know our work and us, but more importantly they were there to get to know one another. The idea of open collaboration still seems to be a somewhat foreign concept among the professional news industry. This is a pity because there is surely a lot of room for mutual benefit and it would surely free up lots of resources for one another. (Hey news rooms! Hop on board the <a href="http://groups.google.com/group/meta-meta-project">Meta Meta Project</a>!)</p>
+<p>There is so much more to write about but there is so little time so I&#8217;m going to wrap up with some quick points:</p>
+<ul>
+<li>I had never attended a hackathon before this one and I’m now totally hooked.</li>
+<li>I had never attended a Mozilla event before and I’m now totally hooked.</li>
+<li>Berlin, and Germany in general, is a surreal place to be. The whole city is marked with the painful memories of the past, and it is just so interesting and tragically beautiful to walk around and see memorials, broken pieces of walls, and intentional marks designed to ensure that things aren’t forgotten.</li>
+<li>I came to realize that America isn’t really as young as everyone makes it out to be. When you think about how both Germany and Spain have had radical change in government in the past century it’s almost as if they’re the newbies.</li>
+<li>Germany pulls off maker punks.</li>
+</ul>
+<p>I want to end with my favorite memory from the trip (I stuck around for three days after the coding portion just to see the city). A small group of fellow stragglers and I were wandering around a part of Berlin that I would never wander around on my own. This was by no means a place for tourists. As we passed by doorways of punk clubs blasting out dance music we crossed a well-lit alley blasting a different kind of music. At the other end of the alley was a small band with a gathering crowd behind it. No vocals, just tones, and the energy slowly built. We got caught in the sounds and just watched as they wailed away and eventually climaxed.</p>
+<p><a href="/wp-content/uploads/2011/10/DSCN1206.jpg"><img loading="lazy" src="/wp-content/uploads/2011/10/DSCN1206-300x225.jpg" alt="" title="DSCN1206" width="300" height="225" class="aligncenter size-medium wp-image-949" srcset="/wp-content/uploads/2011/10/DSCN1206-300x225.jpg 300w, /wp-content/uploads/2011/10/DSCN1206-768x576.jpg 768w, /wp-content/uploads/2011/10/DSCN1206-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>In the words of Chris Keller: if someone did that in Manhattan they would probably be carted away.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/10/back-from-berlin/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Still Alive</title>
+		<link>/2010/12/still-alive/</link>
+					<comments>/2010/12/still-alive/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Tue, 28 Dec 2010 15:46:56 +0000</pubDate>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Spain]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/?p=230</guid>
+
+					<description><![CDATA[This was a triumph. I&#8217;m making a note here: HUGE SUCCESS It&#8217;s hard to overstate my satisfaction. I&#8217;m alive and kickin&#8217; and I&#8217;m in Spain.  I just drafted a lengthy post for the PBS IdeaLab which I&#8217;ll link to once it is up, but I have a nice backlog of things to write about here [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="http://www.youtube.com/watch?v=Y6ljFaKRTrI" target="_blank">This was a triumph.</a><br />
+I&#8217;m making a note here: HUGE SUCCESS<br />
+It&#8217;s hard to overstate my satisfaction.</p>
+<p>I&#8217;m alive and kickin&#8217; and I&#8217;m in Spain.  I just drafted a lengthy post for the <a href="http://pbs.org/idealab" target="_blank">PBS IdeaLab</a> which I&#8217;ll link to once it is up, but I have a nice backlog of things to write about here as well.  Thank goodness I&#8217;ll be spending a few weeks in a country where every day everyone spends three hours in the afternoon just eating and relaxing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/12/still-alive/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:20 by W3 Total Cache
+-->

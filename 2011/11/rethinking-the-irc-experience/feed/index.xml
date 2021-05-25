@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Rethinking the IRC Experience	</title>
+	<atom:link href="/2011/11/rethinking-the-irc-experience/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/11/rethinking-the-irc-experience/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Sat, 26 Nov 2011 20:09:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: Flam		</title>
+		<link>/2011/11/rethinking-the-irc-experience/#comment-173</link>
+
+		<dc:creator><![CDATA[Flam]]></dc:creator>
+		<pubDate>Sat, 26 Nov 2011 20:09:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=668#comment-173</guid>
+
+					<description><![CDATA[I lol&#039;d at the heavy breathing part.  Well said man, you pretty much got IRC described perfectly.  I didn&#039;t know those things about Linkinus, but I guess I&#039;ll take my friend&#039;s advice who has been trying to get me to buy it for months now.
+Your description of the two &quot;issues&quot; are dead on also.  I quote issues because sometimes, at least personally, you can enjoy the quiet or the chaotic flow of conversations.  For my channels I solve the quiet problem by having a bot post relevant news articles from feeds online at most once an hour just to spark up some discussions.
+
+The noise problem is much more complicated.  All I can think of from the top of my head is to disable join/part/quit notifications for that channel, highlight different users in different colors, or tell them to get a room :)
+
+Perhaps you can do some clustering by figuring out who is talking to whom and color all their chat a certain color, rather than each person.  Or go a step further and color based on current discussed subject.
+
+I&#039;d be interested to hear what you had in mind or if you&#039;ve gotten any thing developed.
+
+Cool blog btw, bookmarked.]]></description>
+			<content:encoded><![CDATA[<p>I lol&#8217;d at the heavy breathing part.  Well said man, you pretty much got IRC described perfectly.  I didn&#8217;t know those things about Linkinus, but I guess I&#8217;ll take my friend&#8217;s advice who has been trying to get me to buy it for months now.<br />
+Your description of the two &#8220;issues&#8221; are dead on also.  I quote issues because sometimes, at least personally, you can enjoy the quiet or the chaotic flow of conversations.  For my channels I solve the quiet problem by having a bot post relevant news articles from feeds online at most once an hour just to spark up some discussions.</p>
+<p>The noise problem is much more complicated.  All I can think of from the top of my head is to disable join/part/quit notifications for that channel, highlight different users in different colors, or tell them to get a room 🙂</p>
+<p>Perhaps you can do some clustering by figuring out who is talking to whom and color all their chat a certain color, rather than each person.  Or go a step further and color based on current discussed subject.</p>
+<p>I&#8217;d be interested to hear what you had in mind or if you&#8217;ve gotten any thing developed.</p>
+<p>Cool blog btw, bookmarked.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:23 by W3 Total Cache
+-->

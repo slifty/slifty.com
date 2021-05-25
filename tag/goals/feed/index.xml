@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>goals &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/goals/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 21 Jun 2012 19:36:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Boston Globe: Ten Months of Code</title>
+		<link>/2012/06/ten-months-at-the-globe/</link>
+					<comments>/2012/06/ten-months-at-the-globe/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 21 Jun 2012 19:36:14 +0000</pubDate>
+				<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[goals]]></category>
+		<category><![CDATA[The Boston Globe]]></category>
+		<guid isPermaLink="false">/?p=1091</guid>
+
+					<description><![CDATA[I just finished the second week of my fellowship at The Boston Globe, so at this point I have a stronger sense of how things are done and where I might fit in. Having just come from an academic program like the MIT Media Lab there is a tinge of culture shock (for instance, everyone [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2012/06/logo-bg.png"><img loading="lazy" src="/wp-content/uploads/2012/06/logo-bg.png" alt="The Boston Globe" title="BG Logo" width="346" height="46" class="aligncenter size-full wp-image-1106" srcset="/wp-content/uploads/2012/06/logo-bg.png 346w, /wp-content/uploads/2012/06/logo-bg-300x40.png 300w" sizes="(max-width: 346px) 100vw, 346px" /></a>I just finished the second week of my fellowship at <a href="http://www.bostonglobe.com/">The Boston Globe</a>, so at this point I have a stronger sense of how things are done and where I might fit in.  Having just come from an academic program like the <a href="http://www.pbs.org/idealab/2011/01/winning-a-golden-ticket-to-the-mit-media-lab362.html">MIT Media Lab</a> there is a tinge of culture shock (for instance, everyone already knows everyone and they use <a href="http://en.wikipedia.org/wiki/Agile_software_development">actual development processes</a>), but I&#8217;m finally starting to meet people and learn the ropes.</p>
+<p>At least I&#8217;m not the weird new guy wearing dress shirts that don&#8217;t really fit any more; I&#8217;ve upgraded to button down T&#8217;s.</p>
+<p><em>Update: Matt Stempeck has told me &#8220;it isn&#8217;t your fault, but nobody in the world can pull off the button down T.&#8221;  This is why I usually <a href="http://shirt.woot.com/blog/post/random-shirt-23">let the Internet choose my wardrobe</a>.</em></p>
+<h2>The Trilogy</h2>
+<p>Over the next ten months I&#8217;ll rotate between the three key technology groups at the Globe.  I&#8217;ve given them battle-clad nicknames for the purposes of this post.</p>
+<ul>
+<li><strong>Round 1: Front Lines.</strong> I&#8217;m starting on the product team, <a href="http://www.linkedin.com/pub/michael-krolak/2/305/501">working under Mike</a>.  This is where people work on longer term product-level projects.  This includes things like the two web sites (BostonGlobe.com and Boston.com), the Content Management System (what people actually use to write articles), mobile experiences, and comment systems.</li>
+<li><strong>Round 2: Special Ops.</strong> My second rotation will be for the  Interactive News team (NewsDev for short), working under <a href="https://twitter.com/#!/mirandamulligan">Miranda Mulligan</a>.  They work on more targeted technology projects such as reporter tools or interactive interfaces.</li>
+<li><strong>Round 3: R&amp;D.</strong> I&#8217;ll end my run working in the Boston Globe&#8217;s Media Lab / R&amp;D department under <a href="https://twitter.com/#!/marstall">Chris Marstall</a>.  This is where the more &#8220;cutting edge&#8221; / &#8220;insane&#8221; / &#8220;impractical&#8221; / &#8220;highly creative&#8221; work gets done.  I really like the idea of this being my capstone rotation since it feels the most in line with my darker past.</li>
+</ul>
+<p>Each of these groups has a different set of responsibilities, constraints, and skills.  It seems like the Chris&#8217;s group (R&amp;D) has the most freedom but isn&#8217;t as likely to ship full blown features and systems that get used by millions.  Mike&#8217;s team (Front Lines), on the other hand, pushes out code that will support the newsroom and the world.  As a result they need to keep their eyes on reality &mdash; they can&#8217;t take as many risks.</p>
+<p>Miranda&#8217;s (Special Ops) gets to be somewhere in the middle simply because of the nature of user-facing interactivity and the fact that many of their projects are &#8220;reusable one-offs.&#8221;  For instance, if an interactive feature didn&#8217;t scale it would be very unfortunate, but at least the entire organization wouldn&#8217;t collapse in a fiery heap of paper.  The same could not be said for the code that renders the front page of <a href="http://www.boston.com/">Boston.com</a>.</p>
+<h2>Free Developer… like Free Beer?</h2>
+<p>I was jovially introduced to most people as the free developer (&#8220;You&#8217;re not free any more!  Mwahahah&#8221;), although I&#8217;m hoping to do more than just hang out and crank out code.  I&#8217;m coming in with some ideas in mind and a general mission, but narrowing that down into something actionable became a lot easier after seeing my fellow fellows this weekend <a href="http://civic.mit.edu/category/blog-tags/conference2012">at the Knight Civic Conference</a>.</p>
+<ul>
+<li><strong>Understand pain points, identify opportunities, and communicate.</strong>  I heard battle stories from the other fellows and immediately understood that one purpose of the OpenNews experiment is to unearth those stories and put them into the open for discussions.  The entire industry needs to know examples of what works and what doesn&#8217;t, even if there are a few worms under the rocks.</li>
+<li><strong>Stay creative, pursue wild and crazy projects, and share that creative spirit with everyone around me.</strong>  I&#8217;ve just come from one of the most forward thinking places in the world, but the Lab isn&#8217;t defined by skill sets and brains.  What makes the lab great is the attitude, approach, and the ability to fail effectively. There is no reason why some of that spirt can&#8217;t be transported to the globe (in fact some of it is already here.)</li>
+<li><strong>Stay grounded and write awesome code.</strong>  At the end of the day I <em>am</em> also a developer!  I want to learn some new technologies and create some great projects.  The key for me here is that I want to make stuff that will have applications both inside and outside of The Boston Globe.</li>
+</ul>
+<p>And so this is my hopeful breakdown of the next 10 months:</p>
+<ol>
+<li>30% on <strong>immediate needs</strong> of the Boston Globe, like new platforms and systems.</li>
+<li>30% on my own <strong>fleshed out ideas</strong>, like Truth Goggles, or The Meta Meta Project.</li>
+<li>30% on <strong>wacky ideas</strong> like Newsquest or ATTN-SPAN.</li>
+<li>10% on <strong>reflection</strong>, in blog posts like this.</li>
+</ol>
+<p>I see a parallel between the three groups I&#8217;ll be working in and those three major chunks, but I&#8217;ll be aiming to do it all, all the time.  If you were at last weekend&#8217;s OpenNews hackathon at MIT you know that I&#8217;m feeling multithreaded.</p>
+<div id="attachment_1120" style="width: 310px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/06/photo-2.jpg"><img aria-describedby="caption-attachment-1120" loading="lazy" src="/wp-content/uploads/2012/06/photo-2-300x224.jpg" alt="My desk at The Globe" title="globe_desk" width="300" height="224" class="size-medium wp-image-1120" srcset="/wp-content/uploads/2012/06/photo-2-300x224.jpg 300w, /wp-content/uploads/2012/06/photo-2-768x574.jpg 768w, /wp-content/uploads/2012/06/photo-2-1024x765.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-1120" class="wp-caption-text">It takes three screens and two laptops to be multi threaded.</p></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/06/ten-months-at-the-globe/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:22 by W3 Total Cache
+-->

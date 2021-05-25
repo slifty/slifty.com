@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sponsors &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/sponsors/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Sun, 24 Oct 2010 20:46:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Weeks that Led to Sponsor Week</title>
+		<link>/2010/10/the-weeks-that-led-to-sponsor-week/</link>
+					<comments>/2010/10/the-weeks-that-led-to-sponsor-week/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sun, 24 Oct 2010 20:46:45 +0000</pubDate>
+				<category><![CDATA[Glass Infrastructure]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Wallpaper]]></category>
+		<category><![CDATA[arduino]]></category>
+		<category><![CDATA[MIT Media Lab]]></category>
+		<category><![CDATA[sensors]]></category>
+		<category><![CDATA[Sponsors]]></category>
+		<guid isPermaLink="false">/?p=198</guid>
+
+					<description><![CDATA[The Media Lab has a giant tower full of gold coins, which students and faculty use to relax as they swim around it and make tunnels.  The tower doesn&#8217;t fill itself, though &#8212; sponsors do!  The Lab is funded by companies across the world, and in return those companies get rights to any intellectual property [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>The Media Lab has a giant tower full of gold coins, which students and faculty use to relax as they <a href="http://www.youtube.com/watch?v=aPX5mRSQ3pw" target="_blank">swim around it and make tunnels</a>.  The tower doesn&#8217;t fill itself, though &#8212; sponsors do!  The Lab is funded by companies across the world, and in return those companies get rights to any intellectual property created there.  I haven&#8217;t been around long enough to know if this ends up twisting people&#8217;s research in special directions, but I get the idea that it does not; people here seem to work on whatever inspires them in the moment.</p>
+<p>The reason I&#8217;m explaining all this is to give background for why I&#8217;ve been extra busy for the past three weeks &#8212; preparing for and participating in sponsor week.  This is a bi-annual celebration where all the sponsors come in to see what sorts of insanity have been going on.  As a first year grad student I was encouraged but not necessarily expected to have any demos of my own to show off, but I ended up getting involved with two projects that ultimately yielded something worth showing.</p>
+<h2>Exhibit A: Glass Infrastructure</h2>
+<p>The new building has a network of giant touch screens which are located outside of each lab-space.  Each screen is set up to display information about whatever research groups are located nearby, which allows visitors to explore the projects being worked on inside.  The screens are ALSO wired up with RFID readers &#8212; which means if a person has an RFID card the reader can tell who they are, and the interface can change itself based on their interests.</p>
+<div id="attachment_907" style="width: 410px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/10/GI_21.jpg"><img aria-describedby="caption-attachment-907" loading="lazy" src="/wp-content/uploads/2010/10/GI_21.jpg" alt="" title="GI_21" width="400" height="533" class="size-full wp-image-907" srcset="/wp-content/uploads/2010/10/GI_21.jpg 400w, /wp-content/uploads/2010/10/GI_21-225x300.jpg 225w" sizes="(max-width: 400px) 100vw, 400px" /></a><p id="caption-attachment-907" class="wp-caption-text">The screen outside of my lab space</p></div>
+<p>It turns out that these screens are actually a research project!  They were set up earlier in the year for the previous sponsor week as a joint effort between four groups at the lab.  My adviser suggested I get involved in the creation of &#8220;version 2&#8221; which turned out to be a complete redesign of the interface.  The team consisted of about 7 people, and I helped design and implement the new front end (i.e. the part that actually gets used).</p>
+<p>The OLD interface was pretty much two interfaces in one.  The first interface was a mini directory, which listed the research groups in that space and had a quick description of the group along with a rotating display of the projects being worked on by whichever group was being highlighted at that moment.  From there the user could navigate to the second interface by selecting one of those projects.</p>
+<p>The second interface simply showed 5 projects at once &#8212; the primary project was whatever the user picked, and the other 4 projects were &#8220;similar projects&#8221; which the system would select.  Users with RFID tags could also &#8220;charm&#8221; projects (i.e. favorite them), which meant that whenever they walked to a screen they could share favorites with other people or quickly jump to learn more.</p>
+<p>There were several problems with the old interface.  The first was that people were not really part of it &#8212; you didn&#8217;t know who was in the group or who was working on a given project.  The second was that you didn&#8217;t know WHY other projects were being suggested, you pretty much had to guess.  For the new design we wanted to try to create an experience that provided this extra information, but also somehow combined the two &#8220;views&#8221; into one consistent view.</p>
+<p>The redesign process was exhausting!  There were many intense discussions between the more front-end focused people on how to achieve everything we wanted in the UI, and after about two weeks of mockups and prototypes we finally had something that we actually felt had some real potential.  The projects are now clustered together based on the &#8220;ideas&#8221; that they share, and we have a completely new way of navigating the people, projects, and research groups at the lab.</p>
+<div id="attachment_908" style="width: 410px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/10/GI_1.jpg"><img aria-describedby="caption-attachment-908" loading="lazy" src="/wp-content/uploads/2010/10/GI_1.jpg" alt="" title="GI_1" width="400" height="300" class="size-full wp-image-908" srcset="/wp-content/uploads/2010/10/GI_1.jpg 400w, /wp-content/uploads/2010/10/GI_1-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a><p id="caption-attachment-908" class="wp-caption-text">My group&#039;s screen</p></div>
+<h2>Exhibit B: Wall Paper</h2>
+<p>The second project I worked on was a solo project (although I got a lot of help and advice from my fellow grad students!)  My group once had an installment called the &#8220;octo display&#8221; which was 8 identical HD screens all connected to one computer.  This display was dismantled when my group moved into the new building, and since then the screens have been sitting around gathering dust.</p>
+<p>Rather than let them go to waste, though, we decided that it would be interesting to put them up in a long line and use proximity sensors to detect where people were standing in front of them.  The idea was that eventually there will be a lot of surfaces with the ability to display information, but that will get noisy fast if all of the displays are constantly rendering things.  I volunteered to give it a shot, and I&#8217;m glad I did!</p>
+<p>Building the thing was pretty rewarding.  For one thing I learned how to use sensors, and for another I learned how difficult it is to mount 8 screens in a straight and level line.  You can read more about the construction of the wall <a href="http://fab.cba.mit.edu/classes/MIT/863.10/people/dan.schultz/a4.html">here</a> &#8212; I ended up using a giant robot to carve out the mount boards and drill holes in exactly the right locations.</p>
+<p>The sensor part of it is also pretty cool: there are these devices which you feed power into and it uses IR to detect the distance of objects in front of them.  Depending on the distance, the devices output a sliding voltage (when you walk closer, the voltage goes up).  This means that you can write some code to analyze the voltage and, if you put one of them in front of each monitor, write a program that knows where people are standing.</p>
+<div id="attachment_910" style="width: 410px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/10/wall_1.jpg"><img aria-describedby="caption-attachment-910" loading="lazy" src="/wp-content/uploads/2010/10/wall_1.jpg" alt="" title="wall_1" width="400" height="300" class="size-full wp-image-910" srcset="/wp-content/uploads/2010/10/wall_1.jpg 400w, /wp-content/uploads/2010/10/wall_1-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a><p id="caption-attachment-910" class="wp-caption-text">A quick demo program I wrote -- the number reflects the voltage and the screen turns green when someone is standing in front of it.</p></div>
+<p>For anyone interested in more of the details, I used an <a href="http://arduino.cc/">Arduino</a> for the first time to collect the raw voltage information (I&#8217;ll explain more about what that means in a future post), and then I wrote a quick python script to pull that information off of the Arduino and drop it into a file accessible to the web, and then I had a web page which read that data and responded appropriately when someone walked up to a screen.</p>
+<div id="attachment_909" style="width: 410px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/10/wall_2.jpg"><img aria-describedby="caption-attachment-909" loading="lazy" src="/wp-content/uploads/2010/10/wall_2.jpg" alt="" title="wall_2" width="400" height="300" class="size-full wp-image-909" srcset="/wp-content/uploads/2010/10/wall_2.jpg 400w, /wp-content/uploads/2010/10/wall_2-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /></a><p id="caption-attachment-909" class="wp-caption-text">Erek using an almost finished version the night before.</p></div>
+<p>For the final demo I tied the screens into the New York Times API.  Each screen displayed a word or phrase (i.e. &#8220;Healthcare&#8221; or &#8220;MIT Media Lab&#8221;) and when you walked up to a screen it would pull up an article from the NYT relevant to that topic.  It turned out pretty nicely, although there was a very slight amount of lag.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/10/the-weeks-that-led-to-sponsor-week/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:26 by W3 Total Cache
+-->

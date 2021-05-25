@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ATTN-Span &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/attn-span-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 05 Oct 2011 16:44:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Back from Berlin</title>
+		<link>/2011/10/back-from-berlin/</link>
+					<comments>/2011/10/back-from-berlin/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 05 Oct 2011 16:44:20 +0000</pubDate>
+				<category><![CDATA[ATTN-SPAN]]></category>
+		<category><![CDATA[Meta Meta Project]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[Berlin]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/?p=643</guid>
+
+					<description><![CDATA[Last. Week. Was. Awesome. I just got back from a trip to Berlin as part of the Knight-Mozilla learning lab (MoJo). Twenty of the participants from the previous round (the month long lecture series) were invited to spend a week in Germany getting to know each other while attempting to churn out some code for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last. Week. Was. Awesome.</p>
+<p>I just got back from a trip to Berlin as part of the Knight-Mozilla learning lab (MoJo). Twenty of the participants from the previous round (the month long lecture series) were invited to spend a week in Germany getting to know each other while attempting to churn out some code for <a href="https://github.com/Knight-Mozilla">the rest of the world to see</a>.</p>
+<p>I arrived Sunday morning and quickly learned why it is never a good idea to get to a country before hotel check in. No recovery naps for me! The first thing I did was meet up with Saleem Kahn, Nicola Hughes, and Laurian Gridinoc and take a trip to the <a href="http://en.wikipedia.org/wiki/Bauhaus">Bauhaus</a> where I learned that people have been making things for a long, long time.</p>
+<p>&#8212;&#8212;&#8211;<br />
+Let me pause to quickly explain. I grew up, like most of you, using lots of things. When it came to making I was stuck with Legos and the like until one day I discovered programming and started making digital things with that. Fast forward 15 years and I’m at MIT taking How to Make Almost Anything and I say “oh awesome! Hardware isn’t just magic!” But once the course ended I, for the most part, reverted back to my comfort zone of software (still empowered with the potential to carve out circuits and molds, but not seizing immediate opportunities to utilize that empowerment just yet).</p>
+<p>Bauhaus is the rest of the picture and got me excited about making again. The series of shops (I attended the one in Berlin) which closed with the rise of the Nazis, were basically buildings dedicated to modernist design (i.e. creating objects that are both beautiful and functional). As I walked around the museum I realized that I don’t have to make things that are super high tech and based on circuits to be making almost anything, I just have to be making things with a unique purpose. Hackable life for the win!</p>
+<p>No time to worry about making things now (sponsor week and thesis proposal deadlines are looming), but I sure am ready to build stuff instead of buying stuff.<br />
+&#8212;&#8212;&#8211;</p>
+<p>After Bauhaus we went back to the hotel and I crashed and burned (and woke up just in time to meet up with Mark Boas and have some good old fashioned German Asian food since most things were closing up by then!).</p>
+<p>The next morning was the beginning of what ended up being an INCREDIBLY packed four-day schedule of programming, talking, eating, walking, and sleeping. The hackathon (a term used to refer to these kinds of get togethers where people sit around and code) itself took place in a building called the Betahaus, located in Moritzplatz (aka “Makerplatz” since it is the hub of Berlin’s Maker community). The room was awesome – the fourth floor of a stark concrete building, full of tables, chairs, soda, lots and lots of wifi, and random posters of wildlife on the walls. Now that I think about it I wouldn’t be surprised if they hosted fight clubs on weeknights.</p>
+
+<a href='/wp-content/uploads/2011/10/DSCN1073.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1073-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1073-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1073-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1073-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1073-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1075.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1075-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1075-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1075-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1075-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1075-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1084.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1084-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1084-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1084-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1084-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1084-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1085.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1085-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1085-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1085-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1085-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1085-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1087.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1087-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1087-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1087-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1087-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1087-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1093.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1093-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1093-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1093-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1093-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1093-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+<a href='/wp-content/uploads/2011/10/DSCN1109.jpg'><img width="150" height="150" src="/wp-content/uploads/2011/10/DSCN1109-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="/wp-content/uploads/2011/10/DSCN1109-150x150.jpg 150w, /wp-content/uploads/2011/10/DSCN1109-300x300.jpg 300w, /wp-content/uploads/2011/10/DSCN1109-1024x1024.jpg 1024w, /wp-content/uploads/2011/10/DSCN1109-100x100.jpg 100w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+
+<p>As the 20 of us pondered statements like “nothing should be anything” we started milling around and getting to know one another. Some people were designers, some were journalists, some were hackers, and some were mutts but sure enough project clusters slowly sprung up and by the second day people were nose deep in their laptops.</p>
+<p>It was around this time that I realized that <a href="ATTN-SPAN /2011/08/learning-lab-final-project-attn-span/">my project</a> shared a very common need with most of the others: the need for metadata extraction from pieces of media! Thus was born the <a href="http://groups.google.com/group/meta-meta-project">Meta Meta Project</a>.</p>
+<p>&#8212;&#8212;&#8211;<br />
+I’ll write more about Meta Meta in another post somewhere on the Internet, but the basic idea is that there are a lot of tools out there which can extract information from images, videos, and text. For instance maybe you want to know all of the locations mentioned in a news article, or maybe you want to find all the words that appear in an image.</p>
+<p>A lot of projects would benefit greatly from having access to this information, but to use the tools out there takes a fair amount of time setting up, implementing logic, and generally re-inventing parts of the wheel. Rather than having everyone need to become an expert in the tools, the Meta Meta Project is an API suite which will make it dead simple to put in a piece of media and get back the information you want.</p>
+<p>Like I said, I’ll have to post more on that somewhere else.<br />
+&#8212;&#8212;&#8211;</p>
+<p>By day 3 the news partners arrived – there were representatives from BBC, The Guardian, Zeit Online, Al Jazeera, and The Boston Globe. They were there to get to know our work and us, but more importantly they were there to get to know one another. The idea of open collaboration still seems to be a somewhat foreign concept among the professional news industry. This is a pity because there is surely a lot of room for mutual benefit and it would surely free up lots of resources for one another. (Hey news rooms! Hop on board the <a href="http://groups.google.com/group/meta-meta-project">Meta Meta Project</a>!)</p>
+<p>There is so much more to write about but there is so little time so I&#8217;m going to wrap up with some quick points:</p>
+<ul>
+<li>I had never attended a hackathon before this one and I’m now totally hooked.</li>
+<li>I had never attended a Mozilla event before and I’m now totally hooked.</li>
+<li>Berlin, and Germany in general, is a surreal place to be. The whole city is marked with the painful memories of the past, and it is just so interesting and tragically beautiful to walk around and see memorials, broken pieces of walls, and intentional marks designed to ensure that things aren’t forgotten.</li>
+<li>I came to realize that America isn’t really as young as everyone makes it out to be. When you think about how both Germany and Spain have had radical change in government in the past century it’s almost as if they’re the newbies.</li>
+<li>Germany pulls off maker punks.</li>
+</ul>
+<p>I want to end with my favorite memory from the trip (I stuck around for three days after the coding portion just to see the city). A small group of fellow stragglers and I were wandering around a part of Berlin that I would never wander around on my own. This was by no means a place for tourists. As we passed by doorways of punk clubs blasting out dance music we crossed a well-lit alley blasting a different kind of music. At the other end of the alley was a small band with a gathering crowd behind it. No vocals, just tones, and the energy slowly built. We got caught in the sounds and just watched as they wailed away and eventually climaxed.</p>
+<p><a href="/wp-content/uploads/2011/10/DSCN1206.jpg"><img loading="lazy" src="/wp-content/uploads/2011/10/DSCN1206-300x225.jpg" alt="" title="DSCN1206" width="300" height="225" class="aligncenter size-medium wp-image-949" srcset="/wp-content/uploads/2011/10/DSCN1206-300x225.jpg 300w, /wp-content/uploads/2011/10/DSCN1206-768x576.jpg 768w, /wp-content/uploads/2011/10/DSCN1206-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>In the words of Chris Keller: if someone did that in Manhattan they would probably be carted away.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/10/back-from-berlin/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Learning Lab Final Project: ATTN-SPAN</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/</link>
+					<comments>/2011/08/learning-lab-final-project-attn-span/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Tue, 09 Aug 2011 11:36:50 +0000</pubDate>
+				<category><![CDATA[ATTN-SPAN]]></category>
+		<category><![CDATA[Learning Lab]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[bookmarklet]]></category>
+		<category><![CDATA[C-SPAN]]></category>
+		<category><![CDATA[government]]></category>
+		<guid isPermaLink="false">/?p=434</guid>
+
+					<description><![CDATA[Part 1: Introduction ATTN-SPAN Intro. Part 2: Prototype and Development Plan The Good News: I created a proof of concept prototype of the ATTN-SPAN platform powered by the Metavid project. The Bad News: Metavid is having a lot of stability issues right now, so you probably won’t be able to use my prototype. I made [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Part 1: Introduction</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/27480773?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0"></iframe></p>
+<p><a href="http://vimeo.com/27480773">ATTN-SPAN Intro</a>.</p>
+<h2>Part 2: Prototype and Development Plan</h2>
+<p><strong>The Good News:</strong> I created a proof of concept <a href="http://bit.ly/qt8q4e" target="_blank">prototype of the ATTN-SPAN platform</a> powered by the <a href="http://metavid.org/" target="_blank">Metavid</a> project.</p>
+<p><strong>The Bad News:</strong> Metavid is having a lot of stability issues right now, so you probably won’t be able to use my prototype.  <a href="http://vimeo.com/27473310" target="_blank">I made a screen cast just in case.</a></p>
+<p>Relying on a 3rd party for the most important aspect of an application is a major risk; one that I must mitigate. This brings me to my first batch of design work: the content scraper.</p>
+<h3>Scraping, Slicing, and Scrubbing C-SPAN</h3>
+<p>How do you get from a TV channel to a rich video archive and how do you get there automatically?  The goal is to convert C-SPAN into a series of overlapping video segments that are identified in terms of state, politician, topic, party, action, and legislative item.  Some of this is straightforward and some of it might be impossible, but here’s an overview of the planned nuts and bolts:</p>
+<ol>
+<li>DirecTV offers TV content in a format that is easy to record digitally and <a href="http://www.videolan.org/" target="_blank">VLC</a> is a free tool that can do that recording.  Combine the two and we can download C-SPAN streams into individual files that are primed and ready for analysis.</li>
+<li>Once a video file is in our clutches we can use VLC once again to separate out the video from the Closed Captioning transcript.</li>
+<li>Now we have a transcript and a raw video file.  Next we register all of this information (in a database) so that we can look it all up later, and then convert the video file in to streaming-friendly formats and store it alongside the original recording.</li>
+<li>C-SPAN consistently shows a graphic on the bottom of the screen that says who is talking, their state, their party, and what is being debated.  By using a technique called <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank">Optical Character Recognition (OCR)</a> we can pull this text out of the video image.  Once pulled, we can add that to our database so that we can access all of this information for any moment in the video.</li>
+<li>At this point we have most of the information we need, but there is still room for fine tuning.  We can use audio levels and the closed captioning transcripts to try to identify moments of inactivity, normal dialogue, and heated dialogue.</li>
+</ol>
+<p>These steps are enough to split up and categorize C-SPAN footage into an organized video database, but there are still more ways to flag special moments in the footage.  For example, we may want to identify changes in speaker emotion in order to give our algorithms the ability to craft more engaging episodes. This is possible through the work of <a href="http://affect.media.mit.edu/" target="_blank">Affective Computing</a> group at the MIT Media Lab, a group which has developed several tools that perform emotional analysis using facial recognition.</p>
+<p>We may also want to identify specific legislative action (e.g. “calling a vote”).  This could be accomplished by looking for key words in the transcript (e.g. &#8220;call a vote&#8221;) and possibly through common patterns in the audio signal (maybe there are identifiable sounds, such as a gavel hitting the table).  Both of these concepts require additional research.</p>
+<h3>Creating a Profile and Constructing an Episode</h3>
+<p>If video events are the building blocks then viewer interests are the glue.  The creation of a personalized episode requires two things: A user account, and a context.  The user account provides general information like where you live, what issues you have identified as important, and (if you are willing to connect with Twitter or Facebook) what issues your circles have been discussing lately.</p>
+<p>The context comes from time and cyberspace.  Every night, after congress closes their gates, your profile is used to create a short, rich video experience designed to contain as much relevant content from that day as possible.  At this point you might get an email begging you to watch, or maybe you log in on your own because you are addicted to badges and points and you want as much ATTN-SPAN karma as you can get.</p>
+<p>There is another way to access this content though, and that is through the web sites you visit anyway.  Imagine if you could read an article about the National Debt on the New York Times (or in a chain email) and actually see quotes from your own senators in the report.  What if you could supplement the national report with a video widget that lets you browse what your house members had to say when they controlled the floor during the debt debates.</p>
+<p>From a technical perspective this isn&#8217;t that far fetched.  <a href="/2011/08/introducing-truth-goggles/" target="_blank">Truth Goggles</a>, one of my other projects, is a <a href="http://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a> that will analyze the web page you are viewing, fact check it, and rewrite the content to highlight truths and lies.  This impossible feat is fairly similar to what I&#8217;m proposing here.</p>
+<h3>Adding Rich Information</h3>
+<p>Once an episode is pieced together we can look up the information surrounding the video to know who is talking and what they are talking about.  What else can be added and how do we get it? Existing APIs offer some good options:</p>
+<ul>
+<li><strong>Contact Information</strong> &#8211; Thanks to the <a href="http://services.sunlightlabs.com/docs/Sunlight_Congress_API/" target="_blank">Sunlight Labs Congress API</a> it is possible to get the contact information for any member of congress on the fly.  Thanks to VOIP services it is possible to create web-based hooks to call those people with the click of a button.</li>
+<li><strong>Campaign Contributions</strong> &#8211; The New York Times offers a <a href="http://developer.nytimes.com/docs/campaign_finance_api/" target="_blank">Campaign Finance API</a> which can help you understand where the person on screen gets his or her money.</li>
+<li><strong>Voting Records</strong> &#8211; The New York Times also offers a <a href="http://developer.nytimes.com/docs/read/congress_api" target="_blank">Congress API</a> that will make it possible to know vote outcomes from related bills as well as information about the active speaker&#8217;s voting records.</li>
+<li><strong>Truth and Lie Identification</strong> &#8211; My <a href="/2011/08/introducing-truth-goggles/" target="_blank">Truth Goggles</a> project can be easily adapted to work with snippets from video transcripts.  This will allow ATTN-SPAN to take advantage of fact checking services like PolitiFact and NewsTrust.</li>
+</ul>
+<p>This is a good start, but I would also like to show links to related news coverage and create socially driven events based on community sentiment (for instance to track moments that caused people to get upset or happy).  This won&#8217;t come for free, but it should be accessible given the right interface design.</p>
+<h2>Part 3: A Note to the Newsies</h2>
+<p>So that&#8217;s the idea and the plan.  What&#8217;s the value?</p>
+<p>It seems plausible that ATTN-SPAN, a system that analyzes primary source footage and pulls out any content that is related to a particular beat could be useful as a reporters tool, but what about your subscribers?  ATTN-SPAN can augment an individual article so that it hits everybody close to home.  Suddenly one article becomes as effective as two dozen.  Moving past text, for larger organizations with a significant amount video footage ATTN-SPAN can be tweaked to use your programming instead of (or in addition to) C-SPAN.</p>
+<p>At this point I have to warn you that this is not the first nor will it be the last project to work with C-SPAN.  A 2003 demo out of the Media Lab used C-SPAN as one of several sources of information in a platform aimed to provide citizens with <a href="http://web.mit.edu/newsoffice/2003/gia.html" target="_blank">Total Government Awareness</a>.  <a href="http://metavid.org/" target="_blank">Metavid</a>, the platform I used in my initial prototype, already makes C-SPAN more accessible by enabling searches and filters.  The list surely goes on.</p>
+<p>So why is this a more powerful project?  Well, the real goal of ATTN-SPAN isn&#8217;t to get more people watching C-SPAN.  In fact I tricked you: this project isn&#8217;t about government awareness at all.  It&#8217;s actually part of an effort to make indisputable fact (&#8220;blunt reality&#8221; and &#8220;primary source footage&#8221;) a more prominent part of the media experience without requiring additional effort from the audience.  Newsrooms do an amazing job of reporting events and providing insight, but for deeper stories there simply isn&#8217;t enough time or money to cover everybody&#8217;s niche without going beyond the average person&#8217;s attention span.</p>
+<p>Thus ends my pitch.</p>
+<p><em>The code for both prototypes mentioned in this post can be found on github: <a href="https://github.com/slifty/ATTN-SPAN">ATTN-SPAN</a> and <a href="https://github.com/slifty/Critical">Truth Goggles</a>.  Please forgive any dirty hacks.  I would be thrilled if anybody wants to offer suggestions or even collaborate.  On that note, please get in touch on Twitter <a href="http://twitter.com/slifty" target="_blank">@slifty</a>.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/08/learning-lab-final-project-attn-span/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ATTN-SPAN: Primary Sources for Common Folk</title>
+		<link>/2011/08/attn-span-primary-sources-for-common-folk/</link>
+					<comments>/2011/08/attn-span-primary-sources-for-common-folk/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Fri, 05 Aug 2011 05:56:32 +0000</pubDate>
+				<category><![CDATA[ATTN-SPAN]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<guid isPermaLink="false">/?p=387</guid>
+
+					<description><![CDATA[ATTN-SPAN is my hopeful attempt to have my cake and eat it too. Don&#8217;t let MoJo or MIT fool you: I&#8217;m making it for myself. The idea behind this project is that most content out there is a product that was created for the masses &#8211; not for me. I can find algorithms and editors [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Oh debt limit!  Those rascals in United States congress were at it again.  At least that’s what I was told by CNN.  In reality most of what I know about the whole issue has come from about four source types: blog posts shared by friends, anonymous info graphics, national media outlets, and conversations with people who get their information from these three things.  As a result I have a vague idea about what went on, but since my senators didn&#8217;t do anything particularly crazy like walk around naked on the debate floor or challenge each other to a dual I get no knowledge of the thing that matters most: my personally elected representatives.</p>
+<p>After the legislation was passed I saw a poll on CNN’s front page that I can only assume was a blatant taunt to drive this horrible situation home.  The poll read something along the lines of “How satisfied are you with the actions of your elected representatives?”  To which I responded by clenching my fists and screaming to the sky: “How the hell should I know?”</p>
+<p>Of course I realize this is nobody&#8217;s fault.  I realize this especially after listening to <a href="http://m5.blindsidenetworks.com/playback/simple/playback.html?meetingId=23f6da2d4a069445f489de7a2f2bbd982055a29f-1311778142377" target="_blank">Mohamed Nanabhay</a> describe the work and challenges faced by the journalists at Al Jazeera.  The professionals manning the ships of media corporations must face countless unsolvable challenges involving what content to air, how to craft a message, and how to share information across many diverse communities in a way that makes sense.</p>
+<p><p>ATTN-SPAN is my hopeful attempt to have my cake and eat it too.  Don&#8217;t let MoJo or MIT fool you: I&#8217;m making it for myself.  The idea behind this project is that most content out there is a product that was created for the masses &#8211; not for me.  I can find algorithms and editors that try to pick out articles written for masses that are similar to me, but ultimately those articles are still written for masses.  My theory is that the only way to get true personalization is at the source.  The primary source.</p>
+<p>The reason nobody likes primary sources is that they are a really inefficient way to transfer information.  The irrelevant-to-information ratio is simply too high.  Worse. The boring-to-anything ratio is too high.  I mean seriously, who watches C-SPAN?  But what if that primary source can be tagged, catalogued, and marked up in a way that will help generate digestible content on an individual level?</p>
+<p>Once the footage of congress can be automatically organized in terms of not just things like who is talking and what is being discussed, but also in terms of when voices get louder or when gavels hit the table&#8230; Well, suddenly primary sources can be patched together completely dynamically in a way that tells a story just for you.  Your information diet can be augmented with personalized, real world footage. Finally you&#8217;ll know for sure that your senator is just as ineffective as you had previously assumed!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/08/attn-span-primary-sources-for-common-folk/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Joining The 202nd Decade: It&#8217;s HTML5 Week!</title>
+		<link>/2011/07/joining-the-202nd-decade-its-html5-week/</link>
+					<comments>/2011/07/joining-the-202nd-decade-its-html5-week/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2011 03:51:38 +0000</pubDate>
+				<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[learning]]></category>
+		<guid isPermaLink="false">/?p=334</guid>
+
+					<description><![CDATA[I have two new missions for the week: become an HTML5 and CSS3 guru, and go back to make sure my projects on github (there aren’t many at the moment) are well organized.  These goals were both inspired by three recently acquired heroes of mine: Chris Heilmann, John Resig, and Jesse James Garret &#8212; all [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I have two new missions for the week: become an HTML5 and CSS3 guru, and go back to make sure <a href="https://github.com/slifty">my projects on github</a> (there aren’t many at the moment) are well organized.  These goals were both inspired by three recently acquired heroes of mine: <a href="http://ps.ht/n7y6Ol">Chris Heilmann</a>, <a href="http://bit.ly/q2FFlo">John Resig</a>, and <a href="http://ps.ht/qGQ7G7">Jesse James Garret</a> &#8212; all guest speakers last week for the Mozilla Knight Learning Lab.</p>
+<p>The HTML5 goal didn&#8217;t take much prodding because it’s something I should have done last year.  I delayed because jQuery was meeting my needs in terms of prototypes and I was cramming my head full of nodejs, arduino, OSX and terminal magic, git and mercurial, Python, Matlab, how to make almost anything, and all sorts of nerdly things that I should have picked up during my undergrad years but somehow avoided.</p>
+<p>What convinced me this time – aside from the fact that it is clearly the future of the web – is that my project for the Learning Lab, a C-SPAN analysis and summary tool called ATTN-SPAN, is pretty much exactly the kind of project that HTML5 is supposed to improve.</p>
+<p>The fit is probably best explained by going over the<strong> three major hurdles I face for this project:</strong></p>
+<ol>
+<li>How do I collect and store the video content?</li>
+<li>How do I processes and personalize the video content?</li>
+<li>How do I present the video content?</li>
+</ol>
+<p>Item 1 is partially solved thanks to some of the great researchers here at the Media Lab – and thanks to the <a href="http://www.metavid.org/">metavid project</a>.</p>
+<p>Item 2 is going to be tricky, but that’s a can of worms that has very little to do with HTML5.  I’m hoping that I can turn the videos into an “event based” organization, where events are automatically identified things such as “senator A smiles” “senator B says X” “senator C shows a picture of grazing cattle.”  I also want to leave room for user defined events such as “senator D says something I disagree with.”</p>
+<p>Item 3 is where this week’s lectures become particularly important, for implementation, HTML5 is where video presentation and interaction suddenly becomes much more flexible.   The events described earlier in this post are going to drive an “personalized episode generation” algorithm which, for a given individual from a given state, will create a series of C-SPAN timestamps associated with video clips and all sorts of metadata.</p>
+<p>As for design&#8230; Well, lets just say that clearly I’m going to have to spend some time re-watching that lecture by Jesse James Garret.  I&#8217;m going to take a few hours this week when I&#8217;m not reading up on HTML5 or creating buttons that allow you to discover the truth about anything online (link to this one coming soon) to do some wireframes for the ATTN-SPAN UX.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/07/joining-the-202nd-decade-its-html5-week/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:26 by W3 Total Cache
+-->

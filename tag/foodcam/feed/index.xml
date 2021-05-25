@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>foodcam &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/foodcam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Mon, 27 Sep 2010 04:59:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Ode to Food Cam</title>
+		<link>/2010/09/ode-to-food-cam/</link>
+					<comments>/2010/09/ode-to-food-cam/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 27 Sep 2010 04:59:54 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[foodcam]]></category>
+		<category><![CDATA[MIT Media Lab]]></category>
+		<guid isPermaLink="false">/?p=178</guid>
+
+					<description><![CDATA[I have seen the future, and it is food cam.  It is, by far, the most important and revolutionary invention to come out of the Media Lab, and you can use it right now, right here, from where you are sitting. Food cam is a webcam located on the 3rd floor of E15 &#8212; conveniently [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I have seen the future, and it is food cam.  It is, by far, the most important and revolutionary invention to come out of the Media Lab, and you can <a href="http://foodcam.media.mit.edu/view/view.shtml">use it right now, right here, from where you are sitting</a>.</p>
+<p>Food cam is a webcam located on the 3rd floor of E15 &#8212; conveniently placed almost immediately outside of my lab.  It is mounted to the ceiling and is pointed down onto a counter, and can be viewed by anyone in the world.  People put free food underneath it whenever there are leftovers, which means that no food goes to waste in the entire lab! Together we consume it all!</p>
+<div id="attachment_900" style="width: 610px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/09/Foodcam.jpg"><img aria-describedby="caption-attachment-900" loading="lazy" src="/wp-content/uploads/2010/09/Foodcam.jpg" alt="Foodcam in an empty state" title="Foodcam" width="600" height="450" class="size-full wp-image-900" srcset="/wp-content/uploads/2010/09/Foodcam.jpg 600w, /wp-content/uploads/2010/09/Foodcam-300x225.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a><p id="caption-attachment-900" class="wp-caption-text">Foodcam in an empty state (it&#039;s on the top)</p></div>
+<p>The best part about foodcam, aside from the free food it helps distribute, is the fact that there is a &#8220;dinner bell.&#8221;  Apparently not everyone looks at the live feed at all times (I do&#8230;).  For people like this, there&#8217;s a mailing list.  When someone places food under the foodcam they hit the button mounted to the wall, labeled &#8220;dinner bell&#8221;.  This causes the foodcam to take a picture of whatever is under it, and to email that picture to the rest of the lab.</p>
+<p>Here are some recent &#8220;Come and get it!&#8221; emails:</p>
+<div id="attachment_902" style="width: 650px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/09/FC1.jpg"><img aria-describedby="caption-attachment-902" loading="lazy" src="/wp-content/uploads/2010/09/FC1.jpg" alt="Mmmm bagels with indian food!" title="FC1" width="640" height="480" class="size-full wp-image-902" srcset="/wp-content/uploads/2010/09/FC1.jpg 640w, /wp-content/uploads/2010/09/FC1-300x225.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-902" class="wp-caption-text">Mmmm bagels with indian food!</p></div>
+<p><a href="/wp-content/uploads/2010/09/FC2.jpg"><img loading="lazy" src="/wp-content/uploads/2010/09/FC2.jpg" alt="" title="FC2" width="640" height="480" class="aligncenter size-full wp-image-903" srcset="/wp-content/uploads/2010/09/FC2.jpg 640w, /wp-content/uploads/2010/09/FC2-300x225.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a></p>
+<p>And, my favorite announcement to date:</p>
+<div id="attachment_904" style="width: 650px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2010/09/FC3.jpg"><img aria-describedby="caption-attachment-904" loading="lazy" src="/wp-content/uploads/2010/09/FC3.jpg" alt="" title="FC3" width="640" height="480" class="size-full wp-image-904" srcset="/wp-content/uploads/2010/09/FC3.jpg 640w, /wp-content/uploads/2010/09/FC3-300x225.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a><p id="caption-attachment-904" class="wp-caption-text">This announcement was made at 1:00 AM on a Saturday, so only the truly dedicated could reap the benefits (I was not dedicated enough)</p></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/09/ode-to-food-cam/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:27 by W3 Total Cache
+-->

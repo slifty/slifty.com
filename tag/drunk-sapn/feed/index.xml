@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DRUNK-SAPN &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/drunk-sapn/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 04:33:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Introducing Opened Captions</title>
+		<link>/2012/10/introducing-opened-captions/</link>
+					<comments>/2012/10/introducing-opened-captions/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 25 Oct 2012 20:16:05 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Opened Captions]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[C-SPAN]]></category>
+		<category><![CDATA[DRUNK-SAPN]]></category>
+		<category><![CDATA[Introduction]]></category>
+		<guid isPermaLink="false">/?p=1442</guid>
+
+					<description><![CDATA[I made something awesome last week: Opened Captions. At face value it just looks like a live feed of C-SPAN&#8217;s Closed Captions. This alone is actually pretty cool if you think about it, especially if you are a deaf political junkie who sits far away from the TV and can&#8217;t read the closed captions. Of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I made something awesome last week: <a href="http://openedcaptions.com/">Opened Captions</a>.</p>
+<p><a href="/wp-content/uploads/2012/10/OC.png"><img loading="lazy" src="/wp-content/uploads/2012/10/OC.png" alt="" title="OC" width="299" height="169" class="alignright size-full wp-image-1469" /></a></p>
+<p>At face value it just looks like a live feed of C-SPAN&#8217;s Closed Captions.  This alone is actually pretty cool if you think about it, especially if you are a deaf political junkie who sits far away from the TV and can&#8217;t read the closed captions.</p>
+<p>Of course there is more.  The real excitement comes when you contemplate what&#8217;s happening to get those words to appear on your screen.</p>
+<p>This system unlocks and syndicates a real-time dataset that used to be a pain in the ass to access.  Now anyone can build applications and visualizations that update before those crafty politicians have even finished making their points.  This post explains why Opened Captions is worth hacking with, what it takes to use it, and how it works.</p>
+<h2>What is it Good For?</h2>
+<p>The Internet is filled with real-time updates triggered by online activity, but it still feels like magic when we see automatic updates driven by the real world.  Opened Captions makes it easy for programmers to use live TV transcripts as an input.</p>
+<p><em>Note: version .001 only supports a single channel (and my server is pointed to C-SPAN).  Eventually the protocol should expand to allow multiple channels.</em></p>
+<p>Let&#8217;s consider C-SPAN.  If a computer knows what is being said on C-SPAN this very second, it can do things like:</p>
+<ul>
+<li>Change the background of your email client to reflect the issues being debated right this moment on the senate floor.</li>
+<li>Generate modified, more amusing, transcripts by replacing key words and phrases with Tolkien lore (i.e. C-SPAN for Middle Earth)</li>
+<li>Search through lyrics and generate a C-SPAN medley for you to rock out to while voting.</li>
+<li>Send SMS messages 24/7 <a href="http://openedcaptions.com/drunk-sapn">commanding you to &#8220;drink&#8221;</a> when certain phrases are spoken on air.</li>
+</ul>
+<p>There are also possibilities that aren&#8217;t ridiculous.   For instance, you could make tools that…</p>
+<ul>
+<li>Improve the transcript by <a href="http://openedcaptions.com/cardtext">automatically adding contextual information</a>, such as definitions and histories thefted from Wikipedia.</li>
+<li>Send emails with transcript snippets whenever a specific representative or state is being discussed on TV so you know what&#8217;s going on.</li>
+<li>Parse out paraphrases of known fact checks and insert a credibility layer over the transcript feed (real time fact-checking).</li>
+<li>Draw parallels between what is being said on TV and what is being said on Twitter.</li>
+</ul>
+<p>I could go on and on and on.  There is just so much potential!</p>
+<h2>The Backend</h2>
+<p>Behind the stream is a first stab at a distributed architecture for Closed Captioning live-feeds.  Opened Captions servers can pull a CC stream over a serial port, or (more likely) they will connect to an existing Opened Captions server and pull the stream from there.  What that means in de-jargon is that anybody can set up a server that does exactly what mine is doing, even if they don&#8217;t have access to hardware, software, or a live TV stream.</p>
+<p>When I say exactly, I mean it &mdash; your new project runs the same code as mine, and will serve the feed too.  People can connect their servers to yours in the same way you connected yours to mine.  Practically speaking this architecture means a few things:</p>
+<ol>
+<li>Once your amazing mashup gets popular it won&#8217;t break my server.  Your application is syndicating the captions to your users.  I serve the captions to you, <em>you</em> serve them to the world!</li>
+<li>Your server creates a fork of my stream.  Want to modify the text so the politicians sound drunk?  Add extra layers of information to the message payload?  Translate the captions to Klingon?  Go for it.  If your tweaks happen server side then others can build their apps from your stream to modify it further.</li>
+<li>You don&#8217;t have to rely on anyone else for the Closed Captions.  If you want to spend some extra time setting up your own scraper you can point your server to that source instead of a third party.  You have total control.</li>
+</ol>
+<h2>Check &#8216;Em</h2>
+<p>Wondering if this is worth your time?  Well, it doesn&#8217;t require much of it.  The service takes about two minutes to set it up if you already have <a href="http://www.node.js/">Node.js</a> and <a href="http://git-scm.com/downloads">Git</a> installed on your computer.  Here&#8217;s a video to prove it:</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/52178097?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p>Installation instructions can be found <a href="https://github.com/slifty/opened-captions/blob/master/README.md">in the readme</a> and you can always get in contact with me <a href="http://www.slifty.com/contact">through the blog</a> or <a href="http://www.twitter.com/slifty">on twitter</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/10/introducing-opened-captions/feed/</wfw:commentRss>
+			<slash:comments>20</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:08 by W3 Total Cache
+-->

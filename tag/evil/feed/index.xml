@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>evil &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/evil/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 25 Jul 2012 16:26:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Value of a Super Villain</title>
+		<link>/2012/07/the-value-of-a-super-villain/</link>
+					<comments>/2012/07/the-value-of-a-super-villain/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 25 Jul 2012 16:26:56 +0000</pubDate>
+				<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[evil]]></category>
+		<category><![CDATA[journalism]]></category>
+		<category><![CDATA[newsrooms]]></category>
+		<guid isPermaLink="false">/?p=1133</guid>
+
+					<description><![CDATA[I may have graduated, but I still get very good advice from my mentors. The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month. That would be really embarrassing for everyone.&#8221; His delivery reflected a hint of genuine concern. There are many reasons why he might have [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I may have graduated, but I still get very good advice from my mentors.  The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month.  That would be really embarrassing for everyone.&#8221;  His delivery reflected a hint of genuine concern.</p>
+<p>There are many reasons why he might have said this, but two stand out.  For one thing I had just given a presentation about <a href="http://www.newsjack.in/">NewsJack</a>, a media manipulation platform that I created from Mozilla&#8217;s Hackasaurus with Sasha Costanza Chock.  When NewsJack was released it was immediately met with a Cease and Desist from the New York Times (note that The Times is the parent company of The Boston Globe).</p>
+<p>It is also possible that he was inspired because I had just confessed on stage that one of my first thoughts when walking into The Globe&#8217;s headquarters was &#8220;I wonder what it would take to bring down this organization.&#8221;  I&#8217;m betting it was the juxtaposition.</p>
+<h2>The Backstory</h2>
+<p><div id="attachment_1138" style="width: 160px" class="wp-caption alignright"><a href="/wp-content/uploads/2012/07/dr-evil.png"><img aria-describedby="caption-attachment-1138" loading="lazy" src="/wp-content/uploads/2012/07/dr-evil-150x150.png" alt="Dr. Evil" title="dr-evil" width="150" height="150" class="size-thumbnail wp-image-1138" srcset="/wp-content/uploads/2012/07/dr-evil-150x150.png 150w, /wp-content/uploads/2012/07/dr-evil-300x300.png 300w, /wp-content/uploads/2012/07/dr-evil-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a><p id="caption-attachment-1138" class="wp-caption-text">An <em>evil</em> newspaper editor?</p></div>During my first few days at the globe I wanted to understand opportunities for innovation as quickly as possible, but to do that I needed to understand their resources and values.  It occurred to me that if you want to identify an organization&#8217;s most valuable assets but you don&#8217;t know where to start, you should just pretend to be a super villain and plot their destruction.</p>
+<p>Assuming you&#8217;re a competent villain, whatever you end up targeting should be important.  Not only that, but the target will reflect your personal passions and expertise.  Try the mental exercise yourself and share the results.  I dare you.</p>
+<p>For example, to take down a newspaper you could…</p>
+<ul>
+<li><strong>Open up their paywall</strong> (if it exists), steal their content, and make it freely visible to the world without giving them any form of recognition or compensation.</li>
+<li><strong>Eliminate their productivity</strong>, either by instigating a massive strike or by hiring away all of their employees.</li>
+<li><strong>Scare away their advertisers</strong> so they lose a significant revenue stream and can no longer pay their bills.</li>
+<li><strong>Destroy their infrastructure</strong> (printing presses, websites, etc), thus disabling their ability to ship product.</li>
+<li><strong>Corrupt their editors</strong> and slowly replace key actors with your henchmen so that the paper becomes your mouthpiece.</li>
+<li><strong>Buy sharks with laser beams attached to their heads.</strong></li>
+</ul>
+<p>A super villain&#8217;s master plan needs to be intricate enough to be interesting and difficult enough to be impressive.  Blunt ideas like &#8220;take down their website&#8221; or &#8220;steal all their money&#8221; are a bit too obvious.  It must also be simple enough for a diverse audience to understand.  If nobody can figure out what you did, why it was sinister, or how it actually worked then it is hardly going to make headlines.  Finally, it can&#8217;t be a series of bee stings; the evil needs to be condensed enough that it could fit in a tweet.</p>
+<h2>The Plan</h2>
+<p>My evil plan didn&#8217;t take long to imagine (given my <a href="http://www.truthgoggl.es/">recent work</a>).  If I were evil and wanted to destroy a newspaper I would ruin their brand&#8217;s credibility.  This could be accomplished in many interesting and convoluted ways, but the &#8220;how&#8221; isn&#8217;t the point, the important question is &#8220;why?&#8221;</p>
+<p>A media product will die miserable and alone unless it differentiates itself from the rest of the Internet.  Luckily, newspapers have something that the chaff doesn&#8217;t: they have the capacity to create trustworthy information experiences.  They are the ones with paid reporters asking the hard hitting questions, they have the editors and the internal fact-checkers, they don&#8217;t have an agenda and aren&#8217;t trying to manipulate me!  right?</p>
+<div id="attachment_1136" style="width: 522px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/07/DSCN0820.jpg"><img aria-describedby="caption-attachment-1136" loading="lazy" src="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg" alt="Base jumping" title="DSCN0820" width="512" height="384" class="size-large wp-image-1136" srcset="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg 1024w, /wp-content/uploads/2012/07/DSCN0820-300x225.jpg 300w, /wp-content/uploads/2012/07/DSCN0820-768x576.jpg 768w" sizes="(max-width: 512px) 100vw, 512px" /></a><p id="caption-attachment-1136" class="wp-caption-text">You could tie yourself to a bungee cord, close your eyes, and jump off a cliff… or you could read the New York Times.*</p></div>
+<p>Well, maybe.  As a reader I don&#8217;t know where content comes from or how much journalism went into it.  All I have is faith in their brand.  I <em>trust</em> that the sources I read are doing their jobs.  That faith didn&#8217;t come from nowhere.  I might have liked what they had to say in the past, or I saw my parents reading their paper, or their brand has a strong reputation.  Regardless, I am now far more likely to trust what they have to say than I am to trust, for example, <a href="http://www.foxnews.com/">what my crazy friends like to read</a>.</p>
+<p>Just to drive this home:  given the way content is presented today I could read the exact same article on the front page of the New York Times, Fox News, or the Huffington Post and my decision to trust it <a href="http://www.niemanlab.org/2012/06/how-do-you-tell-when-the-news-is-biased/">would be more strongly influenced by my opinions of the publisher than by the content itself</a>.</p>
+<p>To drive it home a different way: hijacking a newspaper&#8217;s credibility is as <a href="http://newsjack.in/remix.php?url=http://www.cnn.com">simple</a> as <a href="http://newsjack.in/remix.php?url=http://www.foxnews.com">imitating</a> their <a href="http://newsjack.in/remix.php?url=http%3A%2F%2Fwww.nytimes.com">brand</a>.</p>
+<h2>Save the Day</h2>
+<p>The wheels are turning and it is already out of my control!  IP lawyers are powerless compared to the forces of the anonymous web!  But seriously, brand is a really fragile way to differentiate on the Internet.  So what&#8217;s a newspaper to do?</p>
+<p>Take a page from Apple and redefine the way people consume content.  Train your readers to expect a certain experience not just from <em>your</em> website, but from every source of news.  Make sure that experience is either expensive or impossible for alternative sources to replicate.  Newspapers need to make their readers expect proof of everything.  People should feel uncomfortable trusting information without explicit, functional credibility.</p>
+<p>Newspapers have journalists doing research, checking facts, and taking names.  They have multiple people and multiple systems touching every piece of content before it gets published, so why does the product usually end up being a bunch of words with prose-based evidence?</p>
+<p>News organizations need to make the world hold information to their standards.</p>
+<p>Like I said earlier, it makes sense that this particular plot and solution are coming from me.  I <a href="/2012/05/achievement-unlocked-thesis/">dedicated my thesis to credibility layers</a> &mdash; interfaces that lead to credible information experiences based on more than faith and trust.  There are many paths to differentiation.  Some are evil, some are entertaining, and some could even change the world.</p>
+<p><em>* Drawing courtesy of <a href="http://www.lyladuey.com/">Lyla Duey</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/07/the-value-of-a-super-villain/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:21 by W3 Total Cache
+-->

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2015 &#8211; Sorry for the Spam</title>
+	<atom:link href="/projects/2015/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 00:52:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Gender Avenger</title>
+		<link>/project/gender-avenger/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:47:58 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2346</guid>
+
+					<description><![CDATA[GenderAvenger is dedicated exclusively to ensuring that women are always part of the public dialog. The Gender Avenger Tally allows users to create pie charts displaying gender balance at events, on lists, at festivals, etc. and to instantly reveal results on Facebook and Twitter. Users can remain anonymous by asking GenderAvenger to share results.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>I started participating in the GA Tally project to help refine the code base and get it ready for a more serious launch.  The idea has always been simple: make it easy for folks to visualize gender disparity at events, in lists, and in the media.  The service is built in NodeJS and uses Google Charts to generate pie graphs based on the input of the user.</p>
+<p>For my part I helped clean up the interfaces, add some core functionality, and bring it to the iOS and Android app stores.  I&#8217;m also helping the Gender Avenger team think through their technology strategy.</p>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="http://www.jsonline.com/features/home/gender-avenger-site-lets-users-spotlight-gender-inequality-b99468614z1-297714831.html">Gender Avenger site lets users spotlight gender inequality</a> (Milwaukee Journal Sentinel)</li>
+<li><a href="http://www.mtv.com/news/2106574/gender-equality-app-sxsw/">Where My Ladies At? Gender Avenger Tracks Inequality At SXSW And Beyond</a> (MTV News)</li>
+<li><a href="http://www.msnbc.com/the-cycle/new-tool-seeks-gender-parity-conference">New tool aims for gender parity at conferences</a> (MSNBC)</li>
+<li><a href="http://magazine.good.is/articles/gender-avenger-sxsw">Gender Avenger Wants You to Report All-Male SXSW Panels With Its Simple App</a> (Good Magazine)</li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>NodeJS</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>At first I was skeptical that the problem of gender inequality could be universally solved in one swoop with a pie chart app.  I couldn&#8217;t have been more wrong!<br />
+&#8211; Apple Store Reviewer</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CivOmega</title>
+		<link>/project/civomega/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:45:37 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2344</guid>
+
+					<description><![CDATA[CivOmega is an attempt to give people with normal, human questions the ability to get answers from government data. It&#8217;s like a Mad Lib but useful.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>CivOmega makes it easy to convert government data and APIs into resources for people who didn&#8217;t spend half their lives learning to program.  For instance I made it possible to ask the question “What bills are about [X]” where X can be <a href="http://civomega.com/?a=chicken&#038;q=what%20laws%20are%20about%20{topic}?" target="_blank">any phrase you want</a>.  Behind the scenes CivOmega knows how to go out and talk to the appropriate datasets at which point light shines down from the heavens and angels sing to you about congress.</p>
+<p>Lots of data has been published, but it&#8217;s hard for non-technical constituents to benefit from it.  Now, thanks to CivOmega, when a new dataset is released to the developer community, someone could spend a few extra hours to unlocking all sorts of new questions and answers through CivOmega.</p>
+<p>The system is built in Python, and the first version of this was created during a 24 hour hackathon at the MIT Civic Media Conference in 2013.  Since then it has been rewritten with a more attention to code quality and extensibility thanks to a grant from the <a href="http://sunlightfoundation.com/" target="_blank">Sunlight Foundation</a>.</p>
+<p>A CivOmega module is made up of three parts:</p>
+<ol>
+<li><b>Question patterns.</b>  These patterns are used to guide a user to questions that the system knows through the main CivOmega interface. When a user asks a question that fits that pattern, CivOmega creates a structured object and passes it to the module that knows the answer. (Example: { &#8220;politician&#8221;: &#8220;John McCain&#8221;, &#8220;issue&#8221;: &#8220;Campaign Finance&#8221; })</li>
+<li><b>Mapping Logic.</b> Custom logic takes the structured data extracted from a pattern by CivOmega and uses it to look up answers. (Example: using the Sunlight Foundation&#8217;s congress API to get a list of all bills about Campaign Finance that were supported by John McCain.)
+<li><b>Answer Templates.</b> The result of that search is packaged and sent to an HTML / JavaScript / CSS template, which renders the answer in whatever format is most appropriate (as determined by the module author).
+</ol>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="/2013/06/introducing-civomega-an-effort-to-democratize-government-data/">Introducing CivOmega: An Effort to Democratize Government Data</a> (slifty.com)</li>
+<li><a href="http://www.niemanlab.org/2013/07/the-alpha-of-civomega-a-hack-day-tool-to-parse-civic-data-and-tell-you-more-about-beyonces-travels/">The alpha of CivOmega: A hack-day tool to parse civic data and tell you more about Beyoncé’s travels</a> (Nieman Lab)</li>
+<li><a href="https://source.opennews.org/en-US/articles/projects-opennews-mit-hack-day/">Projects from the OpenNews-MIT JHack Day</a> (Source)</li>
+<li><a href="http://www.programmableweb.com/news/civomega-wants-your-open-data-apis-to-help-fuel-search-engine/2013/07/19">CivOmega Wants Your Open Data APIs to Help Fuel Search Engine</a> (Programmable Web)</li>
+<li><a href="http://sunlightfoundation.com/blog/2013/09/20/opengov-voices-civomega-making-government-data-useful-to-everyone/">OpenGov Voices: CivOmega: Making Government Data Useful to Everyone</a> (Sunlight Foundation)</li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>Python</li>
+<li>jQuery</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Oh good, answers to questions I&#8217;ll never ask.<br />
+&#8211; The American Public</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:11 by W3 Total Cache
+-->

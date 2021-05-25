@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>JFDI &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/jfdi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Mon, 18 Jul 2011 05:54:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Art of JFDI</title>
+		<link>/2011/07/the-art-of-jfdi/</link>
+					<comments>/2011/07/the-art-of-jfdi/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2011 05:54:19 +0000</pubDate>
+				<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[demo]]></category>
+		<category><![CDATA[JFDI]]></category>
+		<category><![CDATA[making]]></category>
+		<guid isPermaLink="false">/?p=292</guid>
+
+					<description><![CDATA[It&#8217;s an incredibly humbling experience to sit down with your best ideas and crank out something quick and dirty for the world to see. In order to make something, you have to get your head out of the clouds and come careening down to earth. I knew this coming into the Media Lab, and quite [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>There is a saying that gets thrown around the <a href="http://media.mit.edu/">Media Lab</a>: “Demo or Die.” If you ever visit you’ll understand why.  When walking through the buildings you’ll find hundreds of demos of all shapes and sizes, often using technologies you didn’t even know existed (or maybe didn’t think were still used).  That’s what makes the place so gosh darn engaging.  The power behind these digital and analog monuments is that even a bad demo can often convey an idea more effectively than words. You probably knew that already (every kid who has ever had a chance to visit a museum knows this).</p>
+<div id="attachment_921" style="width: 510px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/07/4642584057_a45a85f8b6.jpg"><img aria-describedby="caption-attachment-921" loading="lazy" src="/wp-content/uploads/2011/07/4642584057_a45a85f8b6.jpg" alt="" title="4642584057_a45a85f8b6" width="500" height="375" class="size-full wp-image-921" srcset="/wp-content/uploads/2011/07/4642584057_a45a85f8b6.jpg 500w, /wp-content/uploads/2011/07/4642584057_a45a85f8b6-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a><p id="caption-attachment-921" class="wp-caption-text">Sponsor Week -- thanks to glemak on Flickr for the photo.</p></div>
+<p>But demos are hard, and not because of technology.  How does a person take a big, beautiful, perfect idea sitting in Plato’s <a href="http://en.wikipedia.org/wiki/Theory_of_Forms">land of forms</a> and force it into the ugly, imperfect, duct-taped monstrosity that is a “prototype?”  Even with all the technical knowledge in the world, that first step from mental to reality is the single most difficult moment in the process of idea realization.  It isn’t difficult because of time, or risk, or giant R&amp;D brick walls that need hurdling (although all of those can be a real pain in the ass).  Whether you realize it or not, it is an issue of humility.</p>
+<p>It&#8217;s an incredibly humbling experience to sit down with your best ideas and crank out something quick and dirty for the world to see.  In order to make something, you have to get your head out of the clouds and come careening down to earth.  I knew this coming into the Media Lab, and quite honestly it is why I joined; I came here to force myself to demo or die.  (So far I’ve done a bit of both, but that’s what learning is all about!)</p>
+<p>At this point I want to mention the <a href="http://p2pu.org/en/groups/knight-mozilla-learning-lab/">Knight-Mozilla learning lab</a>, which is actually the reason I wrote this particular blog post.  The program is essentially a miniature lecture-based course being run online as a joint effort between the Knight Foundation and Mozilla.  I managed to sneak in!  The first lecture, by <a href="http://www.azarask.in/blog/">Aza Raskin</a>, was about exactly this concept: prototyping.  In particular, the value of.  For me the most important takeaway (aside from &#8220;Prototypes are the tits of software design&#8221;) was a direct order from the Mozilla head designer himself: sit down with an idea, give yourself a day, and make as much as possible. By forcing yourself to cram you get the benefits of procrastination with none of the negatives.</p>
+<p>I&#8217;m hoping that this mentality will numb the harshness of the reality descent just enough to bash through that subconscious mental block.  Once a day is burned, if the idea is still worth pursuing I&#8217;ll give myself a weekend. Then a week if still needed.  The point is that I need to just !@#$%&amp; do it!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/07/the-art-of-jfdi/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:26 by W3 Total Cache
+-->

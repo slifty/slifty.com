@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>government &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/government/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 04:33:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Introducing CivOmega: An Effort to Democratize Government Data</title>
+		<link>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/</link>
+					<comments>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 24 Jun 2013 01:38:07 +0000</pubDate>
+				<category><![CDATA[Ideas and Projects]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[data]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[hackathon]]></category>
+		<category><![CDATA[transparency]]></category>
+		<guid isPermaLink="false">/?p=1864</guid>
+
+					<description><![CDATA[Over the past 24 hours I worked with an amazing team to start building a Siri for government. Well, Wolfram Alpha is more like it, but you probably have a better sense of what Siri is. The site is called CivOmega and it allows you to ask any question™ you want about civics. The system [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div id="attachment_1877" style="width: 330px" class="wp-caption aligncenter"><a href="http://www.civomega.com/" target="_blank"><img aria-describedby="caption-attachment-1877" loading="lazy" src="/wp-content/uploads/2013/06/logo.png" alt="Civomega" width="320" height="98" class="aligncenter size-full wp-image-1877" srcset="/wp-content/uploads/2013/06/logo.png 320w, /wp-content/uploads/2013/06/logo-300x92.png 300w" sizes="(max-width: 320px) 100vw, 320px" /></a><p id="caption-attachment-1877" class="wp-caption-text">You may want to skip this boring post and just <a href="http://www.civomega.com/">check out the site</a>.</p></div>
+<p>Over the past 24 hours I worked with an amazing team to start building a Siri for government.  Well, <a href="http://wolframalpha.com/">Wolfram Alpha</a> is more like it, but you probably have a better sense of what Siri is.  The site is called <a href="http://www.civomega.com/">CivOmega</a> and it allows you to ask any question<img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> you want about civics.  The system will do its best to get you an answer.</p>
+<p>I can&#8217;t speak for the team, but I&#8217;ll let you know why I proposed this idea at a hackathon about open data.  I&#8217;ll even use big letters:</p>
+<h2>Open Data Sucks</h2>
+<p>People have talked about making government data more accessible for approximately 500 yea<a href="https://en.wikipedia.org/wiki/Internet_service_provider"></a>rs.  The hope is that if you can find data about the way your government operates, you can shed light on interesting patterns and stories.  It&#8217;s all about transparency and accountability.  It&#8217;s a beautiful concept.  It&#8217;s wonderful for society.</p>
+<p>But actually data is pretty crappy.  It&#8217;s dirty and boring: just a bunch of numbers and rows and tables.  This kind of stuff doesn&#8217;t usually tell you much without a lot of very laborious prodding and exploration.  Don&#8217;t believe me?  Fine.  <a href="http://data.dc.gov/">Go find out for yourself</a>.  If you managed to get anything interesting out of that link then you have too much time on your hands.</p>
+<p>The ONLY thing that civic data has going for it is that programmers tend to build cool hacks using it.  I guess every once in a while you get a groundbreaking piece of journalism out of it too but I&#8217;ll ignore that for the sake of argument.</p>
+<h2>It&#8217;s Also Elitist</h2>
+<p>Here&#8217;s another problem: programmers have awesome, special tools to access data.  These tools are called &#8220;Application Programming Interfaces&#8221; (also known as an APIs).  An API is just a standard way for computers to ask each other for information.</p>
+<p>A human version of this plays out every time you go to a restaurant and order from a menu. You look at the list of what you can ask for, you ask for what you want, and eventually you either get your food or you get impatient and start throwing your silverware at other patrons.</p>
+<p>In my analogy the food is data and you and the chef are computers.  The waiter is the API and the menu is the documentation.  I guess the restaurant is the Internet and the restaurant&#8217;s manager is <a href="http://en.wikipedia.org/wiki/National_Security_Agency">the NSA</a> or something.  The silverware don&#8217;t really fit in.</p>
+<p>The point is that the COOL stuff happens because of these APIs.  Too bad nobody real knows what the hell an API is or how they could possibly go about using it.  Don&#8217;t believe me?  <a href="http://sunlightfoundation.com/api/">Go find out for yourself</a>. If the stuff on that page gave you access to data then you&#8217;re a nerd.</p>
+<p>If nerds and people who have too much time on their hands are the only ones who can use government data then it won&#8217;t change the world.  Plus, why should those people get to decide what is and isn&#8217;t important?</p>
+<h2>Humanizing Government Data</h2>
+<p>And so we come back to CivOmega.  This is an attempt to give people with normal, human questions the ability to benefit from the data that so many have worked their asses off to expose.  It makes it possible for a human to interact with an API in the same way they might interact with their waiter: by asking questions.  Users can type in questions about the government and it attempts to provide answers.</p>
+<p>It is built on a programming language called Python and the way it works is pretty simple.  A programmer who understands an API can write some code that knows how to answer certain question patterns.  For instance I made it possible to ask the question &#8220;What bills are about [X]&#8221; where X can be any phrase you want.  If you ask that, CivOmega will talk to the appropriate APIs to get you the answer you want.  Then it will tell you what it learned.</p>
+<p>The beauty of this setup is that any other programmer can spend a few minutes teaching the system to answer new kinds of questions.  For instance maybe someone knows about an environmental dataset and wants you to be able to ask questions about natural disasters (how many forest fires happened in California last year?).  That person could easily unlock that resource.</p>
+<p>If you&#8217;re a developer, go take a look at the repository and consider <a href="https://github.com/pudo/dataomega">adding a module</a>.  If you are a master of NLP please get in touch with me so we can improve the way people ask questions.  If you don&#8217;t know what either of those sentences meant, please just go <a href="http://www.civomega.com/">check out the site</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/06/introducing-civomega-an-effort-to-democratize-government-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A Tor of the Dark Web</title>
+		<link>/2012/08/a-tor-of-the-dark-web/</link>
+					<comments>/2012/08/a-tor-of-the-dark-web/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Fri, 17 Aug 2012 14:15:51 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Computing]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[anonymous]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[CIA]]></category>
+		<category><![CDATA[dark web]]></category>
+		<category><![CDATA[government]]></category>
+		<category><![CDATA[ogres]]></category>
+		<category><![CDATA[Tor]]></category>
+		<category><![CDATA[Tor Project]]></category>
+		<category><![CDATA[trolls]]></category>
+		<guid isPermaLink="false">/?p=1208</guid>
+
+					<description><![CDATA[Tor is a program that makes you anonymous. This means that, for better or for worse, the big brothers, neighborhood hackers, and ad agencies of the world can’t tell what you are doing on the Internet without going through a lot of effort and expense.]]></description>
+										<content:encoded><![CDATA[<p>Tell me if you&#8217;ve been in this situation: you&#8217;re chatting about online anonymity with your wife and the other Knight-Mozilla Fellows over a pizza in Florence. A quiet-spoken stranger who had been sitting across the room walks up to your table and says &#8220;are you all here for the Tor hackathon?&#8221; You respond &#8220;why yes, yes we are!&#8221;</p>
+<p>He goes on to explain that he is a journalist writing about Tor. He also tells us that he bets that the CIA and the Italian Secret Service are going to have moles there. What he obviously meant to say was &#8220;I work for the CIA and I&#8217;ve been watching you now for quite some time.&#8221;</p>
+<p>It&#8217;s possible that he didn&#8217;t actually work for the CIA. His name and photo checked out under the website he claimed to write for. It was probably just a one-time job. Even if this isn&#8217;t true, even if a network of government spies didn&#8217;t track my position across Europe just to meet us in a restaurant, his comment set the tone for my weekend in Florence.</p>
+<p>Tor is serious business.</p>
+<h2>What the hell is Tor?</h2>
+<div id="attachment_1254" style="width: 260px" class="wp-caption alignright"><img aria-describedby="caption-attachment-1254" loading="lazy" class="size-medium wp-image-1254" title="Tor's Logo" src="/wp-content/uploads/2012/08/Tor_project_logo_hq-300x190.png" alt="" width="250" height="158" srcset="/wp-content/uploads/2012/08/Tor_project_logo_hq-300x190.png 300w, /wp-content/uploads/2012/08/Tor_project_logo_hq.png 711w" sizes="(max-width: 250px) 100vw, 250px" /><p id="caption-attachment-1254" class="wp-caption-text">Did I mention Tor yet?</p></div>
+<p><a href="http://www.torproject.org/">Tor</a> is a program that makes you anonymous. This means that, for better or for worse, the big brothers, neighborhood hackers, and ad agencies of the world can&#8217;t tell what you are doing on the Internet without going through a <em>lot</em> of effort and expense.</p>
+<p>Is that too abstract? Here are some illustrative statements. *Taps the microphone*</p>
+<ul>
+<li>A Tor user walks into a bar, the bartender says &#8220;who are you?&#8221;</li>
+<li>How many Tor users does it take to screw in a light bulb? Only a few, but you&#8217;ll never know who did it.</li>
+<li>I used Tor last night and now my wife says that she doesn&#8217;t even know who I am any more.</li>
+</ul>
+<p>I&#8217;ll be here all night.</p>
+<p>If you use Tor you become <a href="http://www.youtube.com/watch?v=mOCsNrzlV2k">Spartacus</a>. Tor takes everything you do, makes it look exactly like what everyone else is doing, and gets random computers on their network to do the talking for you. Ta-da! Now it is practically impossible to pin an action on you.</p>
+<h2>The Original Need</h2>
+<p>I bet you wouldn&#8217;t have guessed that this idea was invented by The U.S. Navy. You would have? Oh.</p>
+<p>Put on your paper sailor hat and I&#8217;ll explain. Imagine you are the king of the Navy and you&#8217;re going to war with your fleet of a thousand brand new Navy cars (I don&#8217;t really know how the Navy works). Being king, you are in the most important car of all because you&#8217;re calling the shots. You don&#8217;t want the enemy to know which vehicle is yours. You also don&#8217;t want them to know who is receiving orders because that could give away your tactics.</p>
+<p>&#8220;I know,&#8221; you say, &#8220;I&#8217;ll encrypt everything so that they can&#8217;t see the content. Then they won&#8217;t be able to tell that my broadcasts are more important than others.&#8221;</p>
+<p>Unfortunately for you, the enemy has fancy technology. They can&#8217;t decrypt messages but they are able to track where everything comes from and where it is going. They can&#8217;t tell what you&#8217;re saying, but they have all they need.</p>
+<p>After about 5 minutes you think you&#8217;re doing well. Half of the enemy cars are already on fire! Yours explodes. &#8220;How did they do that?&#8221; you say in the afterlife. &#8220;Easy,&#8221; responds god, &#8220;they were able to see that your car was sending out the most messages. They knew exactly where you were.&#8221; Then he slaps you with a piece of linguini and drifts away.</p>
+<p>To prevent this from ever happening again the Navy decided to invent the concept of an &#8220;Onion Network&#8221; (not to be confused with <a href="http://www.theonion.com/">The Onion Network</a>). Now instead of having packets go directly from point A to point B, each one randomly hops around the fleet first. Because of encryption, the enemy can&#8217;t tell the difference between a new message and a &#8220;hop&#8221; message — they all look the same. It&#8217;s like running an invisible sprinkler in a thunderstorm.</p>
+<p>Suddenly nobody but the sender and the recipient can figure out the end points of a message chain. Even the middle men (the ones doing the hops) don&#8217;t know the path. Each piece of the hop — each &#8220;layer&#8221; of the message — is encrypted with a different key, so the only thing a relay knows is who gave them the package and where it should go next.</p>
+<p>Onions have layers too, that&#8217;s why this setup is called an <em>Onion</em> Network. Get it? It&#8217;s like Shrek!</p>
+<p><a name="buckwalter"></a></p>
+<div id="attachment_1285" style="width: 510px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/08/illustrationwithsignature.jpg"><img aria-describedby="caption-attachment-1285" loading="lazy" class="size-large wp-image-1285" title="Trolls use the Internet, Ogres use Tor" src="/wp-content/uploads/2012/08/illustrationwithsignature-774x1024.jpg" alt="Trolls use the Internet, Ogres use Tor" width="500" height="661" srcset="/wp-content/uploads/2012/08/illustrationwithsignature-774x1024.jpg 774w, /wp-content/uploads/2012/08/illustrationwithsignature-227x300.jpg 227w, /wp-content/uploads/2012/08/illustrationwithsignature-768x1016.jpg 768w" sizes="(max-width: 500px) 100vw, 500px" /></a><p id="caption-attachment-1285" class="wp-caption-text">Trolls use the Internet, Ogres use Tor. (Illustration by <a href="http://www.annebuckwalter.com/">Anne Buckwalter</a>)</p></div>
+<h2>What&#8217;s it Good For?</h2>
+<p>Tor has applications in the real world. You can buy drugs and guns, share illegal pictures, and hire assassins. Oh wait, I&#8217;m just describing Tor&#8217;s reputation (more on that later). Seriously, there are a lot of important situations where people have moral and compelling reasons to want anonymity.</p>
+<p>Here are a few:</p>
+<ul>
+<li><strong>Protecting witnesses and victims of domestic abuse.</strong> Anyone who wants to be able to access the internet without being discovered by a third party can use Tor to defend against their stalkers.</li>
+<li><strong>If you don&#8217;t like being tracked</strong> <a href="http://www.aclu.org/national-security/surveillance-under-usa-patriot-act">by your government</a>, <a href="http://lifehacker.com/5923017/how-can-i-prevent-my-isp-from-tracking-my-every-move">Internet Service Providers</a>, or <a href="http://donttrack.us/">search engines</a>.</li>
+<li><strong>Providing truly anonymous tips.</strong> There are times when people need or want to <a href="http://www.wikileaks.org/">share information</a> against the wishes of powerful and potentially dangerous forces (e.g. mafias, governments, or corporations).</li>
+<li><strong>Safely bypassing censorship.</strong> If you live in Syria, China, or <a href="http://defendtheinter.net/">The United States of RIAA/MPAA</a>, you might use Tor to access content from the outside world more safely.</li>
+</ul>
+<p>These kinds of reasons explain why organizations with very good reputations, like the Knight Foundation, are <a href="http://www.knightfoundation.org/grants/20121802/">devoting resources to Tor</a>.</p>
+<h2>The Dark Web</h2>
+<p>What I&#8217;ve just described is a spin on the way people access normal information online. If you point Tor Browser to Google you will see the same old Google, it&#8217;s just that now Google doesn&#8217;t know who you are. That&#8217;s powerful enough, but there&#8217;s more: Tor also lets you see hidden content on the Internet.</p>
+<p>Using Tor is like entering a cheat code into real life and playing the lost levels. It is the digital equivalent of <a href="http://www.youtube.com/watch?v=xh95Ymn6F8c">platform 9 and 3/4</a>. This secret section of the Internet is possible because Tor users can <em>serve</em> content anonymously too.</p>
+<p>If you don&#8217;t know much about how the Internet works, believe me when I say that if a web site&#8217;s location is hidden it becomes essentially impossible to access. It would be like trying to visit someone&#8217;s house without knowing anything about where they live — not even the country. Tor gives you a blindfold and leads you there. You still don&#8217;t know where the house is, but at least you can visit.</p>
+<p>Anonymous sites are accessed through something called an &#8220;onion address,&#8221; which is made up of a series of random letters and numbers. For instance, this is a &#8220;clean&#8221; version of Tor&#8217;s wikipedia: <a href="http://3suaolltfj2xjksb.onion/hiddenwiki/index.php/Main_Page">3suaolltfj2xjksb.onion</a>. Feel free to try clicking the link, it won&#8217;t work (Unless, of course, you are using the <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor browser</a>).</p>
+<p><em>Note: even if that link worked you wouldn&#8217;t see any terrible images. However, you need to use your brain before you start actually clicking around if you don&#8217;t want to get really upset.</em></p>
+<p>That random looking string is used to find the server within the Tor network. Because the addresses don&#8217;t point to a real address on the Internet, there is no way to fully access this content without Tor. There are <a href="http://onion.to/">services</a> you can use to get there without using Tor, but you lose all benefits of anonymity and content is often censored.</p>
+<p>Onion addresses are the most fascinating part of Tor, albeit the most potentially disturbing. Rest assured that they don&#8217;t all lead to child porn, guns, and drugs. For example there is a secret version of <a href="http://lotjbov3gzzf23hc.onion.to/">Twitter</a>, a bunch of <a href="http://utup22qsb6ebeejs.onion.to/">blogs</a>, a <a href="http://3g2upl4pq6kufc4m.onion.to/">search engine</a>, and an <a href="http://jhiwjjlqpyawmpjx.onion.to/">email service</a>. There is even a secret version of 4chan (called Torchan), which I won&#8217;t link to because that one <em>does</em> lead to child porn and drugs.</p>
+<p>These types of content networks—ones that are served on top of the normal web so that you need special programs to reach them—are known as the <a href="http://en.wikipedia.org/wiki/Dark_Internet">Dark Web</a>. Not necessarily because the content is darker (it is), but because it is hidden from view and can&#8217;t really be searched and scraped as reliably.</p>
+<h2>Implications of The Dark Web</h2>
+<p>Most uses for Tor become more potent with onion addresses. Anonymous servers are just as protected from higher powers as anonymous users. If Amazon suddenly started selling illegal drugs they would get in trouble. If a Tor marketplace started selling illegal drugs, the law would have to figure out a way to find them first.</p>
+<p>This power applies to legitimate uses as well. If a government official wanted to contact The Boston Globe with a corruption leak, he or she could use Tor to create a gmail account anonymously. The government could then subpoena Google, and Google might be willing to give away the information they have. They won&#8217;t know much, but now things like account access patterns and full email logs would be fair game.</p>
+<p>If the official had used Tormail then even Google wouldn&#8217;t know what happened. The government would have no course of action because there would be no service provider to ask. Every journalist in the world should be able to agree that there is no good reason for a watchdog to trust the organizations they are watching. Why should you trust in corporations and governments to keep sources safe?</p>
+<p>Tor has a reputation because it has a lot of criminal content, but the social good that it supports is just so important (criminals will always be criminals). I&#8217;m working on a game called <a href="https://github.com/slifty/torwolf">Torwolf</a> to simulate a few situations where Tor would be effective (if you have played Werewolf or Mafia, you can start to imagine what the game will be like). In the mean time, <a href="https://www.torproject.org/docs/faq.html.en">read up on Tor</a> if you&#8217;re curious. Better yet, <a href="https://www.torproject.org/download/download-easy.html.en">go try it out</a>.</p>
+<p><em><strong>IMPORTANT EDIT:</strong> while Tor is much better than nothing, it is neither foolproof nor perfect.  If maintaining anonymity could be a matter of life / death / imprisonment, then you need to know more than what I could fit into the scope of this overview. <a href="http://www.syverson.org/tor-vulnerabilities-iccs.pdf">This paper is a good starting point</a>, but seriously, spend some time researching on your own</a>.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/08/a-tor-of-the-dark-web/feed/</wfw:commentRss>
+			<slash:comments>37</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Learning Lab Final Project: ATTN-SPAN</title>
+		<link>/2011/08/learning-lab-final-project-attn-span/</link>
+					<comments>/2011/08/learning-lab-final-project-attn-span/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Tue, 09 Aug 2011 11:36:50 +0000</pubDate>
+				<category><![CDATA[ATTN-SPAN]]></category>
+		<category><![CDATA[Learning Lab]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[ATTN-Span]]></category>
+		<category><![CDATA[bookmarklet]]></category>
+		<category><![CDATA[C-SPAN]]></category>
+		<category><![CDATA[government]]></category>
+		<guid isPermaLink="false">/?p=434</guid>
+
+					<description><![CDATA[Part 1: Introduction ATTN-SPAN Intro. Part 2: Prototype and Development Plan The Good News: I created a proof of concept prototype of the ATTN-SPAN platform powered by the Metavid project. The Bad News: Metavid is having a lot of stability issues right now, so you probably won’t be able to use my prototype. I made [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Part 1: Introduction</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/27480773?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0"></iframe></p>
+<p><a href="http://vimeo.com/27480773">ATTN-SPAN Intro</a>.</p>
+<h2>Part 2: Prototype and Development Plan</h2>
+<p><strong>The Good News:</strong> I created a proof of concept <a href="http://bit.ly/qt8q4e" target="_blank">prototype of the ATTN-SPAN platform</a> powered by the <a href="http://metavid.org/" target="_blank">Metavid</a> project.</p>
+<p><strong>The Bad News:</strong> Metavid is having a lot of stability issues right now, so you probably won’t be able to use my prototype.  <a href="http://vimeo.com/27473310" target="_blank">I made a screen cast just in case.</a></p>
+<p>Relying on a 3rd party for the most important aspect of an application is a major risk; one that I must mitigate. This brings me to my first batch of design work: the content scraper.</p>
+<h3>Scraping, Slicing, and Scrubbing C-SPAN</h3>
+<p>How do you get from a TV channel to a rich video archive and how do you get there automatically?  The goal is to convert C-SPAN into a series of overlapping video segments that are identified in terms of state, politician, topic, party, action, and legislative item.  Some of this is straightforward and some of it might be impossible, but here’s an overview of the planned nuts and bolts:</p>
+<ol>
+<li>DirecTV offers TV content in a format that is easy to record digitally and <a href="http://www.videolan.org/" target="_blank">VLC</a> is a free tool that can do that recording.  Combine the two and we can download C-SPAN streams into individual files that are primed and ready for analysis.</li>
+<li>Once a video file is in our clutches we can use VLC once again to separate out the video from the Closed Captioning transcript.</li>
+<li>Now we have a transcript and a raw video file.  Next we register all of this information (in a database) so that we can look it all up later, and then convert the video file in to streaming-friendly formats and store it alongside the original recording.</li>
+<li>C-SPAN consistently shows a graphic on the bottom of the screen that says who is talking, their state, their party, and what is being debated.  By using a technique called <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank">Optical Character Recognition (OCR)</a> we can pull this text out of the video image.  Once pulled, we can add that to our database so that we can access all of this information for any moment in the video.</li>
+<li>At this point we have most of the information we need, but there is still room for fine tuning.  We can use audio levels and the closed captioning transcripts to try to identify moments of inactivity, normal dialogue, and heated dialogue.</li>
+</ol>
+<p>These steps are enough to split up and categorize C-SPAN footage into an organized video database, but there are still more ways to flag special moments in the footage.  For example, we may want to identify changes in speaker emotion in order to give our algorithms the ability to craft more engaging episodes. This is possible through the work of <a href="http://affect.media.mit.edu/" target="_blank">Affective Computing</a> group at the MIT Media Lab, a group which has developed several tools that perform emotional analysis using facial recognition.</p>
+<p>We may also want to identify specific legislative action (e.g. “calling a vote”).  This could be accomplished by looking for key words in the transcript (e.g. &#8220;call a vote&#8221;) and possibly through common patterns in the audio signal (maybe there are identifiable sounds, such as a gavel hitting the table).  Both of these concepts require additional research.</p>
+<h3>Creating a Profile and Constructing an Episode</h3>
+<p>If video events are the building blocks then viewer interests are the glue.  The creation of a personalized episode requires two things: A user account, and a context.  The user account provides general information like where you live, what issues you have identified as important, and (if you are willing to connect with Twitter or Facebook) what issues your circles have been discussing lately.</p>
+<p>The context comes from time and cyberspace.  Every night, after congress closes their gates, your profile is used to create a short, rich video experience designed to contain as much relevant content from that day as possible.  At this point you might get an email begging you to watch, or maybe you log in on your own because you are addicted to badges and points and you want as much ATTN-SPAN karma as you can get.</p>
+<p>There is another way to access this content though, and that is through the web sites you visit anyway.  Imagine if you could read an article about the National Debt on the New York Times (or in a chain email) and actually see quotes from your own senators in the report.  What if you could supplement the national report with a video widget that lets you browse what your house members had to say when they controlled the floor during the debt debates.</p>
+<p>From a technical perspective this isn&#8217;t that far fetched.  <a href="/2011/08/introducing-truth-goggles/" target="_blank">Truth Goggles</a>, one of my other projects, is a <a href="http://en.wikipedia.org/wiki/Bookmarklet" target="_blank">bookmarklet</a> that will analyze the web page you are viewing, fact check it, and rewrite the content to highlight truths and lies.  This impossible feat is fairly similar to what I&#8217;m proposing here.</p>
+<h3>Adding Rich Information</h3>
+<p>Once an episode is pieced together we can look up the information surrounding the video to know who is talking and what they are talking about.  What else can be added and how do we get it? Existing APIs offer some good options:</p>
+<ul>
+<li><strong>Contact Information</strong> &#8211; Thanks to the <a href="http://services.sunlightlabs.com/docs/Sunlight_Congress_API/" target="_blank">Sunlight Labs Congress API</a> it is possible to get the contact information for any member of congress on the fly.  Thanks to VOIP services it is possible to create web-based hooks to call those people with the click of a button.</li>
+<li><strong>Campaign Contributions</strong> &#8211; The New York Times offers a <a href="http://developer.nytimes.com/docs/campaign_finance_api/" target="_blank">Campaign Finance API</a> which can help you understand where the person on screen gets his or her money.</li>
+<li><strong>Voting Records</strong> &#8211; The New York Times also offers a <a href="http://developer.nytimes.com/docs/read/congress_api" target="_blank">Congress API</a> that will make it possible to know vote outcomes from related bills as well as information about the active speaker&#8217;s voting records.</li>
+<li><strong>Truth and Lie Identification</strong> &#8211; My <a href="/2011/08/introducing-truth-goggles/" target="_blank">Truth Goggles</a> project can be easily adapted to work with snippets from video transcripts.  This will allow ATTN-SPAN to take advantage of fact checking services like PolitiFact and NewsTrust.</li>
+</ul>
+<p>This is a good start, but I would also like to show links to related news coverage and create socially driven events based on community sentiment (for instance to track moments that caused people to get upset or happy).  This won&#8217;t come for free, but it should be accessible given the right interface design.</p>
+<h2>Part 3: A Note to the Newsies</h2>
+<p>So that&#8217;s the idea and the plan.  What&#8217;s the value?</p>
+<p>It seems plausible that ATTN-SPAN, a system that analyzes primary source footage and pulls out any content that is related to a particular beat could be useful as a reporters tool, but what about your subscribers?  ATTN-SPAN can augment an individual article so that it hits everybody close to home.  Suddenly one article becomes as effective as two dozen.  Moving past text, for larger organizations with a significant amount video footage ATTN-SPAN can be tweaked to use your programming instead of (or in addition to) C-SPAN.</p>
+<p>At this point I have to warn you that this is not the first nor will it be the last project to work with C-SPAN.  A 2003 demo out of the Media Lab used C-SPAN as one of several sources of information in a platform aimed to provide citizens with <a href="http://web.mit.edu/newsoffice/2003/gia.html" target="_blank">Total Government Awareness</a>.  <a href="http://metavid.org/" target="_blank">Metavid</a>, the platform I used in my initial prototype, already makes C-SPAN more accessible by enabling searches and filters.  The list surely goes on.</p>
+<p>So why is this a more powerful project?  Well, the real goal of ATTN-SPAN isn&#8217;t to get more people watching C-SPAN.  In fact I tricked you: this project isn&#8217;t about government awareness at all.  It&#8217;s actually part of an effort to make indisputable fact (&#8220;blunt reality&#8221; and &#8220;primary source footage&#8221;) a more prominent part of the media experience without requiring additional effort from the audience.  Newsrooms do an amazing job of reporting events and providing insight, but for deeper stories there simply isn&#8217;t enough time or money to cover everybody&#8217;s niche without going beyond the average person&#8217;s attention span.</p>
+<p>Thus ends my pitch.</p>
+<p><em>The code for both prototypes mentioned in this post can be found on github: <a href="https://github.com/slifty/ATTN-SPAN">ATTN-SPAN</a> and <a href="https://github.com/slifty/Critical">Truth Goggles</a>.  Please forgive any dirty hacks.  I would be thrilled if anybody wants to offer suggestions or even collaborate.  On that note, please get in touch on Twitter <a href="http://twitter.com/slifty" target="_blank">@slifty</a>.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/08/learning-lab-final-project-attn-span/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:12:59 by W3 Total Cache
+-->

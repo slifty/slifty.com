@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>LAN &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/lan/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 04:39:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Starcraft Network</title>
+		<link>/2011/03/starcraft-network/</link>
+					<comments>/2011/03/starcraft-network/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 28 Mar 2011 06:33:42 +0000</pubDate>
+				<category><![CDATA[Best]]></category>
+		<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Hilarity]]></category>
+		<category><![CDATA[bliss]]></category>
+		<category><![CDATA[LAN]]></category>
+		<category><![CDATA[StarCraft]]></category>
+		<guid isPermaLink="false">/?p=270</guid>
+
+					<description><![CDATA[I&#8217;ll cut right to the chase: my network naming convention is spectacular. I highly suggest emulating it. Non-nerds, read this first For the non-techies reading this I have some explaining to do.  When you have more than one computer connected together you form something called a Local Area Network (LAN).  For instance, you have a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I&#8217;ll cut right to the chase: my network naming convention is spectacular. I highly suggest emulating it.</p>
+<h2>Non-nerds, read this first</h2>
+<p>For the non-techies reading this I have some explaining to do.  When you have more than one computer connected together you form something called a Local Area Network (LAN).  For instance, you have a LAN if you have more than one computer connected to the internet at home.  Computers on networks like to communicate to one another and so they have an address on the network called an IP address, which is a series of numbers (e.g. 192.168.1.100).</p>
+<p>If you know the IP of a computer, you can send messages to it.  The problem is that normal people won&#8217;t remember all those numbers, and most of the time those numbers actually change when you turn the computers on and off.  For these reasons, most Operating Systems let you name your computers and they do the translation for you.  This probably happened the first time you turned it on and it asked for a name.</p>
+<p>For average users the name will be something like &#8220;Living Room PC&#8221; or &#8220;Dad&#8217;s Laptop.&#8221;  The more tech savvy tend to enjoy goofing around with these names; for instance my friend Julia named one computer &#8220;Red&#8221; and the other one &#8220;Rum.&#8221;  Once you get more than a few computers, though, you naturally move toward a theme for your network.  This makes computers more fun, like collections, and gives the buckets of bits and bolts a touch of personal flair.</p>
+<p>Here are some examples: you might use the planets in the solar system (I would never do this; who wants to have to wait for the discovery of new planets to buy your 9th computer?), or famous scientists or sports players.  Or Pokemon!  Or musicians.</p>
+<p>For most people it stops there, but I recently realized that you can do oh so much better.  Your network names can be truly meaningful.  For instance, name your computers based on elements on the periodic table.  Mobile computers are given gas names and desktops are heavy metals.  Maybe the number of electron clouds reflects the number of processor cores!  Creativity is key</p>
+<p>Long story short, some metaphors are better than others, and, quite frankly, I have found the best one.  My theme is <a href="http://starcraft.wikia.com/wiki/StarCraft">StarCraft</a>; an incredibly popular strategy game which has every single feature you could want in a network naming convention.   The game features 3 different races and about 70 units with a variety of shape, size, and function.  Well look at THAT!  It turns out there are 3 main flavor of operating system, and I plan on owning about 70 computers with a variety of shape, size, and function.</p>
+<h2>Back to the point</h2>
+<p>My network is named based on StarCraft/StarCraft2. The name of the unit should reflect the power, size, and special abilities of the hardware. To some extent this is an art, however there are a few set rules which must be followed.</p>
+<h3>Rule 1: Flying vs Ground</h3>
+<p><em><span style="text-decoration: underline;">Starcraft</span></em> units, in general, can either fly, or they are stuck on the ground.</p>
+<p><em><span style="text-decoration: underline;">Computers</span></em>, in general, are either mobile (laptops), or they are stuck on the ground.</p>
+<p><span style="text-decoration: underline;">Summary:</span></p>
+<ul>
+<li>Laptops and other wireless devices are flying units.</li>
+<li>Boxes that are not inherently mobile are ground units.</li>
+</ul>
+<h3>Rule 2: Race</h3>
+<p><em><span style="text-decoration: underline;">Starcraft </span></em>has three main races: Zerg, Protoss, and Terran.  Zerg are the icky gooey alien race (think &#8220;Alien&#8221; alien); Protoss are the super intelligent shiny sleek technological aliens (think ET);  And Terran are the more traditional space age humans.</p>
+<p><em><span style="text-decoration: underline;">Computers </span></em>have three main operating systems: Unix, OSX, and Windows;  Unix is the icky, gooey nerd computer (think &#8220;command lines&#8221;);  OSX (Mac) is the super pretentious shiny sleak technological computer (think Unibody Macbook); And Windows is the more traditional normal day human computer.</p>
+<p><span style="text-decoration: underline;"><em>Starcraft</em> </span>also has other kinds of creatures in the universe.  Loveable animals called critters which mindlessly roam around, and mostly unknown super beings called the Xel&#8217;Naga.</p>
+<p><span style="text-decoration: underline;"><em>Computers</em> </span>also have other kinds of operating systems in the universe.  Random things like the Wii which are based on who knows what, and the mostly unknown Google OS called Crome OS.</p>
+<p><span style="text-decoration: underline;">Summary:</span></p>
+<ul>
+<li>Unix / Linux varieties is Zerg</li>
+<li>Windows is Terran</li>
+<li>Mac is Protoss</li>
+<li>ChromeOS is Xel&#8217;Naga</li>
+<li>Other is Critter</li>
+</ul>
+<h3>Rule 3: Non-computers</h3>
+<p>The real world has tech that aren&#8217;t computers, and Starcraft has things that aren&#8217;t units (buildings are another type of object in StarCraft.).  Anything that doesn&#8217;t have an Operating System like Windows or Unix but can still have a network name (e.g. a shared computer peripheral like a printer or disc drive) or is a piece of tech that you want to be able to easily reference in casual conversation should have a building name. Ideally the building would be a non-unit producing structure (buildings are what make the units in Starcraft), unless of course the hardware in question is something that is used directly to produce computers.</p>
+<h2>Examples from my network</h2>
+<ul>
+<li><strong>Zergling </strong>&#8211; A tiny little zerg unit that runs around all the time || A tiny little  Ubuntu box that runs all the time</li>
+<li><strong>Overlord </strong>&#8211; a zerg unit that isn&#8217;t used in combat but instead floats around and feeds other units || A unix based Network Attached Storage (NAS) that isn&#8217;t often used directly but instead hosts data and media for the other computers.</li>
+<li><strong>Goliath </strong>&#8211; A pretty standard terran &#8220;mech&#8221; unit which isn&#8217;t insanely powerful, but packs a reasonable punch || A pretty standard Windows PC which isn&#8217;t insanely powerful, but packs a reasonable punch</li>
+<li><strong>Thor </strong>&#8211; A big-ass giant warrior zoid type of suit thing (think transformer style) || A big-ass giant computer case (although currently in hibernation)</li>
+<li><strong>Viking &#8211; </strong>Terran unit that replaced the goliath in StarCraft2; it can transform from flying to being on the ground || Erek&#8217;s Windows desktop (same build as my Goliath desktop) but it also has a wireless card!</li>
+<li><strong>Wraith &#8211; </strong>!%*#ty flying Terran unit || Erek&#8217;s !%*#ty laptop</li>
+<li><strong>Dark Templar</strong> &#8211; Stealth Protoss ground unit, it is invisible to the naked eye || Stealth Apple mac mini, it is invisible to the naked eye</li>
+<li><strong>Corsair &#8211; </strong>Sleak and thin air unit for Protoss || Sleak and thin Macbook Air 11&#8243;</li>
+<li><strong>Scout &#8211; </strong>Standard Protoss air unit || Macbook 13&#8243; &#8212; pretty standard Apple laptop</li>
+<li><strong>Interceptor</strong> &#8211; a tiny Protoss air unit that gets launched from a bigger &#8220;Carrier&#8221; ship || a tiny iPod Touch which you plug into bigger computers</li>
+<li><strong>Kakaru </strong>&#8211; A flying critter || A Wii with wireless connection</li>
+<li><strong>Spore Colony</strong> &#8211; A zerg building that spews out spores || A printer plugged into the NAS that spews out paper and ink.</li>
+<li><strong>Pylon </strong>&#8211; The protoss building which provides energy to other protoss buildings || An Uninterruptible Power Supply (UPS) which provides energy to all my computers.</li>
+</ul>
+<p>Feel free to adopt this naming convention. If you have a perfect fit on your network post the name here!</p>
+<h2>Amazing Opportunities</h2>
+<p>The nice thing about this convention is it makes you want to buy / build technology just to have the perfect fit for a unit.</p>
+<p>For instance:</p>
+<ul>
+<li>Apple AirPort named Carrier</li>
+<li>Macbook Pro 19&#8243; (doesn&#8217;t exist&#8230; YET) named Mothership</li>
+<li>A partitioned box with unix and windows. Windows OS named Marine, Unix OS named Infested Marine</li>
+<li>A unix box dedicated to masterminding trojan attacks called Infestor</li>
+<li>USB based unix install named Larva</li>
+<li>Two apple computers called High Templar 1 and High Templar 2 which can combine to form an Archon.</li>
+</ul>
+<p>The potentials are limitless!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/03/starcraft-network/feed/</wfw:commentRss>
+			<slash:comments>18</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:10 by W3 Total Cache
+-->

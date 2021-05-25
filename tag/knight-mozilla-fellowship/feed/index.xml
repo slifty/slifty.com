@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Knight-Mozilla Fellowship &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/knight-mozilla-fellowship/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Fri, 03 Aug 2012 16:00:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Spread your Wings as a Knight-Mozilla Fellow</title>
+		<link>/2012/08/spread-your-wings-as-a-knight-mozilla-fellow/</link>
+					<comments>/2012/08/spread-your-wings-as-a-knight-mozilla-fellow/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Fri, 03 Aug 2012 16:00:13 +0000</pubDate>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Knight-Mozilla Fellowship]]></category>
+		<category><![CDATA[The Boston Globe]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">/?p=1183</guid>
+
+					<description><![CDATA[Uh oh… I need to write a post about the Knight-Mozilla Fellowship and Chris Marstall already masterfully captured all my points last week! Thank goodness there are still a million reasons why OpenNews is awesome. By now you may have read four different accounts of my program, but if you make it through this one [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Uh oh… I need to write a post about the Knight-Mozilla Fellowship and Chris Marstall <a href="http://beta.boston.com/post/28001137576/i-dont-have-the-coolest-job-at-the-boston-globe">already masterfully captured all my points</a> last week!  Thank goodness there are still a million reasons why OpenNews is awesome.</p>
+<p>By now you may <a href="http://namebound.com/archive/2012/7-months-of-opennews/index.html">have</a> read <a href="http://datamineruk.com/2012/07/31/to-my-fellow-fellows/">four</a> different <a href="http://maboa.me/post/28357748585">accounts</a> of <a href="http://blog.colegillespie.com/2012/07/30/zeitgeist-the-mozilla-opennews-fellow-version/">my</a> program, but if you make it through this one you will be rewarded with Internet gold.  My backstory is fast.  I started this process later than the others because <a href="/2012/05/achievement-unlocked-thesis/">I had to graduate first</a>.  I&#8217;m only two months in, which means I&#8217;m about 20% complete.</p>
+<p>In that short amount of time I have already:</p>
+<ul>
+<li>Blown my tech stipend on <a href="http://www.apple.com/macbook-pro/features/">the new hotness</a> and become the envy of everyone around me.</li>
+<li>Moved to an entirely different state and bought a kitten.</li>
+<li>Toured Europe for three weeks with my wife (and it wasn&#8217;t considered vacation).</li>
+<li>Been monitored by the CIA at the Tor Hackathon in Florence.</li>
+<li><a href="https://vimeo.com/46229556">Broken the law in Berlin</a> by infiltrating an old abandoned spy building under the leadership of Cole Gillespie.</li>
+<li>Watched <a href="http://www.imdb.com/title/tt0780536/">In Bruges</a> in Bruges.</li>
+<li>Raided The Guardian, The BBC, and Mozilla&#8217;s London HQ.</li>
+<li>Drank a <a href="http://www.brewdog.com/product/tactical-nuclear-penguin">Tactical Nuclear Penguin</a>.</li>
+<li>Worked with the other fellows to dream up complete iterations on two home-brewed projects (<a href="https://github.com/slifty/torwolf">Torwolf</a> and <a href="https://github.com/slifty/newsquest">Newsquest</a>).</li>
+<li>Dreamed with my peers and started moving on dozens of ideas including Raspberry Pi crisis cams, time-lapse Internet radio, and magical data extraction APIs.</li>
+<li>Contributed to the infrastructure that supports The Boston Globe.</li>
+<li>Challenged and questioned policies and processes at The Globe.</li>
+<li>Learned first hand about the politics and hurdles within news organizations (I call this &#8220;the real world.&#8221;)</li>
+<li>Regularly met with VIPs at The Globe, The Guardian, The MIT Media Lab, and The New York Times, to absorb their insights about the state of journalism.</li>
+<li>Maintained strong ties with the people of my past by arranging a formal ongoing relationship with the Media Lab.</li>
+<li>Not been sued or fired <a href="/2012/07/the-value-of-a-super-villain/">yet</a>.</li>
+</ul>
+<p>You&#8217;ll notice that this list contains a mixture of productivity, fun, and life.  This is because fellowships are not just paychecks, they are about personal growth as much as personal output.  This one is no different, as shown by the fact that I&#8217;ve spent almost half of my time traveling around the world.</p>
+<p>If you are saying to yourself &#8220;holy crap that&#8217;s sweet&#8221; you are absolutely correct.  In fact, one point of this post is to help you understand why The Knight-Mozilla Fellowship is one of the most rewarding jobs on earth right now and that <a href="http://mozillaopennews.org/fellowships/apply.html">you should apply this week</a>.</p>
+<p>There are some things you should expect if you make it in.</p>
+<h2>1) You will understand why the news industry is struggling to survive, and why there is hope</h2>
+<p>I decided not to use this post to talk about my observations and insights about journalism.  I already <a href="/2012/06/framing-the-knight-mozilla-fellowship/">write</a> about <a href="/2012/06/ten-months-at-the-globe/">that</a> subject <a href="http://feeds.feedburner.com/slifty">on this blog</a>.  This item still gets top billing because it defines our mission.  We are trying to publicly understand, question, observe, and create in the context of news.  There are so many chances to do all four of those things.  Not a day has gone by where I haven&#8217;t been exposed to something new &mdash; a new idea, a new problem, or a new opportunity.</p>
+<h2>2) You will become unemployable (in a good way)</h2>
+<p>This now makes two positions in a row where I&#8217;ve heard my colleagues say that our work has made us unemployable.  This isn&#8217;t because employers won&#8217;t want to hire us, it&#8217;s that we are being spoiled.  We&#8217;re getting so used to creative freedom, security, and special treatment that simply doesn&#8217;t usually come with a traditional job.  It&#8217;s a good problem to have.</p>
+<h2>3) You will be challenged, and you will be special</h2>
+<p>You are being thrown into an organization that may have a vision for you to work with, or may expect you to invent a vision of your own from scratch.  Either way your time is going to be your own and you will be expected to make great use of it.  This kind of freedom is difficult to cope with, especially when people have high hopes for you.  People will throw you questions to ponder, ideas to critique, and problems to solve and you will need to prove yourself.</p>
+<p>In return you get to ask anyone anything.  You will get to bend the rules and do things that other people around you might have to fight hard to accomplish.  If you are interested in something, you will be able to work on it.  If you have a question or concern you will be able to get an audience with the CTO or the chief editor.  Nobody else at your organization has your title.</p>
+<h2>4) You will make friendships that last the rest of your life</h2>
+<p>It&#8217;s a cliche, but it&#8217;s for real: one of the most rewarding parts of this is the people.  You won&#8217;t just be part of a community, you will be part of <em>creating</em> a community.  It started last year during <a href="/2011/10/back-from-berlin/">a week long hackathon in Berlin</a>, where I met dozens of people who I still see all the time.  That sense of comradery continues to dominate this experience, and of course it also includes the people in your newsroom.</p>
+<p>For the next round of fellows there won&#8217;t be a Berlin event, but you will still get to be a part of an 8 person group for almost a year in addition to becoming immersed in a young community of passionate people.  You will drink whiskey in foreign countries with friends, share stories of trials and tribulations in workplaces half a world away from you, and find yourself in areas you never would have entered alone.</p>
+<p>And with that I think I promised you a reward…  I present to you the Amazing Spinning Gridinoc!</p>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/46229233" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p>ALSO: Please come talk to the folks in the OpenNews community by signing into on our chat room below.  Just come in and say hello!</p>
+<p><iframe loading="lazy" width="550" height="350" scrolling="no" src="http://widget.mibbit.com/?settings=81dbf4ffacc01bf24f6f286c211a3f93&#038;server=irc.mozilla.org&#038;channel=%23opennews"></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/08/spread-your-wings-as-a-knight-mozilla-fellow/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:20 by W3 Total Cache
+-->

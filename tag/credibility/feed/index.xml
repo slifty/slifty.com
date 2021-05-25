@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>credibility &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/credibility/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 25 Jul 2012 16:26:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Value of a Super Villain</title>
+		<link>/2012/07/the-value-of-a-super-villain/</link>
+					<comments>/2012/07/the-value-of-a-super-villain/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 25 Jul 2012 16:26:56 +0000</pubDate>
+				<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[evil]]></category>
+		<category><![CDATA[journalism]]></category>
+		<category><![CDATA[newsrooms]]></category>
+		<guid isPermaLink="false">/?p=1133</guid>
+
+					<description><![CDATA[I may have graduated, but I still get very good advice from my mentors. The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month. That would be really embarrassing for everyone.&#8221; His delivery reflected a hint of genuine concern. There are many reasons why he might have [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I may have graduated, but I still get very good advice from my mentors.  The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month.  That would be really embarrassing for everyone.&#8221;  His delivery reflected a hint of genuine concern.</p>
+<p>There are many reasons why he might have said this, but two stand out.  For one thing I had just given a presentation about <a href="http://www.newsjack.in/">NewsJack</a>, a media manipulation platform that I created from Mozilla&#8217;s Hackasaurus with Sasha Costanza Chock.  When NewsJack was released it was immediately met with a Cease and Desist from the New York Times (note that The Times is the parent company of The Boston Globe).</p>
+<p>It is also possible that he was inspired because I had just confessed on stage that one of my first thoughts when walking into The Globe&#8217;s headquarters was &#8220;I wonder what it would take to bring down this organization.&#8221;  I&#8217;m betting it was the juxtaposition.</p>
+<h2>The Backstory</h2>
+<p><div id="attachment_1138" style="width: 160px" class="wp-caption alignright"><a href="/wp-content/uploads/2012/07/dr-evil.png"><img aria-describedby="caption-attachment-1138" loading="lazy" src="/wp-content/uploads/2012/07/dr-evil-150x150.png" alt="Dr. Evil" title="dr-evil" width="150" height="150" class="size-thumbnail wp-image-1138" srcset="/wp-content/uploads/2012/07/dr-evil-150x150.png 150w, /wp-content/uploads/2012/07/dr-evil-300x300.png 300w, /wp-content/uploads/2012/07/dr-evil-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a><p id="caption-attachment-1138" class="wp-caption-text">An <em>evil</em> newspaper editor?</p></div>During my first few days at the globe I wanted to understand opportunities for innovation as quickly as possible, but to do that I needed to understand their resources and values.  It occurred to me that if you want to identify an organization&#8217;s most valuable assets but you don&#8217;t know where to start, you should just pretend to be a super villain and plot their destruction.</p>
+<p>Assuming you&#8217;re a competent villain, whatever you end up targeting should be important.  Not only that, but the target will reflect your personal passions and expertise.  Try the mental exercise yourself and share the results.  I dare you.</p>
+<p>For example, to take down a newspaper you could…</p>
+<ul>
+<li><strong>Open up their paywall</strong> (if it exists), steal their content, and make it freely visible to the world without giving them any form of recognition or compensation.</li>
+<li><strong>Eliminate their productivity</strong>, either by instigating a massive strike or by hiring away all of their employees.</li>
+<li><strong>Scare away their advertisers</strong> so they lose a significant revenue stream and can no longer pay their bills.</li>
+<li><strong>Destroy their infrastructure</strong> (printing presses, websites, etc), thus disabling their ability to ship product.</li>
+<li><strong>Corrupt their editors</strong> and slowly replace key actors with your henchmen so that the paper becomes your mouthpiece.</li>
+<li><strong>Buy sharks with laser beams attached to their heads.</strong></li>
+</ul>
+<p>A super villain&#8217;s master plan needs to be intricate enough to be interesting and difficult enough to be impressive.  Blunt ideas like &#8220;take down their website&#8221; or &#8220;steal all their money&#8221; are a bit too obvious.  It must also be simple enough for a diverse audience to understand.  If nobody can figure out what you did, why it was sinister, or how it actually worked then it is hardly going to make headlines.  Finally, it can&#8217;t be a series of bee stings; the evil needs to be condensed enough that it could fit in a tweet.</p>
+<h2>The Plan</h2>
+<p>My evil plan didn&#8217;t take long to imagine (given my <a href="http://www.truthgoggl.es/">recent work</a>).  If I were evil and wanted to destroy a newspaper I would ruin their brand&#8217;s credibility.  This could be accomplished in many interesting and convoluted ways, but the &#8220;how&#8221; isn&#8217;t the point, the important question is &#8220;why?&#8221;</p>
+<p>A media product will die miserable and alone unless it differentiates itself from the rest of the Internet.  Luckily, newspapers have something that the chaff doesn&#8217;t: they have the capacity to create trustworthy information experiences.  They are the ones with paid reporters asking the hard hitting questions, they have the editors and the internal fact-checkers, they don&#8217;t have an agenda and aren&#8217;t trying to manipulate me!  right?</p>
+<div id="attachment_1136" style="width: 522px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/07/DSCN0820.jpg"><img aria-describedby="caption-attachment-1136" loading="lazy" src="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg" alt="Base jumping" title="DSCN0820" width="512" height="384" class="size-large wp-image-1136" srcset="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg 1024w, /wp-content/uploads/2012/07/DSCN0820-300x225.jpg 300w, /wp-content/uploads/2012/07/DSCN0820-768x576.jpg 768w" sizes="(max-width: 512px) 100vw, 512px" /></a><p id="caption-attachment-1136" class="wp-caption-text">You could tie yourself to a bungee cord, close your eyes, and jump off a cliff… or you could read the New York Times.*</p></div>
+<p>Well, maybe.  As a reader I don&#8217;t know where content comes from or how much journalism went into it.  All I have is faith in their brand.  I <em>trust</em> that the sources I read are doing their jobs.  That faith didn&#8217;t come from nowhere.  I might have liked what they had to say in the past, or I saw my parents reading their paper, or their brand has a strong reputation.  Regardless, I am now far more likely to trust what they have to say than I am to trust, for example, <a href="http://www.foxnews.com/">what my crazy friends like to read</a>.</p>
+<p>Just to drive this home:  given the way content is presented today I could read the exact same article on the front page of the New York Times, Fox News, or the Huffington Post and my decision to trust it <a href="http://www.niemanlab.org/2012/06/how-do-you-tell-when-the-news-is-biased/">would be more strongly influenced by my opinions of the publisher than by the content itself</a>.</p>
+<p>To drive it home a different way: hijacking a newspaper&#8217;s credibility is as <a href="http://newsjack.in/remix.php?url=http://www.cnn.com">simple</a> as <a href="http://newsjack.in/remix.php?url=http://www.foxnews.com">imitating</a> their <a href="http://newsjack.in/remix.php?url=http%3A%2F%2Fwww.nytimes.com">brand</a>.</p>
+<h2>Save the Day</h2>
+<p>The wheels are turning and it is already out of my control!  IP lawyers are powerless compared to the forces of the anonymous web!  But seriously, brand is a really fragile way to differentiate on the Internet.  So what&#8217;s a newspaper to do?</p>
+<p>Take a page from Apple and redefine the way people consume content.  Train your readers to expect a certain experience not just from <em>your</em> website, but from every source of news.  Make sure that experience is either expensive or impossible for alternative sources to replicate.  Newspapers need to make their readers expect proof of everything.  People should feel uncomfortable trusting information without explicit, functional credibility.</p>
+<p>Newspapers have journalists doing research, checking facts, and taking names.  They have multiple people and multiple systems touching every piece of content before it gets published, so why does the product usually end up being a bunch of words with prose-based evidence?</p>
+<p>News organizations need to make the world hold information to their standards.</p>
+<p>Like I said earlier, it makes sense that this particular plot and solution are coming from me.  I <a href="/2012/05/achievement-unlocked-thesis/">dedicated my thesis to credibility layers</a> &mdash; interfaces that lead to credible information experiences based on more than faith and trust.  There are many paths to differentiation.  Some are evil, some are entertaining, and some could even change the world.</p>
+<p><em>* Drawing courtesy of <a href="http://www.lyladuey.com/">Lyla Duey</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/07/the-value-of-a-super-villain/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Truth Goggles Study Results</title>
+		<link>/2012/06/truth-goggles-study-results/</link>
+					<comments>/2012/06/truth-goggles-study-results/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 07 Jun 2012 14:21:35 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[academia]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[misinformation]]></category>
+		<category><![CDATA[user study]]></category>
+		<guid isPermaLink="false">/?p=821</guid>
+
+					<description><![CDATA[Last month, I ran a user study to test the effectiveness of Truth Goggles (a credibility layer/B.S. detector for the Internet). The tool attempts to remind users when it&#8217;s important to think more carefully. If you&#8217;re curious, you can check out the demo page. Now that the study has officially concluded, the numbers have been [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Last month, I ran a user study to test the effectiveness of <a href="http://truthgoggl.es/">Truth Goggles</a> (a credibility layer/B.S. detector for the Internet). The tool attempts to remind users when it&#8217;s important to think more carefully. If you&#8217;re curious, you can check out <a href="http://truthgoggl.es/demo.html">the demo page</a>.<a href="http://truthgoggl.es/"><img loading="lazy" src="/wp-content/uploads/2012/06/logo.jpg" alt="Truth Goggles" title="Truth Goggles" width="270" height="140" class="alignright size-full wp-image-822" /></a></p>
+<p>Now that the study has officially concluded, the numbers have been crunched, and the thesis has been submitted, I want to share what I learned from the resulting data and feedback.</p>
+<p>I&#8217;ll warn you upfront: All conclusions drawn here should be taken with a grain of salt.  The participants were <em>not</em> a random sample of the Internet, and as such, the results don&#8217;t reflect the general population. I think they are quite exciting nevertheless!</p>
+<h2>The  Questions</h2>
+<p>There are many ways that a tool like Truth Goggles could be considered successful. A bare minimum is that users should prefer it to the non-augmented consumption experience (you know, the kind you have normally). Another measure of success might reflect the number of claims that users explored when the tool was enabled, or maybe the quality of that exploration.
+</p>
+<p>
+These questions are interesting, but they all require different study designs. Here is what I considered when putting the study together.</p>
+<ol>
+<li><strong>Did people use Truth Goggles?</strong> It is difficult to accurately measure the use of a tool when working with a &#8220;captive&#8221; audience (i.e., study participants). Truth Goggles does not yet contain enough facts to be regularly useful in the real world, so the study had to simulate a reading experience and present articles with known fact-checked claims, so this question wasn&#8217;t explored too deeply.</li>
+<li><strong>Did people enjoy using Truth Goggles?</strong> This study was run online, so the only way to get direct feedback was by asking users directly.  I also gave participants a chance to choose to enable or disable Truth Goggles for the final few articles after the tool has been completely exposed to them. Presumably, if they hated the interface they would have disabled it.</li>
+<li><strong>Were users exposed to more fact checks?</strong> In order to compare a change we must have a baseline and the ability to measure exposure. This study wasn&#8217;t quite comprehensive enough to address this directly, although I did keep track of how often users chose to view &#8220;More&#8221; information about a fact check (which took them directly to <a href="http://www.politifact.com/">PolitiFact&#8217;s</a> site).</li>
+<li><strong>Did users engage with the fact checks?</strong> To understand levels of engagement, the tool would need to keep track of what content was actually read and comprehended, as opposed to what content was simply rendered on a screen. Once again, tracking the use of the &#8220;More&#8221; button was a good indication of engagement.</li>
+<li><strong>How well did Truth Goggles enable critical thinking?</strong> Although critical thinking doesn&#8217;t require a change of opinion, it seems reasonable to believe that a change of opinion does indicate thought. By measuring the drift in beliefs about fact-checked claims after using Truth Goggles, it was possible to  better understand the interface&#8217;s ability to facilitate updated beliefs.</li>
+<li><strong>Did Truth Goggles affect levels of trust in consumption experiences?</strong> This question is deeply relevant, but given the format of this study I did not attempt to measure trust in a robust way. I did give users an opportunity to comment on how they felt Truth Goggles affected their trust.</li>
+</ol>
+<p>The final study design reflected aspects of each of these questions; however, &#8220;Did people enjoy using Truth Goggles,&#8221; &#8220;Did users engage with fact checks,&#8221; and &#8220;How well did Truth Goggles enable critical thinking&#8221; ended up getting the most focus.</p>
+<h2>The Preparation</h2>
+<p>Before the study began I selected, tagged, and pre-processed 10 political articles to create a pool of content that I knew would have fact-checked claims in them. For the most part, this involved going through PolitiFact, Googling the phrases, and hoping that some good articles would show up. Most of what I used was published in 2012 and came from a variety of sources with varying degrees of credibility.</p>
+<p>I also added some tracking features to Truth Goggles in order to better understand what was clicked and explored. This meant I would know when users viewed a fact check or when they would interact with other parts of the interface. Finally, I had to create the actual study website, which added some randomization and guided participants through the process.</p>
+<h2>The Participants</h2>
+<p>The study was conducted online over the course of five days. Participants were recruited through email and Twitter. When I did the initial number crunching there were a total of 219 participants, 88 of whom completed the entire process. These numbers increased to 478 and 227, respectively, before the study officially concluded. This analysis reflects my thesis work, and only considers results from the original 88 participants who completed the entire study.</p>
+<p>Unfortunately, the participant pool contained a disproportionate number of friends, individuals familiar with the concept of Truth Goggles, and professionals already aware of the challenges surrounding media literacy. The vast majority (about 90%) of those who actually completed the process were strong and moderate liberals. All of these biases were anticipated, but nevertheless they significantly limit the potential impact of the study.</p>
+<h2>The Process</h2>
+<p><a href="/wp-content/uploads/2012/06/science.png"><img loading="lazy" src="/wp-content/uploads/2012/06/science.png" alt="Stand back, I&#039;m going to try science!" title="science" width="300" height="300" class="alignright size-full wp-image-879" srcset="/wp-content/uploads/2012/06/science.png 300w, /wp-content/uploads/2012/06/science-150x150.png 150w, /wp-content/uploads/2012/06/science-100x100.png 100w" sizes="(max-width: 300px) 100vw, 300px" /></a>From start to finish, the study took each participant around 20 or 30 minutes. After being shown the initial instructions, people were asked to rate 12 claims on a truth scale from 1 to 5. They only had 10 seconds per claim to answer, so this was really trying to get at a person&#8217;s gut reaction based on the information sitting in his or her head.</p>
+<p>After the survey was completed, the treatments began. Everyone was shown a series of 10 articles which contained the previously rated claims. The first two articles were always shown with Truth Goggles disabled. The next six were presented with different Truth Goggles interfaces to help call out fact-checked phrases. For the final two articles, participants were able to choose one of the four interfaces (including &#8220;None&#8221;).</p>
+<p>Once the article reading ended, participants were asked to re-rate the claims from the beginning of the study. At this point, they had been exposed to explanations and context for most of them, so this time they were supposedly providing &#8220;informed&#8221; answers as opposed to gut feelings. After the second round of ratings, the study wrapped up with a short exit survey, where participants had a chance to yell at me in the comments and tell me what they thought about the experience.</p>
+<h2>The Irony</h2>
+<p>Before going any further, I want to be clear that Truth Goggles does not assume that fact-checking services are correct. To the contrary, the hope is that users will question fact checks just as much as they would question any source, and consider all evidence with scrutiny. This philosophy is problematic for evaluation, because it is difficult to measure belief accuracy without considering something to be &#8220;true.&#8221;</p>
+<p>Lacking a better metric, the source verdicts (i.e., PolitiFact&#8217;s ratings) were used as grounding for accuracy for this analysis. This means that from an evaluation perspective, I considered interfaces to be more effective if users ended up with beliefs in line with PolitiFact&#8217;s verdicts. Since belief dissemination is not the goal of Truth Goggles, the system must eventually use more sources (e.g., <a href="http://www.factcheck.org/">Factcheck.org</a> and <a href="http://www.snopes.com/">Snopes</a>) to keep users on their toes.</p>
+<h2>The Results</h2>
+<p>In my thesis, I slice and dice the study data in more ways than I care to think about. But this isn&#8217;t my thesis, so I&#8217;m going to spare everyone a lot of pain and stick to the high-level observations.</p>
+<ul>
+<li><strong>Truth Goggles increased accuracy and decreased polarization.</strong> Participants changed their beliefs about the fact-checked claims after reading the articles, regardless of whether or not a credibility layer was rendered. But without Truth Goggles those updates resulted in more polarization and less accuracy. In particular, when Truth Goggles was disabled people tended to become overly trusting of claims that appeared in articles. With Truth Goggles active, however, beliefs became nuanced and more accurate.</li>
+<li><strong>When using credibility layers, people became less incorrectly skeptical but they remained just as incorrectly trusting.</strong> Truth Goggles was able to help skeptics become more trusting when trust was appropriate, but was not as effective at convincing false believers that they should become more doubtful. This means that participants who were not already overly trusting of a claim would tend to update their beliefs in a way that resulted in more accuracy when using a credibility layer. If you incorrectly believed a claim, however, you weren&#8217;t likely to correct yourself.</li>
+<li><strong>Normal reading caused people to become more incorrectly trusting but they remained just as incorrectly skeptical.</strong> Without a credibility layer, participants who were not already overly distrusting of a claim would tend to overly trust that claim after reading its related article. This means that if someone was highly skeptical of a claim before reading the article, they wouldn&#8217;t change their minds. But if they were more neutral or already trusting, then seeing the claim in an article would cause them to believe it more strongly.</li>
+<li><strong>Almost everyone enabled Truth Goggles when given a choice.</strong> Only two out of the 88 participants who completed the study chose to view their final articles without using some variation of Truth Goggles. The vast majority of participants (70%) selected &#8220;highlight mode,&#8221; the least obtrusive of the three possible interfaces. These numbers unfortunately don&#8217;t mean much because it is entirely possible that participants simply wanted to play with the tool. They could be far worse, though.</li>
+<li><strong>There were virtually no significant differences between the three interface types.</strong> It was no surprise that &#8220;Highlight Mode&#8221; was the most popular, since it did nothing but highlight text and didn&#8217;t bully people into clicking things. Less anticipated was the fact that &#8220;Safe Mode&#8221; and &#8220;Goggles Mode,&#8221; which force exploration, did not outperform Highlight Mode. I suspect that this was a study artifact &#8212; forced interaction was unnecessary during the study because the novelty of Truth Goggles meant people might be curious enough to click regardless of the interface &#8212; but it was interesting nonetheless.</li>
+</ul>
+<p>The short version of these results is that Truth Goggles helped combat misinformation, but there is still plenty of room for improvement. There also clearly needs to be a more comprehensive, longer-term user study.</p>
+<p>For me, the big surprise was that that people were so prone to trusting content just because it appeared in an article or opinion piece. I was absolutely thrilled to see that effect get completely squelched through credibility layers. The results from the exit survey are also incredibly exciting, but that is a post for another day.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/06/truth-goggles-study-results/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Achievement Unlocked: Thesis</title>
+		<link>/2012/05/achievement-unlocked-thesis/</link>
+					<comments>/2012/05/achievement-unlocked-thesis/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 21 May 2012 06:00:21 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[insights]]></category>
+		<category><![CDATA[thesis]]></category>
+		<guid isPermaLink="false">/?p=756</guid>
+
+					<description><![CDATA[Remind me to never do that again. On Friday I officially handed in my thesis, titled &#8220;Truth Goggles: Automatic Incorporation of Context and Primary Source for a Critical Media Experience.&#8221; For those who don&#8217;t know already, it was about an automated bullshit detector for the Internet / an interface to help people think carefully called [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Remind me to never do that again.</p>
+<p>On Friday I officially handed in my thesis, titled &#8220;Truth Goggles: Automatic Incorporation of Context and Primary Source for a Critical Media Experience.&#8221; For those who don&#8217;t know already, it was about an automated bullshit detector for the Internet / an interface to help people think carefully called Truth Goggles. The final version weighed in at a nice round 145 pages.</p>
+<p>I&#8217;ll let the dust settle before putting this monstrosity online. I also want to write some more condensed posts about the interesting parts because I know nobody is ever going to read the damn thing. Those will come later. For now I give you a few bullet points.<br />
+<span id="more-756"></span></p>
+<h2>The Gist</h2>
+<p>Here&#8217;s the basic story of the document:</p>
+<ul>
+<li>I learned about the millions and millions of reasons why my idea could never work.</li>
+<li>Not having a strong sense of self preservation I kept on going anyway and tried to create &#8220;Truth Goggles!&#8221;</li>
+<li>I worked really hard to design and implement <a href="http://truthgoggl.es/demo.html">an interface</a> that people could value even if they didn&#8217;t trust the sources behind the tool.</li>
+<li>I ran a user study and learned that the interfaces worked pretty well when it came to protecting people from misinformation, and that almost everyone who took the study really wants to be able to trust information again.</li>
+</ul>
+<h2>The Gems</h2>
+<p>I&#8217;ll give a quick preview of some lessons learned. Each of these points deserves a post of its own but since this isn&#8217;t my thesis I&#8217;m going to just put out my own observations and thoughts. The posts later will probably be more &#8220;scientific&#8221; and &#8220;explanatory&#8221; (i.e. &#8220;boring&#8221; and &#8220;less quotable&#8221;).</p>
+<ul>
+<li><strong>When people consume information they are struggling hard to maintain their identity.</strong> That&#8217;s all there is to it. There is plenty of evidence that people consume information with ideological motivations. Those motivations often cause them to accept or reject information based on how well it aligns with what they already believe. I have a theory that if you could just remind someone that there&#8217;s nothing to fear — that you aren&#8217;t trying to change who they are — you will suddenly be able to actually communicate with them.</li>
+<li><strong>Trying to tell people what to think is a losing battle.</strong> When the first round of press for Truth Goggles came out back in 2011 I paid attention to every single comment on every single report about the idea I could find. Lots of people liked it, but a lot of people were instantly dismissive due to concerns about bias. I heard their point, agreed with it, and realized what journalists saw ages ago: there is no way to create a universally respected system that also tells people what to think. I changed course and settled for a system that would remind people <em>when</em> to think instead. I think that is a better mission anyway.</li>
+<li><strong>Credibility breeds respect, and respect breeds open minds.</strong> Several participants in the Truth Goggles user study commented that having a credibility layer made them more willing to consider perspectives and messages that they might have normally ignored completely. Think about that for a second. It makes sense, right? It is much easier to respect what a person is saying if you can trust them. Usually &#8220;respect&#8221; and &#8220;trust&#8221; are like &#8220;chicken&#8221; and &#8220;egg&#8221;, but if you&#8217;re using something like Truth Goggles it is possible to develop trust and let the respect follow if it ends up being deserved.</li>
+</ul>
+<p>This entire experience has given me a lot of hope about information online and the people who consume it. I&#8217;ve said before that <a href="/2011/12/trust-me-credibility-is-the-future-of-journalism/">credibility was the future of journalism</a> and I&#8217;m half tempted to expand that statement to say that credibility could save the world. I&#8217;ll probably need to run a few more tests though.</p>
+<p>As for the next steps for Truth Goggles, that is to be determined! I&#8217;m going to at least keep exploring some of the processes and technologies behind phrase detection, but once I graduate and start my fellowship at the Boston Globe in June I&#8217;ll need an explicit way to keep it alive. Stay tuned.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/05/achievement-unlocked-thesis/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trust Me: Credibility is the Future of Journalism</title>
+		<link>/2011/12/trust-me-credibility-is-the-future-of-journalism/</link>
+					<comments>/2011/12/trust-me-credibility-is-the-future-of-journalism/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sun, 11 Dec 2011 22:32:54 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[journalism]]></category>
+		<guid isPermaLink="false">/?p=692</guid>
+
+					<description><![CDATA[My colleague Matt Stempeck said it best: &#8220;Dan, I know that your life has been a tornado wrapped in a hurricane wrapped up in a whole box of tsunamis this week, but you really need to start wearing pants to work.&#8221; It turns out only part of that quote is accurate, but you&#8217;ll never know [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>My colleague <a href="http://www.pbs.org/idealab/matt_stempeck/">Matt Stempeck</a> said it best: &#8220;Dan, I know that your life has been a tornado wrapped in a hurricane wrapped up in a whole box of tsunamis this week, but you really need to start wearing pants to work.&#8221;</p>
+<p>It turns out only part of that quote is accurate, but you&#8217;ll never know which one for sure!  This is why, before I can graduate from MIT, I have to create an automated bullshit detector.  The basic premise is that we, as readers, are inherently lazy.  It isn&#8217;t just that we&#8217;ll believe almost anything &#8212; remember that time in 1938 when we believed aliens were invading the planet just because someone on the radio said so?  Yeah. <a href="http://en.wikipedia.org/wiki/The_War_of_the_Worlds_(radio_drama)">That happened</a>.  The real problem is that we&#8217;ll often believe what we want to believe (or disbelieve what we don&#8217;t want to believe).</p>
+<p>It&#8217;s hard to blame us.  Just look at the amount of information flying around every which way.  Who has time to think carefully about everything?  Not me, that&#8217;s who&#8217;nt.  This is why I&#8217;m working on a tool called <a href="/2011/08/introducing-truth-goggles/">Truth Goggles</a> that will help hone our <a href="http://www.urbandictionary.com/define.php?term=Critical%20Ability">critical abilities</a>; one that will help us identify pieces of information that are worth inspecting a little bit more closely before deciding how it fits into our world views.</p>
+<h2>Thesis Goggles</h2>
+<p>When I wrote &#8220;before I can graduate from MIT&#8221; earlier in this post I wasn&#8217;t lying; I have decided to pursue Truth Goggles for my thesis. I&#8217;m definitely <a href="http://confront.intel-research.net/Dispute_Finder.html">not the first</a> person <a href="http://hypothes.is/">to explore</a> this problem space but there is a lot of room to contribute.  New technology has opened up new possibilities, needs have become clearer, and there is a wide variety of possible solutions and unanswered questions just sitting around waiting to be explored.</p>
+<p>In November I presented the idea to the Media Lab community using the following slides:</p>
+<div style="width:425px" id="__ss_10158861"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/slifty/crit-day-presentation-truth-goggles" title="Crit Day Presentation (Truth Goggles)" target="_blank">Crit Day Presentation (Truth Goggles)</a></strong> <iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/10158861" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+<div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/slifty" target="_blank">Daniel Schultz</a> </div>
+</p></div>
+<p>The feedback I got was mixed, but what can you expect from a day called &#8220;Crit Day&#8221; which is short for &#8220;Critically Injure Pride, Hopes, and Dreams of Graduating Day.&#8221; Here were the main questions asked:</p>
+<p><strong>This doesn&#8217;t seem like it will scale considering Politifact only has a few thousand fact checked claims.  Why aren&#8217;t you using the crowd to fact check?</strong></p>
+<p>My time at MIT will be spent focusing on the interface and user interaction rather than the generation and aggregation of source information.  There are enough difficult questions surrounding the interaction layer.  I don&#8217;t think it is worth complicating things further by trying to create a crowd-based journalism platform (which is essentially what crowd sourced fact checking amounts to).</p>
+<p><strong>Isn&#8217;t this just a mashup of technologies and data sets?  How is what you are doing novel?</strong></p>
+<p>It&#8217;s true that I&#8217;m not inventing new algorithms.  I&#8217;m applying existing algorithms in novel ways.  Credibility layers aren&#8217;t robust right now, and they come with their own sets of interesting questions in terms of user experience and system design.  My contribution will be to frame those questions, answer some of them, create a prototype, and test that prototype.  This won&#8217;t be as trivial as just throwing more information on a screen and calling it a day, the interface has to be designed with care.</p>
+<p><strong>Do you expect to incorporate primary source data?</strong></p>
+<p>My initial prototype probably won&#8217;t pull from sources other than <a href="http://www.politifact.com/">Politifact</a> and other fact checking services, but I will definitely be thinking about ways to use other sources of data. Primary source content will eventually help with information scalability since raw footage and raw data could help computers find potentially dubious claims (and help readers make determinations about those claims).</p>
+<h2>Bullshit, This is Clearly Science Fiction</h2>
+<p>There are a lot of hard questions lurking behind corners here.  In fact, most of them aren&#8217;t even trying to hide; they&#8217;re just sitting obnoxiously in the middle of the room.  Some are technical, some are philosophical, but all of them need to be addressed intelligently for something like Truth Goggles to actually have a chance of working.  I&#8217;ll rattle off a few of them.</p>
+<ul>
+<li>Who determines the truth?  Journalists?  Experts?  Crowds?  Individuals?  Algorithms?</li>
+<li>Sometimes there is a right answer and sometimes there is room for debate.  Can you tell which is which?  How do you reflect the difference?</li>
+<li>How does the tool account for bias in sources?</li>
+<li>How does the tool account for bias in users?</li>
+<li>Will the system actually know enough to be regularly useful?</li>
+<li>This could easily just make consumers more lazy, how do you prevent that?</li>
+<li>What happens when the tool is wrong?</li>
+<li>How will this change the way people produce content?</li>
+<li>Where do Journalists fit into the picture?</li>
+</ul>
+<p>As I&#8217;ve pondered these questions I&#8217;ve come to the following absolute conclusion: Credibility layers need to empower <a href="http://www.urbandictionary.com/define.php?term=Critical%20Ability">critical ability</a>.  I&#8217;ve also decided that it&#8217;s OK for the system to make mistakes but it is never allowed to lie.  This means the interface should be less focused on telling the reader what to think and much more focused on reminding (and helping) the reader to think at times when thinking is most important.</p>
+<p>I&#8217;ve also come up with a list of weaker claims to throw out there for discussion:</p>
+<ul>
+<li>Credibility layers don&#8217;t have to speak to everyone, but they need to empower the open minded.</li>
+<li>Journalists are our best bet for deep analysis and identifying truth that requires lots of time and effort (e.g. investigation and concept synthesis).</li>
+<li>Algorithms are our best bet for identifying contextual evidence (e.g. data, trends, and sources of sound bytes).</li>
+<li>Mobs can&#8217;t be trusted to decide what is true and false, but they are the key to figuring out what is worth thinking about.</li>
+</ul>
+<p>Over the coming months I&#8217;ll be cranking out interfaces, prototypes, and eventually some good old fashioned boring academic papers about this idea.  In the mean time if you&#8217;re interested in Truth Goggles I&#8217;ll be trying to post updates as regularly as possible on <a href="http://www.slifty.com/">my blog</a>, on twitter (<a href="http://www.twitter.com/slifty">@slifty</a>), and eventually on the newly registered <a href="http://truthgoggl.es/">truthgoggl.es</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/12/trust-me-credibility-is-the-future-of-journalism/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:21 by W3 Total Cache
+-->

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2014 &#8211; Sorry for the Spam</title>
+	<atom:link href="/projects/2014/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 02:17:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Opened Captions</title>
+		<link>/project/opened-captions/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:46:45 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2345</guid>
+
+					<description><![CDATA[Opened Captions makes it possible to write code that knows what is being said, in real time, on broadcast television.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>You may have heard of closed captions before: they&#8217;re the little words that show up at the bottom of TVs in airports, bars, or maybe at home when you mute the TV.  Opened Captions scrapes those captions and regurgitates them into something called a web socket (web sockets take data and pass it along to anything willing to listen.)  The service can take in caption data directly from a USB, or from another opened captions server.</p>
+<p>This project came from my Knight-Mozilla fellowship at the Boston Globe during the 2012 elections.  We were brainstorming innovative ways to cover the presidential debates, and quickly realized that the best of them required a way to know what was being said in real time.  I got to work looking for solutions and, finding none, decided to make my own.  A few days later and Opened Captions was born.</p>
+<p>Although we didn&#8217;t end up building any official Boston Globe coverage, I did manage to throw together a wonderful project called DRUNK-SAPN.  The application streamed the debates and told the world to drink on key phrases.  Most importantly, the transcript took shots along with the players.  <a href="/wp-content/uploads/2015/05/transcript.html">You can view the transcript here</a>.</o></p>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="/2012/10/introducing-opened-captions/">Introducing Opened Captions</a> (slifty.com)</li>
+<li><a href="http://www.niemanlab.org/2012/12/opened-captions-turning-the-spoken-words-on-tv-screens-into-streams-of-hackable-data/">Opened Captions: Turning the spoken words on TV screens into streams of hackable data</a> (Nieman Lab)
+<li><a href="https://source.opennews.org/en-US/articles/introducing-opened-captions/">Introducing Opened Captions: A SocketIO API for live TV closed captions</a> (Source)
+<li><a href="http://www.slideshare.net/slifty/opened-captions">Opened Captions</a> (Slideshare)</li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>Node.js</li>
+<li>Socket.io</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>h*hic*Tey brougttth*hic* su binder*hic*s ffflul fo wmoen.<br />
+&#8211; Mitt Romney</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>CivOmega</title>
+		<link>/project/civomega/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:45:37 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2344</guid>
+
+					<description><![CDATA[CivOmega is an attempt to give people with normal, human questions the ability to get answers from government data. It&#8217;s like a Mad Lib but useful.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>CivOmega makes it easy to convert government data and APIs into resources for people who didn&#8217;t spend half their lives learning to program.  For instance I made it possible to ask the question “What bills are about [X]” where X can be <a href="http://civomega.com/?a=chicken&#038;q=what%20laws%20are%20about%20{topic}?" target="_blank">any phrase you want</a>.  Behind the scenes CivOmega knows how to go out and talk to the appropriate datasets at which point light shines down from the heavens and angels sing to you about congress.</p>
+<p>Lots of data has been published, but it&#8217;s hard for non-technical constituents to benefit from it.  Now, thanks to CivOmega, when a new dataset is released to the developer community, someone could spend a few extra hours to unlocking all sorts of new questions and answers through CivOmega.</p>
+<p>The system is built in Python, and the first version of this was created during a 24 hour hackathon at the MIT Civic Media Conference in 2013.  Since then it has been rewritten with a more attention to code quality and extensibility thanks to a grant from the <a href="http://sunlightfoundation.com/" target="_blank">Sunlight Foundation</a>.</p>
+<p>A CivOmega module is made up of three parts:</p>
+<ol>
+<li><b>Question patterns.</b>  These patterns are used to guide a user to questions that the system knows through the main CivOmega interface. When a user asks a question that fits that pattern, CivOmega creates a structured object and passes it to the module that knows the answer. (Example: { &#8220;politician&#8221;: &#8220;John McCain&#8221;, &#8220;issue&#8221;: &#8220;Campaign Finance&#8221; })</li>
+<li><b>Mapping Logic.</b> Custom logic takes the structured data extracted from a pattern by CivOmega and uses it to look up answers. (Example: using the Sunlight Foundation&#8217;s congress API to get a list of all bills about Campaign Finance that were supported by John McCain.)
+<li><b>Answer Templates.</b> The result of that search is packaged and sent to an HTML / JavaScript / CSS template, which renders the answer in whatever format is most appropriate (as determined by the module author).
+</ol>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="/2013/06/introducing-civomega-an-effort-to-democratize-government-data/">Introducing CivOmega: An Effort to Democratize Government Data</a> (slifty.com)</li>
+<li><a href="http://www.niemanlab.org/2013/07/the-alpha-of-civomega-a-hack-day-tool-to-parse-civic-data-and-tell-you-more-about-beyonces-travels/">The alpha of CivOmega: A hack-day tool to parse civic data and tell you more about Beyoncé’s travels</a> (Nieman Lab)</li>
+<li><a href="https://source.opennews.org/en-US/articles/projects-opennews-mit-hack-day/">Projects from the OpenNews-MIT JHack Day</a> (Source)</li>
+<li><a href="http://www.programmableweb.com/news/civomega-wants-your-open-data-apis-to-help-fuel-search-engine/2013/07/19">CivOmega Wants Your Open Data APIs to Help Fuel Search Engine</a> (Programmable Web)</li>
+<li><a href="http://sunlightfoundation.com/blog/2013/09/20/opengov-voices-civomega-making-government-data-useful-to-everyone/">OpenGov Voices: CivOmega: Making Government Data Useful to Everyone</a> (Sunlight Foundation)</li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>Python</li>
+<li>jQuery</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Oh good, answers to questions I&#8217;ll never ask.<br />
+&#8211; The American Public</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:11 by W3 Total Cache
+-->

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NewsJack &#8211; Sorry for the Spam</title>
+	<atom:link href="/category/ideas-projects/newsjack/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 25 Jul 2012 16:26:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Value of a Super Villain</title>
+		<link>/2012/07/the-value-of-a-super-villain/</link>
+					<comments>/2012/07/the-value-of-a-super-villain/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 25 Jul 2012 16:26:56 +0000</pubDate>
+				<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[evil]]></category>
+		<category><![CDATA[journalism]]></category>
+		<category><![CDATA[newsrooms]]></category>
+		<guid isPermaLink="false">/?p=1133</guid>
+
+					<description><![CDATA[I may have graduated, but I still get very good advice from my mentors. The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month. That would be really embarrassing for everyone.&#8221; His delivery reflected a hint of genuine concern. There are many reasons why he might have [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I may have graduated, but I still get very good advice from my mentors.  The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month.  That would be really embarrassing for everyone.&#8221;  His delivery reflected a hint of genuine concern.</p>
+<p>There are many reasons why he might have said this, but two stand out.  For one thing I had just given a presentation about <a href="http://www.newsjack.in/">NewsJack</a>, a media manipulation platform that I created from Mozilla&#8217;s Hackasaurus with Sasha Costanza Chock.  When NewsJack was released it was immediately met with a Cease and Desist from the New York Times (note that The Times is the parent company of The Boston Globe).</p>
+<p>It is also possible that he was inspired because I had just confessed on stage that one of my first thoughts when walking into The Globe&#8217;s headquarters was &#8220;I wonder what it would take to bring down this organization.&#8221;  I&#8217;m betting it was the juxtaposition.</p>
+<h2>The Backstory</h2>
+<p><div id="attachment_1138" style="width: 160px" class="wp-caption alignright"><a href="/wp-content/uploads/2012/07/dr-evil.png"><img aria-describedby="caption-attachment-1138" loading="lazy" src="/wp-content/uploads/2012/07/dr-evil-150x150.png" alt="Dr. Evil" title="dr-evil" width="150" height="150" class="size-thumbnail wp-image-1138" srcset="/wp-content/uploads/2012/07/dr-evil-150x150.png 150w, /wp-content/uploads/2012/07/dr-evil-300x300.png 300w, /wp-content/uploads/2012/07/dr-evil-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a><p id="caption-attachment-1138" class="wp-caption-text">An <em>evil</em> newspaper editor?</p></div>During my first few days at the globe I wanted to understand opportunities for innovation as quickly as possible, but to do that I needed to understand their resources and values.  It occurred to me that if you want to identify an organization&#8217;s most valuable assets but you don&#8217;t know where to start, you should just pretend to be a super villain and plot their destruction.</p>
+<p>Assuming you&#8217;re a competent villain, whatever you end up targeting should be important.  Not only that, but the target will reflect your personal passions and expertise.  Try the mental exercise yourself and share the results.  I dare you.</p>
+<p>For example, to take down a newspaper you could…</p>
+<ul>
+<li><strong>Open up their paywall</strong> (if it exists), steal their content, and make it freely visible to the world without giving them any form of recognition or compensation.</li>
+<li><strong>Eliminate their productivity</strong>, either by instigating a massive strike or by hiring away all of their employees.</li>
+<li><strong>Scare away their advertisers</strong> so they lose a significant revenue stream and can no longer pay their bills.</li>
+<li><strong>Destroy their infrastructure</strong> (printing presses, websites, etc), thus disabling their ability to ship product.</li>
+<li><strong>Corrupt their editors</strong> and slowly replace key actors with your henchmen so that the paper becomes your mouthpiece.</li>
+<li><strong>Buy sharks with laser beams attached to their heads.</strong></li>
+</ul>
+<p>A super villain&#8217;s master plan needs to be intricate enough to be interesting and difficult enough to be impressive.  Blunt ideas like &#8220;take down their website&#8221; or &#8220;steal all their money&#8221; are a bit too obvious.  It must also be simple enough for a diverse audience to understand.  If nobody can figure out what you did, why it was sinister, or how it actually worked then it is hardly going to make headlines.  Finally, it can&#8217;t be a series of bee stings; the evil needs to be condensed enough that it could fit in a tweet.</p>
+<h2>The Plan</h2>
+<p>My evil plan didn&#8217;t take long to imagine (given my <a href="http://www.truthgoggl.es/">recent work</a>).  If I were evil and wanted to destroy a newspaper I would ruin their brand&#8217;s credibility.  This could be accomplished in many interesting and convoluted ways, but the &#8220;how&#8221; isn&#8217;t the point, the important question is &#8220;why?&#8221;</p>
+<p>A media product will die miserable and alone unless it differentiates itself from the rest of the Internet.  Luckily, newspapers have something that the chaff doesn&#8217;t: they have the capacity to create trustworthy information experiences.  They are the ones with paid reporters asking the hard hitting questions, they have the editors and the internal fact-checkers, they don&#8217;t have an agenda and aren&#8217;t trying to manipulate me!  right?</p>
+<div id="attachment_1136" style="width: 522px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/07/DSCN0820.jpg"><img aria-describedby="caption-attachment-1136" loading="lazy" src="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg" alt="Base jumping" title="DSCN0820" width="512" height="384" class="size-large wp-image-1136" srcset="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg 1024w, /wp-content/uploads/2012/07/DSCN0820-300x225.jpg 300w, /wp-content/uploads/2012/07/DSCN0820-768x576.jpg 768w" sizes="(max-width: 512px) 100vw, 512px" /></a><p id="caption-attachment-1136" class="wp-caption-text">You could tie yourself to a bungee cord, close your eyes, and jump off a cliff… or you could read the New York Times.*</p></div>
+<p>Well, maybe.  As a reader I don&#8217;t know where content comes from or how much journalism went into it.  All I have is faith in their brand.  I <em>trust</em> that the sources I read are doing their jobs.  That faith didn&#8217;t come from nowhere.  I might have liked what they had to say in the past, or I saw my parents reading their paper, or their brand has a strong reputation.  Regardless, I am now far more likely to trust what they have to say than I am to trust, for example, <a href="http://www.foxnews.com/">what my crazy friends like to read</a>.</p>
+<p>Just to drive this home:  given the way content is presented today I could read the exact same article on the front page of the New York Times, Fox News, or the Huffington Post and my decision to trust it <a href="http://www.niemanlab.org/2012/06/how-do-you-tell-when-the-news-is-biased/">would be more strongly influenced by my opinions of the publisher than by the content itself</a>.</p>
+<p>To drive it home a different way: hijacking a newspaper&#8217;s credibility is as <a href="http://newsjack.in/remix.php?url=http://www.cnn.com">simple</a> as <a href="http://newsjack.in/remix.php?url=http://www.foxnews.com">imitating</a> their <a href="http://newsjack.in/remix.php?url=http%3A%2F%2Fwww.nytimes.com">brand</a>.</p>
+<h2>Save the Day</h2>
+<p>The wheels are turning and it is already out of my control!  IP lawyers are powerless compared to the forces of the anonymous web!  But seriously, brand is a really fragile way to differentiate on the Internet.  So what&#8217;s a newspaper to do?</p>
+<p>Take a page from Apple and redefine the way people consume content.  Train your readers to expect a certain experience not just from <em>your</em> website, but from every source of news.  Make sure that experience is either expensive or impossible for alternative sources to replicate.  Newspapers need to make their readers expect proof of everything.  People should feel uncomfortable trusting information without explicit, functional credibility.</p>
+<p>Newspapers have journalists doing research, checking facts, and taking names.  They have multiple people and multiple systems touching every piece of content before it gets published, so why does the product usually end up being a bunch of words with prose-based evidence?</p>
+<p>News organizations need to make the world hold information to their standards.</p>
+<p>Like I said earlier, it makes sense that this particular plot and solution are coming from me.  I <a href="/2012/05/achievement-unlocked-thesis/">dedicated my thesis to credibility layers</a> &mdash; interfaces that lead to credible information experiences based on more than faith and trust.  There are many paths to differentiation.  Some are evil, some are entertaining, and some could even change the world.</p>
+<p><em>* Drawing courtesy of <a href="http://www.lyladuey.com/">Lyla Duey</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/07/the-value-of-a-super-villain/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Anonymous Project Update</title>
+		<link>/2011/11/anonymous-project-update/</link>
+					<comments>/2011/11/anonymous-project-update/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 28 Nov 2011 01:11:42 +0000</pubDate>
+				<category><![CDATA[Civic Media]]></category>
+		<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[anonymous]]></category>
+		<category><![CDATA[Scientology]]></category>
+		<guid isPermaLink="false">/?p=681</guid>
+
+					<description><![CDATA[This post was written as part of a course called Introduction to Civic Media. I feel odd writing too many separate posts in one day. My solution is a merger: the post on Anonymous and Hacktivism is going to buy out my project update. The terms of the buyout haven’t been made public but money [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><em>This post was written as part of a course called <a href="http://brownbag.me:9001/p/introcivicmedia">Introduction to Civic Media</a>.</em></p>
+<p>I feel odd writing too many separate posts in one day. My solution is a merger: the post on Anonymous and Hacktivism is going to buy out my project update. The terms of the buyout haven’t been made public but money has already exchanged hands between the 1% so there is no going back.</p>
+<h2>Part 1: Anonymous</h2>
+<p>My stalking of Anonymous and 4chan has always been an equal blend of scientific, hilarious, and disturbing. I pay just enough attention to know what’s going on, but not enough to actually be part of the community. Life is a lot better when you don’t visit 4chan. Of course, I can’t help the fact that the entire culture <a href="http://www.youtube.com/watch?v=wCDXwOzG7fE">is absolutely fascinating</a>.</p>
+<p>Not to be hipster or anything, but <a href="http://www.pbs.org/idealab/2008/02/anonymous-vs-scientology-a-case-study-of-digital-media005.html">I wrote about Anonymous</a> before it was cool in the age of protesting Scientology. If you are curious about how anon functions as a hive mind then I highly suggest clicking that link, not to read the article but to read the comments.</p>
+<p>This one, in particular, summarizes a significant portion of the Anonymous mentality: “one thing you may not understand about us, is our drive. We all crave one thing, the lulz. That which produces the highest amount of said lulz will be where our efforts go into. Any real anon will fight for the death for the lulz and the creation of more lulz. We are a hive minded organization that can be described as chaotic neutral. In lulz we trust.”</p>
+<p>Looking back at this (and spending 20 minutes on 4chan along with the rest of the class last week) reminded me that all of the mainstream coverage of Anonymous often misses this aspect of the core personality. If Anonymous were a Shakespearian character it would be Puck from A Midsummer Night’s Dream. Think that everyone at 4chan would be mad at pepper spray cop? Absolutely not, his actions upset lots of people – a very potent form of lulz indeed.</p>
+<p>I need to be more careful, of course, when trying to describe something as complicated as Anonymous.  It isn&#8217;t an organization, it is a collective, which means trying to pin down a single motivation is a fruitless effort.  To be sure there are more things that drive the group than laughs.  Freedom of information, for instance (which is part of what set off the initial rebellion against Scientology &#8212; taking down that tom cruise video was both an attack on lulz AND an attack on information freedom).</p>
+<p>Anon aside, <a href="http://www.critical-art.net/books/ecd/">last week’s readings</a> opened up my eyes to the much longer history of digital disruption. Who knew that people used digital tools to cause collective trouble before 4chan? Not me, that’s for sure.</p>
+<h2>Part 2: Page One Remix</h2>
+<p>As for my project (a system designed to make it easy to re-mix and share the front page of the new york times), I have a few updates. I’ve forked, cloned, diced, and spliced Hackasaurus – a tool that is designed to help non-techies better understand how web pages work by making it easy to modify the code under the hood on the fly. They even have a built in sharing mechanism!</p>
+<p>So far I have focused on changing the interface and interaction side of things. I made modifications to put less emphasis on “learning HTML” and more emphasis on remixing. This meant stripping talk of HTML tags, simplifying interactions where possible, and making it a bit easier to trigger the editing window (on the original tool you had to hover over an element and type “r.” On my tool clicking the element will do the trick).</p>
+<p>The next step is to match some of the styling of the New York Times. Once that is done I’ll set up my own version of the sharing and boom! Tool complete and anyone can create their own news!</p>
+<p>Once the technical side is complete (which will happen over the next few days) I’ll get crackalackin’ on the associated write-up. Here is the world premiere of the planned sections:</p>
+<ul>
+<li>Tool Introduction (Explaining the concept)</li>
+<li>Previous Remix Cultures (YTMND, 4Chan)</li>
+<li>Previous News Remixes (Yes Men, Others?)</li>
+<li>Page One Remix Overview (Description of the tool and how it works)</li>
+<li>Plans and Future Work (What I hope the tool will enable and how to add to it)</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/11/anonymous-project-update/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Remixing Mainstream Media</title>
+		<link>/2011/11/remixing-mainstream-media/</link>
+					<comments>/2011/11/remixing-mainstream-media/#respond</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 02 Nov 2011 06:49:26 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[memes]]></category>
+		<category><![CDATA[remixes]]></category>
+		<guid isPermaLink="false">/?p=675</guid>
+
+					<description><![CDATA[As we all know the most important part of any successful project is completely changing your idea at the last minute. In that spirit I am about to present a progress update on a project that has nothing to do with the revamped IRC interface I outlined last time (note that the IRC project isn’t [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>As we all know the most important part of any successful project is completely changing your idea at the last minute.  In that spirit I am about to present a progress update on a project that has nothing to do with the <a href="http://civic.mit.edu/blog/schultzd/rethinking-the-irc-experience">revamped IRC interface</a> I outlined last time (note that the IRC project isn’t dead, but I’ll be working on it over IAP instead).</p>
+<p>Here’s my new plan: I am going to make it possible for anyone to control the content of front page of the New York Times.  Want your kid’s little league game in the local news?  That’s cool, but you know what’s cooler?  Having your kid’s fame story smack dab front and center next to the article about Osama Bin Laden’s assassination.  Suddenly little Billy is the talk of more than just the town, he’s the talk of the entire world!</p>
+<p>Interested?  Well hang onto your hats because I’m about to teleport to a completely different topic.</p>
+<h2>How to Manipulate the Masses: A Simple Guidebook</h2>
+<p>People say the Internet is liberating and I suppose that can be true; however, as a wise man named Ethan Zuckerman once said, it isn’t enough to have a voice.  What you really need is an audience.   For the average digital Joe or Janet that audience is probably something between zero and maybe a few thousand people.  If you didn’t realize it from that last sentence I’m saying your audience is smaller than a colony of ants.  Hell, what you have isn’t even captive, so good luck getting more than a few minutes of collective attention across your entire network in a given day!</p>
+<p>How does it feel to know that your personal media power quotient, even with access to the latest and greatest forms of communication in all of human history, is pretty close to zilch?  Feels bad, right?  Kind of makes you not want to bother trying to do anything at all?</p>
+<p>Well suck it up because you aren’t alone.  In fact, “you aren’t alone” is exactly why so many grassroots messages have spread in a land of noise and tweets: they go viral.  If everyone gets two minutes of daily attention from a network then the only way for to spread a message is to hijack your network’s airtime too.  More importantly, you have to do so in a way that equips all of those people to hijack THEIR networks too.</p>
+<p>You can get your network to share by either:</p>
+<ul>
+<li>Pushing something that they will agree with (curse you filter bubble.)</li>
+<li>Pushing something that is amazing</li>
+<li>Pushing something that is hilarious</li>
+<li>Cats</li>
+</ul>
+<p>Keep in mind that comments on your content will do almost nothing for spreading messages beyond one network step, which is why “pushing something that will piss them off” isn’t on the list.  “Cats” is a placeholder for the type of content that, as of now, is the only way to get to consistently get a network’s network to share.</p>
+<p>Anyone who was holding a hat can let go now because I’m going to talk about my project again.  For those who didn’t care before but whose interested has piqued now it’s your turn to hat hold.  For everyone else, why are you still reading this? </p>
+<h2>Taming the Meme</h2>
+<p>I met Ben Huh, the owner of ICanHasCheebzburger.com, last week at a 2012 election coverage summit.  If that sentence meant nothing to you, I’m basically saying I met a viral god.  The nearby newsfolk peppered him with questions about how to use memes to spread their own messages.  His response was simple: you probably can’t.  It is so difficult to harness a meme because they come from a digital version of whisper down the lane (or “Telephone” if you’re from that other part of the country). People add twists, there is no central control, and this is almost tautologically part of why the thing becomes popular to begin with.</p>
+<p>Memes spread because they easy to shape, which is how people can use them in ways that are exciting enough to share.  Boom, viral content achieved</p>
+<p>My proposed system is one that will hijack an <a href="http://www.hackasaurus.org/">existing tool</a> to make it easy to twist and turn the front page of the New York Times, to share those twists with a network, and to have members of that network add (and share) further twists of their own.  I also want this system to track the changes; I want to build a conversation around the evolution of a given strain of modifications.  I would even like to help incorporate some real content into the picture since I have the real estate; maybe some actual news can slip or fade its way in sometimes.</p>
+<p>The end result is more than a simple stage for content sharing.  Through very minor forms of control (in the form of history and tracking and known context) it becomes possible to infuse the adapting content with useful information layers.  Boom, meaningful viral content achieved.</p>
+<p>Oh, and for the record, remix-and-share services do exist (consider <a href="http://www.technologyreview.com/computing/38928/page1/">Startup Spirit</a> vs <a href="http://slifty.bo.lt/ht3mo">Citrus Flavoring</a>) but they are systems designed to provide a technology.  I&#8217;m proposing a system designed to empower viral conversations.</p>
+<p><em>This has been <a href="http://civic.mit.edu/blog/schultzd/remixing-mainstream-media">cross posted</a> on the civic blog.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/11/remixing-mainstream-media/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:12:58 by W3 Total Cache
+-->

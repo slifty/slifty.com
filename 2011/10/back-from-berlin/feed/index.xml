@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Back from Berlin	</title>
+	<atom:link href="/2011/10/back-from-berlin/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/10/back-from-berlin/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 26 Oct 2011 21:24:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: Test		</title>
+		<link>/2011/10/back-from-berlin/#comment-172</link>
+
+		<dc:creator><![CDATA[Test]]></dc:creator>
+		<pubDate>Wed, 26 Oct 2011 21:24:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=643#comment-172</guid>
+
+					<description><![CDATA[So whatever I type just shows up here?]]></description>
+			<content:encoded><![CDATA[<p>So whatever I type just shows up here?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:18 by W3 Total Cache
+-->

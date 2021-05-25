@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MIT Media Lab &#8211; Sorry for the Spam</title>
+	<atom:link href="/projects/mit-media-lab/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Thu, 04 Feb 2016 00:54:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>NewsJack</title>
+		<link>/project/newsjack/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:43:18 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2343</guid>
+
+					<description><![CDATA[NewsJack makes it easy to change headlines on news websites. Once you have finished editing, you can publish your creation and share it with anyone.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>NewsJack was built as a class project for <a href="http://schock.cc/" target="_blank">Sasha Costanza Chock</a>&#8216;s &#8220;Introduction to Civic Media.&#8221;  It enables <a href="http://en.wikipedia.org/wiki/Détournement" target='_blank'>détournement</a> using web technologies.  For those of you who don&#8217;t speak French / Chinese / Whatever that is, it means &#8220;turning expressions of the capitalist system and its media culture against itself.&#8221;  It&#8217;s a very specific form of satire that takes subversive messages and wraps them in a skin that you are used to seeing (this might mean brand, it might mean medium, it might mean something completely different).  Good détournement forces the viewer to question their world and their expectations.</p>
+<p>The specific inspiration behind NewsJack is the Yes Men&#8217;s <a href="http://theyesmen.org/hijinks/newyorktimes" target="_blank">New York Times Special Edition</a>.  This fake paper was actually printed and handed out on the streets of New York City in 2009.  It <a href="http://nytimes-se.com/todays-paper/NYTimes-SE.pdf" target="_blank">looked like a real copy</a> of the Times, but had headlines like &#8220;IRAQ WAR ENDS&#8221; and &#8220;Maximum Wage Law Succeeds.&#8221;  Imagining picking up a newspaper that you believed was the New York Times and seeing that type of headline.  For a moment, until you realized what was going on, it might change the way you see your world.</p>
+<p>That&#8217;s the experience that I ultimately wanted to enable online, where content is far harder to modify and spread for anyone who doesn&#8217;t know how to code.  It is built using a modified version of a Mozilla tool called <a href="http://www.hackasaurus.org/en-US/" target="_blank">Hackasaurus</a>.  The original code was designed to help people learn HTML (the core building block of the Internet).  I stripped out all that hippie foo foo learning crap and left the essence: code that makes it possible to edit a website by pointing and clicking.</p>
+<p><p>Once you&#8217;re done you can hit publish, and a copy of the page you just modified is uploaded to some server out in the universe.  You get a URL to share around, and suddenly your remix is alive and kicking.</p>
+<p>You might say to yourself: &#8220;&#8230; how is this legal?&#8221; to which I would respond by picking up a copy of the first amendment, making a paper airplane out of it, and throwing it at your head.  Of course, that didn&#8217;t stop the New York Times from sending a cease and desist on the first day we launched the site!  I suppose that&#8217;s a story for another time.</p>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="http://www.poynter.org/latest-news/regret-the-error/171467/newsjack-launches-to-let-you-hijack-news-websites/">NewsJack launches to let you remix, edit news websites (Poynter)</a></li>
+<li><a href="http://bostinno.streetwise.co/2012/04/24/all-the-news-youd-love-to-see-newsjack-launches-to-allow-you-to-remix-spoof-the-media/">All The News You’d Love to See: NewsJack Launches To Allow You To Remix &#038; Spoof The Media (BostInno)</a></li>
+<li><a href="http://www.mediabistro.com/10000words/newsjack-lets-users-remix-websites_b12740">Jack This Site: NewsJack Lets Regular Users Remix Websites (Media Bistro)</a></li>
+<li><a href="http://civic.mit.edu/blog/beckyh/workshopping-newsjack-with-press-pass-tv">Workshopping NewsJack with Press Pass TV (C4CM)</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>jQuery</li>
+<li>MySQL</li>
+<li>PHP</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>I have a feeling our lawyers will be particularly interested in this project.<br />
+&#8211; Every Mainstream Media Source</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Ononeon</title>
+		<link>/project/the-ononeon/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:40:46 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2342</guid>
+
+					<description><![CDATA[The Ononeon takes real news headlines and presents them them in the skin of The Onion, America&#039;s Finest News Source. In other words, it uses the real world to satirize a website that satirizes the real world. Wait. What?]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>The Onion is an amazing satirical newspaper, which I suggest you read if you don&#8217;t already.  It features headlines such as <a href="http://www.theonion.com/articles/michele-bachmann-figures-why-not-introduces-homose,32641/" target="_blank">Michele Bachmann Figures Why Not, Introduces Homosexual-Beheading Bill</a> or <a href="http://www.theonion.com/articles/new-obesity-drug-delicious,32602/" target="_blank">New Obesity Drug Delicious</a>.  <a href="http://literallyunbelievable.org/">In case you couldn&#8217;t tell</a>, these headlines are fake.</p>
+<p>But not with The Ononeon.  The Ononeon is updated every day with new headlines that look like they <em>should</em> be from The Onion, but sadly are not.  Like <a href="http://stream.aljazeera.com/story/201304182102-0022686" target="_blank">China Censors the word Censorship</a>, or <a href="http://www.thebiglead.com/index.php/2013/06/01/phillies-fan-covers-face-with-t-shirt-proceeds-to-drink-beer-through-shirt/" target="_blank">Phillies fan covers face with shirt; proceeds to drink beer through shirt</a>.</p>
+<p>I built the site with Matt Stempeck because he was about to lose control of the URL and we wanted an excuse for him to pay for another year of it.  Plus we had four hours of free time.  To this day it is by far our most popular project.</p>
+<p>It works by hijacking the top rated headlines curated by the <a href="http://reddit.com/r/nottheonion" target="_blank">/r/nottheonion</a>, a community that finds headlines and news articles that look like they should come from the satirical paper.  For each headline our script runs an automatic google image search and saves the top image.  After that takes a cloned copy of The Onion website&#8217;s layout and design and replaces all the old fake headlines with our new real ones.</p>
+<p>The beauty of all this from an academic perspective is that it uses a blend of human curation and algorithmic search to create a pretty damn effective satirical experience.  From all other perspectives it is purely hilarious.</p>
+<h2>Papers, Posts, and Press</h2>
+<ul>
+<li><a href="http://www.cultivatedwit.com/blog/stranger-than-fiction-meet-two-mit-grads-who-built-the-onions-non-fiction-doppleganger/#more-1211" target="_blank">Stranger Than Fiction: Meet Two MIT Grads Who Built The Onion’s Non-Fiction Dopplegänger (Cultivated Wit)</a></li>
+<li><a href="http://gawker.com/5986988/the-ononeon-your-one-stop-real life-onion-stories-shop" target="_blank">The Ononeon: Your One Stop Real-Life Onion Stories Shop (Gawker)</a></li>
+<li><a href="http://www.dailydot.com/news/ononeon-not-the-onion-parody-reddit/" target="_blank">&#8220;Real&#8221; Onion parody rips off Reddit&#8217;s funniest headlines (Daily Dot)</a></li>
+<li><a href="http://animalnewyork.com/2013/the-on1on-is-like-the-onion-but-real/" target="_blank">The On1on Is Like The Onion, But Real (Animal)</a></li>
+<li><a href="https://news.ycombinator.com/item?id=5260698" target="_blank">Front page of Hacker News</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>PHP</li>
+<li>Reddit</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Kick them out of school<br />
+&#8211; Steve Hannah, Onion CEO</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Truth Goggles</title>
+		<link>/project/truth-goggles/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:39:33 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2341</guid>
+
+					<description><![CDATA[Truth Goggles identifies fact-checked content on the web, reminding you when it is most important to think carefully. It is a credibility layer designed to increase your ability to reach a well-formed understanding of the world, using journalism to raise red flags.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>Truth Goggles was my master&#8217;s thesis at the MIT Media Lab.  This means that I spent a lot of time exploring the many challenges behind an idea like this, and attempting to solve at least some of them.  There are three gigantic hurdles to jump:</p>
+<ol>
+<li><strong>Fact Database</strong> &#8211; What should be used as ground truth?  How do you identify it?  Is there enough of it?  I ended up realizing that there aren&#8217;t many universally believed truths, and I want the system to be accessible to a diverse audience.  It needs to contain as many well-explained and thoughtful verdicts as possible.  I decided that for the first round a truth source needs to do things: have a reputation of neutrality (i.e.both sides call them biased or neither side calls them biased), and explain the reason behind their verdicts.</li>
+<li><strong>Paraphrase Detection</strong> &#8211; There are thousands of ways to say the same thing, how do you identify known fact-checks with slightly different phrasing?  This is a challenging problem because it mans computers need to understand language.  Luckily there are a lot of smart people exploring this space, so I can use existing tools to get part of the way there.</li>
+<li><strong>Human Brains</strong> &#8211; Assume we have a perfect system that is able to identify fact checked phrases 100% of the time.  Would you trust it?  Would you use it?  What if it told you that you were wrong, would it change your mind?  A system that isn&#8217;t usable isn&#8217;t worth building.</li>
+</ol>
+<p>I focused on this third problem (human brains) because I like thinking about people more than algorithms.  I tried to design the system to make it easy to swap out better algorithms and data sets down the line, but my experimentation revolved around the user experience.</p>
+<p>The result of my thesis was a <a href="http://truthgoggl.es/demo.html">prototype</a> and a gigantic document.  The front end is written in JavaScript and jQuery.  It scrapes the page and sends it to a credibility API written in PHP.  That API checks against known instances of paraphrases and also sends the text to a &#8220;fuzzy matching&#8221; API that is currently written in Python.</p>
+<p>The prototype can be used anywhere online, but it doesn&#8217;t do any intelligent paraphrase detection at this point so chances are it won&#8217;t be useful in most places.  The study results were promising, and indicated that credibility layers could very well help people think more carefully and in more nuanced ways.</p>
+<p>There is still a lot to do for Truth Goggles, and the project is not dead!  It&#8217;s also clear that people love the idea of an automated bullshit detector.</p>
+<h2>Papers, Posts, and Press</h2>
+<p>This got a huge amount of coverage, here are some highlights.</p>
+<ul>
+<li><a href="http://www.niemanlab.org/2011/11/bull-beware-truth-goggles-sniff-out-suspicious-sentences-in-news/">The first piece by Nieman Lab</a></li>
+<li><a href="http://www.eltiempo.com/tecnologia/actualidad/ARTICULO-WEB-NEW_NOTA_INTERIOR-10825845.html">El Tiempo</a></li>
+<li><a href="http://www.cbc.ca/strombo/technology-1/you-can-handle-the-truth.html">CBC Interview</a></li>
+<li><a href="http://www.lavanguardia.com/tecnologia/20111128/54239479160/un-programa-para-ser-mas-criticos-con-lo-que-leemos.html">La Vanguardia</a></li>
+<li><a href="http://www.theregister.co.uk/2011/11/28/mit_truth_goggles/">The Register</a></li>
+<li><a href="http://techcrunch.com/2011/11/28/true-or-false-automatic-fact-checking-coming-to-the-web-complications-follow">Tech Crunch</a></li>
+<li><a href="http://www.npr.org/2011/11/27/142821487/truth-goggles-double-checks-what-politicians-say">NPR Interview</a></li>
+<li><a href="http://www.niemanlab.org/2012/07/are-you-sure-thats-true-truth-goggles-tackles-fishy-claims-at-the-moment-of-consumption/">The second piece by Nieman Lab</a></li>
+<li><a href="http://boingboing.net/2012/07/12/apply-truth-goggles-learn-tru.html">Boing Boing</a></li>
+<li>New Scientist (Volume 215, Issue 2882, 15 September 2012, Pages 44–47)</li>
+<li><a href="http://www.wired.co.uk/magazine/archive/2012/11/start/internet-lies">Wired UK (November 2012)</a></li>
+<li><a href="/2011/08/introducing-truth-goggles/">Introducing Truth Goggles</a></li>
+<li><a href="/2012/05/achievement-unlocked-thesis/">Achievement Unlocked: Thesis</a></li>
+<li><a href="/2012/06/truth-goggles-study-results/">Truth Goggles Study Results</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>jQuery</li>
+<li>MySQL</li>
+<li>Python</li>
+<li>PHP</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Oh shit.<br />
+&#8211; Politicians</p></blockquote>
+<p><script src="//new.truthgoggl.es/js/goggles.js"></script><script>truthGoggles({server: "//new.truthgoggl.es",layerId: 4});</script></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Glass Infrastructure</title>
+		<link>/project/the-glass-infrastructure/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:38:12 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2340</guid>
+
+					<description><![CDATA[The Glass Infrastructure makes it easy for people to understand what is going on in a building. It is a network of large touch screen displays set up throughout the MIT Media Lab which allow anyone to explore the network of groups, people, and projects at the lab. Thanks to RFID it also knows who [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Video</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/50434433" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<h2>Long Description</h2>
+<p>The Media Lab gets a lot of visitors.  People bring in friends and family, sponsors send representatives, and others just wander in off of the street.  The Glass Ingrastructure is designed to help anyone quickly and effectively explore the kind of work being done in the building without having to bother us.  Basically, grad students really just don&#8217;t like talking to people if they can avoid it.</p>
+<p>The system is made up of about 30 giant touch screens, wired to mac minis and RFID readers.  They are located throughout the Media Lab&#8217;s old and new buildings, and display maps, projects, and other applications.</p>
+<p>When I arrived the Glass Infrastructure had a fairly linear interface.  Each screen displayed a rotating list of nearby projects based on where it was placed.  Our goal was to redesign the entire thing, building on the systems already set up.  We had a pretty large team too (about nine people) working on various parts of the product.</p>
+<p>We wanted to reflect the relationship between people and projects without overwhelming the user.  There also needed to be a way for people carrying RFID tags to &#8220;favorite&#8221; different projects, and view a list of their favorites on the bottom of the screen.  After weeks of discussion and thrown out designs we came up with the molecule interface.</p>
+<p>I spent most of my time working on client side middleware, middle learning a bit more about jQuery at the same time.  The backend was a RESTful API that worked with the database in addition to some fancy Natural Language Processing (NLP) tech which automatically found project relationships based on their descriptions.</p>
+<p>The design that we came up with is still in use today, and the Glass Infrastructure has become a core part of the visitor experience at the Media Lab.  We have also set up a few screens in other parts of the world (Spain, for instance) so that sponsor companies can have a window into the work being done here.</p>
+<h2>Technologies</h2>
+<ul>
+<li>jQuery</li>
+<li>CSS3</li>
+</ul>
+<h2>Papers, Posts and Press</h2>
+<ul>
+<li><a href='/wp-content/uploads/2012/09/GIPaper.pdf'>The Glass Infrastructure: Using Common Sense to Create a Dynamic, Place-Based Social Information System</a> (Havasi, 2011)</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>You know what would be better than asking me?  Going over and prodding that screen over there.<br />
+&#8211; Media Lab Grad Students
+</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ATTN-SPAN</title>
+		<link>/project/attn-span/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:36:44 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2339</guid>
+
+					<description><![CDATA[ATTN-SPAN watches C-SPAN because nobody else is willing. It figures out who is talking, what they are talking about, and who they represent. From this it creates short custom episodes.]]></description>
+										<content:encoded><![CDATA[<h2>Video</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/27480773" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<h2>Long Description</h2>
+<p>ATTN-SPAN was my final project in a future-of-TV course called Social Television.  My goal was to figure out a way to make C-SPAN not completely suck.  Fun fact: this was almost my thesis project.</p>
+<p>The plan was to take C-SPAN, processes it, tag the moments of video with as much metadata as possible, and use those moments to create a compelling consumption experience.  Where would the data come from?  Three places:</p>
+<ul>
+<li><strong>Closed Captioning</strong> &#8211; C-SPAN is closed captioned.  The captions are full of typos, but they can be used for general analysis (e.g. guessing what topics are being discussed).</li>
+<li><strong>Video Processing</strong> &#8211; OCR (Optical Character Recognition) is a process that takes an image and looks for words.  On C-SPAN, text consistently appears in the lower left hand corner of the screen to state names of politicians, bills, states, and political parties.  Face recognition is another possible technique.</li>
+<li><strong>Audio Processing</strong> &#8211; there are a few algorithms that can detect different voices in a conversation.  They might not be able to tell you what is being said, but you can at least get a sense of who is talking.</li>
+</ul>
+<p>From these streams I can do things like find all content that was spoken by YOUR senator.  It might not sound that interesting but it actually does make the content significantly more relevant.</p>
+<p>I made a quick prototype using an existing project called <a href="http://metavid.ucsc.edu/">Metavid</a>.  This service handled most of the above processing for me, so I could focus on creating a fast hack to show what it would be like to have an episode of only your senator.  I eventually hoped to do all the heavy lifting myself (rather than rely on a third party).</p>
+<p>The prototype was a reasonable success, although it didn&#8217;t end up being insanely compelling.  This was partially due to implementation and partially due to the fact that Metavid started acting unstable and was slow to process new footage.</p>
+<p>Had I continued to work on ATTN-SPAN I would have designed an API so that newsrooms request custom generated episodes.  Those episodes would be displayed along-side their political coverage.  Imagine if you could read about new policies and see exactly what ~~your~~ senator said on the floor about the topic, right there, embedded in the article.  This concept of automatically filtered primary source content almost made its way into Truth Goggles.  It still might some day.</p>
+<h2>Technologies</h2>
+<ul>
+<li>PHP</li>
+<li>MySQL</li>
+<li>jQuery</li>
+</ul>
+<h2>Posts and Press</h2>
+<ul>
+<li><a href="/2011/08/learning-lab-final-project-attn-span/">My learning lab proposal</a></li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>I had no idea that C-SPAN was so interesting!  Oh wait no this is still really boring.<br />
+&#8211; The American Public</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Ghosts of the Past</title>
+		<link>/project/ghosts-of-the-past/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:34:40 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2338</guid>
+
+					<description><![CDATA[Ghosts of the Past lets you use your iPad as a lens into the past (or into an augmented present). Panoramic images are overlaid on top of the locations where they were taken. Couldn&#8217;t make it to your brother&#8217;s wedding? No problem, just use Ghosts!]]></description>
+										<content:encoded><![CDATA[<h2>Video</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/25527910" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<h2>Long Description</h2>
+<p>This project was a collaborative effort by myself, <a href="http://www.juliama.com/">Julia Ma</a>, and our undergraduate researcher Nat Atnafu.  It started off as a course project for &#8220;Eccescopy&#8221; taught by <a href="http://en.wikipedia.org/wiki/Ken_Perlin">Ken Perlin</a>, which was about social augmented reality.  Our argument was that looking into the past is totally social, it&#8217;s just time lapsed!</p>
+<p>The system is made up of a web server (written in PHP and MySQL), where you can upload and annotate panoramas, and an iPad client (written using OpenFrameworks) that accesses and renders those panoramas.  The user must calibrate the panorama by orienting the iPad so that the space being displayed matches the location of that space.</p>
+<p>After calibration, the iPad tracks rotation and updates the portion of the panorama that appears on screen.  This creates the illusion that the iPad acts as a looking glass into the past.  You can see people and objects that used to exist in the space in front of you standing right there.</p>
+<p>Although Ghost panoramas are never perfectly aligned, it gets &#8220;close enough&#8221; for your eye to believe it.  We can get away with this because you aren&#8217;t able to focus on the iPad screen and the real-world background at the same time.  The fact that the scale might not be quite right or that the image is offset by a few degrees won&#8217;t actually disrupt the experience.</p>
+<p>It also turns out that this approach can be used to create other AR experiences.  Normally you need to figure out where the camera is actually pointing with very high levels of accuracy if you want to create a compelling effect.  By using an existing panorama you don&#8217;t need to be pixel perfect in the real world any longer, you can just use the pixels from the photo and be done with it.</p>
+<p>We imagined several use cases for Ghosts.  The original intent was to make it easy to capture and re-live community or personal events.  If you took a panorama of a wedding, or of a block party, you could use Ghosts of the Past years later to remember what the event was like.  This is pretty much supported in full.</p>
+<p>You could also use the AR potential of Ghosts to provide more information, or to show hidden objects.  We worked with Jim Vrabel, a local historian, to create a few panoramas with &#8220;information points.&#8221;  Users could then stand in special locations in downtown Boston and learn more about the buildings by pointing their iPad at the right spot.</p>
+<p>You can also manipulate the panorama itself using photo editing tools to create some interesting effects.  We worked with the MIT Museum to create a few panoramas that spliced in old photos of artifacts working in their original space.  As you viewed the panorama in the museum, you would see the objects sitting in the lab with scientists working around them.</p>
+<p>There are some obvious next steps.  The first is geofencing using the iPad&#8217;s GPS, so that only nearby panoramas can be picked, and so that people can be guided to stand in the optimal spot for viewing.  The second is auto calibration using the iPad&#8217;s compass, so that images are oriented properly without any effort on the part of the user.</p>
+<h2>Technologies</h2>
+<ul>
+<li>C++ / OpenFrameworks</li>
+<li>PHP</li>
+<li>MySQL</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Hasn&#8217;t this been done already?<br />
+&#8211; My Advisors
+</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>If These Walls Could Tweet</title>
+		<link>/project/if-these-walls-could-tweet/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:32:31 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2337</guid>
+
+					<description><![CDATA[What if your living room had a Twitter feed? If These Walls Could Tweet is a set of sensors that can send messages on Twitter when triggered. Now when the lights go out your room can tell the world how it feels about it.]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>This was my final project in <a href="http://fab.cba.mit.edu/classes/MIT/863.10/people/dan.schultz/">How to Make Almost Anything</a>.  The idea was originally an artistic/troll project: I wanted to create a modern day printing press.  You would line up the letters, spread the ink, and press it onto paper.  The message would go on the paper as you would expect, but the type blocks would secretly be digital, and the message would also go directly onto Twitter.</p>
+<p>I decided to change course because, while that application was a nice statement about legacy media, it seemed that abstracting the interaction might be more useful.  It turned out that group members had talked about the idea of connecting more things to the internet and <a href="http://blog.johnkestner.com/post/388081897/social-networking-for-lonely-objects">using Twitter as a way for those things to communicate</a> long before I had arrived.</p>
+<p>I wanted to be able to swap out sensors, so I designed three types of circuit:</p>
+<ul>
+<li><strong>A hub</strong> which did the communication with the Python that sent out tweets.</li>
+<li><strong>Chain-able receivers</strong> which could be connected together, allowing for any number of sensors to be added.</li>
+<li><strong>Sensor modules</strong> which could be plugged into receivers.  These would be responsible for measuring whatever the sensor measured and triggering the hub to send tweets.</li>
+</ul>
+<p>I made four sensor modules. I started with a simple four-state button that you could set to hold a static value (e.g. &#8220;happy, sad, bored, excited&#8221;).  Then I moved onto using a light sensor, a temperature sensor, and then I wrapped up with a proximity sensor.  This kit was enough to warrant a mascot (the pet rock I had created as an earlier project) and tape the proximity sensor on his head.  He talked about all sorts of things, like when people walked by, or when he felt lonely, or when it got too dark.</p>
+<p>Behind the googley eyes, sensors would trigger events when their readings changed significantly.  After an event trigger, the hub would then ask all of the modules to share their messages to the world, and those messages would be passed to a Python script over USB.  The Python would then send it to Twitter.</p>
+<p>Honestly, I spent most of my time learning to make the circuits (and make them modular), so I wasn&#8217;t able to implement the full vision.  That vision would have included wireless functionality, direct communication with Twitter (bypassing python), a more robust set of logical operators (e.g. &#8220;count the number of people that entered a room&#8221;), additional sensors, and far more pithy quotes.</p>
+<p>Basically what I wanted it to look like was <a href="http://supermechanical.com/twine/">Twine</a>, which came a year later from the two Info Eco alums who had originally explored this space.</p>
+<h2>Posts and Press</h2>
+<ul>
+<li><a href="http://fab.cba.mit.edu/classes/MIT/863.10/people/dan.schultz/final.html">My How to Make Almost Anything blog post</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>C</li>
+<li>Milling Machines (to create the traces)</li>
+<li>Sensors, solder, and microcontrollers</li>
+<li>Python</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>What is this, some kind of party?  Don&#8217;t you know the neighbors are trying to sleep?<br />
+&#8211; Your living room
+</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Jack-o-Laser</title>
+		<link>/project/2333/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:27:17 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2333</guid>
+
+					<description><![CDATA[If you had access to a laser cutter in October, what is the first thing you would try to do? Obviously you would use it to carve a pumpkin. Nothing more really needs to be said.]]></description>
+										<content:encoded><![CDATA[<h2>Videos</h2>
+<p><object id="flashObj" width="486" height="412" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=1251336574001&#038;playerID=2227271001&#038;playerKey=AQ~~,AAAAADqBmN8~,Yo4S_rZKGX0rYg6XsV7i3F9IB8jNBoiY&#038;domain=embed&#038;dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com/" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" bgcolor="#FFFFFF" flashVars="videoId=1251336574001&#038;playerID=2227271001&#038;playerKey=AQ~~,AAAAADqBmN8~,Yo4S_rZKGX0rYg6XsV7i3F9IB8jNBoiY&#038;domain=embed&#038;dynamicStreaming=true" base="http://admin.brightcove.com/" name="flashObj" width="486" height="412" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object></p>
+<h2>Long Description</h2>
+<p>This started as simply a fun way to play with a laser cutter.  Actually, it ended that way too.  In fact, it never really drifted from that status.  However, carving pumpkins with a laser had some interesting challenges.</p>
+<p>Laser cutters usually burn away material like acrylic or cardboard to slice pieces out of a flat material.  This is great because the laser has a focal point where the clean cut will happen.  If you are out of focus then the burned hole will either be too big or it won&#8217;t cut the material at all.  If you&#8217;re working with a flat plane you can focus it in one spot and be fine.</p>
+<p>If you are carving into a cylinder (for instance a can of baked beans), then you don&#8217;t have a common height to focus onto!  Fortunately for me, the laser cutter at the Media Lab has a lathe attachment.  With a lathe you simulate a flat plane by converting the y axis into rotation (meaning you could &#8220;spin&#8221; an object instead of having the laser actually move forward and backward).</p>
+<p>Pumpkins aren&#8217;t cans of baked beans, pumpkins are spherical.  The lathe only lets me rotate on one axis, which means that the X axis varies in height too.  I found a really good solution to the problem, which was to ignore it and carve anyway.  It worked, although I lost detail the further I went from the middle.  Meh.</p>
+<p>Before you can even pick out a pumpkin you need to take an image and break it into four layers (I used Adobe Illustrator to do this).  Each layer will represent a different brightness, since it will be a different cut depth.  You don&#8217;t need to use four layers &mdash; you could be boring and just use one, for example.  I used four because deep down it just felt right.</p>
+<p>It&#8217;s hard to predict the depth of a cut once you do your second pass, because the area around the laser point will often vary in height depending on how many cuts have happened.  For instance if you were to carve the shape of a doughnut, the middle part of the doughnut might begin to sag, which means that additional cuts could accidentally hit the outskirts of the center.  Tiny details have to be deeper (e.g. brighter) or they will be blasted away on later cuts.</p>
+<p>More could be done &mdash; e.g. automatic generation of layers based on pumpkin color calibration (carve the pumpkin with varying depths, take a photo of the lit pumpkin, and match it to the photo you want to carve).  We&#8217;ll see what happens!</p>
+<h2>Posts and Press</h2>
+<ul>
+<li><a href="/2010/12/a-pumpkin-festival/">My overview</a></li>
+<li><a href="http://www.newscientist.com/video/1251336574001-hightech-pumpkin-carving.html">New Scientist</a></li>
+</ul>
+<h2>Technologies</h2>
+<ul>
+<li>Lasers</li>
+<li>Adobe Illustrator</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>Halloween, it&#8217;s about time<br />
+&#8211; Tychus Findlay</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>QRTcullis</title>
+		<link>/project/qrtcullis/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:24:36 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2332</guid>
+
+					<description><![CDATA[QRTcullis is a Massively Multiplayer Real Life Online RPG (MMRLOLRPG). We wanted to create a dungeon explorer that had hooks into the real world. Players explore forts by scanning a QR code &#8220;portal&#8221; with their mobile device. Once the code is scanned the person&#039;s character appears at the entrance of a level (which is rendered [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Video</h2>
+<p><iframe loading="lazy" src="http://player.vimeo.com/video/20215443" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<h2>Long Description</h2>
+<p>This project was done as a 48 hour hack with a team of three people (myself, <a href="http://www.linkedin.com/in/joulesm">Julia Ma</a>, and <a href="http://boris.kizelshteyn.com/">Boris Kizelshteyn</a>) for an HTML5 game creation competition.  We didn&#8217;t win, but that&#8217;s only because I went insane at 5:00 in the morning and tried to fix our collision detection algorithm with only 15% mental capacity.  I broke it even more.  I think they forgave me, but I still kick myself.</p>
+<p>REGARDLESS!!! QRTcullis is awesome.  Our goal was to think about what mobile gaming could look like.  We wanted to incorporate things into the game that simply couldn&#8217;t exist using more traditional technologies (e.g. consoles or PCs).  We started from scratch and used technologies that we had never used before (NodeJS and MongoDB) because we hate ourselves.</p>
+<p>Levels are built with tiles.  Tiles can have attributes, modifiers, and scripts (e.g. &#8220;move up 500 points over two seconds&#8221;).  In order to prevent cheating, everything is processed on the server side and animation commands are sent to the client using sockets.  We came up with a set of attributes and scriptable actions a tile could have, so as the player explores she finds deadly pigs wandering around, and tornados.</p>
+<p>Less than half of the vision was actually implemented &#8212; for instance we wanted to be able to tie tile-scripts to sensors (so, for instance, a door opening in the real world would trigger a door opening in the fort).  There is still a lot of potential for this idea, and I&#8217;m hoping some day there will be a reason to develop it again.</p>
+<h2>Technologies</h2>
+<ul>
+<li>HTML / CSS</li>
+<li>jQuery</li>
+<li>NodeJS</li>
+<li>SocketIO</li>
+<li>MongoDB</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>I don&#8217;t get it, what am I supposed to do?<br />
+&#8211; Anyone, after being shown a QR code
+</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Wall Paper</title>
+		<link>/project/wall-paper/</link>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Thu, 04 Feb 2016 00:05:14 +0000</pubDate>
+				<guid isPermaLink="false">http://192.241.162.137/?post_type=project&#038;p=2325</guid>
+
+					<description><![CDATA[Wall Paper is a horizontal line of monitors (12 feet / 16,000 pixels wide) able to stare longingly at you, track your position, and update the information it presents based on where you are standing. This pretty much makes it the Sting of screens because every move you make, every step you take, it is [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Long Description</h2>
+<p>Wall Paper allows users to explore information by navigating through physical space.</p>
+<p>This demo has undergone several iterations but the overall architecture has remained consistent: there is a browser-based client (JavaScript / HTML / CSS) separated across eight windows, a server (NodeJS) which listens for position updates and manages state, and a sensor component (Python / C) which does the actual position tracking.</p>
+<p>The first iteration used infrared (IR) sensors and Arduino to track about 10 points evenly distributed across the eight displays. This provided approximately one data point per screen. A &#8220;newspaper&#8221; was spread across the screens so that each one displayed a section title. To read a given section you would walk up to the appropriate screen. The sensors would detect you, pass that detection onto the client, and an article from the screen&#8217;s section would fade in an article for you to read.</p>
+<p>The second iteration replaced the IR sensors with a Microsoft Kinect, resulting in a much higher resolution depth map. Instead of the 10 depth points I now had access to closer to 1000, and I could track positions far more consistently. The interface was also replaced to display a bar-chart representing 20 years of reporting by the New York Times. Each month had a bar broken into four colors representing coverage of &#8220;Afghanistan,&#8221; &#8220;Iraq,&#8221; &#8220;Wall Street,&#8221; and &#8220;Protests.&#8221; You could walk up to a part of the screen to learn about a specific month, and as you got even closer you could see headlines for each of the four content types scrolling across your section of the display.</p>
+<p>Of course, it was also used to mess with people. There was a time when the content would get smaller as people walked closer.</p>
+<h2>Technologies</h2>
+<ul>
+<li>Arduino</li>
+<li>C</li>
+<li>HTML / CSS</li>
+<li>jQuery</li>
+<li>NodeJS</li>
+<li>Python</li>
+</ul>
+<h2>Testimonials</h2>
+<blockquote><p>So what you&#8217;re saying is that this project has failed both in terms of user experience, and in terms of graphic design?<br />
+&#8211; Henry Holtzman
+</p></blockquote>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:12 by W3 Total Cache
+-->

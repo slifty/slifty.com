@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NPR &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/npr/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Mon, 12 Dec 2011 03:37:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Look Ma, NPR!</title>
+		<link>/2011/12/look-ma-npr/</link>
+					<comments>/2011/12/look-ma-npr/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 12 Dec 2011 03:37:54 +0000</pubDate>
+				<category><![CDATA[Fame and Glory]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[interview]]></category>
+		<category><![CDATA[NPR]]></category>
+		<category><![CDATA[TechCrunch]]></category>
+		<guid isPermaLink="false">/?p=695</guid>
+
+					<description><![CDATA[Three weeks ago I went to a happy hour organized by the Neiman Lab, I mentioned my thesis project, Andrew Phelps said &#8220;that sounds cool, can I write about it?&#8221; and I said &#8220;sure why not!&#8221; I assumed that the post would get about as much traction as professional blog posts usually get: a few [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Three weeks ago I went to a happy hour organized by the Neiman Lab, I mentioned <a href="/2011/12/trust-me-credibility-is-the-future-of-journalism/">my thesis project</a>, Andrew Phelps said &#8220;that sounds cool, can I write about it?&#8221; and I said &#8220;sure why not!&#8221;  I assumed that the post would get about as much traction as professional blog posts usually get: a few hundred eyeballs and some useful feedback.<br />
+<span id="more-695"></span><br />
+After <a href="www.niemanlab.org/2011/11/bull-beware-truth-goggles-sniff-out-suspicious-sentences-in-news/">the article was pushed</a> it started getting twitter attention.  Soon afterwards NPR, CBC, and The Register contacted me.   I ended up with a <a href="http://www.npr.org/2011/11/27/142821487/truth-goggles-double-checks-what-politicians-say">two-minute piece on Weekend Edition</a>, a longer <a href="http://www.cbc.ca/day6/blog/2011/11/25/interview-truth-goggles/"> interview on Day 6</a>, a surprisingly balanced and long <a href="http://techcrunch.com/2011/11/28/true-or-false-automatic-fact-checking-coming-to-the-web-complications-follow/">piece on TechCrunch</a>, and the official <a href="http://www.theregister.co.uk/2011/11/28/mit_truth_goggles/">title of Boffin</a> by the crazy Brits.  This was unexpected. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/12/look-ma-npr/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:21 by W3 Total Cache
+-->

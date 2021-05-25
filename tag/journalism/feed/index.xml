@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>journalism &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/journalism/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 25 Jul 2012 16:26:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>The Value of a Super Villain</title>
+		<link>/2012/07/the-value-of-a-super-villain/</link>
+					<comments>/2012/07/the-value-of-a-super-villain/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Wed, 25 Jul 2012 16:26:56 +0000</pubDate>
+				<category><![CDATA[NewsJack]]></category>
+		<category><![CDATA[OpenNews]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[evil]]></category>
+		<category><![CDATA[journalism]]></category>
+		<category><![CDATA[newsrooms]]></category>
+		<guid isPermaLink="false">/?p=1133</guid>
+
+					<description><![CDATA[I may have graduated, but I still get very good advice from my mentors. The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month. That would be really embarrassing for everyone.&#8221; His delivery reflected a hint of genuine concern. There are many reasons why he might have [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>I may have graduated, but I still get very good advice from my mentors.  The most recent came from Ethan Zuckerman: &#8220;Dan, please try not to get fired in your first month.  That would be really embarrassing for everyone.&#8221;  His delivery reflected a hint of genuine concern.</p>
+<p>There are many reasons why he might have said this, but two stand out.  For one thing I had just given a presentation about <a href="http://www.newsjack.in/">NewsJack</a>, a media manipulation platform that I created from Mozilla&#8217;s Hackasaurus with Sasha Costanza Chock.  When NewsJack was released it was immediately met with a Cease and Desist from the New York Times (note that The Times is the parent company of The Boston Globe).</p>
+<p>It is also possible that he was inspired because I had just confessed on stage that one of my first thoughts when walking into The Globe&#8217;s headquarters was &#8220;I wonder what it would take to bring down this organization.&#8221;  I&#8217;m betting it was the juxtaposition.</p>
+<h2>The Backstory</h2>
+<p><div id="attachment_1138" style="width: 160px" class="wp-caption alignright"><a href="/wp-content/uploads/2012/07/dr-evil.png"><img aria-describedby="caption-attachment-1138" loading="lazy" src="/wp-content/uploads/2012/07/dr-evil-150x150.png" alt="Dr. Evil" title="dr-evil" width="150" height="150" class="size-thumbnail wp-image-1138" srcset="/wp-content/uploads/2012/07/dr-evil-150x150.png 150w, /wp-content/uploads/2012/07/dr-evil-300x300.png 300w, /wp-content/uploads/2012/07/dr-evil-100x100.png 100w" sizes="(max-width: 150px) 100vw, 150px" /></a><p id="caption-attachment-1138" class="wp-caption-text">An <em>evil</em> newspaper editor?</p></div>During my first few days at the globe I wanted to understand opportunities for innovation as quickly as possible, but to do that I needed to understand their resources and values.  It occurred to me that if you want to identify an organization&#8217;s most valuable assets but you don&#8217;t know where to start, you should just pretend to be a super villain and plot their destruction.</p>
+<p>Assuming you&#8217;re a competent villain, whatever you end up targeting should be important.  Not only that, but the target will reflect your personal passions and expertise.  Try the mental exercise yourself and share the results.  I dare you.</p>
+<p>For example, to take down a newspaper you could…</p>
+<ul>
+<li><strong>Open up their paywall</strong> (if it exists), steal their content, and make it freely visible to the world without giving them any form of recognition or compensation.</li>
+<li><strong>Eliminate their productivity</strong>, either by instigating a massive strike or by hiring away all of their employees.</li>
+<li><strong>Scare away their advertisers</strong> so they lose a significant revenue stream and can no longer pay their bills.</li>
+<li><strong>Destroy their infrastructure</strong> (printing presses, websites, etc), thus disabling their ability to ship product.</li>
+<li><strong>Corrupt their editors</strong> and slowly replace key actors with your henchmen so that the paper becomes your mouthpiece.</li>
+<li><strong>Buy sharks with laser beams attached to their heads.</strong></li>
+</ul>
+<p>A super villain&#8217;s master plan needs to be intricate enough to be interesting and difficult enough to be impressive.  Blunt ideas like &#8220;take down their website&#8221; or &#8220;steal all their money&#8221; are a bit too obvious.  It must also be simple enough for a diverse audience to understand.  If nobody can figure out what you did, why it was sinister, or how it actually worked then it is hardly going to make headlines.  Finally, it can&#8217;t be a series of bee stings; the evil needs to be condensed enough that it could fit in a tweet.</p>
+<h2>The Plan</h2>
+<p>My evil plan didn&#8217;t take long to imagine (given my <a href="http://www.truthgoggl.es/">recent work</a>).  If I were evil and wanted to destroy a newspaper I would ruin their brand&#8217;s credibility.  This could be accomplished in many interesting and convoluted ways, but the &#8220;how&#8221; isn&#8217;t the point, the important question is &#8220;why?&#8221;</p>
+<p>A media product will die miserable and alone unless it differentiates itself from the rest of the Internet.  Luckily, newspapers have something that the chaff doesn&#8217;t: they have the capacity to create trustworthy information experiences.  They are the ones with paid reporters asking the hard hitting questions, they have the editors and the internal fact-checkers, they don&#8217;t have an agenda and aren&#8217;t trying to manipulate me!  right?</p>
+<div id="attachment_1136" style="width: 522px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/07/DSCN0820.jpg"><img aria-describedby="caption-attachment-1136" loading="lazy" src="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg" alt="Base jumping" title="DSCN0820" width="512" height="384" class="size-large wp-image-1136" srcset="/wp-content/uploads/2012/07/DSCN0820-1024x768.jpg 1024w, /wp-content/uploads/2012/07/DSCN0820-300x225.jpg 300w, /wp-content/uploads/2012/07/DSCN0820-768x576.jpg 768w" sizes="(max-width: 512px) 100vw, 512px" /></a><p id="caption-attachment-1136" class="wp-caption-text">You could tie yourself to a bungee cord, close your eyes, and jump off a cliff… or you could read the New York Times.*</p></div>
+<p>Well, maybe.  As a reader I don&#8217;t know where content comes from or how much journalism went into it.  All I have is faith in their brand.  I <em>trust</em> that the sources I read are doing their jobs.  That faith didn&#8217;t come from nowhere.  I might have liked what they had to say in the past, or I saw my parents reading their paper, or their brand has a strong reputation.  Regardless, I am now far more likely to trust what they have to say than I am to trust, for example, <a href="http://www.foxnews.com/">what my crazy friends like to read</a>.</p>
+<p>Just to drive this home:  given the way content is presented today I could read the exact same article on the front page of the New York Times, Fox News, or the Huffington Post and my decision to trust it <a href="http://www.niemanlab.org/2012/06/how-do-you-tell-when-the-news-is-biased/">would be more strongly influenced by my opinions of the publisher than by the content itself</a>.</p>
+<p>To drive it home a different way: hijacking a newspaper&#8217;s credibility is as <a href="http://newsjack.in/remix.php?url=http://www.cnn.com">simple</a> as <a href="http://newsjack.in/remix.php?url=http://www.foxnews.com">imitating</a> their <a href="http://newsjack.in/remix.php?url=http%3A%2F%2Fwww.nytimes.com">brand</a>.</p>
+<h2>Save the Day</h2>
+<p>The wheels are turning and it is already out of my control!  IP lawyers are powerless compared to the forces of the anonymous web!  But seriously, brand is a really fragile way to differentiate on the Internet.  So what&#8217;s a newspaper to do?</p>
+<p>Take a page from Apple and redefine the way people consume content.  Train your readers to expect a certain experience not just from <em>your</em> website, but from every source of news.  Make sure that experience is either expensive or impossible for alternative sources to replicate.  Newspapers need to make their readers expect proof of everything.  People should feel uncomfortable trusting information without explicit, functional credibility.</p>
+<p>Newspapers have journalists doing research, checking facts, and taking names.  They have multiple people and multiple systems touching every piece of content before it gets published, so why does the product usually end up being a bunch of words with prose-based evidence?</p>
+<p>News organizations need to make the world hold information to their standards.</p>
+<p>Like I said earlier, it makes sense that this particular plot and solution are coming from me.  I <a href="/2012/05/achievement-unlocked-thesis/">dedicated my thesis to credibility layers</a> &mdash; interfaces that lead to credible information experiences based on more than faith and trust.  There are many paths to differentiation.  Some are evil, some are entertaining, and some could even change the world.</p>
+<p><em>* Drawing courtesy of <a href="http://www.lyladuey.com/">Lyla Duey</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/07/the-value-of-a-super-villain/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trust Me: Credibility is the Future of Journalism</title>
+		<link>/2011/12/trust-me-credibility-is-the-future-of-journalism/</link>
+					<comments>/2011/12/trust-me-credibility-is-the-future-of-journalism/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sun, 11 Dec 2011 22:32:54 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[journalism]]></category>
+		<guid isPermaLink="false">/?p=692</guid>
+
+					<description><![CDATA[My colleague Matt Stempeck said it best: &#8220;Dan, I know that your life has been a tornado wrapped in a hurricane wrapped up in a whole box of tsunamis this week, but you really need to start wearing pants to work.&#8221; It turns out only part of that quote is accurate, but you&#8217;ll never know [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>My colleague <a href="http://www.pbs.org/idealab/matt_stempeck/">Matt Stempeck</a> said it best: &#8220;Dan, I know that your life has been a tornado wrapped in a hurricane wrapped up in a whole box of tsunamis this week, but you really need to start wearing pants to work.&#8221;</p>
+<p>It turns out only part of that quote is accurate, but you&#8217;ll never know which one for sure!  This is why, before I can graduate from MIT, I have to create an automated bullshit detector.  The basic premise is that we, as readers, are inherently lazy.  It isn&#8217;t just that we&#8217;ll believe almost anything &#8212; remember that time in 1938 when we believed aliens were invading the planet just because someone on the radio said so?  Yeah. <a href="http://en.wikipedia.org/wiki/The_War_of_the_Worlds_(radio_drama)">That happened</a>.  The real problem is that we&#8217;ll often believe what we want to believe (or disbelieve what we don&#8217;t want to believe).</p>
+<p>It&#8217;s hard to blame us.  Just look at the amount of information flying around every which way.  Who has time to think carefully about everything?  Not me, that&#8217;s who&#8217;nt.  This is why I&#8217;m working on a tool called <a href="/2011/08/introducing-truth-goggles/">Truth Goggles</a> that will help hone our <a href="http://www.urbandictionary.com/define.php?term=Critical%20Ability">critical abilities</a>; one that will help us identify pieces of information that are worth inspecting a little bit more closely before deciding how it fits into our world views.</p>
+<h2>Thesis Goggles</h2>
+<p>When I wrote &#8220;before I can graduate from MIT&#8221; earlier in this post I wasn&#8217;t lying; I have decided to pursue Truth Goggles for my thesis. I&#8217;m definitely <a href="http://confront.intel-research.net/Dispute_Finder.html">not the first</a> person <a href="http://hypothes.is/">to explore</a> this problem space but there is a lot of room to contribute.  New technology has opened up new possibilities, needs have become clearer, and there is a wide variety of possible solutions and unanswered questions just sitting around waiting to be explored.</p>
+<p>In November I presented the idea to the Media Lab community using the following slides:</p>
+<div style="width:425px" id="__ss_10158861"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/slifty/crit-day-presentation-truth-goggles" title="Crit Day Presentation (Truth Goggles)" target="_blank">Crit Day Presentation (Truth Goggles)</a></strong> <iframe loading="lazy" src="http://www.slideshare.net/slideshow/embed_code/10158861" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </p>
+<div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/" target="_blank">presentations</a> from <a href="http://www.slideshare.net/slifty" target="_blank">Daniel Schultz</a> </div>
+</p></div>
+<p>The feedback I got was mixed, but what can you expect from a day called &#8220;Crit Day&#8221; which is short for &#8220;Critically Injure Pride, Hopes, and Dreams of Graduating Day.&#8221; Here were the main questions asked:</p>
+<p><strong>This doesn&#8217;t seem like it will scale considering Politifact only has a few thousand fact checked claims.  Why aren&#8217;t you using the crowd to fact check?</strong></p>
+<p>My time at MIT will be spent focusing on the interface and user interaction rather than the generation and aggregation of source information.  There are enough difficult questions surrounding the interaction layer.  I don&#8217;t think it is worth complicating things further by trying to create a crowd-based journalism platform (which is essentially what crowd sourced fact checking amounts to).</p>
+<p><strong>Isn&#8217;t this just a mashup of technologies and data sets?  How is what you are doing novel?</strong></p>
+<p>It&#8217;s true that I&#8217;m not inventing new algorithms.  I&#8217;m applying existing algorithms in novel ways.  Credibility layers aren&#8217;t robust right now, and they come with their own sets of interesting questions in terms of user experience and system design.  My contribution will be to frame those questions, answer some of them, create a prototype, and test that prototype.  This won&#8217;t be as trivial as just throwing more information on a screen and calling it a day, the interface has to be designed with care.</p>
+<p><strong>Do you expect to incorporate primary source data?</strong></p>
+<p>My initial prototype probably won&#8217;t pull from sources other than <a href="http://www.politifact.com/">Politifact</a> and other fact checking services, but I will definitely be thinking about ways to use other sources of data. Primary source content will eventually help with information scalability since raw footage and raw data could help computers find potentially dubious claims (and help readers make determinations about those claims).</p>
+<h2>Bullshit, This is Clearly Science Fiction</h2>
+<p>There are a lot of hard questions lurking behind corners here.  In fact, most of them aren&#8217;t even trying to hide; they&#8217;re just sitting obnoxiously in the middle of the room.  Some are technical, some are philosophical, but all of them need to be addressed intelligently for something like Truth Goggles to actually have a chance of working.  I&#8217;ll rattle off a few of them.</p>
+<ul>
+<li>Who determines the truth?  Journalists?  Experts?  Crowds?  Individuals?  Algorithms?</li>
+<li>Sometimes there is a right answer and sometimes there is room for debate.  Can you tell which is which?  How do you reflect the difference?</li>
+<li>How does the tool account for bias in sources?</li>
+<li>How does the tool account for bias in users?</li>
+<li>Will the system actually know enough to be regularly useful?</li>
+<li>This could easily just make consumers more lazy, how do you prevent that?</li>
+<li>What happens when the tool is wrong?</li>
+<li>How will this change the way people produce content?</li>
+<li>Where do Journalists fit into the picture?</li>
+</ul>
+<p>As I&#8217;ve pondered these questions I&#8217;ve come to the following absolute conclusion: Credibility layers need to empower <a href="http://www.urbandictionary.com/define.php?term=Critical%20Ability">critical ability</a>.  I&#8217;ve also decided that it&#8217;s OK for the system to make mistakes but it is never allowed to lie.  This means the interface should be less focused on telling the reader what to think and much more focused on reminding (and helping) the reader to think at times when thinking is most important.</p>
+<p>I&#8217;ve also come up with a list of weaker claims to throw out there for discussion:</p>
+<ul>
+<li>Credibility layers don&#8217;t have to speak to everyone, but they need to empower the open minded.</li>
+<li>Journalists are our best bet for deep analysis and identifying truth that requires lots of time and effort (e.g. investigation and concept synthesis).</li>
+<li>Algorithms are our best bet for identifying contextual evidence (e.g. data, trends, and sources of sound bytes).</li>
+<li>Mobs can&#8217;t be trusted to decide what is true and false, but they are the key to figuring out what is worth thinking about.</li>
+</ul>
+<p>Over the coming months I&#8217;ll be cranking out interfaces, prototypes, and eventually some good old fashioned boring academic papers about this idea.  In the mean time if you&#8217;re interested in Truth Goggles I&#8217;ll be trying to post updates as regularly as possible on <a href="http://www.slifty.com/">my blog</a>, on twitter (<a href="http://www.twitter.com/slifty">@slifty</a>), and eventually on the newly registered <a href="http://truthgoggl.es/">truthgoggl.es</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/12/trust-me-credibility-is-the-future-of-journalism/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:22 by W3 Total Cache
+-->

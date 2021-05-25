@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>thesis &#8211; Sorry for the Spam</title>
+	<atom:link href="/tag/thesis/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Mon, 21 May 2012 06:00:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Achievement Unlocked: Thesis</title>
+		<link>/2012/05/achievement-unlocked-thesis/</link>
+					<comments>/2012/05/achievement-unlocked-thesis/#comments</comments>
+		
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Mon, 21 May 2012 06:00:21 +0000</pubDate>
+				<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Truth Goggles]]></category>
+		<category><![CDATA[credibility]]></category>
+		<category><![CDATA[insights]]></category>
+		<category><![CDATA[thesis]]></category>
+		<guid isPermaLink="false">/?p=756</guid>
+
+					<description><![CDATA[Remind me to never do that again. On Friday I officially handed in my thesis, titled &#8220;Truth Goggles: Automatic Incorporation of Context and Primary Source for a Critical Media Experience.&#8221; For those who don&#8217;t know already, it was about an automated bullshit detector for the Internet / an interface to help people think carefully called [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Remind me to never do that again.</p>
+<p>On Friday I officially handed in my thesis, titled &#8220;Truth Goggles: Automatic Incorporation of Context and Primary Source for a Critical Media Experience.&#8221; For those who don&#8217;t know already, it was about an automated bullshit detector for the Internet / an interface to help people think carefully called Truth Goggles. The final version weighed in at a nice round 145 pages.</p>
+<p>I&#8217;ll let the dust settle before putting this monstrosity online. I also want to write some more condensed posts about the interesting parts because I know nobody is ever going to read the damn thing. Those will come later. For now I give you a few bullet points.<br />
+<span id="more-756"></span></p>
+<h2>The Gist</h2>
+<p>Here&#8217;s the basic story of the document:</p>
+<ul>
+<li>I learned about the millions and millions of reasons why my idea could never work.</li>
+<li>Not having a strong sense of self preservation I kept on going anyway and tried to create &#8220;Truth Goggles!&#8221;</li>
+<li>I worked really hard to design and implement <a href="http://truthgoggl.es/demo.html">an interface</a> that people could value even if they didn&#8217;t trust the sources behind the tool.</li>
+<li>I ran a user study and learned that the interfaces worked pretty well when it came to protecting people from misinformation, and that almost everyone who took the study really wants to be able to trust information again.</li>
+</ul>
+<h2>The Gems</h2>
+<p>I&#8217;ll give a quick preview of some lessons learned. Each of these points deserves a post of its own but since this isn&#8217;t my thesis I&#8217;m going to just put out my own observations and thoughts. The posts later will probably be more &#8220;scientific&#8221; and &#8220;explanatory&#8221; (i.e. &#8220;boring&#8221; and &#8220;less quotable&#8221;).</p>
+<ul>
+<li><strong>When people consume information they are struggling hard to maintain their identity.</strong> That&#8217;s all there is to it. There is plenty of evidence that people consume information with ideological motivations. Those motivations often cause them to accept or reject information based on how well it aligns with what they already believe. I have a theory that if you could just remind someone that there&#8217;s nothing to fear — that you aren&#8217;t trying to change who they are — you will suddenly be able to actually communicate with them.</li>
+<li><strong>Trying to tell people what to think is a losing battle.</strong> When the first round of press for Truth Goggles came out back in 2011 I paid attention to every single comment on every single report about the idea I could find. Lots of people liked it, but a lot of people were instantly dismissive due to concerns about bias. I heard their point, agreed with it, and realized what journalists saw ages ago: there is no way to create a universally respected system that also tells people what to think. I changed course and settled for a system that would remind people <em>when</em> to think instead. I think that is a better mission anyway.</li>
+<li><strong>Credibility breeds respect, and respect breeds open minds.</strong> Several participants in the Truth Goggles user study commented that having a credibility layer made them more willing to consider perspectives and messages that they might have normally ignored completely. Think about that for a second. It makes sense, right? It is much easier to respect what a person is saying if you can trust them. Usually &#8220;respect&#8221; and &#8220;trust&#8221; are like &#8220;chicken&#8221; and &#8220;egg&#8221;, but if you&#8217;re using something like Truth Goggles it is possible to develop trust and let the respect follow if it ends up being deserved.</li>
+</ul>
+<p>This entire experience has given me a lot of hope about information online and the people who consume it. I&#8217;ve said before that <a href="/2011/12/trust-me-credibility-is-the-future-of-journalism/">credibility was the future of journalism</a> and I&#8217;m half tempted to expand that statement to say that credibility could save the world. I&#8217;ll probably need to run a few more tests though.</p>
+<p>As for the next steps for Truth Goggles, that is to be determined! I&#8217;m going to at least keep exploring some of the processes and technologies behind phrase detection, but once I graduate and start my fellowship at the Boston Globe in June I&#8217;ll need an explicit way to keep it alive. Stay tuned.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/05/achievement-unlocked-thesis/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:22 by W3 Total Cache
+-->

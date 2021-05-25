@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The Art of JFDI	</title>
+	<atom:link href="/2011/07/the-art-of-jfdi/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/07/the-art-of-jfdi/</link>
+	<description>The Adventures of Dan Schultz</description>
+	<lastBuildDate>Wed, 20 Jul 2011 04:09:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: Amy Zerba		</title>
+		<link>/2011/07/the-art-of-jfdi/#comment-165</link>
+
+		<dc:creator><![CDATA[Amy Zerba]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2011 04:09:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=292#comment-165</guid>
+
+					<description><![CDATA[Hi. I enjoyed reading your post. The &quot;demo or die&quot; motto terrifies me a little, but it is reality.  Thanks for sharing how you are inspired.]]></description>
+			<content:encoded><![CDATA[<p>Hi. I enjoyed reading your post. The &#8220;demo or die&#8221; motto terrifies me a little, but it is reality.  Thanks for sharing how you are inspired.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (SSL caching disabled) 
+Minified using disk
+Database Caching using disk
+
+Served from: slifty.com @ 2021-05-25 23:13:11 by W3 Total Cache
+-->
