@@ -1,3 +1,8 @@
+/**
+ * @typedef {Object} TagData
+ * @property {[string, any[]]} tagData
+ */
+
 module.exports = {
   layout: "layouts/base.njk",
   pagination: {
@@ -7,8 +12,20 @@ module.exports = {
     addAllPagesToCollections: true
   },
   eleventyComputed: {
+    /**
+     * @param {TagData} data
+     * @returns {string}
+     */
     title: (data) => `Tag: ${data.tagData[0]}`,
+    /**
+     * @param {TagData} data
+     * @returns {string}
+     */
     description: (data) => `Posts tagged with ${data.tagData[0]}`,
+    /**
+     * @param {TagData} data
+     * @returns {string}
+     */
     permalink: (data) => {
       const slug = data.tagData[0]
         .toLowerCase()

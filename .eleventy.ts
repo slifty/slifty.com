@@ -1,24 +1,48 @@
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const Image = require("@11ty/eleventy-img");
+import "tsx/esm";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import Image from "@11ty/eleventy-img";
 
-module.exports = function(eleventyConfig) {
+interface CollectionItem {
+  data: {
+    categories?: string[];
+    tags?: string[];
+    [key: string]: any;
+  };
+  date: Date;
+  url: string;
+  [key: string]: any;
+}
+
+interface CollectionApi {
+  getFilteredByGlob(glob: string): CollectionItem[];
+}
+
+interface CategoryCollection {
+  [category: string]: CollectionItem[];
+}
+
+interface TagCollection {
+  [tag: string]: CollectionItem[];
+}
+
+export default function(eleventyConfig: any) {
   // Add RSS plugin
   eleventyConfig.addPlugin(pluginRss);
 
   // Image shortcode for responsive images
-  eleventyConfig.addShortcode("image", async function(src, alt, sizes = "100vw") {
-    let metadata = await Image(src, {
+  eleventyConfig.addShortcode("image", async function(src: string, alt: string, sizes: string = "100vw") {
+    const metadata = await Image(src, {
       widths: [300, 600, 1200],
       formats: ["webp", "jpeg"],
       outputDir: "./public/assets/images/",
       urlPath: "/assets/images/"
     });
 
-    let imageAttributes = {
+    const imageAttributes = {
       alt,
       sizes,
-      loading: "lazy",
-      decoding: "async"
+      loading: "lazy" as const,
+      decoding: "async" as const
     };
 
     return Image.generateHTML(metadata, imageAttributes);
@@ -29,11 +53,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
   // Helper function to build category collection
-  function buildCategoryCollection(collectionApi) {
-    const categories = {};
-    collectionApi.getFilteredByGlob("src/posts/**/*.md").forEach(post => {
+  function buildCategoryCollection(collectionApi: CollectionApi): CategoryCollection {
+    const categories: CategoryCollection = {};
+    collectionApi.getFilteredByGlob("src/posts/**/*.md").forEach((post) => {
       if (post.data.categories) {
-        post.data.categories.forEach(category => {
+        post.data.categories.forEach((category) => {
           if (!categories[category]) {
             categories[category] = [];
           }
@@ -45,11 +69,11 @@ module.exports = function(eleventyConfig) {
   }
 
   // Helper function to build tag collection
-  function buildTagCollection(collectionApi) {
-    const tags = {};
-    collectionApi.getFilteredByGlob("src/posts/**/*.md").forEach(post => {
+  function buildTagCollection(collectionApi: CollectionApi): TagCollection {
+    const tags: TagCollection = {};
+    collectionApi.getFilteredByGlob("src/posts/**/*.md").forEach((post) => {
       if (post.data.tags) {
-        post.data.tags.forEach(tag => {
+        post.data.tags.forEach((tag) => {
           // Filter out the "posts" tag which is used for collection
           if (tag !== "posts") {
             if (!tags[tag]) {
@@ -64,34 +88,34 @@ module.exports = function(eleventyConfig) {
   }
 
   // Collections
-  eleventyConfig.addCollection("posts", function(collectionApi) {
+  eleventyConfig.addCollection("posts", function(collectionApi: CollectionApi) {
     return collectionApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => {
-      return b.date - a.date; // Sort by date, newest first
+      return b.date.getTime() - a.date.getTime(); // Sort by date, newest first
     });
   });
 
-  eleventyConfig.addCollection("projects", function(collectionApi) {
+  eleventyConfig.addCollection("projects", function(collectionApi: CollectionApi) {
     return collectionApi.getFilteredByGlob("src/projects/**/*.md");
   });
 
-  eleventyConfig.addCollection("categories", function(collectionApi) {
+  eleventyConfig.addCollection("categories", function(collectionApi: CollectionApi) {
     return buildCategoryCollection(collectionApi);
   });
 
-  eleventyConfig.addCollection("categoriesArray", function(collectionApi) {
+  eleventyConfig.addCollection("categoriesArray", function(collectionApi: CollectionApi) {
     return Object.entries(buildCategoryCollection(collectionApi));
   });
 
-  eleventyConfig.addCollection("tags", function(collectionApi) {
+  eleventyConfig.addCollection("tags", function(collectionApi: CollectionApi) {
     return buildTagCollection(collectionApi);
   });
 
-  eleventyConfig.addCollection("tagsArray", function(collectionApi) {
+  eleventyConfig.addCollection("tagsArray", function(collectionApi: CollectionApi) {
     return Object.entries(buildTagCollection(collectionApi));
   });
 
   // Filters
-  eleventyConfig.addFilter("readableDate", (dateObj) => {
+  eleventyConfig.addFilter("readableDate", (dateObj: Date) => {
     return new Date(dateObj).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
@@ -99,27 +123,27 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+  eleventyConfig.addFilter("htmlDateString", (dateObj: Date) => {
     return new Date(dateObj).toISOString().split('T')[0];
   });
 
   // Create a filter to get posts by category
-  eleventyConfig.addFilter("filterByCategory", (posts, category) => {
-    return posts.filter(post =>
+  eleventyConfig.addFilter("filterByCategory", (posts: CollectionItem[], category: string) => {
+    return posts.filter((post) =>
       post.data.categories && post.data.categories.includes(category)
     );
   });
 
   // Create a filter to get posts by tag
-  eleventyConfig.addFilter("filterByTag", (posts, tag) => {
-    return posts.filter(post =>
+  eleventyConfig.addFilter("filterByTag", (posts: CollectionItem[], tag: string) => {
+    return posts.filter((post) =>
       post.data.tags && post.data.tags.includes(tag)
     );
   });
 
   // Slugify filter for URLs
   // Note: @sindresorhus/slugify is an ESM package and can't be used with require()
-  eleventyConfig.addFilter("slugify", (str) => {
+  eleventyConfig.addFilter("slugify", (str: string) => {
     return str
       .toLowerCase()
       .replace(/[^\w\s-]/g, '')
@@ -128,7 +152,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Limit filter for arrays
-  eleventyConfig.addFilter("limit", (array, limit) => {
+  eleventyConfig.addFilter("limit", <T>(array: T[], limit: number) => {
     return array.slice(0, limit);
   });
 
@@ -144,4 +168,4 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"
   };
-};
+}
