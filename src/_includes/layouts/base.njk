@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} - {% endif %}Sorry for the Spam</title>
+  <meta name="description" content="{{ description or 'The Adventures of Dan Schultz' }}">
+
+  {# Google Fonts - PT Serif and PT Sans #}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+  {# Main stylesheet #}
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  {# RSS Feed #}
+  <link rel="alternate" type="application/rss+xml" title="Sorry for the Spam RSS Feed" href="/feed.xml">
+</head>
+<body>
+  {% include "partials/header.njk" %}
+
+  <main class="site-main">
+    {{ content | safe }}
+  </main>
+
+  {% include "partials/footer.njk" %}
+</body>
+</html>
