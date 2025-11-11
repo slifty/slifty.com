@@ -1,8 +1,28 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
   // Add RSS plugin
   eleventyConfig.addPlugin(pluginRss);
+
+  // Image shortcode for responsive images
+  eleventyConfig.addShortcode("image", async function(src, alt, sizes = "100vw") {
+    let metadata = await Image(src, {
+      widths: [300, 600, 1200],
+      formats: ["webp", "jpeg"],
+      outputDir: "./public/assets/images/",
+      urlPath: "/assets/images/"
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async"
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+  });
 
   // Copy assets to output
   eleventyConfig.addPassthroughCopy("src/assets");
