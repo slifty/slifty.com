@@ -28,19 +28,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
-  // Collections
-  eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => {
-      return b.date - a.date; // Sort by date, newest first
-    });
-  });
-
-  eleventyConfig.addCollection("projects", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/projects/**/*.md");
-  });
-
-  // Create collections for categories
-  eleventyConfig.addCollection("categories", function(collectionApi) {
+  // Helper function to build category collection
+  function buildCategoryCollection(collectionApi) {
     const categories = {};
     collectionApi.getFilteredByGlob("src/posts/**/*.md").forEach(post => {
       if (post.data.categories) {
@@ -53,22 +42,52 @@ module.exports = function(eleventyConfig) {
       }
     });
     return categories;
-  });
+  }
 
-  // Create collections for tags
-  eleventyConfig.addCollection("tags", function(collectionApi) {
+  // Helper function to build tag collection
+  function buildTagCollection(collectionApi) {
     const tags = {};
     collectionApi.getFilteredByGlob("src/posts/**/*.md").forEach(post => {
       if (post.data.tags) {
         post.data.tags.forEach(tag => {
-          if (!tags[tag]) {
-            tags[tag] = [];
+          // Filter out the "posts" tag which is used for collection
+          if (tag !== "posts") {
+            if (!tags[tag]) {
+              tags[tag] = [];
+            }
+            tags[tag].push(post);
           }
-          tags[tag].push(post);
         });
       }
     });
     return tags;
+  }
+
+  // Collections
+  eleventyConfig.addCollection("posts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => {
+      return b.date - a.date; // Sort by date, newest first
+    });
+  });
+
+  eleventyConfig.addCollection("projects", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/projects/**/*.md");
+  });
+
+  eleventyConfig.addCollection("categories", function(collectionApi) {
+    return buildCategoryCollection(collectionApi);
+  });
+
+  eleventyConfig.addCollection("categoriesArray", function(collectionApi) {
+    return Object.entries(buildCategoryCollection(collectionApi));
+  });
+
+  eleventyConfig.addCollection("tags", function(collectionApi) {
+    return buildTagCollection(collectionApi);
+  });
+
+  eleventyConfig.addCollection("tagsArray", function(collectionApi) {
+    return Object.entries(buildTagCollection(collectionApi));
   });
 
   // Filters
@@ -98,13 +117,19 @@ module.exports = function(eleventyConfig) {
     );
   });
 
-  // Create slug filter for URLs
+  // Slugify filter for URLs
+  // Note: @sindresorhus/slugify is an ESM package and can't be used with require()
   eleventyConfig.addFilter("slugify", (str) => {
     return str
       .toLowerCase()
       .replace(/[^\w\s-]/g, '')
       .replace(/[\s_-]+/g, '-')
       .replace(/^-+|-+$/g, '');
+  });
+
+  // Limit filter for arrays
+  eleventyConfig.addFilter("limit", (array, limit) => {
+    return array.slice(0, limit);
   });
 
   return {

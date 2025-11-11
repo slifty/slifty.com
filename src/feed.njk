@@ -8,20 +8,26 @@ eleventyExcludeFromCollections: true
   <subtitle>The Adventures of Dan Schultz</subtitle>
   <link href="https://slifty.com/feed.xml" rel="self"/>
   <link href="https://slifty.com/"/>
-  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>
+    {%- if collections.posts and collections.posts.length > 0 -%}
+      {{ collections.posts[0].date | dateToRfc3339 }}
+    {%- else -%}
+      {{ "now" | dateToRfc3339 }}
+    {%- endif -%}
+  </updated>
   <id>https://slifty.com/</id>
   <author>
     <name>Dan Schultz</name>
     <email>hello@slifty.com</email>
   </author>
-  {%- for post in collections.posts | reverse %}
+  {%- for post in collections.posts | limit(20) %}
   {%- set absolutePostUrl %}https://slifty.com{{ post.url }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html"><![CDATA[{{ post.templateContent | safe }}]]></content>
   </entry>
   {%- endfor %}
 </feed>

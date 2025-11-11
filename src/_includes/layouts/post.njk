@@ -29,10 +29,9 @@ layout: layouts/base.njk
     <footer class="post-footer">
       <div class="post-tags">
         <strong>Tags:</strong>
-        {% for tag in tags %}
-          {% if tag != "posts" %}
-            <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-          {% endif %}
+        {% set filteredTags = tags | reject("equalto", "posts") %}
+        {% for tag in filteredTags %}
+          <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
         {% endfor %}
       </div>
     </footer>
@@ -43,7 +42,7 @@ layout: layouts/base.njk
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
-        this.page.url = "{{ page.url | absoluteUrl('https://slifty.com') }}";
+        this.page.url = "https://slifty.com{{ page.url }}";
         this.page.identifier = "{{ page.fileSlug }}";
       };
       (function() {
