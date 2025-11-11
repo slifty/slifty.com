@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+title: Blog Archives
+description: All posts from Sorry for the Spam
+permalink: /blog/index.html
+---
+
+<div class="archives-header">
+  <h1>{{ title }}</h1>
+  <p>{{ collections.posts.length }} posts spanning 2010-2024</p>
+</div>
+
+<section class="archives-list">
+  {% for post in collections.posts %}
+    <article class="archive-item">
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+
+      <div class="post-meta">
+        {% if post.data.date %}
+          <time datetime="{{ post.data.date | htmlDateString }}">
+            {{ post.data.date | readableDate }}
+          </time>
+        {% endif %}
+
+        {% if post.data.categories %}
+          <span class="post-categories">
+            {% for category in post.data.categories %}
+              <a href="/category/{{ category | slugify }}/">{{ category }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+          </span>
+        {% endif %}
+      </div>
+
+      {% if post.data.excerpt %}
+        <p class="post-excerpt">{{ post.data.excerpt }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>

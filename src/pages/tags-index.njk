@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Tags
+description: Browse posts by tag
+permalink: /tags/index.html
+---
+
+<div class="tags-header">
+  <h1>{{ title }}</h1>
+  <p>Browse all tags</p>
+</div>
+
+<section class="tags-list">
+  {% for tagName, posts in collections.tags %}
+    {% if tagName != "posts" %}
+      <article class="tag-item">
+        <h2><a href="/tag/{{ tagName | slugify }}/">{{ tagName }}</a></h2>
+        <p class="tag-count">{{ posts.length }} post{% if posts.length != 1 %}s{% endif %}</p>
+      </article>
+    {% endif %}
+  {% endfor %}
+</section>

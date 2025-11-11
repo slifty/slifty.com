@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: Projects
+description: Portfolio of projects by Dan Schultz
+permalink: /projects/index.html
+---
+
+<div class="projects-header">
+  <h1>{{ title }}</h1>
+  <p>A collection of civic tech, journalism, and creative projects.</p>
+</div>
+
+<section class="projects-list">
+  {% for project in collections.projects %}
+    <article class="project-item">
+      <h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
+
+      {% if project.data.projectUrl %}
+        <a href="{{ project.data.projectUrl }}" class="project-link-inline" target="_blank" rel="noopener">View Project →</a>
+      {% endif %}
+
+      {% if project.data.excerpt %}
+        <p class="project-excerpt">{{ project.data.excerpt }}</p>
+      {% endif %}
+
+      {% if project.data.tags %}
+        <div class="project-tags">
+          {% for tag in project.data.tags %}
+            <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>

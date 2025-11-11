@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Categories
+description: Browse posts by category
+permalink: /categories/index.html
+---
+
+<div class="categories-header">
+  <h1>{{ title }}</h1>
+  <p>Browse all {{ collections.categories | length }} categories</p>
+</div>
+
+<section class="categories-list">
+  {% for categoryName, posts in collections.categories %}
+    <article class="category-item">
+      <h2><a href="/category/{{ categoryName | slugify }}/">{{ categoryName }}</a></h2>
+      <p class="category-count">{{ posts.length }} post{% if posts.length != 1 %}s{% endif %}</p>
+    </article>
+  {% endfor %}
+</section>

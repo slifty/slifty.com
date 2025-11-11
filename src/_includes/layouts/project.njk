@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ title }}</h1>
+
+    {% if projectUrl %}
+      <a href="{{ projectUrl }}" class="project-link" target="_blank" rel="noopener">View Project</a>
+    {% endif %}
+  </header>
+
+  <div class="project-content">
+    {{ content | safe }}
+  </div>
+
+  {% if tags %}
+    <footer class="project-footer">
+      <div class="project-tags">
+        <strong>Tags:</strong>
+        {% for tag in tags %}
+          <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </div>
+    </footer>
+  {% endif %}
+</article>
