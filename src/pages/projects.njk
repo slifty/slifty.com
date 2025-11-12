@@ -10,25 +10,20 @@ permalink: /projects/index.html
   <p>A collection of civic tech, journalism, and creative projects.</p>
 </div>
 
-<section class="projects-list">
+<section class="projects-grid">
   {% for project in collections.projects %}
-    <article class="project-item">
-      <h2><a href="{{ project.url }}">{{ project.data.title }}</a></h2>
+    <article class="project-card">
+      <a href="{{ project.url }}" class="project-link">
+        {% if project.data.featuredImage %}
+          <div class="project-thumbnail">
+            <img src="{{ project.data.featuredImage }}" alt="{{ project.data.title }}">
+          </div>
+        {% endif %}
+        <h3>{{ project.data.title }}</h3>
+      </a>
 
-      {% if project.data.projectUrl %}
-        <a href="{{ project.data.projectUrl }}" class="project-link-inline" target="_blank" rel="noopener">View Project →</a>
-      {% endif %}
-
-      {% if project.data.excerpt %}
-        <p class="project-excerpt">{{ project.data.excerpt }}</p>
-      {% endif %}
-
-      {% if project.data.tags %}
-        <div class="project-tags">
-          {% for tag in project.data.tags %}
-            <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>
-          {% endfor %}
-        </div>
+      {% if project.data.description %}
+        <p class="project-description">{{ project.data.description }}</p>
       {% endif %}
     </article>
   {% endfor %}
