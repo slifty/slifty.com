@@ -6,6 +6,7 @@ interface CollectionItem {
   data: {
     categories?: string[];
     tags?: string[];
+    pinned?: boolean;
     [key: string]: any;
   };
   date: Date;
@@ -96,6 +97,12 @@ export default function(eleventyConfig: any) {
 
   eleventyConfig.addCollection("projects", function(collectionApi: CollectionApi) {
     return collectionApi.getFilteredByGlob("src/projects/**/*.md");
+  });
+
+  eleventyConfig.addCollection("pinnedPosts", function(collectionApi: CollectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/**/*.md")
+      .filter((post) => post.data.pinned)
+      .sort((a, b) => b.date.getTime() - a.date.getTime());
   });
 
   eleventyConfig.addCollection("categories", function(collectionApi: CollectionApi) {

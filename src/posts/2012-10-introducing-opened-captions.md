@@ -12,6 +12,7 @@ tags:
   - introduction
   - opened-captions
   - knight-mozilla-opennews
+pinned: true
 ---
 
 I made something awesome last week: [Opened Captions](http://openedcaptions.com/).

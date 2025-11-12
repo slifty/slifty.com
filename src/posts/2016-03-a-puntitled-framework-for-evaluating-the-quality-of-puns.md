@@ -5,6 +5,7 @@ featuredImage: "/assets/images/2016/02/lightning_electricity-puns-1024x640.jpg"
 categories:
   - best
   - life
+pinned: true
 ---
 
 Let me set the tone by spitting a blunt truth. People who enjoy puns are better than people who don’t… and yet, like someone buying food at an airport, puns tend to get a bad rap (1-D, 1º, L1: lateral manipulation, slant reference).

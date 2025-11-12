@@ -16,6 +16,7 @@ tags:
   - tor
   - tor-project
   - trolls
+pinned: true
 ---
 
 Tell me if you’ve been in this situation: you’re chatting about online anonymity with your wife and the other Knight-Mozilla Fellows over a pizza in Florence. A quiet-spoken stranger who had been sitting across the room walks up to your table and says “are you all here for the Tor hackathon?” You respond “why yes, yes we are!”

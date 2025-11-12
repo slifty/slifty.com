@@ -12,6 +12,7 @@ tags:
   - quizzler
   - the-boston-globe
   - the-new-york-times
+pinned: true
 ---
 
 The planets have finally aligned on one of my early assignments at The Boston Globe. The project is called Quizzler, and it is by no means going to change anything. It’s a quiz system—something the producers ultimately want because it will generate page views. It has been done.
