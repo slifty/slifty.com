@@ -1,6 +1,7 @@
 ---
 title: "A Pumpkin Festival"
 date: 2010-12-31
+featuredImage: "/assets/images/2010/12/Tassadar_SC2_Cncpt1.jpg"
 categories:
   - life
   - work

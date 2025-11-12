@@ -1,6 +1,7 @@
 ---
 title: "OpenNews Applicants: Be Warned"
 date: 2013-08-05
+featuredImage: "/assets/images/2013/08/sinker_recruiter.jpg"
 categories:
   - life
   - work

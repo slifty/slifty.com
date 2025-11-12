@@ -1,6 +1,7 @@
 ---
 title: "Introducing CivOmega: An Effort to Democratize Government Data"
 date: 2013-06-23
+featuredImage: "/assets/images/2013/06/logo.png"
 categories:
   - ideas-projects
   - work

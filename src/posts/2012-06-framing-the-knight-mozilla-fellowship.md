@@ -1,6 +1,7 @@
 ---
 title: "Framing the Knight-Mozilla Fellowship"
 date: 2012-06-11
+featuredImage: "/assets/images/2012/06/ONlogotype_wide2-300x69.png"
 categories:
   - work
 tags:

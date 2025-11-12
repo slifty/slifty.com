@@ -6,30 +6,38 @@
 <section class="category-posts">
   {% for post in categoryData[1] | reverse %}
     <article class="archive-item">
-      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      {% if post.data.featuredImage %}
+        <a href="{{ post.url }}" class="archive-featured-image">
+          <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}">
+        </a>
+      {% endif %}
 
-      <div class="post-meta">
-        {% if post.data.date %}
-          <time datetime="{{ post.data.date | htmlDateString }}">
-            {{ post.data.date | readableDate }}
-          </time>
-        {% endif %}
+      <div class="archive-content">
+        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
 
-        {% if post.data.tags %}
-          <span class="post-tags">
-            Tags:
-            {% for tag in post.data.tags %}
-              {% if tag != "posts" %}
-                <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-              {% endif %}
-            {% endfor %}
-          </span>
+        <div class="post-meta">
+          {% if post.data.date %}
+            <time datetime="{{ post.data.date | htmlDateString }}">
+              {{ post.data.date | readableDate }}
+            </time>
+          {% endif %}
+
+          {% if post.data.tags %}
+            <span class="post-tags">
+              Tags:
+              {% for tag in post.data.tags %}
+                {% if tag != "posts" %}
+                  <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                {% endif %}
+              {% endfor %}
+            </span>
+          {% endif %}
+        </div>
+
+        {% if post.data.excerpt %}
+          <p class="post-excerpt">{{ post.data.excerpt }}</p>
         {% endif %}
       </div>
-
-      {% if post.data.excerpt %}
-        <p class="post-excerpt">{{ post.data.excerpt }}</p>
-      {% endif %}
     </article>
   {% endfor %}
 </section>

@@ -1,6 +1,7 @@
 ---
 title: "A Quick Overview of Life After Graduating"
 date: 2010-09-05
+featuredImage: "/assets/images/2010/09/Honeymoon.jpg"
 categories:
   - life
 tags:

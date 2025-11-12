@@ -1,6 +1,7 @@
 ---
 title: "A Tor of the Dark Web"
 date: 2012-08-17
+featuredImage: "/assets/images/2012/08/Tor_project_logo_hq-300x190.png"
 categories:
   - best
   - hobbies

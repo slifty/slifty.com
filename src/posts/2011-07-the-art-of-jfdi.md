@@ -1,6 +1,7 @@
 ---
 title: "The Art of JFDI"
 date: 2011-07-18
+featuredImage: "/assets/images/2011/07/4642584057_a45a85f8b6.jpg"
 categories:
   - work
 tags:

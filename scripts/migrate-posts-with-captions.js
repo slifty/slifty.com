@@ -130,6 +130,13 @@ function parsePostHTML(htmlContent, filePath) {
   // Extract content
   const contentSection = $('section.entry').first();
 
+  // Extract featured image (first image in content)
+  let featuredImage = '';
+  const firstImg = contentSection.find('img').first();
+  if (firstImg.length > 0) {
+    featuredImage = firstImg.attr('src') || '';
+  }
+
   // Remove WordPress-specific elements
   contentSection.find('.sharedaddy').remove();
   contentSection.find('.jp-relatedposts').remove();
@@ -150,6 +157,7 @@ function parsePostHTML(htmlContent, filePath) {
     slug,
     categories,
     tags,
+    featuredImage,
     content: markdown
   };
 }
@@ -163,6 +171,10 @@ function createFrontmatter(post) {
   let frontmatter = '---\n';
   frontmatter += `title: "${post.title.replace(/"/g, '\\"')}"\n`;
   frontmatter += `date: ${dateStr}\n`;
+
+  if (post.featuredImage) {
+    frontmatter += `featuredImage: "${post.featuredImage}"\n`;
+  }
 
   if (post.categories.length > 0) {
     frontmatter += `categories:\n`;

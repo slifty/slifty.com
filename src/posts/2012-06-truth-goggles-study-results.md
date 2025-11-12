@@ -1,6 +1,7 @@
 ---
 title: "Truth Goggles Study Results"
 date: 2012-06-07
+featuredImage: "/assets/images/2012/06/logo.jpg"
 categories:
   - work
   - ideas-projects

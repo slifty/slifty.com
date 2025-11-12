@@ -1,6 +1,7 @@
 ---
 title: "Hey Media, I Thought we Stopped Whining About the Crowd in 2006"
 date: 2013-04-18
+featuredImage: "/assets/images/2013/04/brg.jpg"
 categories:
   - uncategorized
 tags:

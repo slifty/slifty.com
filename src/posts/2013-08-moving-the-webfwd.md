@@ -1,6 +1,7 @@
 ---
 title: "Moving the WebFWD"
 date: 2013-08-10
+featuredImage: "/assets/images/2013/08/webfwd.png"
 categories:
   - work
 tags:

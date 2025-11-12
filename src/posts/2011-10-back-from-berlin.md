@@ -1,6 +1,7 @@
 ---
 title: "Back from Berlin"
 date: 2011-10-05
+featuredImage: "/assets/images/2011/10/DSCN1073-150x150.jpg"
 categories:
   - ideas-projects
   - ideas-projects

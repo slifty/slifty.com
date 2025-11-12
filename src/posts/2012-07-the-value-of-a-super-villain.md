@@ -1,6 +1,7 @@
 ---
 title: "The Value of a Super Villain"
 date: 2012-07-25
+featuredImage: "/assets/images/2012/07/dr-evil-150x150.png"
 categories:
   - ideas-projects
   - work

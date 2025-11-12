@@ -1,6 +1,7 @@
 ---
 title: "A Puntitled Framework for Evaluating the Quality of Puns"
 date: 2016-03-16
+featuredImage: "/assets/images/2016/02/lightning_electricity-puns-1024x640.jpg"
 categories:
   - best
   - life

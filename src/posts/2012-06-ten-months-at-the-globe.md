@@ -1,6 +1,7 @@
 ---
 title: "The Boston Globe: Ten Months of Code"
 date: 2012-06-21
+featuredImage: "/assets/images/2012/06/logo-bg.png"
 categories:
   - work
 tags:

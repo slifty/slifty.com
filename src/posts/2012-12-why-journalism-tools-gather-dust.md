@@ -1,6 +1,7 @@
 ---
 title: "Why Journalism Tools Gather Dust"
 date: 2012-12-31
+featuredImage: "/assets/images/2012/12/wat-225x300.png"
 categories:
   - best
   - work

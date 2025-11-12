@@ -1,6 +1,7 @@
 ---
 title: "Joining the Starship Eco"
 date: 2010-09-18
+featuredImage: "/assets/images/2010/09/MIT-006.jpg"
 categories:
   - work
 tags:

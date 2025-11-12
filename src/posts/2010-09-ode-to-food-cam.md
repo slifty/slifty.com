@@ -1,6 +1,7 @@
 ---
 title: "Ode to Food Cam"
 date: 2010-09-27
+featuredImage: "/assets/images/2010/09/Foodcam.jpg"
 categories:
   - work
 tags:

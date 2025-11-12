@@ -1,6 +1,7 @@
 ---
 title: "Media Labs and Open News"
 date: 2012-06-05
+featuredImage: "/assets/images/2012/06/yunodoctorate-e1338930095522.jpg"
 categories:
   - life
   - work

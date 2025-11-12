@@ -1,6 +1,7 @@
 ---
 title: "The First 24 Hours of Boston"
 date: 2010-09-18
+featuredImage: "/assets/images/2010/09/The-Move.jpg"
 categories:
   - life
 tags:

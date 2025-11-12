@@ -1,6 +1,7 @@
 ---
 title: "The Weeks that Led to Sponsor Week"
 date: 2010-10-24
+featuredImage: "/assets/images/2010/10/GI_21.jpg"
 categories:
   - ideas-projects
   - work

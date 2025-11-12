@@ -1,6 +1,7 @@
 ---
 title: "Megapaper: Super Mario World on 16 Spaces"
 date: 2011-08-27
+featuredImage: "/assets/images/2011/08/1-150x150.jpg"
 categories:
   - life
   - ideas-projects

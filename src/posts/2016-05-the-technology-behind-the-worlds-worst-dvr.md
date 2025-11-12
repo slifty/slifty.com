@@ -1,6 +1,7 @@
 ---
 title: "The Technology Behind the World’s Worst DVR"
 date: 2016-05-12
+featuredImage: "/assets/images/2016/05/brand_logo.png"
 categories:
   - ideas-projects
   - work

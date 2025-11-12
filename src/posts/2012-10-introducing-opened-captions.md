@@ -1,6 +1,7 @@
 ---
 title: "Introducing Opened Captions"
 date: 2012-10-25
+featuredImage: "/assets/images/2012/10/OC.png"
 categories:
   - best
   - ideas-projects

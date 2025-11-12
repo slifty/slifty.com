@@ -1,6 +1,7 @@
 ---
 title: "My First Bag of Crap!"
 date: 2010-07-03
+featuredImage: "/assets/images/2010/07/wootbox1.jpg"
 categories:
   - life
 tags:

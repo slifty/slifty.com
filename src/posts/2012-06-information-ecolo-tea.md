@@ -1,6 +1,7 @@
 ---
 title: "Information Ecolo-Tea"
 date: 2012-06-13
+featuredImage: "/assets/images/2012/06/the_1_percent-225x300.jpg"
 categories:
   - life
   - work

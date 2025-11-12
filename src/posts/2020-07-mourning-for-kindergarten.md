@@ -1,6 +1,7 @@
 ---
 title: "Mourning for Kindergarten"
 date: 2020-07-27
+featuredImage: "/assets/images/2020/07/Ida-e1595885324484.png"
 categories:
   - uncategorized
 ---
