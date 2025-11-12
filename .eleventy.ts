@@ -156,6 +156,11 @@ export default function(eleventyConfig: any) {
     return array.slice(0, limit);
   });
 
+  // Configure markdown-it to allow HTML
+  eleventyConfig.amendLibrary("md", (mdLib: any) => {
+    mdLib.set({ html: true });
+  });
+
   return {
     dir: {
       input: "src",
