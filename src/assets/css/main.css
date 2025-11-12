@@ -346,6 +346,50 @@ pre code {
   border-radius: 5px;
 }
 
+/* Figure and figcaption styles for image captions */
+.post-content figure,
+.project-content figure {
+  margin: var(--spacing-lg) auto;
+  max-width: 100%;
+}
+
+.post-content figure.aligncenter,
+.project-content figure.aligncenter {
+  text-align: center;
+}
+
+.post-content figure.alignleft,
+.project-content figure.alignleft {
+  float: left;
+  margin-right: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  max-width: 50%;
+}
+
+.post-content figure.alignright,
+.project-content figure.alignright {
+  float: right;
+  margin-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  max-width: 50%;
+}
+
+.post-content figure img,
+.project-content figure img {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.post-content figcaption,
+.project-content figcaption {
+  margin-top: var(--spacing-xs);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  line-height: 1.5;
+}
+
 .post-footer,
 .project-footer {
   margin-top: var(--spacing-xl);
