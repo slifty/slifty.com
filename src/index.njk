@@ -9,28 +9,48 @@ description: The Adventures of Dan Schultz
   <p class="tagline">{{ description }}</p>
 </div>
 
-<section class="featured-posts">
-  <h2>Latest Posts</h2>
-  <div class="posts-grid">
-    {% for post in collections.posts | limit(6) %}
-      <article class="post-card">
-        {% if post.data.featuredImage %}
-          <a href="{{ post.url }}" class="post-card-image">
-            <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}">
-          </a>
-        {% endif %}
-        <div class="post-card-content">
-          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-          {% if post.data.date %}
-            <time datetime="{{ post.data.date | htmlDateString }}">
-              {{ post.data.date | readableDate }}
-            </time>
-          {% endif %}
-          {% if post.data.excerpt %}
-            <p>{{ post.data.excerpt }}</p>
-          {% endif %}
-        </div>
-      </article>
-    {% endfor %}
+<div class="content-with-sidebar">
+  <div class="main-content">
+    <section class="featured-posts">
+      <h2>Latest Posts</h2>
+      <div class="posts-grid">
+        {% for post in collections.posts | limit(6) %}
+          <article class="post-card">
+            {% if post.data.featuredImage %}
+              <a href="{{ post.url }}" class="post-card-image">
+                <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}">
+              </a>
+            {% endif %}
+            <div class="post-card-content">
+              <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+              {% if post.data.date %}
+                <time datetime="{{ post.data.date | htmlDateString }}">
+                  {{ post.data.date | readableDate }}
+                </time>
+              {% endif %}
+              {% if post.data.excerpt %}
+                <p>{{ post.data.excerpt }}</p>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
   </div>
-</section>
+
+  <aside class="pinned-posts">
+    <h2>READ THESE NOW OR ELSE</h2>
+    <ul class="pinned-posts-list">
+      {% for post in collections.pinnedPosts %}
+        <li class="pinned-post-item">
+          <a href="{{ post.url }}" class="pinned-post-link">
+            {% if post.data.featuredImage %}
+              <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}" class="pinned-post-thumb">
+            {% endif %}
+            <h3>{{ post.data.title }}</h3>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>

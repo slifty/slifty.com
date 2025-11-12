@@ -3,41 +3,61 @@
   <p>{{ categoryData[1].length }} post{% if categoryData[1].length != 1 %}s{% endif %} in this category</p>
 </div>
 
-<section class="category-posts">
-  {% for post in categoryData[1] | reverse %}
-    <article class="archive-item">
-      {% if post.data.featuredImage %}
-        <a href="{{ post.url }}" class="archive-featured-image">
-          <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}">
-        </a>
-      {% endif %}
-
-      <div class="archive-content">
-        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-
-        <div class="post-meta">
-          {% if post.data.date %}
-            <time datetime="{{ post.data.date | htmlDateString }}">
-              {{ post.data.date | readableDate }}
-            </time>
+<div class="content-with-sidebar">
+  <div class="main-content">
+    <section class="category-posts">
+      {% for post in categoryData[1] | reverse %}
+        <article class="archive-item">
+          {% if post.data.featuredImage %}
+            <a href="{{ post.url }}" class="archive-featured-image">
+              <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}">
+            </a>
           {% endif %}
 
-          {% if post.data.tags %}
-            <span class="post-tags">
-              Tags:
-              {% for tag in post.data.tags %}
-                {% if tag != "posts" %}
-                  <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-                {% endif %}
-              {% endfor %}
-            </span>
-          {% endif %}
-        </div>
+          <div class="archive-content">
+            <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
 
-        {% if post.data.excerpt %}
-          <p class="post-excerpt">{{ post.data.excerpt }}</p>
-        {% endif %}
-      </div>
-    </article>
-  {% endfor %}
-</section>
+            <div class="post-meta">
+              {% if post.data.date %}
+                <time datetime="{{ post.data.date | htmlDateString }}">
+                  {{ post.data.date | readableDate }}
+                </time>
+              {% endif %}
+
+              {% if post.data.tags %}
+                <span class="post-tags">
+                  Tags:
+                  {% for tag in post.data.tags %}
+                    {% if tag != "posts" %}
+                      <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </span>
+              {% endif %}
+            </div>
+
+            {% if post.data.excerpt %}
+              <p class="post-excerpt">{{ post.data.excerpt }}</p>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </section>
+  </div>
+
+  <aside class="pinned-posts">
+    <h2>READ THESE NOW OR ELSE</h2>
+    <ul class="pinned-posts-list">
+      {% for post in collections.pinnedPosts %}
+        <li class="pinned-post-item">
+          <a href="{{ post.url }}" class="pinned-post-link">
+            {% if post.data.featuredImage %}
+              <img src="{{ post.data.featuredImage }}" alt="{{ post.data.title }}" class="pinned-post-thumb">
+            {% endif %}
+            <h3>{{ post.data.title }}</h3>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>

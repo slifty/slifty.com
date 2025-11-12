@@ -1,9 +1,9 @@
 ---
 title: "Starcraft Network"
 date: 2011-03-28
+featuredImage: "/assets/images/2011/03/Starcraft_SC1_Cover1-100x100.jpg"
 categories:
   - best
-  - hobbies
   - hobbies
   - life
 tags:
@@ -11,6 +11,7 @@ tags:
   - gaming
   - lan
   - starcraft
+pinned: true
 ---
 
 I’ll cut right to the chase: my network naming convention is spectacular. I highly suggest emulating it.
